@@ -1,0 +1,524 @@
+FINAL LLM RESPONSE COMPARISON
+Cross-Encoder vs MaxSim vs ColBERT
+================================================================================
+
+================================================================================
+QUERY Q01
+================================================================================
+
+Question:
+How many annual leave days can I carry over into next year?
+
+--------------------------------------------------------------------------------
+CROSS-ENCODER
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C01
+3. C04
+
+Response:
+According to Evidence 1 | C02, employees can carry forward up to 5 unused annual leave days into the following calendar year.
+
+--------------------------------------------------------------------------------
+MAXSIM
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C01
+3. C04
+
+Response:
+According to Evidence 1 | C02, employees can carry forward up to 5 unused annual leave days into the following calendar year.
+
+--------------------------------------------------------------------------------
+COLBERT
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C04
+3. C01
+
+Response:
+According to Evidence 1 | C02, employees can carry forward up to 5 unused annual leave days into the following calendar year.
+
+================================================================================
+QUERY Q02
+================================================================================
+
+Question:
+What happens to unused vacation at the end of the year?
+
+--------------------------------------------------------------------------------
+CROSS-ENCODER
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C09
+3. C04
+
+Response:
+Unused vacation at the end of the year will normally lapse on 31 December unless an approved exception applies.
+
+--------------------------------------------------------------------------------
+MAXSIM
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C09
+3. C04
+
+Response:
+Unused vacation at the end of the year will normally lapse on 31 December unless an approved exception applies.
+
+--------------------------------------------------------------------------------
+COLBERT
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C09
+2. C02
+3. C10
+
+Response:
+Unused vacation at the end of the year will lapse if an employee has more than 5 unused annual leave days.
+
+================================================================================
+QUERY Q03
+================================================================================
+
+Question:
+Can I take my unused leave into the following year, and what is the limit?
+
+--------------------------------------------------------------------------------
+CROSS-ENCODER
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C04
+3. C03
+
+Response:
+According to Evidence 1 | C02, you can carry forward up to 5 unused annual leave days into the following calendar year.
+
+--------------------------------------------------------------------------------
+MAXSIM
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C04
+3. C09
+
+Response:
+According to Evidence 1 | C02, you can carry forward up to 5 unused annual leave days into the following calendar year.
+
+--------------------------------------------------------------------------------
+COLBERT
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C03
+3. C04
+
+Response:
+According to Evidence [C02], you can carry forward up to 5 unused annual leave days into the following calendar year.
+
+================================================================================
+QUERY Q04
+================================================================================
+
+Question:
+What is the rule for carrying forward five unused days of annual leave?
+
+--------------------------------------------------------------------------------
+CROSS-ENCODER
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C04
+3. C09
+
+Response:
+There is no specific rule provided for carrying forward five unused days of annual leave. The evidence states that employees can carry forward up to 5 unused annual leave days into the following calendar year, but it does not provide a blanket rule for carrying forward exactly 5 days.
+
+--------------------------------------------------------------------------------
+MAXSIM
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C05
+3. C04
+
+Response:
+There is no rule for carrying forward five unused days of annual leave. The evidence states that employees may carry forward up to 5 unused annual leave days into the following calendar year, but it does not specify what happens if an employee carries forward more than this amount.
+
+--------------------------------------------------------------------------------
+COLBERT
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C04
+3. C01
+
+Response:
+There is no specific rule for carrying forward five unused days of annual leave. The evidence states that employees may carry forward up to 5 unused annual leave days into the following calendar year, but it does not provide guidance on what happens if an employee has more than 5 unused days.
+
+================================================================================
+QUERY Q05
+================================================================================
+
+Question:
+When does unused leave expire if I have more than the allowed carry-forward?
+
+--------------------------------------------------------------------------------
+CROSS-ENCODER
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C04
+2. C02
+3. C09
+
+Response:
+Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+--------------------------------------------------------------------------------
+MAXSIM
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C04
+2. C02
+3. C10
+
+Response:
+Unused leave will normally lapse on 31 December unless an approved exception applies.
+
+--------------------------------------------------------------------------------
+COLBERT
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C04
+2. C02
+3. C09
+
+Response:
+Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+================================================================================
+QUERY Q06
+================================================================================
+
+Question:
+Can unused balances be moved to next year?
+
+--------------------------------------------------------------------------------
+CROSS-ENCODER
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C10
+3. C13
+
+Response:
+No, unused balances cannot be moved to next year. Employees may carry forward up to 5 unused annual leave days into the following calendar year, but any balance above this limit will lapse at year end.
+
+--------------------------------------------------------------------------------
+MAXSIM
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C04
+3. C09
+
+Response:
+No, unused balances cannot be moved to next year. According to Evidence 1 and Evidence 2, any unused balance above the permitted carry-forward limit will normally lapse at year end or on 31 December unless an approved exception applies.
+
+--------------------------------------------------------------------------------
+COLBERT
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C10
+3. C09
+
+Response:
+No, unused balances cannot be moved to next year. Employees can carry forward up to 5 unused annual leave days into the following calendar year, but any balance above this limit will lapse at year end.
+
+================================================================================
+QUERY Q07
+================================================================================
+
+Question:
+How far in advance should I request vacation?
+
+--------------------------------------------------------------------------------
+CROSS-ENCODER
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C05
+2. C15
+3. C01
+
+Response:
+The evidence does not provide a specific time frame for requesting vacation in advance. However, it suggests that employees should submit annual leave requests through the employee portal at least five working days before the intended start date (Evidence 1).
+
+--------------------------------------------------------------------------------
+MAXSIM
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C05
+2. C15
+3. C06
+
+Response:
+The evidence does not provide a specific time frame for requesting vacation in advance. However, it suggests that employees should submit annual leave requests at least 5 working days before the intended start date (Evidence 1).
+
+--------------------------------------------------------------------------------
+COLBERT
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C05
+2. C15
+3. C21
+
+Response:
+The evidence does not provide a specific timeframe for requesting vacation in advance. However, it suggests that employees should submit annual leave requests at least 5 working days before the intended start date (Evidence 1).
+
+================================================================================
+QUERY Q08
+================================================================================
+
+Question:
+Does working from home require manager approval?
+
+--------------------------------------------------------------------------------
+CROSS-ENCODER
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C06
+2. C20
+3. C16
+
+Response:
+The evidence does not explicitly state whether working from home requires manager approval. However, Evidence 3 states that remote work is subject to business and security requirements, implying that some level of managerial oversight or approval may be necessary.
+
+--------------------------------------------------------------------------------
+MAXSIM
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C20
+2. C16
+3. C18
+
+Response:
+Working from home may require manager approval, as stated in Evidence 2 | C16: "Employees may work remotely where their role is eligible and the arrangement has been approved by their manager."
+
+--------------------------------------------------------------------------------
+COLBERT
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C20
+2. C16
+3. C06
+
+Response:
+No, working from home is not explicitly stated to require manager approval. However, Evidence 2 suggests that remote work may be approved by their manager, but it's not a requirement for working from home itself.
+
+================================================================================
+QUERY Q09
+================================================================================
+
+Question:
+What should I do if my leave balance looks wrong?
+
+--------------------------------------------------------------------------------
+CROSS-ENCODER
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C07
+2. C10
+3. C13
+
+Response:
+If your leave balance looks wrong, report it to HR Operations.
+
+--------------------------------------------------------------------------------
+MAXSIM
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C07
+2. C10
+3. C13
+
+Response:
+If your leave balance looks wrong, report it to HR Operations.
+
+--------------------------------------------------------------------------------
+COLBERT
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C10
+2. C07
+3. C11
+
+Response:
+If your leave balance looks wrong, report discrepancies to HR Operations.
+
+================================================================================
+QUERY Q10
+================================================================================
+
+Question:
+Can a chunk mention carry forward and still be irrelevant to annual leave?
+
+--------------------------------------------------------------------------------
+CROSS-ENCODER
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C04
+3. C03
+
+Response:
+The evidence does not provide information on whether a chunk can mention carry forward. It only discusses annual leave policies and their carry-forward limits.
+
+--------------------------------------------------------------------------------
+MAXSIM
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C08
+3. C04
+
+Response:
+The evidence does not provide information on whether a chunk can mention carry forward. The provided evidence is related to annual leave policies, specifically regarding carry-forward limits and lapse of unused balance. Therefore, it is unclear if a chunk can mention carry forward without further context.
+
+--------------------------------------------------------------------------------
+COLBERT
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C04
+2. C02
+3. C09
+
+Response:
+The evidence does not provide information on whether a chunk can mention carry forward and still be irrelevant to annual leave. The provided evidence only discusses the rules regarding carry-forward of unused annual leave days.
+
+================================================================================
+QUERY Q11
+================================================================================
+
+Question:
+How many annual leave days can I carry forward, and when do I need to submit a request to take leave?
+
+--------------------------------------------------------------------------------
+CROSS-ENCODER
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C05
+2. C02
+3. C01
+
+Response:
+According to Evidence 2 | C02, you can carry forward up to 5 unused annual leave days into the following calendar year.
+
+--------------------------------------------------------------------------------
+MAXSIM
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C05
+2. C02
+3. C06
+
+Response:
+According to Evidence 2 | C02, you can carry forward up to 5 unused annual leave days into the following calendar year.
+
+--------------------------------------------------------------------------------
+COLBERT
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C02
+2. C04
+3. C05
+
+Response:
+According to Evidence 1 | C02, you can carry forward up to 5 unused annual leave days into the following calendar year.
+
+There is no specific deadline mentioned in the provided evidence for submitting a request to take leave. However, Evidence 3 | C05 states that employees should submit annual leave requests through the employee portal at least five working days before the intended start date, except in urgent circumstances.
+
+================================================================================
+QUERY Q12
+================================================================================
+
+Question:
+Can I work from home with manager approval, and what security requirement applies while working remotely?
+
+--------------------------------------------------------------------------------
+CROSS-ENCODER
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C16
+2. C17
+3. C20
+
+Response:
+Yes, you can work from home with manager approval. The security requirement that applies while working remotely is to "use company-approved devices, maintain appropriate information security controls, and protect confidential information from unauthorized access" (Evidence 2 | C17).
+
+--------------------------------------------------------------------------------
+MAXSIM
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C16
+2. C20
+3. C17
+
+Response:
+According to Evidence 1 | C16, yes, you can work from home with manager approval. 
+
+The security requirement while working remotely is maintaining appropriate information security controls (Evidence 3 | C17).
+
+--------------------------------------------------------------------------------
+COLBERT
+--------------------------------------------------------------------------------
+
+Top-3 Evidence:
+1. C16
+2. C17
+3. C20
+
+Response:
+Yes, you can work from home with manager approval. The security requirement that applies while working remotely is to "use company-approved devices, maintain appropriate information security controls, and protect confidential information from unauthorized access" (Evidence 2 | C17).
+

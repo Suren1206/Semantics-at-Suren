@@ -1,0 +1,209 @@
+{
+  "experiment_id": "SAS_Module6_ColBERT_Grand_Experiment",
+  "version": "baseline_v2",
+  "purpose": "Controlled retrieval experiment tracing the evolution from single-vector semantic retrieval to ColBERT-style multi-vector late interaction.",
+  "corpus_size": 40,
+  "query_count": 12,
+  "relevance_scale": {
+    "2": "clearly relevant",
+    "1": "partially relevant/useful context",
+    "0": "irrelevant"
+  },
+  "notes": [
+    "The corpus and queries remain fixed across all retrieval stages.",
+    "Ground truth is established before retrieval is run.",
+    "Stage 2 and Stage 3 use mxbai internal contextual representations as an experimental construction; they are not called ColBERT.",
+    "The corpus is intentionally small so Stage 3 and Stage 4 can use transparent exhaustive calculations before scalability mechanisms are introduced.",
+    "Q11 and Q12 added as multi-query cases; Q01-Q10 baseline ground truth preserved unchanged. Ground truth remains provisional and may be revised from empirical evidence."
+  ],
+  "query_ground_truth": [
+    {
+      "query_id": "Q01",
+      "query": "How many annual leave days can I carry over into next year?",
+      "expected_relevant": [
+        "C02"
+      ],
+      "partially_relevant": [
+        "C03",
+        "C04"
+      ],
+      "distractors": [
+        "C05",
+        "C21"
+      ],
+      "case_type": "straightforward_semantic"
+    },
+    {
+      "query_id": "Q02",
+      "query": "What happens to unused vacation at the end of the year?",
+      "expected_relevant": [
+        "C02",
+        "C04"
+      ],
+      "partially_relevant": [
+        "C03"
+      ],
+      "distractors": [
+        "C07",
+        "C10"
+      ],
+      "case_type": "paraphrase"
+    },
+    {
+      "query_id": "Q03",
+      "query": "Can I take my unused leave into the following year, and what is the limit?",
+      "expected_relevant": [
+        "C02"
+      ],
+      "partially_relevant": [
+        "C03",
+        "C04"
+      ],
+      "distractors": [
+        "C05",
+        "C09"
+      ],
+      "case_type": "distributed_evidence"
+    },
+    {
+      "query_id": "Q04",
+      "query": "What is the rule for carrying forward five unused days of annual leave?",
+      "expected_relevant": [
+        "C02"
+      ],
+      "partially_relevant": [
+        "C04"
+      ],
+      "distractors": [
+        "C01",
+        "C07"
+      ],
+      "case_type": "partial_match_trap"
+    },
+    {
+      "query_id": "Q05",
+      "query": "When does unused leave expire if I have more than the allowed carry-forward?",
+      "expected_relevant": [
+        "C04",
+        "C02"
+      ],
+      "partially_relevant": [
+        "C03"
+      ],
+      "distractors": [
+        "C09",
+        "C25"
+      ],
+      "case_type": "semantic_plus_exact_detail"
+    },
+    {
+      "query_id": "Q06",
+      "query": "Can unused balances be moved to next year?",
+      "expected_relevant": [
+        "C02"
+      ],
+      "partially_relevant": [
+        "C04",
+        "C03"
+      ],
+      "distractors": [
+        "C36",
+        "C38"
+      ],
+      "case_type": "short_query"
+    },
+    {
+      "query_id": "Q07",
+      "query": "How far in advance should I request vacation?",
+      "expected_relevant": [
+        "C05"
+      ],
+      "partially_relevant": [
+        "C06"
+      ],
+      "distractors": [
+        "C02",
+        "C21"
+      ],
+      "case_type": "concentrated_relevance"
+    },
+    {
+      "query_id": "Q08",
+      "query": "Does working from home require manager approval?",
+      "expected_relevant": [
+        "C16"
+      ],
+      "partially_relevant": [
+        "C18",
+        "C20"
+      ],
+      "distractors": [
+        "C17",
+        "C19"
+      ],
+      "case_type": "cross_topic_semantic"
+    },
+    {
+      "query_id": "Q09",
+      "query": "What should I do if my leave balance looks wrong?",
+      "expected_relevant": [
+        "C07"
+      ],
+      "partially_relevant": [
+        "C10"
+      ],
+      "distractors": [
+        "C03",
+        "C37"
+      ],
+      "case_type": "specific_action"
+    },
+    {
+      "query_id": "Q10",
+      "query": "Can a chunk mention carry forward and still be irrelevant to annual leave?",
+      "expected_relevant": [],
+      "partially_relevant": [],
+      "distractors": [
+        "C02"
+      ],
+      "case_type": "diagnostic_trap"
+    },
+    {
+      "query_id": "Q11",
+      "query": "How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",
+      "expected_relevant": [
+        "C02",
+        "C05"
+      ],
+      "partially_relevant": [
+        "C03",
+        "C06",
+        "C04"
+      ],
+      "distractors": [
+        "C01",
+        "C07",
+        "C09"
+      ],
+      "case_type": "multi_query"
+    },
+    {
+      "query_id": "Q12",
+      "query": "Can I work from home with manager approval, and what security requirement applies while working remotely?",
+      "expected_relevant": [
+        "C16",
+        "C17"
+      ],
+      "partially_relevant": [
+        "C18",
+        "C20"
+      ],
+      "distractors": [
+        "C19",
+        "C15",
+        "C14"
+      ],
+      "case_type": "multi_query"
+    }
+  ]
+}

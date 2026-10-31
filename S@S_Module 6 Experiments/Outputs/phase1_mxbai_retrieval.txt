@@ -1,0 +1,440 @@
+================================================================================
+PHASE 1 — ORDINARY SEMANTIC RETRIEVAL
+================================================================================
+
+Embedding Model      : mxbai-embed-large:335m
+Chunk Representation : ONE VECTOR
+Query Representation : ONE VECTOR
+Similarity            : COSINE
+Corpus Chunks         : 40
+Embedding Dimension   : 1024
+Total Questions       : 12
+Top-K                 : 5
+
+================================================================================
+RETRIEVAL SUMMARY
+================================================================================
+
+Total Questions : 12
+Top             : 8 (66.67%)
+Medium          : 4 (33.33%)
+Low             : 0 (0.00%)
+
+Top    : >= 0.75
+Medium : >= 0.60 and < 0.75
+Low    : < 0.60
+
+================================================================================
+QUERY RESULTS
+================================================================================
+
+QUERY Q01
+Question : How many annual leave days can I carry over into next year?
+
+Rank 1
+Chunk ID          : C02
+Topic             : annual_leave
+Cosine Similarity : 0.816288
+Text              : Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Rank 2
+Chunk ID          : C01
+Topic             : annual_leave
+Cosine Similarity : 0.741586
+Text              : Employees are entitled to 24 days of annual leave for each completed calendar year of service. Leave is normally accrued monthly and should be planned in consultation with the employee's manager.
+
+Rank 3
+Chunk ID          : C03
+Topic             : annual_leave
+Cosine Similarity : 0.707234
+Text              : Annual leave should normally be taken during the year in which it is accrued. Managers are responsible for ensuring that employees have reasonable opportunities to use their accrued leave.
+
+Rank 4
+Chunk ID          : C08
+Topic             : annual_leave
+Cosine Similarity : 0.688150
+Text              : Employees who join during the year receive a prorated annual leave entitlement based on their eligible service period. The entitlement is rounded according to payroll rules.
+
+Rank 5
+Chunk ID          : C04
+Topic             : annual_leave
+Cosine Similarity : 0.674471
+Text              : Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+
+QUERY Q02
+Question : What happens to unused vacation at the end of the year?
+
+Rank 1
+Chunk ID          : C09
+Topic             : annual_leave
+Cosine Similarity : 0.656626
+Text              : When employment ends, unused accrued annual leave is settled according to applicable company policy and local employment requirements. Future planned leave is cancelled unless otherwise agreed.
+
+Rank 2
+Chunk ID          : C02
+Topic             : annual_leave
+Cosine Similarity : 0.651561
+Text              : Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Rank 3
+Chunk ID          : C03
+Topic             : annual_leave
+Cosine Similarity : 0.633551
+Text              : Annual leave should normally be taken during the year in which it is accrued. Managers are responsible for ensuring that employees have reasonable opportunities to use their accrued leave.
+
+Rank 4
+Chunk ID          : C04
+Topic             : annual_leave
+Cosine Similarity : 0.597400
+Text              : Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+Rank 5
+Chunk ID          : C08
+Topic             : annual_leave
+Cosine Similarity : 0.590383
+Text              : Employees who join during the year receive a prorated annual leave entitlement based on their eligible service period. The entitlement is rounded according to payroll rules.
+
+
+QUERY Q03
+Question : Can I take my unused leave into the following year, and what is the limit?
+
+Rank 1
+Chunk ID          : C02
+Topic             : annual_leave
+Cosine Similarity : 0.821519
+Text              : Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Rank 2
+Chunk ID          : C04
+Topic             : annual_leave
+Cosine Similarity : 0.738295
+Text              : Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+Rank 3
+Chunk ID          : C09
+Topic             : annual_leave
+Cosine Similarity : 0.711784
+Text              : When employment ends, unused accrued annual leave is settled according to applicable company policy and local employment requirements. Future planned leave is cancelled unless otherwise agreed.
+
+Rank 4
+Chunk ID          : C03
+Topic             : annual_leave
+Cosine Similarity : 0.701601
+Text              : Annual leave should normally be taken during the year in which it is accrued. Managers are responsible for ensuring that employees have reasonable opportunities to use their accrued leave.
+
+Rank 5
+Chunk ID          : C08
+Topic             : annual_leave
+Cosine Similarity : 0.675000
+Text              : Employees who join during the year receive a prorated annual leave entitlement based on their eligible service period. The entitlement is rounded according to payroll rules.
+
+
+QUERY Q04
+Question : What is the rule for carrying forward five unused days of annual leave?
+
+Rank 1
+Chunk ID          : C02
+Topic             : annual_leave
+Cosine Similarity : 0.860757
+Text              : Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Rank 2
+Chunk ID          : C04
+Topic             : annual_leave
+Cosine Similarity : 0.722039
+Text              : Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+Rank 3
+Chunk ID          : C09
+Topic             : annual_leave
+Cosine Similarity : 0.696854
+Text              : When employment ends, unused accrued annual leave is settled according to applicable company policy and local employment requirements. Future planned leave is cancelled unless otherwise agreed.
+
+Rank 4
+Chunk ID          : C01
+Topic             : annual_leave
+Cosine Similarity : 0.681562
+Text              : Employees are entitled to 24 days of annual leave for each completed calendar year of service. Leave is normally accrued monthly and should be planned in consultation with the employee's manager.
+
+Rank 5
+Chunk ID          : C03
+Topic             : annual_leave
+Cosine Similarity : 0.678117
+Text              : Annual leave should normally be taken during the year in which it is accrued. Managers are responsible for ensuring that employees have reasonable opportunities to use their accrued leave.
+
+
+QUERY Q05
+Question : When does unused leave expire if I have more than the allowed carry-forward?
+
+Rank 1
+Chunk ID          : C02
+Topic             : annual_leave
+Cosine Similarity : 0.844893
+Text              : Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Rank 2
+Chunk ID          : C04
+Topic             : annual_leave
+Cosine Similarity : 0.790095
+Text              : Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+Rank 3
+Chunk ID          : C09
+Topic             : annual_leave
+Cosine Similarity : 0.704616
+Text              : When employment ends, unused accrued annual leave is settled according to applicable company policy and local employment requirements. Future planned leave is cancelled unless otherwise agreed.
+
+Rank 4
+Chunk ID          : C10
+Topic             : annual_leave
+Cosine Similarity : 0.657634
+Text              : Extended absence can affect the timing of leave accrual and the treatment of unused balances. Employees returning from extended absence should confirm their balance with HR Operations.
+
+Rank 5
+Chunk ID          : C03
+Topic             : annual_leave
+Cosine Similarity : 0.653799
+Text              : Annual leave should normally be taken during the year in which it is accrued. Managers are responsible for ensuring that employees have reasonable opportunities to use their accrued leave.
+
+
+QUERY Q06
+Question : Can unused balances be moved to next year?
+
+Rank 1
+Chunk ID          : C02
+Topic             : annual_leave
+Cosine Similarity : 0.710894
+Text              : Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Rank 2
+Chunk ID          : C10
+Topic             : annual_leave
+Cosine Similarity : 0.588351
+Text              : Extended absence can affect the timing of leave accrual and the treatment of unused balances. Employees returning from extended absence should confirm their balance with HR Operations.
+
+Rank 3
+Chunk ID          : C13
+Topic             : sick_leave
+Cosine Similarity : 0.575205
+Text              : Sick leave balances and annual leave balances are maintained separately in the employee portal. One type of leave does not automatically convert into the other.
+
+Rank 4
+Chunk ID          : C04
+Topic             : annual_leave
+Cosine Similarity : 0.572475
+Text              : Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+Rank 5
+Chunk ID          : C09
+Topic             : annual_leave
+Cosine Similarity : 0.562524
+Text              : When employment ends, unused accrued annual leave is settled according to applicable company policy and local employment requirements. Future planned leave is cancelled unless otherwise agreed.
+
+
+QUERY Q07
+Question : How far in advance should I request vacation?
+
+Rank 1
+Chunk ID          : C15
+Topic             : parental_leave
+Cosine Similarity : 0.669502
+Text              : Parental leave should normally be requested in advance where the expected start date is known. Employees should provide the required supporting information through the designated HR process.
+
+Rank 2
+Chunk ID          : C05
+Topic             : annual_leave
+Cosine Similarity : 0.669145
+Text              : Employees should submit annual leave requests through the employee portal at least five working days before the intended start date, except in urgent circumstances.
+
+Rank 3
+Chunk ID          : C06
+Topic             : annual_leave
+Cosine Similarity : 0.609643
+Text              : Annual leave requests are subject to manager approval and operational requirements. Approval should consider team coverage, business continuity, and previously approved absences.
+
+Rank 4
+Chunk ID          : C01
+Topic             : annual_leave
+Cosine Similarity : 0.579270
+Text              : Employees are entitled to 24 days of annual leave for each completed calendar year of service. Leave is normally accrued monthly and should be planned in consultation with the employee's manager.
+
+Rank 5
+Chunk ID          : C40
+Topic             : travel
+Cosine Similarity : 0.576349
+Text              : Employees travelling for business should use approved travel booking channels where required and should follow the applicable limits for transportation, accommodation, and other travel costs.
+
+
+QUERY Q08
+Question : Does working from home require manager approval?
+
+Rank 1
+Chunk ID          : C16
+Topic             : remote_work
+Cosine Similarity : 0.767502
+Text              : Employees may work remotely where their role is eligible and the arrangement has been approved by their manager. Remote work remains subject to business and security requirements.
+
+Rank 2
+Chunk ID          : C20
+Topic             : hybrid_work
+Cosine Similarity : 0.674927
+Text              : Employees working from home are responsible for maintaining a suitable work environment and complying with applicable health, safety, confidentiality, and technology requirements.
+
+Rank 3
+Chunk ID          : C18
+Topic             : remote_work
+Cosine Similarity : 0.665700
+Text              : Remote work arrangements may be reviewed when business requirements, role responsibilities, or team operating models change. Approval of an arrangement does not create a permanent entitlement.
+
+Rank 4
+Chunk ID          : C06
+Topic             : annual_leave
+Cosine Similarity : 0.647261
+Text              : Annual leave requests are subject to manager approval and operational requirements. Approval should consider team coverage, business continuity, and previously approved absences.
+
+Rank 5
+Chunk ID          : C17
+Topic             : remote_work
+Cosine Similarity : 0.608186
+Text              : Remote employees must use company-approved devices, maintain appropriate information security controls, and protect confidential information from unauthorized access.
+
+
+QUERY Q09
+Question : What should I do if my leave balance looks wrong?
+
+Rank 1
+Chunk ID          : C07
+Topic             : annual_leave
+Cosine Similarity : 0.705226
+Text              : The annual leave balance displayed in the employee portal reflects approved and recorded leave transactions. Employees should report discrepancies to HR Operations.
+
+Rank 2
+Chunk ID          : C10
+Topic             : annual_leave
+Cosine Similarity : 0.690326
+Text              : Extended absence can affect the timing of leave accrual and the treatment of unused balances. Employees returning from extended absence should confirm their balance with HR Operations.
+
+Rank 3
+Chunk ID          : C02
+Topic             : annual_leave
+Cosine Similarity : 0.666404
+Text              : Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Rank 4
+Chunk ID          : C13
+Topic             : sick_leave
+Cosine Similarity : 0.656081
+Text              : Sick leave balances and annual leave balances are maintained separately in the employee portal. One type of leave does not automatically convert into the other.
+
+Rank 5
+Chunk ID          : C04
+Topic             : annual_leave
+Cosine Similarity : 0.616744
+Text              : Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+
+QUERY Q10
+Question : Can a chunk mention carry forward and still be irrelevant to annual leave?
+
+Rank 1
+Chunk ID          : C02
+Topic             : annual_leave
+Cosine Similarity : 0.760041
+Text              : Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Rank 2
+Chunk ID          : C13
+Topic             : sick_leave
+Cosine Similarity : 0.678090
+Text              : Sick leave balances and annual leave balances are maintained separately in the employee portal. One type of leave does not automatically convert into the other.
+
+Rank 3
+Chunk ID          : C04
+Topic             : annual_leave
+Cosine Similarity : 0.676948
+Text              : Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+Rank 4
+Chunk ID          : C03
+Topic             : annual_leave
+Cosine Similarity : 0.668263
+Text              : Annual leave should normally be taken during the year in which it is accrued. Managers are responsible for ensuring that employees have reasonable opportunities to use their accrued leave.
+
+Rank 5
+Chunk ID          : C09
+Topic             : annual_leave
+Cosine Similarity : 0.658088
+Text              : When employment ends, unused accrued annual leave is settled according to applicable company policy and local employment requirements. Future planned leave is cancelled unless otherwise agreed.
+
+
+QUERY Q11
+Question : How many annual leave days can I carry forward, and when do I need to submit a request to take leave?
+
+Rank 1
+Chunk ID          : C02
+Topic             : annual_leave
+Cosine Similarity : 0.789606
+Text              : Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Rank 2
+Chunk ID          : C01
+Topic             : annual_leave
+Cosine Similarity : 0.755322
+Text              : Employees are entitled to 24 days of annual leave for each completed calendar year of service. Leave is normally accrued monthly and should be planned in consultation with the employee's manager.
+
+Rank 3
+Chunk ID          : C06
+Topic             : annual_leave
+Cosine Similarity : 0.711263
+Text              : Annual leave requests are subject to manager approval and operational requirements. Approval should consider team coverage, business continuity, and previously approved absences.
+
+Rank 4
+Chunk ID          : C03
+Topic             : annual_leave
+Cosine Similarity : 0.711057
+Text              : Annual leave should normally be taken during the year in which it is accrued. Managers are responsible for ensuring that employees have reasonable opportunities to use their accrued leave.
+
+Rank 5
+Chunk ID          : C05
+Topic             : annual_leave
+Cosine Similarity : 0.700977
+Text              : Employees should submit annual leave requests through the employee portal at least five working days before the intended start date, except in urgent circumstances.
+
+
+QUERY Q12
+Question : Can I work from home with manager approval, and what security requirement applies while working remotely?
+
+Rank 1
+Chunk ID          : C16
+Topic             : remote_work
+Cosine Similarity : 0.855156
+Text              : Employees may work remotely where their role is eligible and the arrangement has been approved by their manager. Remote work remains subject to business and security requirements.
+
+Rank 2
+Chunk ID          : C17
+Topic             : remote_work
+Cosine Similarity : 0.751521
+Text              : Remote employees must use company-approved devices, maintain appropriate information security controls, and protect confidential information from unauthorized access.
+
+Rank 3
+Chunk ID          : C20
+Topic             : hybrid_work
+Cosine Similarity : 0.732324
+Text              : Employees working from home are responsible for maintaining a suitable work environment and complying with applicable health, safety, confidentiality, and technology requirements.
+
+Rank 4
+Chunk ID          : C18
+Topic             : remote_work
+Cosine Similarity : 0.664002
+Text              : Remote work arrangements may be reviewed when business requirements, role responsibilities, or team operating models change. Approval of an arrangement does not create a permanent entitlement.
+
+Rank 5
+Chunk ID          : C32
+Topic             : security
+Cosine Similarity : 0.654998
+Text              : Access to confidential systems is granted according to role requirements and approved business need. Access may be removed when responsibilities change or employment ends.
+
+================================================================================
+END OF PHASE 1 RETRIEVAL
+================================================================================

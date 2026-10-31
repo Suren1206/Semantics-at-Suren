@@ -1,0 +1,9 @@
+,Contrastive: what constitutes the positive and negatives?,Triplet: which chunk is the negative?,InfoNCE: what constitutes the candidate set?,Hard Negative: is chunk_4 explicitly designated as the hard negative?,Angular Margin: what relationship receives the angular margin?
+Q56 → correct chunk_2 loses to incorrect chunk_4; objective involves relative separation. ,Chunk 2 is positive & Chunk 4 is negative,Q56 → Query = anchor; Chunk 2 = positive; Chunk 4 = negative; margin = 0.10 ,Chunk 2,Chunk 4,Query–Chunk 2 positive relationship; angular margin = 10°
+Q103 → correct chunk_21 is already Rank 1 but has weak cosine; objective is to strengthen query–positive affinity. ,Chunk 21 is positive & Chunk 141 is negative,Q103 → Query = anchor; Chunk 21 = positive; Chunk 141 = negative; margin = 0.10 ,Chunk 21,N/A,Query–Chunk 21 positive relationship; angular margin = 10°
+Q108 → correct chunk_17 is already Rank 1 but has weak cosine; same broad objective as Q103. ,strengthen chunk 17 relationship without deliberately pushing other chunks away.,Q108 → Query = anchor; Chunk 17 = positive; no valid negative selected — Triplet Loss not applicable ,Chunk 17,N/A,Query–Chunk 17 positive relationship; angular margin = 10°
+Q112 → correct chunk_11 loses to incorrect chunk_97; relative-ranking correction. ,Chunk 11 is positive; Chunk 97 is negative,Q112 → Query = anchor; Chunk 11 = positive; Chunk 97 = negative; margin = 0.10 ,Chunk 11,Chunk 97,Query–Chunk 11 positive relationship; angular margin = 10°
+Q148 → correct chunk_40 loses to incorrect higher-ranked candidates; relative-ranking correction.,Chunk 40 is positive; Chunk 43 and 42 are negative,Q148 → Query = anchor; Chunk 40 = positive; Chunk 43 = negative; margin = 0.10,Chunk 40,Chunk 43,Query–Chunk 40 positive relationship; angular margin = 10°
+,,,,,
+,,,,,
+, ,,,,

@@ -1,0 +1,38 @@
+For Synthetic 
+
+in MXBAI Model : 
+
+QUESTION-LEVEL RETRIEVAL CLASSIFICATION
+----------------------------------------
+HIGH   (>= 0.75) :   21 questions (84.00%)
+MEDIUM (0.60–0.75) :    4 questions (16.00%)
+LOW    (< 0.60) :    0 questions (0.00%)
+
+in Minilm Model : 
+
+QUESTION-LEVEL RETRIEVAL CLASSIFICATION
+----------------------------------------
+HIGH   :   12 (48.00%)
+MEDIUM :    8 (32.00%)
+LOW    :    5 (20.00%)
+
+*********************************************************************
+
+For B01 Corpus
+
+in MXBAI Model : 
+
+QUESTION-LEVEL RETRIEVAL CLASSIFICATION
+----------------------------------------
+HIGH   (>= 0.75) :   62 questions (41.33%)
+MEDIUM (0.60–0.75) :   88 questions (58.67%)
+LOW    (< 0.60) :    0 questions (0.00%)
+
+in Minilm Model : 
+
+QUESTION-LEVEL RETRIEVAL CLASSIFICATION
+----------------------------------------
+HIGH   :   16 (10.67%)
+MEDIUM :   84 (56.00%)
+LOW    :   50 (33.33%)
+

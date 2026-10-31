@@ -1,0 +1,651 @@
+./Documentation/Grand_Retrieval_Architecture_Lab_Plan.docx	44 KB
+./Documentation/Retrieval Architecture.odt	52 KB
+./Documentation/Semantics@Suren._Lab_Plan.odt	40 KB
+./Documentation/Semantics@Suren.odt	200 KB
+./Evidence Ledger.md	88 KB
+./Experiments_OLD/embedding_dbs/hf_minilm/index.faiss	288 KB
+./Experiments_OLD/embedding_dbs/hf_minilm/texts.txt	16 KB
+./Experiments_OLD/embedding_dbs/hf_mpnet/index.faiss	572 KB
+./Experiments_OLD/embedding_dbs/hf_mpnet/texts.txt	16 KB
+./Experiments_OLD/embedding_dbs/ollama_mxbai/index.faiss	764 KB
+./Experiments_OLD/embedding_dbs/ollama_mxbai/texts.txt	16 KB
+./Experiments_OLD/embedding_dbs/ollama_nomic/index.faiss	572 KB
+./Experiments_OLD/embedding_dbs/ollama_nomic/texts.txt	16 KB
+./Experiments_OLD/embedding_dbs/openai_large/index.faiss	2284 KB
+./Experiments_OLD/embedding_dbs/openai_large/texts.txt	16 KB
+./Experiments_OLD/embedding_dbs/openai_small/index.faiss	1144 KB
+./Experiments_OLD/embedding_dbs/openai_small/texts.txt	16 KB
+./Experiments_OLD/MAIN_build_embeddings.py	4 KB
+./Experiments_OLD/MAIN_embedding_wrapper_dev.py	4 KB
+./Experiments_OLD/ML_Question_Bank.csv	16 KB
+./Experiments_OLD/Ph1_01_app_metric_compare.py	4 KB
+./Experiments_OLD/Ph1_02_Single_Mode_Retrieval.py	4 KB
+./Experiments_OLD/Ph1_03_norm_calc.py	4 KB
+./Experiments_OLD/Ph1_04_Global_mean_vector.py	4 KB
+./Experiments_OLD/Ph1_05_Hubness_test.py	4 KB
+./Experiments_OLD/Ph1_06_Mean_centering_exp.py	4 KB
+./Experiments_OLD/Ph1_07_ssmc.py	4 KB
+./Experiments_OLD/Ph1_08_ssmc_streamlit.py	4 KB
+./Experiments_OLD/__pycache__/embedding_wrapper_dev.cpython-310.pyc	4 KB
+./Experiments_OLD/__pycache__/MAIN_embedding_wrapper_dev.cpython-310.pyc	4 KB
+./Experiments_OLD/requirements.txt	4 KB
+./folder_inventory.txt	0 KB
+./__pycache__/embedding_wrapper_dev.cpython-310.pyc	4 KB
+./requirements.txt	4 KB
+./S@S_Module 1 Experiments /20260424_B01/20260424_B01.index	648 KB
+./S@S_Module 1 Experiments /20260424_B01/chunk_id_to_metadata.json	64 KB
+./S@S_Module 1 Experiments /20260424_B01/embeddings.npy	648 KB
+./S@S_Module 1 Experiments /20260424_B01/index_to_chunk_id.json	4 KB
+./S@S_Module 1 Experiments /HR_corpus_1.ods	28 KB
+./S@S_Module 1 Experiments /Module_3_experiments.ods	48 KB
+./S@S_Module 1 Experiments /perturbation_atomic_rules_1_vs_2.py	24 KB
+./S@S_Module 1 Experiments /perturbation_chunk_overlap.py	24 KB
+./S@S_Module 1 Experiments /perturbation_chunk.py	24 KB
+./S@S_Module 1 Experiments /perturbation_chunk_size.py	28 KB
+./S@S_Module 1 Experiments /perturbation_query.py	24 KB
+./S@S_Module 1 Experiments /phase1_benchmark_249.csv	172 KB
+./S@S_Module 1 Experiments /phase1_benchmark_249.ods	80 KB
+./S@S_Module 1 Experiments /phase1_perturbations_chunk_boundaries.ods	40 KB
+./S@S_Module 1 Experiments /phase1_perturbations_chunks.ods	16 KB
+./S@S_Module 1 Experiments /phase1_perturbations_query.ods	44 KB
+./S@S_Module 1 Experiments /raGROW_S@S/app.py	28 KB
+./S@S_Module 1 Experiments /raGROW_S@S/Codes/Top3_retrievals_150.py	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/data/master_corpus_BASELINE.txt	68 KB
+./S@S_Module 1 Experiments /raGROW_S@S/data/master_corpus.txt	68 KB
+./S@S_Module 1 Experiments /raGROW_S@S/data/reference_master_corpus.txt	68 KB
+./S@S_Module 1 Experiments /raGROW_S@S/data/vector_store/20260424_B01/20260424_B01.index	648 KB
+./S@S_Module 1 Experiments /raGROW_S@S/data/vector_store/20260424_B01/chunk_id_to_metadata.json	64 KB
+./S@S_Module 1 Experiments /raGROW_S@S/data/vector_store/20260424_B01/embeddings.npy	648 KB
+./S@S_Module 1 Experiments /raGROW_S@S/data/vector_store/20260424_B01/index_to_chunk_id.json	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/.~lock.ragGROW_Snapshot.odt#	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/.~lock.raGROW_REFRESHER.odt#	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/logs/rag_logs.db	36 KB
+./S@S_Module 1 Experiments /raGROW_S@S/master_corpus.txt	68 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/build_pipeline.py	8 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/chunking.py	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/employee_state.py	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/generator.py	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/guardrails.py	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/__init__.py	0 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/logger.py	12 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/memory.py	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/mutation_batch.py	12 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/notifications.py	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/__pycache__/build_pipeline.cpython-310.pyc	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/__pycache__/chunking.cpython-310.pyc	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/__pycache__/employee_state.cpython-310.pyc	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/__pycache__/generator.cpython-310.pyc	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/__pycache__/guardrails.cpython-310.pyc	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/__pycache__/__init__.cpython-310.pyc	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/__pycache__/logger.cpython-310.pyc	12 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/__pycache__/mutation_batch.cpython-310.pyc	8 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/__pycache__/notifications.cpython-310.pyc	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/__pycache__/rephrase.cpython-310.pyc	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/__pycache__/retriever.cpython-310.pyc	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/rephrase.py	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/retriever.py	8 KB
+./S@S_Module 1 Experiments /raGROW_S@S/rag_engine/validation.py	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/reference_master_corpus.txt	68 KB
+./S@S_Module 1 Experiments /raGROW_S@S/REFRESH exercise/baseline_150_results.txt	232 KB
+./S@S_Module 1 Experiments /raGROW_S@S/REFRESH exercise/mutation_check_6_results.txt	20 KB
+./S@S_Module 1 Experiments /raGROW_S@S/REFRESH exercise/query_set_150.txt	16 KB
+./S@S_Module 1 Experiments /raGROW_S@S/REFRESH exercise/raGROW_REFRESHER.odt	56 KB
+./S@S_Module 1 Experiments /raGROW_S@S/REFRESH exercise/retrieval_post_mutation.py	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/REFRESH exercise/run_baseline_150.py	4 KB
+./S@S_Module 1 Experiments /raGROW_S@S/REFRESH exercise/Testing_raGROW_MonitorSheet.ods	40 KB
+./S@S_Module 1 Experiments /raGROW_S@S/requirements.txt	4 KB
+./S@S_Module 1 Experiments /Results_Query_Perturbation_1_Synonym.odt	36 KB
+./S@S_Module 1 Experiments /Results_Query_Perturbation_2_Specificity.odt	48 KB
+./S@S_Module 1 Experiments /test_mxbai_original.py	4 KB
+./S@S_Module 2  Experiments  /20260424_B01/20260424_B01.index	648 KB
+./S@S_Module 2  Experiments  /20260424_B01/chunk_id_to_metadata.json	64 KB
+./S@S_Module 2  Experiments  /20260424_B01/embeddings.npy	648 KB
+./S@S_Module 2  Experiments  /20260424_B01/index_to_chunk_id.json	4 KB
+./S@S_Module 2  Experiments  /chunk_perturbations_geometric_analysis.py	16 KB
+./S@S_Module 2  Experiments  /HR_corpus_1.ods	28 KB
+./S@S_Module 2  Experiments  /Module 2_perturbations_chunks_FAILED experiment.ods	16 KB
+./S@S_Module 2  Experiments  /phase1_benchmark_249.csv	172 KB
+./S@S_Module 2  Experiments  /phase1_benchmark_249.ods	80 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/app.py	28 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/Codes/Top3_retrievals_150.py	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/data/master_corpus_BASELINE.txt	68 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/data/master_corpus.txt	68 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/data/reference_master_corpus.txt	68 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/data/vector_store/20260424_B01/20260424_B01.index	648 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/data/vector_store/20260424_B01/chunk_id_to_metadata.json	64 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/data/vector_store/20260424_B01/embeddings.npy	648 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/data/vector_store/20260424_B01/index_to_chunk_id.json	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/.~lock.ragGROW_Snapshot.odt#	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/.~lock.raGROW_REFRESHER.odt#	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/logs/rag_logs.db	36 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/master_corpus.txt	68 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/build_pipeline.py	8 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/chunking.py	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/employee_state.py	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/generator.py	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/guardrails.py	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/__init__.py	0 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/logger.py	12 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/memory.py	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/mutation_batch.py	12 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/notifications.py	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/__pycache__/build_pipeline.cpython-310.pyc	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/__pycache__/chunking.cpython-310.pyc	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/__pycache__/employee_state.cpython-310.pyc	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/__pycache__/generator.cpython-310.pyc	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/__pycache__/guardrails.cpython-310.pyc	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/__pycache__/__init__.cpython-310.pyc	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/__pycache__/logger.cpython-310.pyc	12 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/__pycache__/mutation_batch.cpython-310.pyc	8 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/__pycache__/notifications.cpython-310.pyc	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/__pycache__/rephrase.cpython-310.pyc	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/__pycache__/retriever.cpython-310.pyc	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/rephrase.py	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/retriever.py	8 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/rag_engine/validation.py	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/reference_master_corpus.txt	68 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/REFRESH exercise/baseline_150_results.txt	232 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/REFRESH exercise/mutation_check_6_results.txt	20 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/REFRESH exercise/query_set_150.txt	16 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/REFRESH exercise/raGROW_REFRESHER.odt	56 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/REFRESH exercise/retrieval_post_mutation.py	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/REFRESH exercise/run_baseline_150.py	4 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/REFRESH exercise/Testing_raGROW_MonitorSheet.ods	40 KB
+./S@S_Module 2  Experiments  /raGROW_S@S/requirements.txt	4 KB
+./S@S_Module 3  Experiments/20260424_B01/20260424_B01.index	648 KB
+./S@S_Module 3  Experiments/20260424_B01/chunk_id_to_metadata.json	64 KB
+./S@S_Module 3  Experiments/20260424_B01/embeddings.npy	648 KB
+./S@S_Module 3  Experiments/20260424_B01/index_to_chunk_id.json	4 KB
+./S@S_Module 3  Experiments/Codes_Module_3/1a_10_Top_10_Least_Chunk_info.py	8 KB
+./S@S_Module 3  Experiments/Codes_Module_3/1b_10_Top_10_Least_Chunks.py	8 KB
+./S@S_Module 3  Experiments/Codes_Module_3/1c_inter-chunk_similarity.py	4 KB
+./S@S_Module 3  Experiments/Codes_Module_3/1d_triangular_comparison.py	8 KB
+./S@S_Module 3  Experiments/Codes_Module_3/2_top5_vectors_Q1_Q2.py	12 KB
+./S@S_Module 3  Experiments/Codes_Module_3/3_top10_retrieval_comparison.py	8 KB
+./S@S_Module 3  Experiments/Codes_Module_3/4_local_density_analysis.py	8 KB
+./S@S_Module 3  Experiments/Codes_Module_3/atomic_hr_chunks_embeddings.npy	68 KB
+./S@S_Module 3  Experiments/Codes_Module_3/Identify_failure_due_to_noise.py	12 KB
+./S@S_Module 3  Experiments/Codes_Module_3/q177_atomic_top10.py	12 KB
+./S@S_Module 3  Experiments/Codes_Module_3/synthetic_5_answers_cosine.py	8 KB
+./S@S_Module 3  Experiments/Codes_Module_3/synthetic_five_answers_embeddings.py	4 KB
+./S@S_Module 3  Experiments/Codes_Module_3/synthetic_local_density.py	8 KB
+./S@S_Module 3  Experiments/Codes_Module_3/synthetic_pairwise_cosine_matrix.py	8 KB
+./S@S_Module 3  Experiments/Codes_Module_3/synthetic_question_answer_similarity.py	8 KB
+./S@S_Module 3  Experiments/Codes_Module_3/synthetic_question_answer_similarity_test_ramayana.py	8 KB
+./S@S_Module 3  Experiments/Codes_Module_3/top5_geometry_analysis_close_scores.py	16 KB
+./S@S_Module 3  Experiments/.~lock.phase1_benchmark_249.ods#	4 KB
+./S@S_Module 3  Experiments/.~lock.phase1_perturbations_query.ods#	4 KB
+./S@S_Module 3  Experiments/phase1_benchmark_249.csv	172 KB
+./S@S_Module 3  Experiments/raGROW_S@S/app.py	28 KB
+./S@S_Module 3  Experiments/raGROW_S@S/Codes/Top3_retrievals_150.py	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/data/master_corpus_BASELINE.txt	68 KB
+./S@S_Module 3  Experiments/raGROW_S@S/data/master_corpus.txt	68 KB
+./S@S_Module 3  Experiments/raGROW_S@S/data/reference_master_corpus.txt	68 KB
+./S@S_Module 3  Experiments/raGROW_S@S/data/vector_store/20260424_B01/20260424_B01.index	648 KB
+./S@S_Module 3  Experiments/raGROW_S@S/data/vector_store/20260424_B01/chunk_id_to_metadata.json	64 KB
+./S@S_Module 3  Experiments/raGROW_S@S/data/vector_store/20260424_B01/embeddings.npy	648 KB
+./S@S_Module 3  Experiments/raGROW_S@S/data/vector_store/20260424_B01/index_to_chunk_id.json	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/.~lock.ragGROW_Snapshot.odt#	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/.~lock.raGROW_REFRESHER.odt#	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/logs/rag_logs.db	36 KB
+./S@S_Module 3  Experiments/raGROW_S@S/master_corpus.txt	68 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/build_pipeline.py	8 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/chunking.py	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/employee_state.py	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/generator.py	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/guardrails.py	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/__init__.py	0 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/logger.py	12 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/memory.py	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/mutation_batch.py	12 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/notifications.py	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/__pycache__/build_pipeline.cpython-310.pyc	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/__pycache__/chunking.cpython-310.pyc	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/__pycache__/employee_state.cpython-310.pyc	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/__pycache__/generator.cpython-310.pyc	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/__pycache__/guardrails.cpython-310.pyc	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/__pycache__/__init__.cpython-310.pyc	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/__pycache__/logger.cpython-310.pyc	12 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/__pycache__/mutation_batch.cpython-310.pyc	8 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/__pycache__/notifications.cpython-310.pyc	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/__pycache__/rephrase.cpython-310.pyc	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/__pycache__/retriever.cpython-310.pyc	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/rephrase.py	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/retriever.py	8 KB
+./S@S_Module 3  Experiments/raGROW_S@S/rag_engine/validation.py	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/reference_master_corpus.txt	68 KB
+./S@S_Module 3  Experiments/raGROW_S@S/REFRESH exercise/baseline_150_results.txt	232 KB
+./S@S_Module 3  Experiments/raGROW_S@S/REFRESH exercise/mutation_check_6_results.txt	20 KB
+./S@S_Module 3  Experiments/raGROW_S@S/REFRESH exercise/query_set_150.txt	16 KB
+./S@S_Module 3  Experiments/raGROW_S@S/REFRESH exercise/raGROW_REFRESHER.odt	56 KB
+./S@S_Module 3  Experiments/raGROW_S@S/REFRESH exercise/retrieval_post_mutation.py	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/REFRESH exercise/run_baseline_150.py	4 KB
+./S@S_Module 3  Experiments/raGROW_S@S/REFRESH exercise/Testing_raGROW_MonitorSheet.ods	40 KB
+./S@S_Module 3  Experiments/raGROW_S@S/requirements.txt	4 KB
+./S@S_Module 3  Experiments/Results_Module_3/five_answers_local_density.npy	4 KB
+./S@S_Module 3  Experiments/Results_Module_3/five_answers_mxbai_embeddings.npy	24 KB
+./S@S_Module 3  Experiments/Vector_Files/2_Q140_top5_embeddings.npy	24 KB
+./S@S_Module 3  Experiments/Vector_Files/2_Q7_top5_embeddings.npy	24 KB
+./S@S_Module 3  Experiments/Vector_Files/3_mxbai_top10_embeddings.npy	44 KB
+./S@S_Module 3  Experiments/Vector_Files/synthetic_five_answers_mxbai_embeddings.npy	24 KB
+./S@S_Module 3  Experiments/Vector_Files/synthetic_pairwise_cosine_matrix_mxbai_modified.npy	4 KB
+./S@S_Module 3  Experiments/Vector_Files/synthetic_pairwise_cosine_matrix_mxbai.npy	4 KB
+./S@S_Module 4  Experiments/20260424_B01/20260424_B01.index	648 KB
+./S@S_Module 4  Experiments/20260424_B01/chunk_id_to_metadata.json	64 KB
+./S@S_Module 4  Experiments/20260424_B01/embeddings.npy	648 KB
+./S@S_Module 4  Experiments/20260424_B01/index_to_chunk_id.json	4 KB
+./S@S_Module 4  Experiments/Codes_Module_4/B01_consolidated_experiments_4ques.py	28 KB
+./S@S_Module 4  Experiments/Codes_Module_4/check_norms_B01.py	4 KB
+./S@S_Module 4  Experiments/Codes_Module_4/compare_intrinsic_dimensionality_B01_vs_Synthetic_fixed.py	24 KB
+./S@S_Module 4  Experiments/Codes_Module_4/compare_intrinsic_dimensionality_B01_vs_Synthetic.py	24 KB
+./S@S_Module 4  Experiments/Codes_Module_4/compare_mean_vector_centering_B01_vs_Synthetic.py	16 KB
+./S@S_Module 4  Experiments/Codes_Module_4/compare_pairwise_cosine_B01_vs_Synthetic.py	12 KB
+./S@S_Module 4  Experiments/Codes_Module_4/compare_pairwise_cosine_before_after_centering_B01.py	8 KB
+./S@S_Module 4  Experiments/Codes_Module_4/compare_pairwise_cosine_before_after_centering_B01_vs_Synthetic.py	16 KB
+./S@S_Module 4  Experiments/Codes_Module_4/compare_PCA_B01_vs_Synthetic.py	12 KB
+./S@S_Module 4  Experiments/Codes_Module_4/compare_whitening_B01_vs_Synthetic.py	16 KB
+./S@S_Module 4  Experiments/Codes_Module_4/hubness_B01_vs_Synthetic.py	16 KB
+./S@S_Module 4  Experiments/Codes_Module_4/meanVector_meanCentering_B01.py	4 KB
+./S@S_Module 4  Experiments/Codes_Module_4/meanVector_meanCentering_Synthetic.py	8 KB
+./S@S_Module 4  Experiments/Codes_Module_4/pairwise_cosine_similarity_B01.py	4 KB
+./S@S_Module 4  Experiments/Codes_Module_4/PCA_mean_centered_corpus_B01.py	8 KB
+./S@S_Module 4  Experiments/Codes_Module_4/synthetic_consolidated_experiment_Module4.py	36 KB
+./S@S_Module 4  Experiments/Codes_Module_4/synthetic_groupwise_cosine_analysis.py	16 KB
+./S@S_Module 4  Experiments/Codes_Module_4/synthetic_raw_vector_distribution_analysis.py	12 KB
+./S@S_Module 4  Experiments/Codes_Module_4/synthetic_top5_GeneralvsRest.py	16 KB
+./S@S_Module 4  Experiments/.~lock.phase1_benchmark_249.ods#	4 KB
+./S@S_Module 4  Experiments/.~lock.phase1_perturbations_query.ods#	4 KB
+./S@S_Module 4  Experiments/Output_Files/B01_4Q_retrieval_raw_centered_whitened_reduced_detailed.csv	20 KB
+./S@S_Module 4  Experiments/Output_Files/B01_4Q_retrieval_raw_centered_whitened_reduced_summary.csv	4 KB
+./S@S_Module 4  Experiments/Output_Files/B01_4Q_retrieval_raw_centered_whitened_reduced_summary.ods	20 KB
+./S@S_Module 4  Experiments/Output_Files/B01_80pct_variance_reduced.npy	64 KB
+./S@S_Module 4  Experiments/Output_Files/B01_hubness_occurrence_counts.npy	4 KB
+./S@S_Module 4  Experiments/Output_Files/B01_Synthetic_before_after_mean_centering.png	72 KB
+./S@S_Module 4  Experiments/Output_Files/B01_Synthetic_Global_pairwise_cosine_distribution.png	44 KB
+./S@S_Module 4  Experiments/Output_Files/B01_Synthetic_PCA_Comparison.png	88 KB
+./S@S_Module 4  Experiments/Output_Files/B01_whitened_embeddings.npy	28 KB
+./S@S_Module 4  Experiments/Output_Files/Histogram_before_after_centering.png	36 KB
+./S@S_Module 4  Experiments/Output_Files/Histogram_pairwise_cosine_similarity_B01.png	24 KB
+./S@S_Module 4  Experiments/Output_Files/intrinsic_dimensionality_cosine_B01_vs_Synthetic.png	168 KB
+./S@S_Module 4  Experiments/Output_Files/Intrinsic_dimensionaly_before_after_reduction_both.png	76 KB
+./S@S_Module 4  Experiments/Output_Files/mean_centered_160x1024.npy	1292 KB
+./S@S_Module 4  Experiments/Output_Files/mean_centered_B01.npy	1292 KB
+./S@S_Module 4  Experiments/Output_Files/mean_centered_Synthetic.npy	404 KB
+./S@S_Module 4  Experiments/Output_Files/mean_vector_160.npy	12 KB
+./S@S_Module 4  Experiments/Output_Files/revised_whitening_cosine_comparison_B01_vs_Synthetic.png	76 KB
+./S@S_Module 4  Experiments/Output_Files/Synthetic_80pct_variance_reduced.npy	12 KB
+./S@S_Module 4  Experiments/Output_Files/Synthetic_groupwise_embedding_distribution.png	52 KB
+./S@S_Module 4  Experiments/Output_Files/Synthetic_hubness_occurrence_counts.npy	4 KB
+./S@S_Module 4  Experiments/Output_Files/Synthetic_Raw_embedding_distribution.png	24 KB
+./S@S_Module 4  Experiments/Output_Files/synthetic_raw_embeddings.npy	404 KB
+./S@S_Module 4  Experiments/Output_Files/Synthetic_retrieval_raw_centered_whitened_reduced_detailed.csv	92 KB
+./S@S_Module 4  Experiments/Output_Files/Synthetic_retrieval_raw_centered_whitened_reduced_detailed.ods	36 KB
+./S@S_Module 4  Experiments/Output_Files/Synthetic_retrieval_raw_centered_whitened_reduced_summary.csv	20 KB
+./S@S_Module 4  Experiments/Output_Files/Synthetic_retrieval_raw_centered_whitened_reduced_summary.ods	44 KB
+./S@S_Module 4  Experiments/Output_Files/synthetic_top5_GeneralvsRest_results.txt	52 KB
+./S@S_Module 4  Experiments/Output_Files/Synthetic_whitened_embeddings.npy	8 KB
+./S@S_Module 4  Experiments/Output_Files/whitening_cosine_comparison_B01_vs_Synthetic.png	164 KB
+./S@S_Module 4  Experiments/phase1_benchmark_249.csv	172 KB
+./S@S_Module 4  Experiments/Query_Synthetic_Corpus.csv	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/app.py	28 KB
+./S@S_Module 4  Experiments/raGROW_S@S/Codes/Top3_retrievals_150.py	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/data/master_corpus_BASELINE.txt	68 KB
+./S@S_Module 4  Experiments/raGROW_S@S/data/master_corpus.txt	68 KB
+./S@S_Module 4  Experiments/raGROW_S@S/data/reference_master_corpus.txt	68 KB
+./S@S_Module 4  Experiments/raGROW_S@S/data/vector_store/20260424_B01/20260424_B01.index	648 KB
+./S@S_Module 4  Experiments/raGROW_S@S/data/vector_store/20260424_B01/chunk_id_to_metadata.json	64 KB
+./S@S_Module 4  Experiments/raGROW_S@S/data/vector_store/20260424_B01/embeddings.npy	648 KB
+./S@S_Module 4  Experiments/raGROW_S@S/data/vector_store/20260424_B01/index_to_chunk_id.json	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/.~lock.ragGROW_Snapshot.odt#	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/.~lock.raGROW_REFRESHER.odt#	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/logs/rag_logs.db	36 KB
+./S@S_Module 4  Experiments/raGROW_S@S/master_corpus.txt	68 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/build_pipeline.py	8 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/chunking.py	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/employee_state.py	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/generator.py	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/guardrails.py	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/__init__.py	0 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/logger.py	12 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/memory.py	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/mutation_batch.py	12 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/notifications.py	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/__pycache__/build_pipeline.cpython-310.pyc	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/__pycache__/chunking.cpython-310.pyc	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/__pycache__/employee_state.cpython-310.pyc	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/__pycache__/generator.cpython-310.pyc	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/__pycache__/guardrails.cpython-310.pyc	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/__pycache__/__init__.cpython-310.pyc	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/__pycache__/logger.cpython-310.pyc	12 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/__pycache__/mutation_batch.cpython-310.pyc	8 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/__pycache__/notifications.cpython-310.pyc	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/__pycache__/rephrase.cpython-310.pyc	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/__pycache__/retriever.cpython-310.pyc	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/rephrase.py	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/retriever.py	8 KB
+./S@S_Module 4  Experiments/raGROW_S@S/rag_engine/validation.py	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/reference_master_corpus.txt	68 KB
+./S@S_Module 4  Experiments/raGROW_S@S/REFRESH exercise/baseline_150_results.txt	232 KB
+./S@S_Module 4  Experiments/raGROW_S@S/REFRESH exercise/mutation_check_6_results.txt	20 KB
+./S@S_Module 4  Experiments/raGROW_S@S/REFRESH exercise/query_set_150.txt	16 KB
+./S@S_Module 4  Experiments/raGROW_S@S/REFRESH exercise/raGROW_REFRESHER.odt	56 KB
+./S@S_Module 4  Experiments/raGROW_S@S/REFRESH exercise/retrieval_post_mutation.py	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/REFRESH exercise/run_baseline_150.py	4 KB
+./S@S_Module 4  Experiments/raGROW_S@S/REFRESH exercise/Testing_raGROW_MonitorSheet.ods	40 KB
+./S@S_Module 4  Experiments/raGROW_S@S/requirements.txt	4 KB
+./S@S_Module 4  Experiments/Synthetic_Corpus.csv	12 KB
+./S@S_Module 4  Experiments/Synthetic_Corpus.ods	32 KB
+./S@S_Module 5 Experiments/Inputs/20260424_B01/20260424_B01.index	648 KB
+./S@S_Module 5 Experiments/Inputs/20260424_B01/chunk_id_to_metadata.json	64 KB
+./S@S_Module 5 Experiments/Inputs/20260424_B01/embeddings.npy	648 KB
+./S@S_Module 5 Experiments/Inputs/20260424_B01/index_to_chunk_id.json	4 KB
+./S@S_Module 5 Experiments/Inputs/app.py	28 KB
+./S@S_Module 5 Experiments/Inputs/B01_all-MiniLM-L6-v2_embeddings.npy	244 KB
+./S@S_Module 5 Experiments/Inputs/E2_Contrastive_MiniLM_B01_embeddings.npy	244 KB
+./S@S_Module 5 Experiments/Inputs/E3_Triplet_MiniLM_B01_embeddings.npy	244 KB
+./S@S_Module 5 Experiments/Inputs/E4_InfoNCE_MiniLM_B01_embeddings.npy	244 KB
+./S@S_Module 5 Experiments/Inputs/E5_HardNegative_MiniLM_B01_embeddings.npy	244 KB
+./S@S_Module 5 Experiments/Inputs/E6_AngularMargin_MiniLM_B01_embeddings.npy	244 KB
+./S@S_Module 5 Experiments/Inputs/Intervention_Matrix.csv	4 KB
+./S@S_Module 5 Experiments/Inputs/Query_Baseline_Retrieval_B01.csv	12 KB
+./S@S_Module 5 Experiments/Inputs/Query_Synthetic_Corpus.csv	4 KB
+./S@S_Module 5 Experiments/Inputs/Questions_B01_150.csv	16 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/build_pipeline.py	8 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/chunking.py	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/employee_state.py	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/generator.py	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/guardrails.py	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/__init__.py	0 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/logger.py	12 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/memory.py	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/mutation_batch.py	12 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/notifications.py	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/__pycache__/build_pipeline.cpython-310.pyc	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/__pycache__/chunking.cpython-310.pyc	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/__pycache__/employee_state.cpython-310.pyc	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/__pycache__/generator.cpython-310.pyc	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/__pycache__/guardrails.cpython-310.pyc	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/__pycache__/__init__.cpython-310.pyc	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/__pycache__/logger.cpython-310.pyc	12 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/__pycache__/mutation_batch.cpython-310.pyc	8 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/__pycache__/notifications.cpython-310.pyc	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/__pycache__/rephrase.cpython-310.pyc	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/__pycache__/retriever.cpython-310.pyc	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/rephrase.py	4 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/retriever.py	8 KB
+./S@S_Module 5 Experiments/Inputs/rag_engine/validation.py	4 KB
+./S@S_Module 5 Experiments/Inputs/Synthetic_all-MiniLM-L6-v2_embeddings.npy	76 KB
+./S@S_Module 5 Experiments/Inputs/Synthetic_Corpus.csv	12 KB
+./S@S_Module 5 Experiments/Inputs/synthetic_raw_embeddings.npy	404 KB
+./S@S_Module 5 Experiments/Outputs/B01_all-MiniLM-L6-v2_retrieval.csv	348 KB
+./S@S_Module 5 Experiments/Outputs/B01_all-MiniLM-L6-v2_retrieval.ods	152 KB
+./S@S_Module 5 Experiments/Outputs/B01_all-MiniLM-L6-v2_retrieval.txt	500 KB
+./S@S_Module 5 Experiments/Outputs/E2_Contrastive_B01_All150.txt	404 KB
+./S@S_Module 5 Experiments/Outputs/E2_Contrastive_B01_All150.xml	396 KB
+./S@S_Module 5 Experiments/Outputs/E2_Contrastive_B01_Retrieval_Summary.txt	8 KB
+./S@S_Module 5 Experiments/Outputs/E2_Contrastive_MiniLM_B01_retrieval.csv	88 KB
+./S@S_Module 5 Experiments/Outputs/E2_Contrastive_Synthetic_MiniLM_retrieval.txt	52 KB
+./S@S_Module 5 Experiments/Outputs/E3_Triplet_B01_All150.txt	404 KB
+./S@S_Module 5 Experiments/Outputs/E3_Triplet_B01_All150.xml	396 KB
+./S@S_Module 5 Experiments/Outputs/E3_Triplet_B01_Retrieval_Summary.txt	8 KB
+./S@S_Module 5 Experiments/Outputs/E3_Triplet_MiniLM_B01_retrieval.csv	88 KB
+./S@S_Module 5 Experiments/Outputs/E3_Triplet_Synthetic_MiniLM_retrieval.txt	48 KB
+./S@S_Module 5 Experiments/Outputs/E4_InfoNCE_B01_All150.txt	404 KB
+./S@S_Module 5 Experiments/Outputs/E4_InfoNCE_B01_All150.xml	392 KB
+./S@S_Module 5 Experiments/Outputs/E4_InfoNCE_B01_Retrieval_Summary.txt	8 KB
+./S@S_Module 5 Experiments/Outputs/E4_InfoNCE_MiniLM_B01_retrieval.csv	88 KB
+./S@S_Module 5 Experiments/Outputs/E4_InfoNCE_Synthetic_MiniLM_retrieval.txt	52 KB
+./S@S_Module 5 Experiments/Outputs/E5_HardNegative_B01_All150.txt	404 KB
+./S@S_Module 5 Experiments/Outputs/E5_HardNegative_B01_All150.xml	392 KB
+./S@S_Module 5 Experiments/Outputs/E5_HardNegative_B01_Retrieval_Summary.txt	8 KB
+./S@S_Module 5 Experiments/Outputs/E5_HardNegative_MiniLM_B01_retrieval.csv	88 KB
+./S@S_Module 5 Experiments/Outputs/E5_HardNegative_Synthetic_MiniLM_retrieval.txt	48 KB
+./S@S_Module 5 Experiments/Outputs/E6_AngularMargin_B01_All150.txt	408 KB
+./S@S_Module 5 Experiments/Outputs/E6_AngularMargin_B01_All150.xml	396 KB
+./S@S_Module 5 Experiments/Outputs/E6_AngularMargin_B01_Retrieval_Summary.txt	8 KB
+./S@S_Module 5 Experiments/Outputs/E6_AngularMargin_MiniLM_B01_retrieval.csv	88 KB
+./S@S_Module 5 Experiments/Outputs/E6_AngularMargin_Synthetic_MiniLM_retrieval.txt	52 KB
+./S@S_Module 5 Experiments/Outputs/Models/E2_Contrastive_MiniLM/1_Pooling/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E2_Contrastive_MiniLM/2_Normalize/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E2_Contrastive_MiniLM/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E2_Contrastive_MiniLM/config_sentence_transformers.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E2_Contrastive_MiniLM/model.safetensors	88740 KB
+./S@S_Module 5 Experiments/Outputs/Models/E2_Contrastive_MiniLM/modules.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E2_Contrastive_MiniLM/README.md	12 KB
+./S@S_Module 5 Experiments/Outputs/Models/E2_Contrastive_MiniLM/sentence_bert_config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E2_Contrastive_MiniLM/tokenizer_config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E2_Contrastive_MiniLM/tokenizer.json	696 KB
+./S@S_Module 5 Experiments/Outputs/Models/E3_Triplet_MiniLM/1_Pooling/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E3_Triplet_MiniLM/2_Normalize/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E3_Triplet_MiniLM/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E3_Triplet_MiniLM/config_sentence_transformers.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E3_Triplet_MiniLM/model.safetensors	88740 KB
+./S@S_Module 5 Experiments/Outputs/Models/E3_Triplet_MiniLM/modules.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E3_Triplet_MiniLM/README.md	12 KB
+./S@S_Module 5 Experiments/Outputs/Models/E3_Triplet_MiniLM/sentence_bert_config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E3_Triplet_MiniLM/tokenizer_config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E3_Triplet_MiniLM/tokenizer.json	696 KB
+./S@S_Module 5 Experiments/Outputs/Models/E4_InfoNCE_MiniLM/1_Pooling/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E4_InfoNCE_MiniLM/2_Normalize/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E4_InfoNCE_MiniLM/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E4_InfoNCE_MiniLM/config_sentence_transformers.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E4_InfoNCE_MiniLM/model.safetensors	88740 KB
+./S@S_Module 5 Experiments/Outputs/Models/E4_InfoNCE_MiniLM/modules.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E4_InfoNCE_MiniLM/README.md	12 KB
+./S@S_Module 5 Experiments/Outputs/Models/E4_InfoNCE_MiniLM/sentence_bert_config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E4_InfoNCE_MiniLM/tokenizer_config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E4_InfoNCE_MiniLM/tokenizer.json	696 KB
+./S@S_Module 5 Experiments/Outputs/Models/E5_HardNegative_MiniLM/1_Pooling/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E5_HardNegative_MiniLM/2_Normalize/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E5_HardNegative_MiniLM/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E5_HardNegative_MiniLM/config_sentence_transformers.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E5_HardNegative_MiniLM/model.safetensors	88736 KB
+./S@S_Module 5 Experiments/Outputs/Models/E5_HardNegative_MiniLM/modules.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E5_HardNegative_MiniLM/README.md	12 KB
+./S@S_Module 5 Experiments/Outputs/Models/E5_HardNegative_MiniLM/sentence_bert_config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E5_HardNegative_MiniLM/tokenizer_config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E5_HardNegative_MiniLM/tokenizer.json	696 KB
+./S@S_Module 5 Experiments/Outputs/Models/E6_AngularMargin_MiniLM/1_Pooling/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E6_AngularMargin_MiniLM/2_Normalize/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E6_AngularMargin_MiniLM/config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E6_AngularMargin_MiniLM/config_sentence_transformers.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E6_AngularMargin_MiniLM/model.safetensors	88740 KB
+./S@S_Module 5 Experiments/Outputs/Models/E6_AngularMargin_MiniLM/modules.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E6_AngularMargin_MiniLM/README.md	12 KB
+./S@S_Module 5 Experiments/Outputs/Models/E6_AngularMargin_MiniLM/sentence_bert_config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E6_AngularMargin_MiniLM/tokenizer_config.json	4 KB
+./S@S_Module 5 Experiments/Outputs/Models/E6_AngularMargin_MiniLM/tokenizer.json	696 KB
+./S@S_Module 5 Experiments/Outputs/phase1_benchmark_150_retrieval.csv	348 KB
+./S@S_Module 5 Experiments/Outputs/phase1_benchmark_150_retrieval.txt	512 KB
+./S@S_Module 5 Experiments/Outputs/SUMMARY_Module_5.txt	4 KB
+./S@S_Module 5 Experiments/Outputs/Synthetic_all-MiniLM-L6-v2_retrieval.csv	36 KB
+./S@S_Module 5 Experiments/Outputs/Synthetic_all-MiniLM-L6-v2_retrieval.txt	64 KB
+./S@S_Module 5 Experiments/Outputs/synthetic_retrieval.csv	16 KB
+./S@S_Module 5 Experiments/Outputs/synthetic_retrieval.txt	40 KB
+./S@S_Module 5 Experiments/Scripts/create_minilm_embeddings.py	8 KB
+./S@S_Module 5 Experiments/Scripts/create_module5_summary_reports.py	28 KB
+./S@S_Module 5 Experiments/Scripts/run_minilm_retrieval_both.py	32 KB
+./S@S_Module 5 Experiments/Scripts/run_module5_full_outputs.py	28 KB
+./S@S_Module 5 Experiments/Scripts/run_module5_synthetic_retrieval.py	20 KB
+./S@S_Module 5 Experiments/Scripts/run_module5_training.py	28 KB
+./S@S_Module 5 Experiments/Scripts/run_phase1_benchmark.py	8 KB
+./S@S_Module 5 Experiments/Scripts/run_phase1_benchmark_txt.py	12 KB
+./S@S_Module 5 Experiments/Scripts/run_synthetic_retrieval.py	8 KB
+./S@S_Module 5 Experiments/Scripts/run_synthetic_retrieval_txt.py	12 KB
+./S@S_Module 6 Experiments/Codes/phase1_baseline_mxbai.py	16 KB
+./S@S_Module 6 Experiments/Codes/phase2_multivector_representation.py	12 KB
+./S@S_Module 6 Experiments/Codes/phase3_multivector_retrieval.py	12 KB
+./S@S_Module 6 Experiments/Codes/phase4_maxsim_retrieval.py	12 KB
+./S@S_Module 6 Experiments/Data/corpus.json	12 KB
+./S@S_Module 6 Experiments/Data/ground_truth.json	8 KB
+./S@S_Module 6 Experiments/Data/queries.json	4 KB
+./S@S_Module 6 Experiments/downloads/colbertv2.0/artifact.metadata	4 KB
+./S@S_Module 6 Experiments/downloads/colbertv2.0/config.json	4 KB
+./S@S_Module 6 Experiments/downloads/colbertv2.0/pytorch_model.bin	428136 KB
+./S@S_Module 6 Experiments/downloads/colbertv2.0/special_tokens_map.json	4 KB
+./S@S_Module 6 Experiments/downloads/colbertv2.0.tar.gz	396416 KB
+./S@S_Module 6 Experiments/downloads/colbertv2.0/tokenizer_config.json	4 KB
+./S@S_Module 6 Experiments/downloads/colbertv2.0/tokenizer.json	456 KB
+./S@S_Module 6 Experiments/downloads/colbertv2.0/vocab.txt	228 KB
+./S@S_Module 6 Experiments/Outputs/phase1_mxbai_retrieval.csv	20 KB
+./S@S_Module 6 Experiments/Outputs/phase1_mxbai_retrieval.ods	44 KB
+./S@S_Module 6 Experiments/Outputs/phase1_mxbai_retrieval.txt	20 KB
+./S@S_Module 6 Experiments/Outputs/phase2_multivector_metadata.json	72 KB
+./S@S_Module 6 Experiments/Outputs/phase2_multivector_representations.npz	5700 KB
+./S@S_Module 6 Experiments/Outputs/phase2_representation_report.txt	20 KB
+./S@S_Module 6 Experiments/Outputs/phase3_multivector_retrieval.txt	64 KB
+./S@S_Module 6 Experiments/Outputs/phase3_vector_level_matches.csv	120 KB
+./S@S_Module 6 Experiments/Outputs/phase4_maxsim_report.txt	36 KB
+./S@S_Module 6 Experiments/Outputs/phase4_maxsim_scores.csv	52 KB
+./S@S_Module 6 Experiments/Outputs/phase6_colbert_interaction_traces.csv	36 KB
+./S@S_Module 6 Experiments/Outputs/phase6_colbert_top3.csv	4 KB
+./S@S_Module 6 Experiments/Retrieval_Experiments/chunk_corpus.csv	52 KB
+./S@S_Module 6 Experiments/Retrieval_Experiments/Experiment_TFIDF_BM25_with_output.py	32 KB
+./S@S_Module 6 Experiments/Retrieval_Experiments/final_llm_comparison.py	16 KB
+./S@S_Module 6 Experiments/Retrieval_Experiments/input/corpus.json	12 KB
+./S@S_Module 6 Experiments/Retrieval_Experiments/input/queries.json	4 KB
+./S@S_Module 6 Experiments/Retrieval_Experiments/Misc_experiments/Experiment_BM25_finetuned.py	4 KB
+./S@S_Module 6 Experiments/Retrieval_Experiments/Misc_experiments/Experiment_BM25.py	4 KB
+./S@S_Module 6 Experiments/Retrieval_Experiments/Misc_experiments/Experiment_vector_search.py	4 KB
+./S@S_Module 6 Experiments/Retrieval_Experiments/output/final_llm_response_comparison.txt	20 KB
+./S@S_Module 6 Experiments/Retrieval_Experiments/output/phase1_mxbai_retrieval.csv	20 KB
+./S@S_Module 6 Experiments/Retrieval_Experiments/output/phase4_maxsim_scores.csv	52 KB
+./S@S_Module 6 Experiments/Retrieval_Experiments/output/phase6_colbert_top3.csv	4 KB
+./S@S_Module 6 Experiments/Retrieval_Experiments/Phase1_TFIDF_BM25_RawOutput.txt	24 KB
+./S@S_Module 6 Experiments/Retrieval_Experiments/__pycache__/Experiment_vector_search.cpython-310.pyc	4 KB
+./S@S_Module 7 Experiments /Codes/Experiment1_mxai_tsne_umap.py	8 KB
+./S@S_Module 7 Experiments /Codes/Experiment2_Newsgroup_baseline.py	4 KB
+./S@S_Module 7 Experiments /Codes/Experiment2_Newsgroup_dataset_download.py	4 KB
+./S@S_Module 7 Experiments /Codes/Experiment2_Newsgroup_embeddings.py	4 KB
+./S@S_Module 7 Experiments /Codes/Experiment2_Newsgroup_tsne_4groups_deeperview.py	4 KB
+./S@S_Module 7 Experiments /Codes/Experiment2_Newsgroup_tsne_comparison.py	4 KB
+./S@S_Module 7 Experiments /Codes/Experiment2_Newsgroup_tsne_umap_final_comparison.py	8 KB
+./S@S_Module 7 Experiments /Codes/Experiment2_Newsgroup_tsne_umap.py	4 KB
+./S@S_Module 7 Experiments /Codes/Experiment2_Newsgroup_umap_isolated_region.py	8 KB
+./S@S_Module 7 Experiments /Codes/Experiment2_Newsgroup_umap_three_views.py	8 KB
+./S@S_Module 7 Experiments /Codes/Experiment3_GoogleTaxonomy_download.py	4 KB
+./S@S_Module 7 Experiments /Codes/Experiment3_GoogleTaxonomy_inspection.py	12 KB
+./S@S_Module 7 Experiments /Codes/Experiment3_GoogleTaxonomy_poincare_inspect_paths.py	12 KB
+./S@S_Module 7 Experiments /Codes/Experiment3_GoogleTaxonomy_poincare_train.py	16 KB
+./S@S_Module 7 Experiments /Codes/Experiment3_GoogleTaxonomy_poincare_validate.py	20 KB
+./S@S_Module 7 Experiments /Codes/Experiment3_GoogleTaxonomy_prepare_hierarchy.py	8 KB
+./S@S_Module 7 Experiments /Codes/Experiment4A_DeepWalk_coverage.py	12 KB
+./S@S_Module 7 Experiments /Codes/Experiment4A_DeepWalk_train.py	16 KB
+./S@S_Module 7 Experiments /Codes/Experiment4A_DeepWalk_validate_2hop.py	12 KB
+./S@S_Module 7 Experiments /Codes/Experiment4A_DeepWalk_validate.py	8 KB
+./S@S_Module 7 Experiments /Codes/Experiment4_AmazonGraph_inspection.py	8 KB
+./S@S_Module 7 Experiments /Codes/Experiment4A_Node2Vec_train_N2V3_only.py	24 KB
+./S@S_Module 7 Experiments /Codes/Experiment4A_Node2Vec_train.py	24 KB
+./S@S_Module 7 Experiments /Codes/Experiment4A_Node2Vec_validate_all.py	16 KB
+./S@S_Module 7 Experiments /Codes/Experiment4_compare_communities_2_3.py	4 KB
+./S@S_Module 7 Experiments /Codes/Experiment4_inspect_community2_categories.py	4 KB
+./S@S_Module 7 Experiments /Codes/Experiment4_investigate_296858.py	4 KB
+./S@S_Module 7 Experiments /Data/experiment1_corpus.json	12 KB
+./S@S_Module 7 Experiments /Data/experiment1_queries.json	4 KB
+./S@S_Module 7 Experiments /Data/experiment2_newsgroup_embeddings.npy	9376 KB
+./S@S_Module 7 Experiments /Data/experiment2_newsgroup_metadata.json	216 KB
+./S@S_Module 7 Experiments /Data/experiment2_newsgroups.json	2152 KB
+./S@S_Module 7 Experiments /Data/experiment2_newsgroup_umap_isolated_region.json	16 KB
+./S@S_Module 7 Experiments /Data/experiment3_google_taxonomy_hierarchy.json	1316 KB
+./S@S_Module 7 Experiments /Data/experiment3_google_taxonomy_poincare_embeddings.npy	220 KB
+./S@S_Module 7 Experiments /Data/experiment3_google_taxonomy_poincare_metadata.json	1236 KB
+./S@S_Module 7 Experiments /Data/experiment3_google_taxonomy_poincare_validation.json	12 KB
+./S@S_Module 7 Experiments /Data/experiment4/amazon_product_categories.txt	19300 KB
+./S@S_Module 7 Experiments /Data/experiment4/com-amazon.all.dedup.cmty.txt.gz	5404 KB
+./S@S_Module 7 Experiments /Data/experiment4/com-amazon.top5000.cmty.txt.gz	144 KB
+./S@S_Module 7 Experiments /Data/experiment4/com-amazon.ungraph.txt.gz	4396 KB
+./S@S_Module 7 Experiments /Data/experiment4/deepwalk/experiment4A_deepwalk_2hop_validation.json	4 KB
+./S@S_Module 7 Experiments /Data/experiment4/deepwalk/experiment4A_deepwalk_coverage.json	4 KB
+./S@S_Module 7 Experiments /Data/experiment4/deepwalk/experiment4A_deepwalk_embeddings.npy	167436 KB
+./S@S_Module 7 Experiments /Data/experiment4/deepwalk/experiment4A_deepwalk_metadata.json	3860 KB
+./S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_N2V-1_coverage.json	4 KB
+./S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_N2V-1_embeddings.npy	167436 KB
+./S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_N2V-1_metadata.json	3860 KB
+./S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_N2V-2_coverage.json	4 KB
+./S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_N2V-2_embeddings.npy	167436 KB
+./S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_N2V-2_metadata.json	3860 KB
+./S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_N2V-3_coverage.json	4 KB
+./S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_N2V-3_coverage_original.json	4 KB
+./S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_N2V-3_embeddings.npy	167436 KB
+./S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_N2V-3_metadata.json	3860 KB
+./S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_Node2Vec_registry.json	4 KB
+./S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_Node2Vec_validation_all.json	4 KB
+./S@S_Module 7 Experiments /Data/google_product_taxonomy.txt	472 KB
+./S@S_Module 7 Experiments /Outputs/experiment1_mxbaI_tsne_umap.png	480 KB
+./S@S_Module 7 Experiments /Outputs/experiment2_mxbaI_tsne_umap_sample2.png	112 KB
+./S@S_Module 7 Experiments /Outputs/experiment2_newsgroup_tsne_comparison.png	668 KB
+./S@S_Module 7 Experiments /Outputs/experiment2_newsgroup_tsne_umap_final_comparison.png	1232 KB
+./S@S_Module 7 Experiments /Outputs/experiment2_newsgroup_tsne_umap.png	556 KB
+./S@S_Module 7 Experiments /Outputs/experiment2_newsgroup_umap_categorized.png	396 KB
+./S@S_Module 7 Experiments /Outputs/experiment2_newsgroup_umap_original_vs_isolated.png	308 KB
+./S@S_Module 7 Experiments /Outputs/experiment2_newsgroup_umap_three_views.png	600 KB
+./S@S_Module 7 Experiments /Outputs/experiment2_tSNE_4groups_deeperview_REAL.png	1152 KB
+./S@S_Module 7 Experiments /Outputs/.~lock.phase1_mxbai_retrieval.ods#	4 KB
+./S@S_Module 8 Experiments/Experiment_1/datasets/scifact/corpus.jsonl	7920 KB
+./S@S_Module 8 Experiments/Experiment_1/datasets/scifact/qrels/test.tsv	8 KB
+./S@S_Module 8 Experiments/Experiment_1/datasets/scifact/qrels/train.tsv	16 KB
+./S@S_Module 8 Experiments/Experiment_1/datasets/scifact/queries.jsonl	208 KB
+./S@S_Module 8 Experiments/Experiment_1/datasets/scifact.zip	2752 KB
+./S@S_Module 8 Experiments/Experiment_1/download_scifact.py	4 KB
+./S@S_Module 8 Experiments/Experiment_1/embeddings/corpus_embeddings.npy	20736 KB
+./S@S_Module 8 Experiments/Experiment_1/embeddings/corpus_ids.json	60 KB
+./S@S_Module 8 Experiments/Experiment_1/inspect_scifact.py	4 KB
+./S@S_Module 8 Experiments/Experiment_1/json_to_csv.py	4 KB
+./S@S_Module 8 Experiments/Experiment_1/results/selected_queries.json	4 KB
+./S@S_Module 8 Experiments/Experiment_1/results/top5_results.csv	84 KB
+./S@S_Module 8 Experiments/Experiment_1/results/top5_results.json	84 KB
+./S@S_Module 8 Experiments/Experiment_1/results/top5_results.ods	56 KB
+./S@S_Module 8 Experiments/Experiment_1/run_retrieval.py	12 KB
+./S@S_Module 8 Experiments/Experiment_1/select_queries.py	4 KB
+./S@S_Module Zero Experiments/20260424_B01/20260424_B01.index	648 KB
+./S@S_Module Zero Experiments/20260424_B01/chunk_id_to_metadata.json	64 KB
+./S@S_Module Zero Experiments/20260424_B01/embeddings.npy	648 KB
+./S@S_Module Zero Experiments/20260424_B01/index_to_chunk_id.json	4 KB
+./S@S_Module Zero Experiments/phase1_benchmark_249.csv	172 KB
+./S@S_Module Zero Experiments/phase1_benchmark_249.ods	76 KB
+./S@S_Module Zero Experiments/raGROW_S@S/app.py	28 KB
+./S@S_Module Zero Experiments/raGROW_S@S/Codes/Top3_retrievals_150.py	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/data/master_corpus_BASELINE.txt	68 KB
+./S@S_Module Zero Experiments/raGROW_S@S/data/master_corpus.txt	68 KB
+./S@S_Module Zero Experiments/raGROW_S@S/data/reference_master_corpus.txt	68 KB
+./S@S_Module Zero Experiments/raGROW_S@S/data/vector_store/20260424_B01/20260424_B01.index	648 KB
+./S@S_Module Zero Experiments/raGROW_S@S/data/vector_store/20260424_B01/chunk_id_to_metadata.json	64 KB
+./S@S_Module Zero Experiments/raGROW_S@S/data/vector_store/20260424_B01/embeddings.npy	648 KB
+./S@S_Module Zero Experiments/raGROW_S@S/data/vector_store/20260424_B01/index_to_chunk_id.json	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/.~lock.ragGROW_Snapshot.odt#	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/.~lock.raGROW_REFRESHER.odt#	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/logs/rag_logs.db	36 KB
+./S@S_Module Zero Experiments/raGROW_S@S/master_corpus.txt	68 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/build_pipeline.py	8 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/chunking.py	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/employee_state.py	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/generator.py	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/guardrails.py	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/__init__.py	0 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/logger.py	12 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/memory.py	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/mutation_batch.py	12 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/notifications.py	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/__pycache__/build_pipeline.cpython-310.pyc	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/__pycache__/chunking.cpython-310.pyc	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/__pycache__/employee_state.cpython-310.pyc	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/__pycache__/generator.cpython-310.pyc	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/__pycache__/guardrails.cpython-310.pyc	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/__pycache__/__init__.cpython-310.pyc	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/__pycache__/logger.cpython-310.pyc	12 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/__pycache__/mutation_batch.cpython-310.pyc	8 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/__pycache__/notifications.cpython-310.pyc	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/__pycache__/rephrase.cpython-310.pyc	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/__pycache__/retriever.cpython-310.pyc	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/rephrase.py	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/retriever.py	8 KB
+./S@S_Module Zero Experiments/raGROW_S@S/rag_engine/validation.py	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/reference_master_corpus.txt	68 KB
+./S@S_Module Zero Experiments/raGROW_S@S/REFRESH exercise/baseline_150_results.txt	232 KB
+./S@S_Module Zero Experiments/raGROW_S@S/REFRESH exercise/mutation_check_6_results.txt	20 KB
+./S@S_Module Zero Experiments/raGROW_S@S/REFRESH exercise/query_set_150.txt	16 KB
+./S@S_Module Zero Experiments/raGROW_S@S/REFRESH exercise/raGROW_REFRESHER.odt	56 KB
+./S@S_Module Zero Experiments/raGROW_S@S/REFRESH exercise/retrieval_post_mutation.py	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/REFRESH exercise/run_baseline_150.py	4 KB
+./S@S_Module Zero Experiments/raGROW_S@S/REFRESH exercise/Testing_raGROW_MonitorSheet.ods	40 KB
+./S@S_Module Zero Experiments/raGROW_S@S/requirements.txt	4 KB

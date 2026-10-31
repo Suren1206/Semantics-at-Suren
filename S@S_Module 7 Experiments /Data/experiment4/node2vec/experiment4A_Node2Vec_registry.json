@@ -1,0 +1,25 @@
+{
+  "experiment": "Experiment 4A \u2014 Node2Vec",
+  "graph": "/home/surendran/LangChain/Semantics@Suren/S@S_Module 7 Experiments /Data/experiment4/com-amazon.ungraph.txt.gz",
+  "common_configuration": {
+    "embedding_dimension": 128,
+    "walks_per_node": 5,
+    "walk_length": 20,
+    "context_window": 5,
+    "negative_samples": 5,
+    "epochs": 3,
+    "random_seed": 42,
+    "workers": 8
+  },
+  "configurations": [
+    {
+      "configuration": "N2V-3",
+      "p": 4.0,
+      "q": 0.25,
+      "description": "outward-biased",
+      "embedding_file": "/home/surendran/LangChain/Semantics@Suren/S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_N2V-3_embeddings.npy",
+      "metadata_file": "/home/surendran/LangChain/Semantics@Suren/S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_N2V-3_metadata.json",
+      "coverage_file": "/home/surendran/LangChain/Semantics@Suren/S@S_Module 7 Experiments /Data/experiment4/node2vec/experiment4A_N2V-3_coverage.json"
+    }
+  ]
+}

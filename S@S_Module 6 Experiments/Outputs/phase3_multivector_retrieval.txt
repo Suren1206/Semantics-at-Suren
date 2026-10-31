@@ -1,0 +1,1508 @@
+PHASE 3 — SIMPLE MULTI-VECTOR RETRIEVAL
+
+Purpose:
+Identify the closest corpus sub-vectors for each query sub-vector.
+
+Representation:
+Query  -> multiple contextual vectors
+Chunk  -> multiple contextual vectors
+
+Retrieval:
+Each query vector is compared against every corpus vector using cosine similarity.
+
+Important:
+No MaxSim is used.
+No chunk-level aggregation is used.
+No query-level aggregation is used.
+Parent chunk IDs are retained only as provenance.
+
+Top individual vector matches retained per query vector: 5
+
+
+======================================================================
+Q01: How many annual leave days can I carry over into next year?
+======================================================================
+
+Query vector: V01354
+Query token : ▁How
+  1. V00056 | token=▁into | parent=C02 | cosine=0.831329
+  2. V00053 | token=▁annual | parent=C02 | cosine=0.830787
+  3. V00045 | token=▁may | parent=C02 | cosine=0.827741
+  4. V00075 | token=▁will | parent=C02 | cosine=0.827073
+  5. V00044 | token=es | parent=C02 | cosine=0.822442
+
+Query vector: V01355
+Query token : ▁many
+  1. V00055 | token=▁days | parent=C02 | cosine=0.830788
+  2. V00056 | token=▁into | parent=C02 | cosine=0.830072
+  3. V00008 | token=▁days | parent=C01 | cosine=0.824141
+  4. V00053 | token=▁annual | parent=C02 | cosine=0.822635
+  5. V00058 | token=▁following | parent=C02 | cosine=0.819617
+
+Query vector: V01356
+Query token : ▁annual
+  1. V00053 | token=▁annual | parent=C02 | cosine=0.907568
+  2. V00125 | token=▁annual | parent=C04 | cosine=0.889951
+  3. V00265 | token=▁annual | parent=C08 | cosine=0.887071
+  4. V00010 | token=▁annual | parent=C01 | cosine=0.886382
+  5. V00157 | token=▁annual | parent=C05 | cosine=0.875866
+
+Query vector: V01357
+Query token : ▁leave
+  1. V00054 | token=▁leave | parent=C02 | cosine=0.918202
+  2. V00126 | token=▁leave | parent=C04 | cosine=0.902541
+  3. V00011 | token=▁leave | parent=C01 | cosine=0.893873
+  4. V00266 | token=▁leave | parent=C08 | cosine=0.893297
+  5. V00121 | token=▁leave | parent=C03 | cosine=0.892537
+
+Query vector: V01358
+Query token : ▁days
+  1. V00055 | token=▁days | parent=C02 | cosine=0.912563
+  2. V00008 | token=▁days | parent=C01 | cosine=0.887963
+  3. V00169 | token=▁days | parent=C05 | cosine=0.850538
+  4. V00016 | token=▁year | parent=C01 | cosine=0.828117
+  5. V00053 | token=▁annual | parent=C02 | cosine=0.821950
+
+Query vector: V01359
+Query token : ▁can
+  1. V00045 | token=▁may | parent=C02 | cosine=0.864216
+  2. V00056 | token=▁into | parent=C02 | cosine=0.846741
+  3. V00075 | token=▁will | parent=C02 | cosine=0.843021
+  4. V00044 | token=es | parent=C02 | cosine=0.837190
+  5. V00053 | token=▁annual | parent=C02 | cosine=0.834754
+
+Query vector: V01360
+Query token : ▁I
+  1. V00044 | token=es | parent=C02 | cosine=0.855010
+  2. V00150 | token=. | parent=C04 | cosine=0.847631
+  3. V00122 | token=. | parent=C03 | cosine=0.838794
+  4. V00061 | token=. | parent=C02 | cosine=0.838084
+  5. V00101 | token=. | parent=C03 | cosine=0.837831
+
+Query vector: V01361
+Query token : ▁carry
+  1. V00046 | token=▁carry | parent=C02 | cosine=0.888567
+  2. V00070 | token=▁carry | parent=C02 | cosine=0.872150
+  3. V00132 | token=▁carry | parent=C04 | cosine=0.848113
+  4. V00056 | token=▁into | parent=C02 | cosine=0.839970
+  5. V00047 | token=▁forward | parent=C02 | cosine=0.839249
+
+Query vector: V01362
+Query token : ▁over
+  1. V00058 | token=▁following | parent=C02 | cosine=0.834997
+  2. V00056 | token=▁into | parent=C02 | cosine=0.833930
+  3. V00047 | token=▁forward | parent=C02 | cosine=0.829007
+  4. V00066 | token=▁above | parent=C02 | cosine=0.827206
+  5. V00073 | token=ward | parent=C02 | cosine=0.813775
+
+Query vector: V01363
+Query token : ▁into
+  1. V00056 | token=▁into | parent=C02 | cosine=0.882651
+  2. V00058 | token=▁following | parent=C02 | cosine=0.856059
+  3. V00060 | token=▁year | parent=C02 | cosine=0.825225
+  4. V00080 | token=▁year | parent=C02 | cosine=0.823953
+  5. V00047 | token=▁forward | parent=C02 | cosine=0.823100
+
+Query vector: V01364
+Query token : ▁next
+  1. V00058 | token=▁following | parent=C02 | cosine=0.899702
+  2. V00060 | token=▁year | parent=C02 | cosine=0.834757
+  3. V00315 | token=▁Future | parent=C09 | cosine=0.828145
+  4. V00080 | token=▁year | parent=C02 | cosine=0.825478
+  5. V00053 | token=▁annual | parent=C02 | cosine=0.819849
+
+Query vector: V01365
+Query token : ▁year
+  1. V00060 | token=▁year | parent=C02 | cosine=0.907731
+  2. V00080 | token=▁year | parent=C02 | cosine=0.894577
+  3. V00093 | token=▁year | parent=C03 | cosine=0.874529
+  4. V00259 | token=▁year | parent=C08 | cosine=0.868787
+  5. V00016 | token=▁year | parent=C01 | cosine=0.862016
+
+Query vector: V01366
+Query token : ?
+  1. V00276 | token=. | parent=C08 | cosine=0.847299
+  2. V00061 | token=. | parent=C02 | cosine=0.845607
+  3. V00101 | token=. | parent=C03 | cosine=0.842734
+  4. V00019 | token=. | parent=C01 | cosine=0.842286
+  5. V00044 | token=es | parent=C02 | cosine=0.837313
+
+======================================================================
+Q02: What happens to unused vacation at the end of the year?
+======================================================================
+
+Query vector: V01367
+Query token : ▁What
+  1. V00314 | token=. | parent=C09 | cosine=0.806547
+  2. V00294 | token=, | parent=C09 | cosine=0.801913
+  3. V00139 | token=ly | parent=C04 | cosine=0.795523
+  4. V00318 | token=▁is | parent=C09 | cosine=0.792961
+  5. V00302 | token=▁is | parent=C09 | cosine=0.792948
+
+Query vector: V01368
+Query token : ▁happens
+  1. V00302 | token=▁is | parent=C09 | cosine=0.799979
+  2. V00318 | token=▁is | parent=C09 | cosine=0.799204
+  3. V00314 | token=. | parent=C09 | cosine=0.797936
+  4. V00294 | token=, | parent=C09 | cosine=0.796474
+  5. V00293 | token=s | parent=C09 | cosine=0.795467
+
+Query vector: V01369
+Query token : ▁to
+  1. V00128 | token=ing | parent=C04 | cosine=0.800327
+  2. V00299 | token=ed | parent=C09 | cosine=0.796681
+  3. V00129 | token=▁the | parent=C04 | cosine=0.789845
+  4. V00077 | token=ly | parent=C02 | cosine=0.787458
+  5. V00139 | token=ly | parent=C04 | cosine=0.787339
+
+Query vector: V01370
+Query token : ▁un
+  1. V00295 | token=▁un | parent=C09 | cosine=0.872702
+  2. V00123 | token=▁Un | parent=C04 | cosine=0.866029
+  3. V00051 | token=▁un | parent=C02 | cosine=0.852332
+  4. V00063 | token=▁un | parent=C02 | cosine=0.846324
+  5. V00296 | token=used | parent=C09 | cosine=0.814443
+
+Query vector: V01371
+Query token : used
+  1. V00296 | token=used | parent=C09 | cosine=0.872576
+  2. V00124 | token=used | parent=C04 | cosine=0.870636
+  3. V00052 | token=used | parent=C02 | cosine=0.857911
+  4. V00064 | token=used | parent=C02 | cosine=0.855167
+  5. V00345 | token=used | parent=C10 | cosine=0.820670
+
+Query vector: V01372
+Query token : ▁vacation
+  1. V00126 | token=▁leave | parent=C04 | cosine=0.810257
+  2. V00317 | token=▁leave | parent=C09 | cosine=0.799308
+  3. V00054 | token=▁leave | parent=C02 | cosine=0.792439
+  4. V00124 | token=used | parent=C04 | cosine=0.790300
+  5. V00301 | token=▁leave | parent=C09 | cosine=0.787519
+
+Query vector: V01373
+Query token : ▁at
+  1. V00079 | token=▁at | parent=C02 | cosine=0.817078
+  2. V00128 | token=ing | parent=C04 | cosine=0.810257
+  3. V00139 | token=ly | parent=C04 | cosine=0.807578
+  4. V00077 | token=ly | parent=C02 | cosine=0.804045
+  5. V00299 | token=ed | parent=C09 | cosine=0.802326
+
+Query vector: V01374
+Query token : ▁the
+  1. V00128 | token=ing | parent=C04 | cosine=0.806202
+  2. V00129 | token=▁the | parent=C04 | cosine=0.804301
+  3. V00299 | token=ed | parent=C09 | cosine=0.803950
+  4. V00077 | token=ly | parent=C02 | cosine=0.803566
+  5. V00139 | token=ly | parent=C04 | cosine=0.799343
+
+Query vector: V01375
+Query token : ▁end
+  1. V00081 | token=▁end | parent=C02 | cosine=0.844475
+  2. V00292 | token=▁end | parent=C09 | cosine=0.831001
+  3. V00293 | token=s | parent=C09 | cosine=0.798823
+  4. V00296 | token=used | parent=C09 | cosine=0.772802
+  5. V00142 | token=▁31 | parent=C04 | cosine=0.771584
+
+Query vector: V01376
+Query token : ▁of
+  1. V00080 | token=▁year | parent=C02 | cosine=0.801959
+  2. V00079 | token=▁at | parent=C02 | cosine=0.796517
+  3. V00139 | token=ly | parent=C04 | cosine=0.795221
+  4. V00060 | token=▁year | parent=C02 | cosine=0.791175
+  5. V00128 | token=ing | parent=C04 | cosine=0.790382
+
+Query vector: V01377
+Query token : ▁the
+  1. V00080 | token=▁year | parent=C02 | cosine=0.806171
+  2. V00117 | token=▁their | parent=C03 | cosine=0.798621
+  3. V00096 | token=▁it | parent=C03 | cosine=0.795520
+  4. V00129 | token=▁the | parent=C04 | cosine=0.794973
+  5. V00060 | token=▁year | parent=C02 | cosine=0.794947
+
+Query vector: V01378
+Query token : ▁year
+  1. V00080 | token=▁year | parent=C02 | cosine=0.856355
+  2. V00060 | token=▁year | parent=C02 | cosine=0.851924
+  3. V00093 | token=▁year | parent=C03 | cosine=0.848383
+  4. V00259 | token=▁year | parent=C08 | cosine=0.836643
+  5. V00300 | token=▁annual | parent=C09 | cosine=0.808270
+
+Query vector: V01379
+Query token : ?
+  1. V00314 | token=. | parent=C09 | cosine=0.804301
+  2. V00150 | token=. | parent=C04 | cosine=0.785126
+  3. V00294 | token=, | parent=C09 | cosine=0.783837
+  4. V00101 | token=. | parent=C03 | cosine=0.778119
+  5. V00061 | token=. | parent=C02 | cosine=0.775173
+
+======================================================================
+Q03: Can I take my unused leave into the following year, and what is the limit?
+======================================================================
+
+Query vector: V01380
+Query token : ▁Can
+  1. V00045 | token=▁may | parent=C02 | cosine=0.868111
+  2. V00068 | token=▁permit | parent=C02 | cosine=0.844964
+  3. V00069 | token=ted | parent=C02 | cosine=0.841696
+  4. V00044 | token=es | parent=C02 | cosine=0.838210
+  5. V00056 | token=▁into | parent=C02 | cosine=0.835956
+
+Query vector: V01381
+Query token : ▁I
+  1. V00044 | token=es | parent=C02 | cosine=0.860573
+  2. V00045 | token=▁may | parent=C02 | cosine=0.856975
+  3. V00056 | token=▁into | parent=C02 | cosine=0.842953
+  4. V00077 | token=ly | parent=C02 | cosine=0.840514
+  5. V00069 | token=ted | parent=C02 | cosine=0.837948
+
+Query vector: V01382
+Query token : ▁take
+  1. V00056 | token=▁into | parent=C02 | cosine=0.853700
+  2. V00045 | token=▁may | parent=C02 | cosine=0.840239
+  3. V00052 | token=used | parent=C02 | cosine=0.833337
+  4. V00064 | token=used | parent=C02 | cosine=0.832848
+  5. V00058 | token=▁following | parent=C02 | cosine=0.830727
+
+Query vector: V01383
+Query token : ▁my
+  1. V00044 | token=es | parent=C02 | cosine=0.857337
+  2. V00077 | token=ly | parent=C02 | cosine=0.850891
+  3. V00067 | token=▁the | parent=C02 | cosine=0.846514
+  4. V00056 | token=▁into | parent=C02 | cosine=0.844912
+  5. V00129 | token=▁the | parent=C04 | cosine=0.843721
+
+Query vector: V01384
+Query token : ▁un
+  1. V00051 | token=▁un | parent=C02 | cosine=0.895847
+  2. V00295 | token=▁un | parent=C09 | cosine=0.889549
+  3. V00063 | token=▁un | parent=C02 | cosine=0.888992
+  4. V00123 | token=▁Un | parent=C04 | cosine=0.887728
+  5. V00344 | token=▁un | parent=C10 | cosine=0.832655
+
+Query vector: V01385
+Query token : used
+  1. V00064 | token=used | parent=C02 | cosine=0.907602
+  2. V00052 | token=used | parent=C02 | cosine=0.907442
+  3. V00124 | token=used | parent=C04 | cosine=0.900769
+  4. V00296 | token=used | parent=C09 | cosine=0.891703
+  5. V00345 | token=used | parent=C10 | cosine=0.842333
+
+Query vector: V01386
+Query token : ▁leave
+  1. V00054 | token=▁leave | parent=C02 | cosine=0.915266
+  2. V00126 | token=▁leave | parent=C04 | cosine=0.907642
+  3. V00317 | token=▁leave | parent=C09 | cosine=0.891593
+  4. V00301 | token=▁leave | parent=C09 | cosine=0.889597
+  5. V00121 | token=▁leave | parent=C03 | cosine=0.882680
+
+Query vector: V01387
+Query token : ▁into
+  1. V00056 | token=▁into | parent=C02 | cosine=0.885265
+  2. V00058 | token=▁following | parent=C02 | cosine=0.844171
+  3. V00060 | token=▁year | parent=C02 | cosine=0.833086
+  4. V00080 | token=▁year | parent=C02 | cosine=0.828187
+  5. V00045 | token=▁may | parent=C02 | cosine=0.825659
+
+Query vector: V01388
+Query token : ▁the
+  1. V00077 | token=ly | parent=C02 | cosine=0.844661
+  2. V00058 | token=▁following | parent=C02 | cosine=0.844614
+  3. V00056 | token=▁into | parent=C02 | cosine=0.844532
+  4. V00060 | token=▁year | parent=C02 | cosine=0.843664
+  5. V00067 | token=▁the | parent=C02 | cosine=0.837810
+
+Query vector: V01389
+Query token : ▁following
+  1. V00058 | token=▁following | parent=C02 | cosine=0.910719
+  2. V00060 | token=▁year | parent=C02 | cosine=0.832119
+  3. V00315 | token=▁Future | parent=C09 | cosine=0.828222
+  4. V00080 | token=▁year | parent=C02 | cosine=0.818437
+  5. V00056 | token=▁into | parent=C02 | cosine=0.817613
+
+Query vector: V01390
+Query token : ▁year
+  1. V00060 | token=▁year | parent=C02 | cosine=0.913482
+  2. V00080 | token=▁year | parent=C02 | cosine=0.895632
+  3. V00093 | token=▁year | parent=C03 | cosine=0.865563
+  4. V00259 | token=▁year | parent=C08 | cosine=0.860786
+  5. V00058 | token=▁following | parent=C02 | cosine=0.837871
+
+Query vector: V01391
+Query token : ,
+  1. V00061 | token=. | parent=C02 | cosine=0.861092
+  2. V00044 | token=es | parent=C02 | cosine=0.852522
+  3. V00082 | token=. | parent=C02 | cosine=0.852098
+  4. V00150 | token=. | parent=C04 | cosine=0.849051
+  5. V00276 | token=. | parent=C08 | cosine=0.838154
+
+Query vector: V01392
+Query token : ▁and
+  1. V00057 | token=▁the | parent=C02 | cosine=0.822745
+  2. V00314 | token=. | parent=C09 | cosine=0.821909
+  3. V00044 | token=es | parent=C02 | cosine=0.820445
+  4. V00061 | token=. | parent=C02 | cosine=0.819371
+  5. V00310 | token=▁and | parent=C09 | cosine=0.813824
+
+Query vector: V01393
+Query token : ▁what
+  1. V00045 | token=▁may | parent=C02 | cosine=0.839837
+  2. V00044 | token=es | parent=C02 | cosine=0.833304
+  3. V00075 | token=▁will | parent=C02 | cosine=0.828557
+  4. V00056 | token=▁into | parent=C02 | cosine=0.827799
+  5. V00069 | token=ted | parent=C02 | cosine=0.826198
+
+Query vector: V01394
+Query token : ▁is
+  1. V00045 | token=▁may | parent=C02 | cosine=0.840133
+  2. V00044 | token=es | parent=C02 | cosine=0.837542
+  3. V00077 | token=ly | parent=C02 | cosine=0.833714
+  4. V00069 | token=ted | parent=C02 | cosine=0.831999
+  5. V00075 | token=▁will | parent=C02 | cosine=0.830284
+
+Query vector: V01395
+Query token : ▁the
+  1. V00045 | token=▁may | parent=C02 | cosine=0.849837
+  2. V00069 | token=ted | parent=C02 | cosine=0.846160
+  3. V00074 | token=▁limit | parent=C02 | cosine=0.841564
+  4. V00129 | token=▁the | parent=C04 | cosine=0.840914
+  5. V00131 | token=ted | parent=C04 | cosine=0.832911
+
+Query vector: V01396
+Query token : ▁limit
+  1. V00074 | token=▁limit | parent=C02 | cosine=0.906666
+  2. V00068 | token=▁permit | parent=C02 | cosine=0.836896
+  3. V00045 | token=▁may | parent=C02 | cosine=0.833229
+  4. V00069 | token=ted | parent=C02 | cosine=0.825335
+  5. V00130 | token=▁permit | parent=C04 | cosine=0.821925
+
+Query vector: V01397
+Query token : ?
+  1. V00061 | token=. | parent=C02 | cosine=0.854029
+  2. V00044 | token=es | parent=C02 | cosine=0.844441
+  3. V00314 | token=. | parent=C09 | cosine=0.842535
+  4. V00150 | token=. | parent=C04 | cosine=0.839347
+  5. V00276 | token=. | parent=C08 | cosine=0.837697
+
+======================================================================
+Q04: What is the rule for carrying forward five unused days of annual leave?
+======================================================================
+
+Query vector: V01398
+Query token : ▁What
+  1. V00050 | token=▁5 | parent=C02 | cosine=0.820950
+  2. V00075 | token=▁will | parent=C02 | cosine=0.815284
+  3. V00079 | token=▁at | parent=C02 | cosine=0.807959
+  4. V00057 | token=▁the | parent=C02 | cosine=0.806856
+  5. V00062 | token=▁Any | parent=C02 | cosine=0.804264
+
+Query vector: V01399
+Query token : ▁is
+  1. V00050 | token=▁5 | parent=C02 | cosine=0.817609
+  2. V00075 | token=▁will | parent=C02 | cosine=0.812022
+  3. V00079 | token=▁at | parent=C02 | cosine=0.809234
+  4. V00057 | token=▁the | parent=C02 | cosine=0.808296
+  5. V00044 | token=es | parent=C02 | cosine=0.803334
+
+Query vector: V01400
+Query token : ▁the
+  1. V00075 | token=▁will | parent=C02 | cosine=0.829678
+  2. V00077 | token=ly | parent=C02 | cosine=0.823227
+  3. V00079 | token=▁at | parent=C02 | cosine=0.822658
+  4. V00044 | token=es | parent=C02 | cosine=0.818215
+  5. V00050 | token=▁5 | parent=C02 | cosine=0.815002
+
+Query vector: V01401
+Query token : ▁rule
+  1. V00288 | token=▁rules | parent=C08 | cosine=0.827537
+  2. V00076 | token=▁normal | parent=C02 | cosine=0.800376
+  3. V00075 | token=▁will | parent=C02 | cosine=0.797637
+  4. V00055 | token=▁days | parent=C02 | cosine=0.796860
+  5. V00074 | token=▁limit | parent=C02 | cosine=0.791848
+
+Query vector: V01402
+Query token : ▁for
+  1. V00075 | token=▁will | parent=C02 | cosine=0.825283
+  2. V00050 | token=▁5 | parent=C02 | cosine=0.825070
+  3. V00079 | token=▁at | parent=C02 | cosine=0.817788
+  4. V00044 | token=es | parent=C02 | cosine=0.810537
+  5. V00071 | token=- | parent=C02 | cosine=0.810454
+
+Query vector: V01403
+Query token : ▁carry
+  1. V00046 | token=▁carry | parent=C02 | cosine=0.895128
+  2. V00047 | token=▁forward | parent=C02 | cosine=0.870443
+  3. V00070 | token=▁carry | parent=C02 | cosine=0.867626
+  4. V00056 | token=▁into | parent=C02 | cosine=0.857058
+  5. V00073 | token=ward | parent=C02 | cosine=0.852226
+
+Query vector: V01404
+Query token : ing
+  1. V00056 | token=▁into | parent=C02 | cosine=0.846268
+  2. V00071 | token=- | parent=C02 | cosine=0.842236
+  3. V00077 | token=ly | parent=C02 | cosine=0.841891
+  4. V00079 | token=▁at | parent=C02 | cosine=0.834795
+  5. V00075 | token=▁will | parent=C02 | cosine=0.833781
+
+Query vector: V01405
+Query token : ▁forward
+  1. V00047 | token=▁forward | parent=C02 | cosine=0.910215
+  2. V00073 | token=ward | parent=C02 | cosine=0.878362
+  3. V00072 | token=for | parent=C02 | cosine=0.859003
+  4. V00056 | token=▁into | parent=C02 | cosine=0.858047
+  5. V00046 | token=▁carry | parent=C02 | cosine=0.838632
+
+Query vector: V01406
+Query token : ▁five
+  1. V00050 | token=▁5 | parent=C02 | cosine=0.888700
+  2. V00167 | token=▁five | parent=C05 | cosine=0.887268
+  3. V00079 | token=▁at | parent=C02 | cosine=0.742961
+  4. V00075 | token=▁will | parent=C02 | cosine=0.736695
+  5. V00177 | token=▁in | parent=C05 | cosine=0.736400
+
+Query vector: V01407
+Query token : ▁un
+  1. V00051 | token=▁un | parent=C02 | cosine=0.901251
+  2. V00063 | token=▁un | parent=C02 | cosine=0.894478
+  3. V00123 | token=▁Un | parent=C04 | cosine=0.825881
+  4. V00052 | token=used | parent=C02 | cosine=0.824868
+  5. V00295 | token=▁un | parent=C09 | cosine=0.822791
+
+Query vector: V01408
+Query token : used
+  1. V00052 | token=used | parent=C02 | cosine=0.924277
+  2. V00064 | token=used | parent=C02 | cosine=0.921096
+  3. V00124 | token=used | parent=C04 | cosine=0.876440
+  4. V00296 | token=used | parent=C09 | cosine=0.859136
+  5. V00055 | token=▁days | parent=C02 | cosine=0.833799
+
+Query vector: V01409
+Query token : ▁days
+  1. V00055 | token=▁days | parent=C02 | cosine=0.919567
+  2. V00169 | token=▁days | parent=C05 | cosine=0.867162
+  3. V00008 | token=▁days | parent=C01 | cosine=0.859216
+  4. V00052 | token=used | parent=C02 | cosine=0.822776
+  5. V00064 | token=used | parent=C02 | cosine=0.819446
+
+Query vector: V01410
+Query token : ▁of
+  1. V00067 | token=▁the | parent=C02 | cosine=0.855703
+  2. V00071 | token=- | parent=C02 | cosine=0.845188
+  3. V00077 | token=ly | parent=C02 | cosine=0.844530
+  4. V00044 | token=es | parent=C02 | cosine=0.839699
+  5. V00055 | token=▁days | parent=C02 | cosine=0.833159
+
+Query vector: V01411
+Query token : ▁annual
+  1. V00053 | token=▁annual | parent=C02 | cosine=0.909072
+  2. V00157 | token=▁annual | parent=C05 | cosine=0.877287
+  3. V00080 | token=▁year | parent=C02 | cosine=0.858261
+  4. V00125 | token=▁annual | parent=C04 | cosine=0.856387
+  5. V00300 | token=▁annual | parent=C09 | cosine=0.853568
+
+Query vector: V01412
+Query token : ▁leave
+  1. V00054 | token=▁leave | parent=C02 | cosine=0.920684
+  2. V00126 | token=▁leave | parent=C04 | cosine=0.890643
+  3. V00158 | token=▁leave | parent=C05 | cosine=0.885538
+  4. V00301 | token=▁leave | parent=C09 | cosine=0.876639
+  5. V00317 | token=▁leave | parent=C09 | cosine=0.875919
+
+Query vector: V01413
+Query token : ?
+  1. V00057 | token=▁the | parent=C02 | cosine=0.822161
+  2. V00050 | token=▁5 | parent=C02 | cosine=0.821195
+  3. V00177 | token=▁in | parent=C05 | cosine=0.812281
+  4. V00071 | token=- | parent=C02 | cosine=0.805495
+  5. V00075 | token=▁will | parent=C02 | cosine=0.805373
+
+======================================================================
+Q05: When does unused leave expire if I have more than the allowed carry-forward?
+======================================================================
+
+Query vector: V01414
+Query token : ▁When
+  1. V00137 | token=▁will | parent=C04 | cosine=0.882153
+  2. V00139 | token=ly | parent=C04 | cosine=0.875605
+  3. V00141 | token=▁on | parent=C04 | cosine=0.870248
+  4. V00128 | token=ing | parent=C04 | cosine=0.862426
+  5. V00079 | token=▁at | parent=C02 | cosine=0.854972
+
+Query vector: V01415
+Query token : ▁does
+  1. V00137 | token=▁will | parent=C04 | cosine=0.893043
+  2. V00139 | token=ly | parent=C04 | cosine=0.885170
+  3. V00128 | token=ing | parent=C04 | cosine=0.878029
+  4. V00079 | token=▁at | parent=C02 | cosine=0.861515
+  5. V00075 | token=▁will | parent=C02 | cosine=0.861469
+
+Query vector: V01416
+Query token : ▁un
+  1. V00123 | token=▁Un | parent=C04 | cosine=0.933062
+  2. V00063 | token=▁un | parent=C02 | cosine=0.901411
+  3. V00051 | token=▁un | parent=C02 | cosine=0.900863
+  4. V00295 | token=▁un | parent=C09 | cosine=0.861776
+  5. V00344 | token=▁un | parent=C10 | cosine=0.853328
+
+Query vector: V01417
+Query token : used
+  1. V00124 | token=used | parent=C04 | cosine=0.939522
+  2. V00064 | token=used | parent=C02 | cosine=0.915114
+  3. V00052 | token=used | parent=C02 | cosine=0.909904
+  4. V00296 | token=used | parent=C09 | cosine=0.857074
+  5. V00345 | token=used | parent=C10 | cosine=0.856897
+
+Query vector: V01418
+Query token : ▁leave
+  1. V00126 | token=▁leave | parent=C04 | cosine=0.931677
+  2. V00054 | token=▁leave | parent=C02 | cosine=0.911669
+  3. V00336 | token=▁leave | parent=C10 | cosine=0.869400
+  4. V00317 | token=▁leave | parent=C09 | cosine=0.861744
+  5. V00301 | token=▁leave | parent=C09 | cosine=0.860146
+
+Query vector: V01419
+Query token : ▁exp
+  1. V00140 | token=▁lapse | parent=C04 | cosine=0.863161
+  2. V00127 | token=▁exceed | parent=C04 | cosine=0.844820
+  3. V00078 | token=▁lapse | parent=C02 | cosine=0.839511
+  4. V00124 | token=used | parent=C04 | cosine=0.837225
+  5. V00137 | token=▁will | parent=C04 | cosine=0.834399
+
+Query vector: V01420
+Query token : ire
+  1. V00140 | token=▁lapse | parent=C04 | cosine=0.878310
+  2. V00139 | token=ly | parent=C04 | cosine=0.861046
+  3. V00078 | token=▁lapse | parent=C02 | cosine=0.860205
+  4. V00137 | token=▁will | parent=C04 | cosine=0.858032
+  5. V00124 | token=used | parent=C04 | cosine=0.857682
+
+Query vector: V01421
+Query token : ▁if
+  1. V00128 | token=ing | parent=C04 | cosine=0.863703
+  2. V00144 | token=▁unless | parent=C04 | cosine=0.854096
+  3. V00137 | token=▁will | parent=C04 | cosine=0.848672
+  4. V00075 | token=▁will | parent=C02 | cosine=0.838342
+  5. V00139 | token=ly | parent=C04 | cosine=0.838091
+
+Query vector: V01422
+Query token : ▁I
+  1. V00150 | token=. | parent=C04 | cosine=0.874955
+  2. V00128 | token=ing | parent=C04 | cosine=0.860398
+  3. V00133 | token=- | parent=C04 | cosine=0.856263
+  4. V00137 | token=▁will | parent=C04 | cosine=0.852554
+  5. V00145 | token=▁an | parent=C04 | cosine=0.851359
+
+Query vector: V01423
+Query token : ▁have
+  1. V00128 | token=ing | parent=C04 | cosine=0.866152
+  2. V00132 | token=▁carry | parent=C04 | cosine=0.862854
+  3. V00135 | token=ward | parent=C04 | cosine=0.854713
+  4. V00129 | token=▁the | parent=C04 | cosine=0.845624
+  5. V00046 | token=▁carry | parent=C02 | cosine=0.843914
+
+Query vector: V01424
+Query token : ▁more
+  1. V00127 | token=▁exceed | parent=C04 | cosine=0.897970
+  2. V00066 | token=▁above | parent=C02 | cosine=0.863773
+  3. V00128 | token=ing | parent=C04 | cosine=0.842429
+  4. V00136 | token=▁amount | parent=C04 | cosine=0.839514
+  5. V00129 | token=▁the | parent=C04 | cosine=0.826879
+
+Query vector: V01425
+Query token : ▁than
+  1. V00127 | token=▁exceed | parent=C04 | cosine=0.901040
+  2. V00066 | token=▁above | parent=C02 | cosine=0.871487
+  3. V00128 | token=ing | parent=C04 | cosine=0.854549
+  4. V00129 | token=▁the | parent=C04 | cosine=0.846486
+  5. V00136 | token=▁amount | parent=C04 | cosine=0.837810
+
+Query vector: V01426
+Query token : ▁the
+  1. V00129 | token=▁the | parent=C04 | cosine=0.893890
+  2. V00128 | token=ing | parent=C04 | cosine=0.882941
+  3. V00133 | token=- | parent=C04 | cosine=0.869551
+  4. V00067 | token=▁the | parent=C02 | cosine=0.863443
+  5. V00131 | token=ted | parent=C04 | cosine=0.863199
+
+Query vector: V01427
+Query token : ▁allowed
+  1. V00130 | token=▁permit | parent=C04 | cosine=0.914237
+  2. V00131 | token=ted | parent=C04 | cosine=0.905661
+  3. V00068 | token=▁permit | parent=C02 | cosine=0.889469
+  4. V00069 | token=ted | parent=C02 | cosine=0.871648
+  5. V00124 | token=used | parent=C04 | cosine=0.851749
+
+Query vector: V01428
+Query token : ▁carry
+  1. V00132 | token=▁carry | parent=C04 | cosine=0.936323
+  2. V00070 | token=▁carry | parent=C02 | cosine=0.909725
+  3. V00046 | token=▁carry | parent=C02 | cosine=0.884894
+  4. V00135 | token=ward | parent=C04 | cosine=0.869828
+  5. V00134 | token=for | parent=C04 | cosine=0.843433
+
+Query vector: V01429
+Query token : -
+  1. V00133 | token=- | parent=C04 | cosine=0.921010
+  2. V00071 | token=- | parent=C02 | cosine=0.892219
+  3. V00128 | token=ing | parent=C04 | cosine=0.830625
+  4. V00132 | token=▁carry | parent=C04 | cosine=0.825927
+  5. V00129 | token=▁the | parent=C04 | cosine=0.816826
+
+Query vector: V01430
+Query token : for
+  1. V00134 | token=for | parent=C04 | cosine=0.929459
+  2. V00072 | token=for | parent=C02 | cosine=0.902248
+  3. V00135 | token=ward | parent=C04 | cosine=0.880202
+  4. V00047 | token=▁forward | parent=C02 | cosine=0.854614
+  5. V00132 | token=▁carry | parent=C04 | cosine=0.851436
+
+Query vector: V01431
+Query token : ward
+  1. V00135 | token=ward | parent=C04 | cosine=0.931483
+  2. V00073 | token=ward | parent=C02 | cosine=0.888526
+  3. V00132 | token=▁carry | parent=C04 | cosine=0.864686
+  4. V00134 | token=for | parent=C04 | cosine=0.856000
+  5. V00047 | token=▁forward | parent=C02 | cosine=0.855527
+
+Query vector: V01432
+Query token : ?
+  1. V00150 | token=. | parent=C04 | cosine=0.861194
+  2. V00133 | token=- | parent=C04 | cosine=0.847364
+  3. V00137 | token=▁will | parent=C04 | cosine=0.844686
+  4. V00128 | token=ing | parent=C04 | cosine=0.838824
+  5. V00061 | token=. | parent=C02 | cosine=0.837953
+
+======================================================================
+Q06: Can unused balances be moved to next year?
+======================================================================
+
+Query vector: V01433
+Query token : ▁Can
+  1. V00045 | token=▁may | parent=C02 | cosine=0.798938
+  2. V00075 | token=▁will | parent=C02 | cosine=0.794250
+  3. V00044 | token=es | parent=C02 | cosine=0.792559
+  4. V00056 | token=▁into | parent=C02 | cosine=0.786009
+  5. V00137 | token=▁will | parent=C04 | cosine=0.780313
+
+Query vector: V01434
+Query token : ▁un
+  1. V00123 | token=▁Un | parent=C04 | cosine=0.851543
+  2. V00051 | token=▁un | parent=C02 | cosine=0.851412
+  3. V00063 | token=▁un | parent=C02 | cosine=0.849518
+  4. V00295 | token=▁un | parent=C09 | cosine=0.836677
+  5. V00344 | token=▁un | parent=C10 | cosine=0.819964
+
+Query vector: V01435
+Query token : used
+  1. V00064 | token=used | parent=C02 | cosine=0.853006
+  2. V00052 | token=used | parent=C02 | cosine=0.850963
+  3. V00124 | token=used | parent=C04 | cosine=0.847521
+  4. V00345 | token=used | parent=C10 | cosine=0.830981
+  5. V00296 | token=used | parent=C09 | cosine=0.821536
+
+Query vector: V01436
+Query token : ▁balance
+  1. V00065 | token=▁balance | parent=C02 | cosine=0.863671
+  2. V00346 | token=▁balance | parent=C10 | cosine=0.837713
+  3. V00363 | token=▁balance | parent=C10 | cosine=0.829927
+  4. V00438 | token=▁balance | parent=C13 | cosine=0.815592
+  5. V00443 | token=▁balance | parent=C13 | cosine=0.809529
+
+Query vector: V01437
+Query token : s
+  1. V00065 | token=▁balance | parent=C02 | cosine=0.824655
+  2. V00347 | token=s | parent=C10 | cosine=0.797769
+  3. V00363 | token=▁balance | parent=C10 | cosine=0.779181
+  4. V00346 | token=▁balance | parent=C10 | cosine=0.775949
+  5. V00044 | token=es | parent=C02 | cosine=0.773557
+
+Query vector: V01438
+Query token : ▁be
+  1. V00056 | token=▁into | parent=C02 | cosine=0.782828
+  2. V00044 | token=es | parent=C02 | cosine=0.764631
+  3. V00075 | token=▁will | parent=C02 | cosine=0.764362
+  4. V00045 | token=▁may | parent=C02 | cosine=0.763455
+  5. V00052 | token=used | parent=C02 | cosine=0.762879
+
+Query vector: V01439
+Query token : ▁moved
+  1. V00052 | token=used | parent=C02 | cosine=0.768355
+  2. V00065 | token=▁balance | parent=C02 | cosine=0.767787
+  3. V00064 | token=used | parent=C02 | cosine=0.766050
+  4. V00135 | token=ward | parent=C04 | cosine=0.765669
+  5. V00056 | token=▁into | parent=C02 | cosine=0.764440
+
+Query vector: V01440
+Query token : ▁to
+  1. V00056 | token=▁into | parent=C02 | cosine=0.805655
+  2. V00065 | token=▁balance | parent=C02 | cosine=0.776662
+  3. V00058 | token=▁following | parent=C02 | cosine=0.775641
+  4. V00079 | token=▁at | parent=C02 | cosine=0.773878
+  5. V00052 | token=used | parent=C02 | cosine=0.770309
+
+Query vector: V01441
+Query token : ▁next
+  1. V00058 | token=▁following | parent=C02 | cosine=0.827211
+  2. V00060 | token=▁year | parent=C02 | cosine=0.784576
+  3. V00315 | token=▁Future | parent=C09 | cosine=0.780522
+  4. V00080 | token=▁year | parent=C02 | cosine=0.772202
+  5. V00056 | token=▁into | parent=C02 | cosine=0.764585
+
+Query vector: V01442
+Query token : ▁year
+  1. V00060 | token=▁year | parent=C02 | cosine=0.847096
+  2. V00080 | token=▁year | parent=C02 | cosine=0.834006
+  3. V00093 | token=▁year | parent=C03 | cosine=0.794361
+  4. V00259 | token=▁year | parent=C08 | cosine=0.794035
+  5. V00125 | token=▁annual | parent=C04 | cosine=0.776948
+
+Query vector: V01443
+Query token : ?
+  1. V00061 | token=. | parent=C02 | cosine=0.784664
+  2. V00044 | token=es | parent=C02 | cosine=0.782414
+  3. V00150 | token=. | parent=C04 | cosine=0.777714
+  4. V00314 | token=. | parent=C09 | cosine=0.774200
+  5. V00075 | token=▁will | parent=C02 | cosine=0.772555
+
+======================================================================
+Q07: How far in advance should I request vacation?
+======================================================================
+
+Query vector: V01444
+Query token : ▁How
+  1. V00166 | token=▁least | parent=C05 | cosine=0.819183
+  2. V00155 | token=▁should | parent=C05 | cosine=0.801525
+  3. V00165 | token=▁at | parent=C05 | cosine=0.799884
+  4. V00170 | token=▁before | parent=C05 | cosine=0.799014
+  5. V00160 | token=s | parent=C05 | cosine=0.786923
+
+Query vector: V01445
+Query token : ▁far
+  1. V00166 | token=▁least | parent=C05 | cosine=0.803466
+  2. V00170 | token=▁before | parent=C05 | cosine=0.801461
+  3. V00513 | token=▁advance | parent=C15 | cosine=0.792933
+  4. V00165 | token=▁at | parent=C05 | cosine=0.773703
+  5. V00155 | token=▁should | parent=C05 | cosine=0.772903
+
+Query vector: V01446
+Query token : ▁in
+  1. V00170 | token=▁before | parent=C05 | cosine=0.839121
+  2. V00513 | token=▁advance | parent=C15 | cosine=0.819784
+  3. V00512 | token=▁in | parent=C15 | cosine=0.798809
+  4. V00166 | token=▁least | parent=C05 | cosine=0.793875
+  5. V00171 | token=▁the | parent=C05 | cosine=0.784123
+
+Query vector: V01447
+Query token : ▁advance
+  1. V00513 | token=▁advance | parent=C15 | cosine=0.839294
+  2. V00170 | token=▁before | parent=C05 | cosine=0.833460
+  3. V00512 | token=▁in | parent=C15 | cosine=0.770326
+  4. V00160 | token=s | parent=C05 | cosine=0.762585
+  5. V00159 | token=▁request | parent=C05 | cosine=0.760671
+
+Query vector: V01448
+Query token : ▁should
+  1. V00155 | token=▁should | parent=C05 | cosine=0.835883
+  2. V00506 | token=▁should | parent=C15 | cosine=0.813091
+  3. V00526 | token=▁should | parent=C15 | cosine=0.802932
+  4. V00729 | token=▁should | parent=C21 | cosine=0.798818
+  5. V00166 | token=▁least | parent=C05 | cosine=0.790943
+
+Query vector: V01449
+Query token : ▁I
+  1. V00160 | token=s | parent=C05 | cosine=0.812194
+  2. V00171 | token=▁the | parent=C05 | cosine=0.791174
+  3. V00511 | token=ed | parent=C15 | cosine=0.784913
+  4. V00185 | token=s | parent=C06 | cosine=0.784913
+  5. V00155 | token=▁should | parent=C05 | cosine=0.784210
+
+Query vector: V01450
+Query token : ▁request
+  1. V00159 | token=▁request | parent=C05 | cosine=0.862495
+  2. V00184 | token=▁request | parent=C06 | cosine=0.852450
+  3. V00510 | token=▁request | parent=C15 | cosine=0.852326
+  4. V00511 | token=ed | parent=C15 | cosine=0.807682
+  5. V00160 | token=s | parent=C05 | cosine=0.805417
+
+Query vector: V01451
+Query token : ▁vacation
+  1. V00183 | token=▁leave | parent=C06 | cosine=0.772690
+  2. V00158 | token=▁leave | parent=C05 | cosine=0.772241
+  3. V00213 | token=absence | parent=C06 | cosine=0.764502
+  4. V00159 | token=▁request | parent=C05 | cosine=0.761281
+  5. V00752 | token=▁travel | parent=C22 | cosine=0.759733
+
+Query vector: V01452
+Query token : ?
+  1. V00521 | token=. | parent=C15 | cosine=0.787128
+  2. V00196 | token=. | parent=C06 | cosine=0.784029
+  3. V00160 | token=s | parent=C05 | cosine=0.779783
+  4. V00155 | token=▁should | parent=C05 | cosine=0.779574
+  5. V00177 | token=▁in | parent=C05 | cosine=0.778285
+
+======================================================================
+Q08: Does working from home require manager approval?
+======================================================================
+
+Query vector: V01453
+Query token : ▁Does
+  1. V00702 | token=. | parent=C20 | cosine=0.812664
+  2. V00673 | token=es | parent=C20 | cosine=0.800598
+  3. V00688 | token=ly | parent=C20 | cosine=0.793850
+  4. V00677 | token=▁are | parent=C20 | cosine=0.793229
+  5. V00566 | token=s | parent=C16 | cosine=0.789777
+
+Query vector: V01454
+Query token : ▁working
+  1. V00674 | token=▁working | parent=C20 | cosine=0.864343
+  2. V00684 | token=▁work | parent=C20 | cosine=0.847324
+  3. V00564 | token=▁work | parent=C16 | cosine=0.838605
+  4. V00545 | token=▁work | parent=C16 | cosine=0.836849
+  5. V00671 | token=lo | parent=C20 | cosine=0.821852
+
+Query vector: V01455
+Query token : ▁from
+  1. V00675 | token=▁from | parent=C20 | cosine=0.879570
+  2. V00676 | token=▁home | parent=C20 | cosine=0.830172
+  3. V00674 | token=▁working | parent=C20 | cosine=0.806449
+  4. V00673 | token=es | parent=C20 | cosine=0.798943
+  5. V00702 | token=. | parent=C20 | cosine=0.795942
+
+Query vector: V01456
+Query token : ▁home
+  1. V00676 | token=▁home | parent=C20 | cosine=0.877803
+  2. V00675 | token=▁from | parent=C20 | cosine=0.813623
+  3. V00674 | token=▁working | parent=C20 | cosine=0.771576
+  4. V00673 | token=es | parent=C20 | cosine=0.768143
+  5. V00670 | token=▁Emp | parent=C20 | cosine=0.766194
+
+Query vector: V01457
+Query token : ▁require
+  1. V00701 | token=▁requirements | parent=C20 | cosine=0.787793
+  2. V00572 | token=▁requirements | parent=C16 | cosine=0.787754
+  3. V00556 | token=▁has | parent=C16 | cosine=0.770311
+  4. V00195 | token=▁requirements | parent=C06 | cosine=0.769749
+  5. V00673 | token=es | parent=C20 | cosine=0.769493
+
+Query vector: V01458
+Query token : ▁manager
+  1. V00561 | token=▁manager | parent=C16 | cosine=0.855080
+  2. V00189 | token=▁manager | parent=C06 | cosine=0.829870
+  3. V00810 | token=▁Manager | parent=C24 | cosine=0.817356
+  4. V01024 | token=▁manager | parent=C30 | cosine=0.804534
+  5. V00102 | token=▁Manager | parent=C03 | cosine=0.795427
+
+Query vector: V01459
+Query token : ▁appro
+  1. V00558 | token=▁approved | parent=C16 | cosine=0.820774
+  2. V00836 | token=▁appro | parent=C24 | cosine=0.808637
+  3. V00190 | token=▁appro | parent=C06 | cosine=0.808092
+  4. V00626 | token=r | parent=C18 | cosine=0.798169
+  5. V00198 | token=r | parent=C06 | cosine=0.790158
+
+Query vector: V01460
+Query token : val
+  1. V00558 | token=▁approved | parent=C16 | cosine=0.810912
+  2. V00191 | token=val | parent=C06 | cosine=0.796142
+  3. V00559 | token=▁by | parent=C16 | cosine=0.787214
+  4. V00556 | token=▁has | parent=C16 | cosine=0.778936
+  5. V00626 | token=r | parent=C18 | cosine=0.777299
+
+Query vector: V01461
+Query token : ?
+  1. V00702 | token=. | parent=C20 | cosine=0.834923
+  2. V00688 | token=ly | parent=C20 | cosine=0.803750
+  3. V00673 | token=es | parent=C20 | cosine=0.801899
+  4. V00562 | token=. | parent=C16 | cosine=0.796478
+  5. V00677 | token=▁are | parent=C20 | cosine=0.792726
+
+======================================================================
+Q09: What should I do if my leave balance looks wrong?
+======================================================================
+
+Query vector: V01462
+Query token : ▁What
+  1. V00240 | token=▁should | parent=C07 | cosine=0.788189
+  2. V00360 | token=▁should | parent=C10 | cosine=0.783744
+  3. V00235 | token=. | parent=C07 | cosine=0.782753
+  4. V00363 | token=▁balance | parent=C10 | cosine=0.779246
+  5. V00245 | token=ncies | parent=C07 | cosine=0.778803
+
+Query vector: V01463
+Query token : ▁should
+  1. V00240 | token=▁should | parent=C07 | cosine=0.828994
+  2. V00360 | token=▁should | parent=C10 | cosine=0.816186
+  3. V00029 | token=▁should | parent=C01 | cosine=0.785825
+  4. V01256 | token=▁should | parent=C37 | cosine=0.782267
+  5. V01229 | token=▁should | parent=C37 | cosine=0.779453
+
+Query vector: V01464
+Query token : ▁I
+  1. V00362 | token=▁their | parent=C10 | cosine=0.798827
+  2. V00250 | token=. | parent=C07 | cosine=0.792043
+  3. V00235 | token=. | parent=C07 | cosine=0.789112
+  4. V00439 | token=s | parent=C13 | cosine=0.787850
+  5. V00150 | token=. | parent=C04 | cosine=0.787547
+
+Query vector: V01465
+Query token : ▁do
+  1. V00363 | token=▁balance | parent=C10 | cosine=0.777205
+  2. V00240 | token=▁should | parent=C07 | cosine=0.772661
+  3. V00219 | token=▁balance | parent=C07 | cosine=0.771978
+  4. V00245 | token=ncies | parent=C07 | cosine=0.770907
+  5. V00342 | token=▁treatment | parent=C10 | cosine=0.768918
+
+Query vector: V01466
+Query token : ▁if
+  1. V00245 | token=ncies | parent=C07 | cosine=0.773927
+  2. V00363 | token=▁balance | parent=C10 | cosine=0.765898
+  3. V00219 | token=▁balance | parent=C07 | cosine=0.760102
+  4. V00244 | token=pa | parent=C07 | cosine=0.753440
+  5. V00346 | token=▁balance | parent=C10 | cosine=0.753249
+
+Query vector: V01467
+Query token : ▁my
+  1. V00347 | token=s | parent=C10 | cosine=0.805397
+  2. V00065 | token=▁balance | parent=C02 | cosine=0.805254
+  3. V00362 | token=▁their | parent=C10 | cosine=0.804512
+  4. V00439 | token=s | parent=C13 | cosine=0.800529
+  5. V00363 | token=▁balance | parent=C10 | cosine=0.796976
+
+Query vector: V01468
+Query token : ▁leave
+  1. V00336 | token=▁leave | parent=C10 | cosine=0.865108
+  2. V00218 | token=▁leave | parent=C07 | cosine=0.861567
+  3. V00232 | token=▁leave | parent=C07 | cosine=0.857587
+  4. V00054 | token=▁leave | parent=C02 | cosine=0.856332
+  5. V00458 | token=▁leave | parent=C13 | cosine=0.849833
+
+Query vector: V01469
+Query token : ▁balance
+  1. V00363 | token=▁balance | parent=C10 | cosine=0.871098
+  2. V00219 | token=▁balance | parent=C07 | cosine=0.866123
+  3. V00346 | token=▁balance | parent=C10 | cosine=0.860806
+  4. V00438 | token=▁balance | parent=C13 | cosine=0.855383
+  5. V00065 | token=▁balance | parent=C02 | cosine=0.852386
+
+Query vector: V01470
+Query token : ▁looks
+  1. V00363 | token=▁balance | parent=C10 | cosine=0.784101
+  2. V00219 | token=▁balance | parent=C07 | cosine=0.782377
+  3. V00220 | token=▁display | parent=C07 | cosine=0.781705
+  4. V00346 | token=▁balance | parent=C10 | cosine=0.772679
+  5. V00438 | token=▁balance | parent=C13 | cosine=0.763846
+
+Query vector: V01471
+Query token : ▁wrong
+  1. V00244 | token=pa | parent=C07 | cosine=0.781469
+  2. V00219 | token=▁balance | parent=C07 | cosine=0.780570
+  3. V00363 | token=▁balance | parent=C10 | cosine=0.780552
+  4. V00245 | token=ncies | parent=C07 | cosine=0.776143
+  5. V00243 | token=re | parent=C07 | cosine=0.773659
+
+Query vector: V01472
+Query token : ?
+  1. V00235 | token=. | parent=C07 | cosine=0.821941
+  2. V00454 | token=. | parent=C13 | cosine=0.818512
+  3. V00249 | token=s | parent=C07 | cosine=0.818213
+  4. V00234 | token=s | parent=C07 | cosine=0.817657
+  5. V00250 | token=. | parent=C07 | cosine=0.811581
+
+======================================================================
+Q10: Can a chunk mention carry forward and still be irrelevant to annual leave?
+======================================================================
+
+Query vector: V01473
+Query token : ▁Can
+  1. V00045 | token=▁may | parent=C02 | cosine=0.793261
+  2. V00044 | token=es | parent=C02 | cosine=0.787828
+  3. V00075 | token=▁will | parent=C02 | cosine=0.785119
+  4. V00258 | token=▁the | parent=C08 | cosine=0.780721
+  5. V00196 | token=. | parent=C06 | cosine=0.779691
+
+Query vector: V01474
+Query token : ▁a
+  1. V00044 | token=es | parent=C02 | cosine=0.773883
+  2. V00196 | token=. | parent=C06 | cosine=0.769708
+  3. V00101 | token=. | parent=C03 | cosine=0.765984
+  4. V00128 | token=ing | parent=C04 | cosine=0.764687
+  5. V00071 | token=- | parent=C02 | cosine=0.762153
+
+Query vector: V01475
+Query token : ▁chun
+  1. V00053 | token=▁annual | parent=C02 | cosine=0.697346
+  2. V00314 | token=. | parent=C09 | cosine=0.693766
+  3. V00083 | token=▁Annu | parent=C03 | cosine=0.693050
+  4. V00125 | token=▁annual | parent=C04 | cosine=0.692814
+  5. V00101 | token=. | parent=C03 | cosine=0.689737
+
+Query vector: V01476
+Query token : k
+  1. V00044 | token=es | parent=C02 | cosine=0.730608
+  2. V00056 | token=▁into | parent=C02 | cosine=0.728963
+  3. V00196 | token=. | parent=C06 | cosine=0.725756
+  4. V00314 | token=. | parent=C09 | cosine=0.723838
+  5. V00101 | token=. | parent=C03 | cosine=0.722187
+
+Query vector: V01477
+Query token : ▁mention
+  1. V00047 | token=▁forward | parent=C02 | cosine=0.754147
+  2. V00065 | token=▁balance | parent=C02 | cosine=0.748167
+  3. V00059 | token=▁calendar | parent=C02 | cosine=0.745003
+  4. V00052 | token=used | parent=C02 | cosine=0.744146
+  5. V00056 | token=▁into | parent=C02 | cosine=0.741344
+
+Query vector: V01478
+Query token : ▁carry
+  1. V00046 | token=▁carry | parent=C02 | cosine=0.825509
+  2. V00047 | token=▁forward | parent=C02 | cosine=0.820442
+  3. V00070 | token=▁carry | parent=C02 | cosine=0.797720
+  4. V00056 | token=▁into | parent=C02 | cosine=0.795548
+  5. V00073 | token=ward | parent=C02 | cosine=0.794869
+
+Query vector: V01479
+Query token : ▁forward
+  1. V00047 | token=▁forward | parent=C02 | cosine=0.851648
+  2. V00073 | token=ward | parent=C02 | cosine=0.821045
+  3. V00072 | token=for | parent=C02 | cosine=0.796247
+  4. V00056 | token=▁into | parent=C02 | cosine=0.791928
+  5. V00058 | token=▁following | parent=C02 | cosine=0.783745
+
+Query vector: V01480
+Query token : ▁and
+  1. V00258 | token=▁the | parent=C08 | cosine=0.792048
+  2. V00196 | token=. | parent=C06 | cosine=0.780828
+  3. V00075 | token=▁will | parent=C02 | cosine=0.779656
+  4. V00092 | token=▁the | parent=C03 | cosine=0.779248
+  5. V00101 | token=. | parent=C03 | cosine=0.778191
+
+Query vector: V01481
+Query token : ▁still
+  1. V00075 | token=▁will | parent=C02 | cosine=0.764360
+  2. V00460 | token=▁not | parent=C13 | cosine=0.760036
+  3. V00258 | token=▁the | parent=C08 | cosine=0.757938
+  4. V00044 | token=es | parent=C02 | cosine=0.756283
+  5. V00056 | token=▁into | parent=C02 | cosine=0.755339
+
+Query vector: V01482
+Query token : ▁be
+  1. V00077 | token=ly | parent=C02 | cosine=0.763857
+  2. V00056 | token=▁into | parent=C02 | cosine=0.761111
+  3. V00044 | token=es | parent=C02 | cosine=0.760697
+  4. V00128 | token=ing | parent=C04 | cosine=0.759373
+  5. V00075 | token=▁will | parent=C02 | cosine=0.757224
+
+Query vector: V01483
+Query token : ▁ir
+  1. V00051 | token=▁un | parent=C02 | cosine=0.751618
+  2. V00063 | token=▁un | parent=C02 | cosine=0.741599
+  3. V00056 | token=▁into | parent=C02 | cosine=0.735336
+  4. V00053 | token=▁annual | parent=C02 | cosine=0.732579
+  5. V00460 | token=▁not | parent=C13 | cosine=0.730802
+
+Query vector: V01484
+Query token : relevant
+  1. V00052 | token=used | parent=C02 | cosine=0.734223
+  2. V00047 | token=▁forward | parent=C02 | cosine=0.731822
+  3. V00056 | token=▁into | parent=C02 | cosine=0.728337
+  4. V00064 | token=used | parent=C02 | cosine=0.726685
+  5. V00073 | token=ward | parent=C02 | cosine=0.722485
+
+Query vector: V01485
+Query token : ▁to
+  1. V00044 | token=es | parent=C02 | cosine=0.799448
+  2. V00056 | token=▁into | parent=C02 | cosine=0.795938
+  3. V00077 | token=ly | parent=C02 | cosine=0.794631
+  4. V00128 | token=ing | parent=C04 | cosine=0.794163
+  5. V00101 | token=. | parent=C03 | cosine=0.791054
+
+Query vector: V01486
+Query token : ▁annual
+  1. V00265 | token=▁annual | parent=C08 | cosine=0.866225
+  2. V00125 | token=▁annual | parent=C04 | cosine=0.863221
+  3. V00053 | token=▁annual | parent=C02 | cosine=0.859247
+  4. V00300 | token=▁annual | parent=C09 | cosine=0.856869
+  5. V00157 | token=▁annual | parent=C05 | cosine=0.842597
+
+Query vector: V01487
+Query token : ▁leave
+  1. V00054 | token=▁leave | parent=C02 | cosine=0.877724
+  2. V00126 | token=▁leave | parent=C04 | cosine=0.872104
+  3. V00266 | token=▁leave | parent=C08 | cosine=0.866923
+  4. V00317 | token=▁leave | parent=C09 | cosine=0.866150
+  5. V00301 | token=▁leave | parent=C09 | cosine=0.863884
+
+Query vector: V01488
+Query token : ?
+  1. V00258 | token=▁the | parent=C08 | cosine=0.807747
+  2. V00196 | token=. | parent=C06 | cosine=0.805086
+  3. V00101 | token=. | parent=C03 | cosine=0.804361
+  4. V00314 | token=. | parent=C09 | cosine=0.799306
+  5. V00276 | token=. | parent=C08 | cosine=0.798681
+
+======================================================================
+Q11: How many annual leave days can I carry forward, and when do I need to submit a request to take leave?
+======================================================================
+
+Query vector: V01489
+Query token : ▁How
+  1. V00004 | token=▁are | parent=C01 | cosine=0.832960
+  2. V00044 | token=es | parent=C02 | cosine=0.829489
+  3. V00154 | token=es | parent=C05 | cosine=0.828085
+  4. V00056 | token=▁into | parent=C02 | cosine=0.827782
+  5. V00045 | token=▁may | parent=C02 | cosine=0.827295
+
+Query vector: V01490
+Query token : ▁many
+  1. V00008 | token=▁days | parent=C01 | cosine=0.838263
+  2. V00055 | token=▁days | parent=C02 | cosine=0.828916
+  3. V00056 | token=▁into | parent=C02 | cosine=0.826161
+  4. V00004 | token=▁are | parent=C01 | cosine=0.826126
+  5. V00006 | token=▁to | parent=C01 | cosine=0.825612
+
+Query vector: V01491
+Query token : ▁annual
+  1. V00157 | token=▁annual | parent=C05 | cosine=0.910853
+  2. V00053 | token=▁annual | parent=C02 | cosine=0.902292
+  3. V00010 | token=▁annual | parent=C01 | cosine=0.901447
+  4. V00125 | token=▁annual | parent=C04 | cosine=0.886492
+  5. V00265 | token=▁annual | parent=C08 | cosine=0.886150
+
+Query vector: V01492
+Query token : ▁leave
+  1. V00158 | token=▁leave | parent=C05 | cosine=0.920018
+  2. V00054 | token=▁leave | parent=C02 | cosine=0.914020
+  3. V00011 | token=▁leave | parent=C01 | cosine=0.902730
+  4. V00183 | token=▁leave | parent=C06 | cosine=0.901072
+  5. V00121 | token=▁leave | parent=C03 | cosine=0.898307
+
+Query vector: V01493
+Query token : ▁days
+  1. V00055 | token=▁days | parent=C02 | cosine=0.907755
+  2. V00169 | token=▁days | parent=C05 | cosine=0.896866
+  3. V00008 | token=▁days | parent=C01 | cosine=0.895081
+  4. V00174 | token=▁date | parent=C05 | cosine=0.828472
+  5. V00016 | token=▁year | parent=C01 | cosine=0.820295
+
+Query vector: V01494
+Query token : ▁can
+  1. V00045 | token=▁may | parent=C02 | cosine=0.865368
+  2. V00069 | token=ted | parent=C02 | cosine=0.841086
+  3. V00056 | token=▁into | parent=C02 | cosine=0.837957
+  4. V00044 | token=es | parent=C02 | cosine=0.837667
+  5. V00075 | token=▁will | parent=C02 | cosine=0.836239
+
+Query vector: V01495
+Query token : ▁I
+  1. V00044 | token=es | parent=C02 | cosine=0.860499
+  2. V00154 | token=es | parent=C05 | cosine=0.852002
+  3. V00162 | token=▁the | parent=C05 | cosine=0.851529
+  4. V00150 | token=. | parent=C04 | cosine=0.849778
+  5. V00175 | token=, | parent=C05 | cosine=0.848463
+
+Query vector: V01496
+Query token : ▁carry
+  1. V00046 | token=▁carry | parent=C02 | cosine=0.867496
+  2. V00047 | token=▁forward | parent=C02 | cosine=0.856304
+  3. V00056 | token=▁into | parent=C02 | cosine=0.847848
+  4. V00073 | token=ward | parent=C02 | cosine=0.832382
+  5. V00070 | token=▁carry | parent=C02 | cosine=0.832179
+
+Query vector: V01497
+Query token : ▁forward
+  1. V00047 | token=▁forward | parent=C02 | cosine=0.890146
+  2. V00073 | token=ward | parent=C02 | cosine=0.861065
+  3. V00056 | token=▁into | parent=C02 | cosine=0.840885
+  4. V00072 | token=for | parent=C02 | cosine=0.831858
+  5. V00058 | token=▁following | parent=C02 | cosine=0.825042
+
+Query vector: V01498
+Query token : ,
+  1. V00175 | token=, | parent=C05 | cosine=0.882941
+  2. V00061 | token=. | parent=C02 | cosine=0.877556
+  3. V00180 | token=. | parent=C05 | cosine=0.873849
+  4. V00019 | token=. | parent=C01 | cosine=0.873274
+  5. V00082 | token=. | parent=C02 | cosine=0.871118
+
+Query vector: V01499
+Query token : ▁and
+  1. V00028 | token=▁and | parent=C01 | cosine=0.855561
+  2. V00196 | token=. | parent=C06 | cosine=0.854733
+  3. V00026 | token=ed | parent=C01 | cosine=0.850451
+  4. V00101 | token=. | parent=C03 | cosine=0.847792
+  5. V00177 | token=▁in | parent=C05 | cosine=0.845579
+
+Query vector: V01500
+Query token : ▁when
+  1. V00154 | token=es | parent=C05 | cosine=0.841928
+  2. V00155 | token=▁should | parent=C05 | cosine=0.835094
+  3. V00166 | token=▁least | parent=C05 | cosine=0.833619
+  4. V00257 | token=▁during | parent=C08 | cosine=0.833490
+  5. V00091 | token=▁during | parent=C03 | cosine=0.832802
+
+Query vector: V01501
+Query token : ▁do
+  1. V00028 | token=▁and | parent=C01 | cosine=0.842300
+  2. V00186 | token=▁are | parent=C06 | cosine=0.839015
+  3. V00155 | token=▁should | parent=C05 | cosine=0.834489
+  4. V00154 | token=es | parent=C05 | cosine=0.831285
+  5. V00032 | token=▁in | parent=C01 | cosine=0.828778
+
+Query vector: V01502
+Query token : ▁I
+  1. V00162 | token=▁the | parent=C05 | cosine=0.854788
+  2. V00044 | token=es | parent=C02 | cosine=0.853329
+  3. V00154 | token=es | parent=C05 | cosine=0.850017
+  4. V00175 | token=, | parent=C05 | cosine=0.848555
+  5. V00150 | token=. | parent=C04 | cosine=0.846533
+
+Query vector: V01503
+Query token : ▁need
+  1. V00155 | token=▁should | parent=C05 | cosine=0.836490
+  2. V00200 | token=▁should | parent=C06 | cosine=0.835149
+  3. V00029 | token=▁should | parent=C01 | cosine=0.827404
+  4. V00186 | token=▁are | parent=C06 | cosine=0.810880
+  5. V00195 | token=▁requirements | parent=C06 | cosine=0.807838
+
+Query vector: V01504
+Query token : ▁to
+  1. V00160 | token=s | parent=C05 | cosine=0.850960
+  2. V00155 | token=▁should | parent=C05 | cosine=0.842655
+  3. V00156 | token=▁submit | parent=C05 | cosine=0.842070
+  4. V00154 | token=es | parent=C05 | cosine=0.840476
+  5. V00186 | token=▁are | parent=C06 | cosine=0.831324
+
+Query vector: V01505
+Query token : ▁submit
+  1. V00156 | token=▁submit | parent=C05 | cosine=0.901414
+  2. V00159 | token=▁request | parent=C05 | cosine=0.850292
+  3. V00160 | token=s | parent=C05 | cosine=0.841429
+  4. V00161 | token=▁through | parent=C05 | cosine=0.818215
+  5. V00184 | token=▁request | parent=C06 | cosine=0.810614
+
+Query vector: V01506
+Query token : ▁a
+  1. V00160 | token=s | parent=C05 | cosine=0.883521
+  2. V00185 | token=s | parent=C06 | cosine=0.868457
+  3. V00159 | token=▁request | parent=C05 | cosine=0.864029
+  4. V00184 | token=▁request | parent=C06 | cosine=0.845404
+  5. V00156 | token=▁submit | parent=C05 | cosine=0.839796
+
+Query vector: V01507
+Query token : ▁request
+  1. V00159 | token=▁request | parent=C05 | cosine=0.917274
+  2. V00184 | token=▁request | parent=C06 | cosine=0.901647
+  3. V00160 | token=s | parent=C05 | cosine=0.842281
+  4. V00510 | token=▁request | parent=C15 | cosine=0.836545
+  5. V00185 | token=s | parent=C06 | cosine=0.834907
+
+Query vector: V01508
+Query token : ▁to
+  1. V00160 | token=s | parent=C05 | cosine=0.852578
+  2. V00171 | token=▁the | parent=C05 | cosine=0.850229
+  3. V00182 | token=al | parent=C06 | cosine=0.849147
+  4. V00096 | token=▁it | parent=C03 | cosine=0.843412
+  5. V00117 | token=▁their | parent=C03 | cosine=0.842783
+
+Query vector: V01509
+Query token : ▁take
+  1. V00090 | token=▁taken | parent=C03 | cosine=0.840285
+  2. V00158 | token=▁leave | parent=C05 | cosine=0.822581
+  3. V00182 | token=al | parent=C06 | cosine=0.820885
+  4. V00160 | token=s | parent=C05 | cosine=0.818122
+  5. V00156 | token=▁submit | parent=C05 | cosine=0.817117
+
+Query vector: V01510
+Query token : ▁leave
+  1. V00158 | token=▁leave | parent=C05 | cosine=0.913948
+  2. V00183 | token=▁leave | parent=C06 | cosine=0.900477
+  3. V00054 | token=▁leave | parent=C02 | cosine=0.896352
+  4. V00020 | token=▁Leave | parent=C01 | cosine=0.895942
+  5. V00011 | token=▁leave | parent=C01 | cosine=0.892654
+
+Query vector: V01511
+Query token : ?
+  1. V00019 | token=. | parent=C01 | cosine=0.860654
+  2. V00175 | token=, | parent=C05 | cosine=0.859499
+  3. V00196 | token=. | parent=C06 | cosine=0.856454
+  4. V00061 | token=. | parent=C02 | cosine=0.854344
+  5. V00276 | token=. | parent=C08 | cosine=0.851189
+
+======================================================================
+Q12: Can I work from home with manager approval, and what security requirement applies while working remotely?
+======================================================================
+
+Query vector: V01512
+Query token : ▁Can
+  1. V00544 | token=▁may | parent=C16 | cosine=0.867548
+  2. V00566 | token=s | parent=C16 | cosine=0.843538
+  3. V00553 | token=▁and | parent=C16 | cosine=0.837698
+  4. V00556 | token=▁has | parent=C16 | cosine=0.834023
+  5. V00568 | token=▁to | parent=C16 | cosine=0.831609
+
+Query vector: V01513
+Query token : ▁I
+  1. V00543 | token=es | parent=C16 | cosine=0.838476
+  2. V00544 | token=▁may | parent=C16 | cosine=0.838060
+  3. V00566 | token=s | parent=C16 | cosine=0.835402
+  4. V00562 | token=. | parent=C16 | cosine=0.826518
+  5. V00553 | token=▁and | parent=C16 | cosine=0.826487
+
+Query vector: V01514
+Query token : ▁work
+  1. V00545 | token=▁work | parent=C16 | cosine=0.900233
+  2. V00564 | token=▁work | parent=C16 | cosine=0.899265
+  3. V00684 | token=▁work | parent=C20 | cosine=0.881044
+  4. V00674 | token=▁working | parent=C20 | cosine=0.877718
+  5. V00541 | token=lo | parent=C16 | cosine=0.843924
+
+Query vector: V01515
+Query token : ▁from
+  1. V00675 | token=▁from | parent=C20 | cosine=0.899262
+  2. V00676 | token=▁home | parent=C20 | cosine=0.849705
+  3. V00546 | token=▁remote | parent=C16 | cosine=0.823472
+  4. V00674 | token=▁working | parent=C20 | cosine=0.817667
+  5. V00563 | token=▁Remote | parent=C16 | cosine=0.815903
+
+Query vector: V01516
+Query token : ▁home
+  1. V00676 | token=▁home | parent=C20 | cosine=0.898532
+  2. V00675 | token=▁from | parent=C20 | cosine=0.820817
+  3. V00670 | token=▁Emp | parent=C20 | cosine=0.782112
+  4. V00684 | token=▁work | parent=C20 | cosine=0.781866
+  5. V00671 | token=lo | parent=C20 | cosine=0.780985
+
+Query vector: V01517
+Query token : ▁with
+  1. V00556 | token=▁has | parent=C16 | cosine=0.840182
+  2. V00553 | token=▁and | parent=C16 | cosine=0.831744
+  3. V00568 | token=▁to | parent=C16 | cosine=0.828259
+  4. V00559 | token=▁by | parent=C16 | cosine=0.826530
+  5. V00566 | token=s | parent=C16 | cosine=0.821296
+
+Query vector: V01518
+Query token : ▁manager
+  1. V00561 | token=▁manager | parent=C16 | cosine=0.908130
+  2. V00189 | token=▁manager | parent=C06 | cosine=0.821486
+  3. V01024 | token=▁manager | parent=C30 | cosine=0.813115
+  4. V00541 | token=lo | parent=C16 | cosine=0.808721
+  5. V00810 | token=▁Manager | parent=C24 | cosine=0.804509
+
+Query vector: V01519
+Query token : ▁appro
+  1. V00558 | token=▁approved | parent=C16 | cosine=0.870450
+  2. V00581 | token=prove | parent=C17 | cosine=0.820736
+  3. V00580 | token=ap | parent=C17 | cosine=0.814923
+  4. V00552 | token=▁eligible | parent=C16 | cosine=0.809439
+  5. V00626 | token=r | parent=C18 | cosine=0.807159
+
+Query vector: V01520
+Query token : val
+  1. V00558 | token=▁approved | parent=C16 | cosine=0.854536
+  2. V00559 | token=▁by | parent=C16 | cosine=0.829463
+  3. V00556 | token=▁has | parent=C16 | cosine=0.818806
+  4. V00581 | token=prove | parent=C17 | cosine=0.818746
+  5. V00580 | token=ap | parent=C17 | cosine=0.797571
+
+Query vector: V01521
+Query token : ,
+  1. V00562 | token=. | parent=C16 | cosine=0.858541
+  2. V00573 | token=. | parent=C16 | cosine=0.855233
+  3. V00702 | token=. | parent=C20 | cosine=0.854912
+  4. V00591 | token=, | parent=C17 | cosine=0.840452
+  5. V00554 | token=▁the | parent=C16 | cosine=0.838984
+
+Query vector: V01522
+Query token : ▁and
+  1. V00553 | token=▁and | parent=C16 | cosine=0.851638
+  2. V00551 | token=▁is | parent=C16 | cosine=0.844553
+  3. V00554 | token=▁the | parent=C16 | cosine=0.844368
+  4. V00686 | token=▁and | parent=C20 | cosine=0.843554
+  5. V00702 | token=. | parent=C20 | cosine=0.841457
+
+Query vector: V01523
+Query token : ▁what
+  1. V00566 | token=s | parent=C16 | cosine=0.851265
+  2. V00553 | token=▁and | parent=C16 | cosine=0.845463
+  3. V00568 | token=▁to | parent=C16 | cosine=0.842887
+  4. V00702 | token=. | parent=C20 | cosine=0.838572
+  5. V00562 | token=. | parent=C16 | cosine=0.838312
+
+Query vector: V01524
+Query token : ▁security
+  1. V00571 | token=▁security | parent=C16 | cosine=0.910008
+  2. V00588 | token=▁security | parent=C17 | cosine=0.871830
+  3. V00694 | token=▁safety | parent=C20 | cosine=0.845783
+  4. V00593 | token=▁protect | parent=C17 | cosine=0.801254
+  5. V00696 | token=▁confidential | parent=C20 | cosine=0.794420
+
+Query vector: V01525
+Query token : ▁require
+  1. V00572 | token=▁requirements | parent=C16 | cosine=0.885091
+  2. V00701 | token=▁requirements | parent=C20 | cosine=0.867130
+  3. V00567 | token=▁subject | parent=C16 | cosine=0.827511
+  4. V00691 | token=▁applicable | parent=C20 | cosine=0.813545
+  5. V00195 | token=▁requirements | parent=C06 | cosine=0.811694
+
+Query vector: V01526
+Query token : ment
+  1. V00568 | token=▁to | parent=C16 | cosine=0.839034
+  2. V00566 | token=s | parent=C16 | cosine=0.834879
+  3. V00572 | token=▁requirements | parent=C16 | cosine=0.832583
+  4. V00567 | token=▁subject | parent=C16 | cosine=0.821524
+  5. V00701 | token=▁requirements | parent=C20 | cosine=0.816651
+
+Query vector: V01527
+Query token : ▁app
+  1. V00567 | token=▁subject | parent=C16 | cosine=0.842564
+  2. V00568 | token=▁to | parent=C16 | cosine=0.827425
+  3. V00691 | token=▁applicable | parent=C20 | cosine=0.823496
+  4. V00566 | token=s | parent=C16 | cosine=0.818990
+  5. V00565 | token=▁remain | parent=C16 | cosine=0.817413
+
+Query vector: V01528
+Query token : lies
+  1. V00566 | token=s | parent=C16 | cosine=0.852793
+  2. V00568 | token=▁to | parent=C16 | cosine=0.852775
+  3. V00567 | token=▁subject | parent=C16 | cosine=0.843382
+  4. V00565 | token=▁remain | parent=C16 | cosine=0.824801
+  5. V00544 | token=▁may | parent=C16 | cosine=0.822397
+
+Query vector: V01529
+Query token : ▁while
+  1. V00566 | token=s | parent=C16 | cosine=0.845933
+  2. V00553 | token=▁and | parent=C16 | cosine=0.841378
+  3. V00673 | token=es | parent=C20 | cosine=0.830153
+  4. V00702 | token=. | parent=C20 | cosine=0.829086
+  5. V00556 | token=▁has | parent=C16 | cosine=0.827215
+
+Query vector: V01530
+Query token : ▁working
+  1. V00564 | token=▁work | parent=C16 | cosine=0.896900
+  2. V00545 | token=▁work | parent=C16 | cosine=0.895712
+  3. V00684 | token=▁work | parent=C20 | cosine=0.887193
+  4. V00674 | token=▁working | parent=C20 | cosine=0.884777
+  5. V00541 | token=lo | parent=C16 | cosine=0.855871
+
+Query vector: V01531
+Query token : ▁remote
+  1. V00546 | token=▁remote | parent=C16 | cosine=0.899954
+  2. V00563 | token=▁Remote | parent=C16 | cosine=0.895981
+  3. V00574 | token=▁Remote | parent=C17 | cosine=0.865849
+  4. V00603 | token=▁Remote | parent=C18 | cosine=0.835210
+  5. V00547 | token=ly | parent=C16 | cosine=0.827475
+
+Query vector: V01532
+Query token : ly
+  1. V00547 | token=ly | parent=C16 | cosine=0.856532
+  2. V00673 | token=es | parent=C20 | cosine=0.824274
+  3. V00675 | token=▁from | parent=C20 | cosine=0.823972
+  4. V00543 | token=es | parent=C16 | cosine=0.823705
+  5. V00566 | token=s | parent=C16 | cosine=0.819729
+
+Query vector: V01533
+Query token : ?
+  1. V00562 | token=. | parent=C16 | cosine=0.855190
+  2. V00702 | token=. | parent=C20 | cosine=0.854266
+  3. V00554 | token=▁the | parent=C16 | cosine=0.839069
+  4. V00573 | token=. | parent=C16 | cosine=0.837131
+  5. V00602 | token=. | parent=C17 | cosine=0.833201

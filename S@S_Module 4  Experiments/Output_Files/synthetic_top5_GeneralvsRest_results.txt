@@ -1,0 +1,1019 @@
+====================================================================================================
+Semantics @ Suren — Module 4
+GENERAL-CENTRIC LOCAL + CROSS-GROUP COSINE ANALYSIS
+====================================================================================================
+
+Corpus     : /home/surendran/LangChain/Semantics@Suren/S@S_Module 4  Experiments/Synthetic_Corpus.csv
+Embeddings : /home/surendran/LangChain/Semantics@Suren/S@S_Module 4  Experiments/Output_Files/synthetic_raw_embeddings.npy
+Target     : 5.General
+
+====================================================================================================
+LOADING CORPUS
+====================================================================================================
+
+Corpus shape : (50, 4)
+
+====================================================================================================
+LOADING EMBEDDINGS
+====================================================================================================
+
+Embedding shape : (50, 1024)
+
+CSV rows and embedding rows are aligned.
+
+====================================================================================================
+COMPARISON POPULATION
+====================================================================================================
+
+General chunks       : 6
+Outside-General      : 44
+Embedding dimensions : 1024
+
+
+####################################################################################################
+GENERAL REFERENCE 1 OF 6
+####################################################################################################
+
+----------------------------------------------------------------------------------------------------
+REFERENCE GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 43
+CSV row         : 45
+Column A        : 5.General
+Column B        : 5.1 Financial networking
+Column C        : 5.1.1 Human Relationships
+Column D        : To be financially successful one has to be very good in connections AND PR skills need to be outstanding – even in personal life
+
+====================================================================================================
+TOP 5 WITHIN-GENERAL CHUNKS
+====================================================================================================
+
+Rank    Embedding Idx   Cosine         CSV Row   Group                              
+----------------------------------------------------------------------------------------------------
+1       46              0.51186240     48        5.General                          
+2       47              0.48545230     49        5.General                          
+3       48              0.46572203     50        5.General                          
+4       44              0.40299529     46        5.General                          
+5       45              0.38486856     47        5.General                          
+
+
+WITHIN-GENERAL RANK 1
+Cosine similarity : 0.51186240
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 46
+CSV row         : 48
+Column A        : 5.General
+Column B        : 5.3 DBA
+Column C        : 5.3.1 Database Administration
+Column D        : The specialization that involves understanding how data structures are organized, stored & accessed efficiently
+
+WITHIN-GENERAL RANK 2
+Cosine similarity : 0.48545230
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 47
+CSV row         : 49
+Column A        : 5.General
+Column B        : 5.4 Connections
+Column C        : 5.4.1Connecting Computing & Networking
+Column D        : Modern IT is so complex and layered that a computer engineer cannot afford to be ingorant about networking & also vice versa
+
+WITHIN-GENERAL RANK 3
+Cosine similarity : 0.46572203
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 48
+CSV row         : 50
+Column A        : 5.General
+Column B        : 5.4 Connections
+Column C        : 5.4.2 Finance and Health Care
+Column D        : The awareness about health care is enormous today that billions of dollars are invested in Health sector & it is one of leading business in financial sector
+
+WITHIN-GENERAL RANK 4
+Cosine similarity : 0.40299529
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 44
+CSV row         : 46
+Column A        : 5.General
+Column B        : 5.1 Financial regulations
+Column C        : 5.1.2 Controls on Electronic payment
+Column D        : In order to maintain financial health of the nation, the Finance bill has imposed tight controls on electronic payments
+
+WITHIN-GENERAL RANK 5
+Cosine similarity : 0.38486856
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 45
+CSV row         : 47
+Column A        : 5.General
+Column B        : 5.2 Blob structure
+Column C        : 5.2.1 Unconventional Data structure
+Column D        : Modern computing is so advanced that even a blob of information can be used as a data source even if it is unformatted
+
+====================================================================================================
+TOP 5 OUTSIDE-GENERAL CHUNKS
+====================================================================================================
+
+Rank    Embedding Idx   Cosine         CSV Row   Group                              
+----------------------------------------------------------------------------------------------------
+1       38              0.65739164     40        4. Computing & Software            
+2       41              0.64430627     43        4. Computing & Software            
+3       42              0.61005471     44        4. Computing & Software            
+4       32              0.58590769     34        4. Computing & Software            
+5       40              0.54327762     42        4. Computing & Software            
+
+
+OUTSIDE-GENERAL RANK 1
+Cosine similarity : 0.65739164
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 38
+CSV row         : 40
+Column A        : 4. Computing & Software
+Column B        : 4.3 Operating Systems
+Column C        : 4.3.2 Virtual memory
+Column D        : Virtual memory provides processes with an abstraction of memory that is independent of the physical memory available in the system.
+
+OUTSIDE-GENERAL RANK 2
+Cosine similarity : 0.64430627
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 41
+CSV row         : 43
+Column A        : 4. Computing & Software
+Column B        : 4.4 Software Engineering
+Column C        : 4.4.2 Version control
+Column D        : Version control systems track changes to source code and other files, allowing developers to collaborate and maintain different versions of a software project.
+
+OUTSIDE-GENERAL RANK 3
+Cosine similarity : 0.61005471
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 42
+CSV row         : 44
+Column A        : 4. Computing & Software
+Column B        : 4.4 Software Engineering
+Column C        : 4.4.3 Software deployment
+Column D        : Software deployment is the process of making a software application available in a target environment so that it can be executed or used by its intended users.
+
+OUTSIDE-GENERAL RANK 4
+Cosine similarity : 0.58590769
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 32
+CSV row         : 34
+Column A        : 4. Computing & Software
+Column B        : 4.1 Programming
+Column C        : 4.1.2 Algorithms
+Column D        : Algorithms are defined sequences of computational steps used to solve problems or perform specific tasks.
+
+OUTSIDE-GENERAL RANK 5
+Cosine similarity : 0.54327762
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 40
+CSV row         : 42
+Column A        : 4. Computing & Software
+Column B        : 4.4 Software Engineering
+Column C        : 4.4.1 Software testing
+Column D        : Software testing evaluates whether a software system behaves according to its requirements and helps identify defects.
+
+
+####################################################################################################
+GENERAL REFERENCE 2 OF 6
+####################################################################################################
+
+----------------------------------------------------------------------------------------------------
+REFERENCE GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 44
+CSV row         : 46
+Column A        : 5.General
+Column B        : 5.1 Financial regulations
+Column C        : 5.1.2 Controls on Electronic payment
+Column D        : In order to maintain financial health of the nation, the Finance bill has imposed tight controls on electronic payments
+
+====================================================================================================
+TOP 5 WITHIN-GENERAL CHUNKS
+====================================================================================================
+
+Rank    Embedding Idx   Cosine         CSV Row   Group                              
+----------------------------------------------------------------------------------------------------
+1       45              0.50343492     47        5.General                          
+2       48              0.46624954     50        5.General                          
+3       46              0.42496864     48        5.General                          
+4       43              0.40299529     45        5.General                          
+5       47              0.40228164     49        5.General                          
+
+
+WITHIN-GENERAL RANK 1
+Cosine similarity : 0.50343492
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 45
+CSV row         : 47
+Column A        : 5.General
+Column B        : 5.2 Blob structure
+Column C        : 5.2.1 Unconventional Data structure
+Column D        : Modern computing is so advanced that even a blob of information can be used as a data source even if it is unformatted
+
+WITHIN-GENERAL RANK 2
+Cosine similarity : 0.46624954
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 48
+CSV row         : 50
+Column A        : 5.General
+Column B        : 5.4 Connections
+Column C        : 5.4.2 Finance and Health Care
+Column D        : The awareness about health care is enormous today that billions of dollars are invested in Health sector & it is one of leading business in financial sector
+
+WITHIN-GENERAL RANK 3
+Cosine similarity : 0.42496864
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 46
+CSV row         : 48
+Column A        : 5.General
+Column B        : 5.3 DBA
+Column C        : 5.3.1 Database Administration
+Column D        : The specialization that involves understanding how data structures are organized, stored & accessed efficiently
+
+WITHIN-GENERAL RANK 4
+Cosine similarity : 0.40299529
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 43
+CSV row         : 45
+Column A        : 5.General
+Column B        : 5.1 Financial networking
+Column C        : 5.1.1 Human Relationships
+Column D        : To be financially successful one has to be very good in connections AND PR skills need to be outstanding – even in personal life
+
+WITHIN-GENERAL RANK 5
+Cosine similarity : 0.40228164
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 47
+CSV row         : 49
+Column A        : 5.General
+Column B        : 5.4 Connections
+Column C        : 5.4.1Connecting Computing & Networking
+Column D        : Modern IT is so complex and layered that a computer engineer cannot afford to be ingorant about networking & also vice versa
+
+====================================================================================================
+TOP 5 OUTSIDE-GENERAL CHUNKS
+====================================================================================================
+
+Rank    Embedding Idx   Cosine         CSV Row   Group                              
+----------------------------------------------------------------------------------------------------
+1       10              0.55577346     12        2. Finance & Banking               
+2       49              0.54896039     51                                           
+3       19              0.50895546     21        3. Medicine & Healthcare           
+4       14              0.49934063     16        2. Finance & Banking               
+5       16              0.48686192     18        2. Finance & Banking               
+
+
+OUTSIDE-GENERAL RANK 1
+Cosine similarity : 0.55577346
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 10
+CSV row         : 12
+Column A        : 2. Finance & Banking
+Column B        : 2.1 Banking & Payments
+Column C        : 2.1.2 Electronic payments
+Column D        : Electronic payments transfer money between parties through digital payment systems without requiring physical cash or paper-based instruments.
+
+OUTSIDE-GENERAL RANK 2
+Cosine similarity : 0.54896039
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 49
+CSV row         : 51
+Column A        : 
+Column B        : nan
+Column C        : nan
+Column D        : nan
+
+OUTSIDE-GENERAL RANK 3
+Cosine similarity : 0.50895546
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 19
+CSV row         : 21
+Column A        : 3. Medicine & Healthcare
+Column B        : 3.1 Diagnosis & Symptoms
+Column C        : 3.1.1 Medical diagnosis
+Column D        : Medical diagnosis is the process of identifying a disease or health condition by evaluating symptoms, medical history, physical findings, and diagnostic test results.
+
+OUTSIDE-GENERAL RANK 4
+Cosine similarity : 0.49934063
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 14
+CSV row         : 16
+Column A        : 2. Finance & Banking
+Column B        : 2.2 Financial Markets
+Column C        : 2.2.3 Stocks vs Bonds
+Column D        : Stocks represent ownership in a company, whereas bonds represent lending to an issuer. Their risk, return characteristics, and claims on the issuer differ.
+
+OUTSIDE-GENERAL RANK 5
+Cosine similarity : 0.48686192
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 16
+CSV row         : 18
+Column A        : 2. Finance & Banking
+Column B        : 2.3 Financial Risk
+Column C        : 2.3.2 Market risk
+Column D        : Market risk is the possibility of financial loss caused by changes in market variables such as equity prices, interest rates, exchange rates, or commodity prices.
+
+
+####################################################################################################
+GENERAL REFERENCE 3 OF 6
+####################################################################################################
+
+----------------------------------------------------------------------------------------------------
+REFERENCE GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 45
+CSV row         : 47
+Column A        : 5.General
+Column B        : 5.2 Blob structure
+Column C        : 5.2.1 Unconventional Data structure
+Column D        : Modern computing is so advanced that even a blob of information can be used as a data source even if it is unformatted
+
+====================================================================================================
+TOP 5 WITHIN-GENERAL CHUNKS
+====================================================================================================
+
+Rank    Embedding Idx   Cosine         CSV Row   Group                              
+----------------------------------------------------------------------------------------------------
+1       44              0.50343492     46        5.General                          
+2       46              0.44642752     48        5.General                          
+3       47              0.41839532     49        5.General                          
+4       48              0.41119944     50        5.General                          
+5       43              0.38486856     45        5.General                          
+
+
+WITHIN-GENERAL RANK 1
+Cosine similarity : 0.50343492
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 44
+CSV row         : 46
+Column A        : 5.General
+Column B        : 5.1 Financial regulations
+Column C        : 5.1.2 Controls on Electronic payment
+Column D        : In order to maintain financial health of the nation, the Finance bill has imposed tight controls on electronic payments
+
+WITHIN-GENERAL RANK 2
+Cosine similarity : 0.44642752
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 46
+CSV row         : 48
+Column A        : 5.General
+Column B        : 5.3 DBA
+Column C        : 5.3.1 Database Administration
+Column D        : The specialization that involves understanding how data structures are organized, stored & accessed efficiently
+
+WITHIN-GENERAL RANK 3
+Cosine similarity : 0.41839532
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 47
+CSV row         : 49
+Column A        : 5.General
+Column B        : 5.4 Connections
+Column C        : 5.4.1Connecting Computing & Networking
+Column D        : Modern IT is so complex and layered that a computer engineer cannot afford to be ingorant about networking & also vice versa
+
+WITHIN-GENERAL RANK 4
+Cosine similarity : 0.41119944
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 48
+CSV row         : 50
+Column A        : 5.General
+Column B        : 5.4 Connections
+Column C        : 5.4.2 Finance and Health Care
+Column D        : The awareness about health care is enormous today that billions of dollars are invested in Health sector & it is one of leading business in financial sector
+
+WITHIN-GENERAL RANK 5
+Cosine similarity : 0.38486856
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 43
+CSV row         : 45
+Column A        : 5.General
+Column B        : 5.1 Financial networking
+Column C        : 5.1.1 Human Relationships
+Column D        : To be financially successful one has to be very good in connections AND PR skills need to be outstanding – even in personal life
+
+====================================================================================================
+TOP 5 OUTSIDE-GENERAL CHUNKS
+====================================================================================================
+
+Rank    Embedding Idx   Cosine         CSV Row   Group                              
+----------------------------------------------------------------------------------------------------
+1       10              0.61903408     12        2. Finance & Banking               
+2       11              0.61828055     13        2. Finance & Banking               
+3       49              0.59593645     51                                           
+4       19              0.57458195     21        3. Medicine & Healthcare           
+5       18              0.57196143     20        2. Finance & Banking               
+
+
+OUTSIDE-GENERAL RANK 1
+Cosine similarity : 0.61903408
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 10
+CSV row         : 12
+Column A        : 2. Finance & Banking
+Column B        : 2.1 Banking & Payments
+Column C        : 2.1.2 Electronic payments
+Column D        : Electronic payments transfer money between parties through digital payment systems without requiring physical cash or paper-based instruments.
+
+OUTSIDE-GENERAL RANK 2
+Cosine similarity : 0.61828055
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 11
+CSV row         : 13
+Column A        : 2. Finance & Banking
+Column B        : 2.1 Banking & Payments
+Column C        : 2.1.3 Credit cards
+Column D        : A credit card allows a customer to make purchases using a line of credit provided by the card issuer, with the customer typically repaying the borrowed amount later.
+
+OUTSIDE-GENERAL RANK 3
+Cosine similarity : 0.59593645
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 49
+CSV row         : 51
+Column A        : 
+Column B        : nan
+Column C        : nan
+Column D        : nan
+
+OUTSIDE-GENERAL RANK 4
+Cosine similarity : 0.57458195
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 19
+CSV row         : 21
+Column A        : 3. Medicine & Healthcare
+Column B        : 3.1 Diagnosis & Symptoms
+Column C        : 3.1.1 Medical diagnosis
+Column D        : Medical diagnosis is the process of identifying a disease or health condition by evaluating symptoms, medical history, physical findings, and diagnostic test results.
+
+OUTSIDE-GENERAL RANK 5
+Cosine similarity : 0.57196143
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 18
+CSV row         : 20
+Column A        : 2. Finance & Banking
+Column B        : 2.4 Financial Fraud
+Column C        : 2.4.2 Money laundering
+Column D        : Money laundering involves processes intended to conceal the illicit origin of funds by moving or transforming them through financial transactions.
+
+
+####################################################################################################
+GENERAL REFERENCE 4 OF 6
+####################################################################################################
+
+----------------------------------------------------------------------------------------------------
+REFERENCE GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 46
+CSV row         : 48
+Column A        : 5.General
+Column B        : 5.3 DBA
+Column C        : 5.3.1 Database Administration
+Column D        : The specialization that involves understanding how data structures are organized, stored & accessed efficiently
+
+====================================================================================================
+TOP 5 WITHIN-GENERAL CHUNKS
+====================================================================================================
+
+Rank    Embedding Idx   Cosine         CSV Row   Group                              
+----------------------------------------------------------------------------------------------------
+1       47              0.64289313     49        5.General                          
+2       48              0.61267804     50        5.General                          
+3       43              0.51186240     45        5.General                          
+4       45              0.44642752     47        5.General                          
+5       44              0.42496864     46        5.General                          
+
+
+WITHIN-GENERAL RANK 1
+Cosine similarity : 0.64289313
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 47
+CSV row         : 49
+Column A        : 5.General
+Column B        : 5.4 Connections
+Column C        : 5.4.1Connecting Computing & Networking
+Column D        : Modern IT is so complex and layered that a computer engineer cannot afford to be ingorant about networking & also vice versa
+
+WITHIN-GENERAL RANK 2
+Cosine similarity : 0.61267804
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 48
+CSV row         : 50
+Column A        : 5.General
+Column B        : 5.4 Connections
+Column C        : 5.4.2 Finance and Health Care
+Column D        : The awareness about health care is enormous today that billions of dollars are invested in Health sector & it is one of leading business in financial sector
+
+WITHIN-GENERAL RANK 3
+Cosine similarity : 0.51186240
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 43
+CSV row         : 45
+Column A        : 5.General
+Column B        : 5.1 Financial networking
+Column C        : 5.1.1 Human Relationships
+Column D        : To be financially successful one has to be very good in connections AND PR skills need to be outstanding – even in personal life
+
+WITHIN-GENERAL RANK 4
+Cosine similarity : 0.44642752
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 45
+CSV row         : 47
+Column A        : 5.General
+Column B        : 5.2 Blob structure
+Column C        : 5.2.1 Unconventional Data structure
+Column D        : Modern computing is so advanced that even a blob of information can be used as a data source even if it is unformatted
+
+WITHIN-GENERAL RANK 5
+Cosine similarity : 0.42496864
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 44
+CSV row         : 46
+Column A        : 5.General
+Column B        : 5.1 Financial regulations
+Column C        : 5.1.2 Controls on Electronic payment
+Column D        : In order to maintain financial health of the nation, the Finance bill has imposed tight controls on electronic payments
+
+====================================================================================================
+TOP 5 OUTSIDE-GENERAL CHUNKS
+====================================================================================================
+
+Rank    Embedding Idx   Cosine         CSV Row   Group                              
+----------------------------------------------------------------------------------------------------
+1       34              0.71221312     36        4. Computing & Software            
+2       36              0.64151864     38        4. Computing & Software            
+3       35              0.63137000     37        4. Computing & Software            
+4       30              0.62888202     32        3. Medicine & Healthcare           
+5       40              0.62578298     42        4. Computing & Software            
+
+
+OUTSIDE-GENERAL RANK 1
+Cosine similarity : 0.71221312
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 34
+CSV row         : 36
+Column A        : 4. Computing & Software
+Column B        : 4.2 Databases
+Column C        : 4.2.1 Relational databases
+Column D        : Relational databases organize data into tables consisting of rows and columns, with relationships between tables represented through keys.
+
+OUTSIDE-GENERAL RANK 2
+Cosine similarity : 0.64151864
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 36
+CSV row         : 38
+Column A        : 4. Computing & Software
+Column B        : 4.2 Databases
+Column C        : 4.2.3 Database indexing
+Column D        : Database indexes are auxiliary data structures that allow database systems to locate records more efficiently without scanning the entire table.
+
+OUTSIDE-GENERAL RANK 3
+Cosine similarity : 0.63137000
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 35
+CSV row         : 37
+Column A        : 4. Computing & Software
+Column B        : 4.2 Databases
+Column C        : 4.2.2 SQL
+Column D        : SQL is a language used to query, insert, modify, and manage data stored in relational database systems.
+
+OUTSIDE-GENERAL RANK 4
+Cosine similarity : 0.62888202
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 30
+CSV row         : 32
+Column A        : 3. Medicine & Healthcare
+Column B        : 3.4 Healthcare Operations
+Column C        : 3.4.3 Health insurance
+Column D        : Health insurance provides financial coverage for eligible healthcare expenses, subject to the terms, conditions, and limits of an insurance policy.
+
+OUTSIDE-GENERAL RANK 5
+Cosine similarity : 0.62578298
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 40
+CSV row         : 42
+Column A        : 4. Computing & Software
+Column B        : 4.4 Software Engineering
+Column C        : 4.4.1 Software testing
+Column D        : Software testing evaluates whether a software system behaves according to its requirements and helps identify defects.
+
+
+####################################################################################################
+GENERAL REFERENCE 5 OF 6
+####################################################################################################
+
+----------------------------------------------------------------------------------------------------
+REFERENCE GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 47
+CSV row         : 49
+Column A        : 5.General
+Column B        : 5.4 Connections
+Column C        : 5.4.1Connecting Computing & Networking
+Column D        : Modern IT is so complex and layered that a computer engineer cannot afford to be ingorant about networking & also vice versa
+
+====================================================================================================
+TOP 5 WITHIN-GENERAL CHUNKS
+====================================================================================================
+
+Rank    Embedding Idx   Cosine         CSV Row   Group                              
+----------------------------------------------------------------------------------------------------
+1       46              0.64289313     48        5.General                          
+2       48              0.56338455     50        5.General                          
+3       43              0.48545230     45        5.General                          
+4       45              0.41839532     47        5.General                          
+5       44              0.40228164     46        5.General                          
+
+
+WITHIN-GENERAL RANK 1
+Cosine similarity : 0.64289313
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 46
+CSV row         : 48
+Column A        : 5.General
+Column B        : 5.3 DBA
+Column C        : 5.3.1 Database Administration
+Column D        : The specialization that involves understanding how data structures are organized, stored & accessed efficiently
+
+WITHIN-GENERAL RANK 2
+Cosine similarity : 0.56338455
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 48
+CSV row         : 50
+Column A        : 5.General
+Column B        : 5.4 Connections
+Column C        : 5.4.2 Finance and Health Care
+Column D        : The awareness about health care is enormous today that billions of dollars are invested in Health sector & it is one of leading business in financial sector
+
+WITHIN-GENERAL RANK 3
+Cosine similarity : 0.48545230
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 43
+CSV row         : 45
+Column A        : 5.General
+Column B        : 5.1 Financial networking
+Column C        : 5.1.1 Human Relationships
+Column D        : To be financially successful one has to be very good in connections AND PR skills need to be outstanding – even in personal life
+
+WITHIN-GENERAL RANK 4
+Cosine similarity : 0.41839532
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 45
+CSV row         : 47
+Column A        : 5.General
+Column B        : 5.2 Blob structure
+Column C        : 5.2.1 Unconventional Data structure
+Column D        : Modern computing is so advanced that even a blob of information can be used as a data source even if it is unformatted
+
+WITHIN-GENERAL RANK 5
+Cosine similarity : 0.40228164
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 44
+CSV row         : 46
+Column A        : 5.General
+Column B        : 5.1 Financial regulations
+Column C        : 5.1.2 Controls on Electronic payment
+Column D        : In order to maintain financial health of the nation, the Finance bill has imposed tight controls on electronic payments
+
+====================================================================================================
+TOP 5 OUTSIDE-GENERAL CHUNKS
+====================================================================================================
+
+Rank    Embedding Idx   Cosine         CSV Row   Group                              
+----------------------------------------------------------------------------------------------------
+1       34              0.82067720     36        4. Computing & Software            
+2       33              0.68595174     35        4. Computing & Software            
+3       40              0.67474437     42        4. Computing & Software            
+4       37              0.66179592     39        4. Computing & Software            
+5       36              0.65680373     38        4. Computing & Software            
+
+
+OUTSIDE-GENERAL RANK 1
+Cosine similarity : 0.82067720
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 34
+CSV row         : 36
+Column A        : 4. Computing & Software
+Column B        : 4.2 Databases
+Column C        : 4.2.1 Relational databases
+Column D        : Relational databases organize data into tables consisting of rows and columns, with relationships between tables represented through keys.
+
+OUTSIDE-GENERAL RANK 2
+Cosine similarity : 0.68595174
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 33
+CSV row         : 35
+Column A        : 4. Computing & Software
+Column B        : 4.1 Programming
+Column C        : 4.1.3 Data structures
+Column D        : Data structures organize and store data so that it can be accessed and manipulated efficiently.
+
+OUTSIDE-GENERAL RANK 3
+Cosine similarity : 0.67474437
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 40
+CSV row         : 42
+Column A        : 4. Computing & Software
+Column B        : 4.4 Software Engineering
+Column C        : 4.4.1 Software testing
+Column D        : Software testing evaluates whether a software system behaves according to its requirements and helps identify defects.
+
+OUTSIDE-GENERAL RANK 4
+Cosine similarity : 0.66179592
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 37
+CSV row         : 39
+Column A        : 4. Computing & Software
+Column B        : 4.3 Operating Systems
+Column C        : 4.3.1 Processes
+Column D        : A process is an instance of a running program together with its associated execution state and system resources.
+
+OUTSIDE-GENERAL RANK 5
+Cosine similarity : 0.65680373
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 36
+CSV row         : 38
+Column A        : 4. Computing & Software
+Column B        : 4.2 Databases
+Column C        : 4.2.3 Database indexing
+Column D        : Database indexes are auxiliary data structures that allow database systems to locate records more efficiently without scanning the entire table.
+
+
+####################################################################################################
+GENERAL REFERENCE 6 OF 6
+####################################################################################################
+
+----------------------------------------------------------------------------------------------------
+REFERENCE GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 48
+CSV row         : 50
+Column A        : 5.General
+Column B        : 5.4 Connections
+Column C        : 5.4.2 Finance and Health Care
+Column D        : The awareness about health care is enormous today that billions of dollars are invested in Health sector & it is one of leading business in financial sector
+
+====================================================================================================
+TOP 5 WITHIN-GENERAL CHUNKS
+====================================================================================================
+
+Rank    Embedding Idx   Cosine         CSV Row   Group                              
+----------------------------------------------------------------------------------------------------
+1       46              0.61267804     48        5.General                          
+2       47              0.56338455     49        5.General                          
+3       44              0.46624954     46        5.General                          
+4       43              0.46572203     45        5.General                          
+5       45              0.41119944     47        5.General                          
+
+
+WITHIN-GENERAL RANK 1
+Cosine similarity : 0.61267804
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 46
+CSV row         : 48
+Column A        : 5.General
+Column B        : 5.3 DBA
+Column C        : 5.3.1 Database Administration
+Column D        : The specialization that involves understanding how data structures are organized, stored & accessed efficiently
+
+WITHIN-GENERAL RANK 2
+Cosine similarity : 0.56338455
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 47
+CSV row         : 49
+Column A        : 5.General
+Column B        : 5.4 Connections
+Column C        : 5.4.1Connecting Computing & Networking
+Column D        : Modern IT is so complex and layered that a computer engineer cannot afford to be ingorant about networking & also vice versa
+
+WITHIN-GENERAL RANK 3
+Cosine similarity : 0.46624954
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 44
+CSV row         : 46
+Column A        : 5.General
+Column B        : 5.1 Financial regulations
+Column C        : 5.1.2 Controls on Electronic payment
+Column D        : In order to maintain financial health of the nation, the Finance bill has imposed tight controls on electronic payments
+
+WITHIN-GENERAL RANK 4
+Cosine similarity : 0.46572203
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 43
+CSV row         : 45
+Column A        : 5.General
+Column B        : 5.1 Financial networking
+Column C        : 5.1.1 Human Relationships
+Column D        : To be financially successful one has to be very good in connections AND PR skills need to be outstanding – even in personal life
+
+WITHIN-GENERAL RANK 5
+Cosine similarity : 0.41119944
+----------------------------------------------------------------------------------------------------
+MATCHING GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 45
+CSV row         : 47
+Column A        : 5.General
+Column B        : 5.2 Blob structure
+Column C        : 5.2.1 Unconventional Data structure
+Column D        : Modern computing is so advanced that even a blob of information can be used as a data source even if it is unformatted
+
+====================================================================================================
+TOP 5 OUTSIDE-GENERAL CHUNKS
+====================================================================================================
+
+Rank    Embedding Idx   Cosine         CSV Row   Group                              
+----------------------------------------------------------------------------------------------------
+1       4               0.52245953     6         1. Networking                      
+2       32              0.51567188     34        4. Computing & Software            
+3       8               0.51461006     10        1. Networking                      
+4       7               0.50374288     9         1. Networking                      
+5       33              0.50146776     35        4. Computing & Software            
+
+
+OUTSIDE-GENERAL RANK 1
+Cosine similarity : 0.52245953
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 4
+CSV row         : 6
+Column A        : 1. Networking
+Column B        : 1.3 Application and Network Services
+Column C        : 1.3.1 DNS
+Column D        : The Domain Name System translates human-readable domain names into IP addresses and allows clients to locate services using names rather than numerical addresses.
+
+OUTSIDE-GENERAL RANK 2
+Cosine similarity : 0.51567188
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 32
+CSV row         : 34
+Column A        : 4. Computing & Software
+Column B        : 4.1 Programming
+Column C        : 4.1.2 Algorithms
+Column D        : Algorithms are defined sequences of computational steps used to solve problems or perform specific tasks.
+
+OUTSIDE-GENERAL RANK 3
+Cosine similarity : 0.51461006
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 8
+CSV row         : 10
+Column A        : 1. Networking
+Column B        : 1.5 Network Performance
+Column C        : 1.5.2 Network latency
+Column D        : Network latency is the delay involved in transmitting data between endpoints. It can be affected by factors such as physical distance, propagation, processing, queuing, and network conditions.
+
+OUTSIDE-GENERAL RANK 4
+Cosine similarity : 0.50374288
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 7
+CSV row         : 9
+Column A        : 1. Networking
+Column B        : 1.5 Network Performance
+Column C        : 1.5.1 Network congestion
+Column D        : Network congestion occurs when the amount of traffic attempting to use network resources exceeds their available capacity, potentially causing delays, packet loss, and reduced throughput.
+
+OUTSIDE-GENERAL RANK 5
+Cosine similarity : 0.50146776
+----------------------------------------------------------------------------------------------------
+MATCHING OUTSIDE-GENERAL CHUNK
+----------------------------------------------------------------------------------------------------
+Embedding index : 33
+CSV row         : 35
+Column A        : 4. Computing & Software
+Column B        : 4.1 Programming
+Column C        : 4.1.3 Data structures
+Column D        : Data structures organize and store data so that it can be accessed and manipulated efficiently.
+
+
+====================================================================================================
+EXPERIMENT COMPLETE
+====================================================================================================
+
+Analyzed all 6 chunks belonging to 5.General.
+
+For each General chunk:
+  • Reference chunk was displayed.
+  • Top 5 within-General neighbours were calculated.
+  • Top 5 outside-General neighbours were calculated.
+
+Column A = grouping metadata
+Column B = metadata
+Column C = metadata
+Column D = embedded content
+
+No mean-centering was applied.
+No PCA was applied.
+No whitening was applied.
+No dimensionality reduction was applied.
+Original embeddings were not modified.

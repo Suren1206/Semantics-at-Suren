@@ -1,0 +1,126 @@
+Question_ID,Category,Question,Rank,Corpus_Index,Chunk_ID,Cosine_Similarity
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,1,0,chunk_0,0.8193071977203984
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,2,2,chunk_2,0.813769890978948
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,3,1,chunk_1,0.7056070918410877
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,4,7,chunk_7,0.60659816696978
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,5,6,chunk_6,0.6032089500735233
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,1,2,chunk_2,0.8046172370395694
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,2,1,chunk_1,0.8037496221908083
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,3,0,chunk_0,0.7302667635495923
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,4,3,chunk_3,0.5599407972737898
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,5,7,chunk_7,0.5422060828707626
+3,Directly answerable / simple — 20,What does DNS translate? ,1,5,chunk_5,0.7056515312876201
+3,Directly answerable / simple — 20,What does DNS translate? ,2,3,chunk_3,0.5909035437983292
+3,Directly answerable / simple — 20,What does DNS translate? ,3,4,chunk_4,0.5348869343243052
+3,Directly answerable / simple — 20,What does DNS translate? ,4,6,chunk_6,0.530479282029694
+3,Directly answerable / simple — 20,What does DNS translate? ,5,9,chunk_9,0.526130710097255
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,1,4,chunk_4,0.7738272389481784
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,2,7,chunk_7,0.695060280595054
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,3,9,chunk_9,0.6772610354701221
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,4,0,chunk_0,0.6295296825322175
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,5,3,chunk_3,0.6268818285148985
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,1,7,chunk_7,0.8905294215440519
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,2,8,chunk_8,0.6119959094393663
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,3,4,chunk_4,0.6117712578437033
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,4,0,chunk_0,0.6074395872696213
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,5,1,chunk_1,0.5621620733380124
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,1,9,chunk_9,0.8680494781595665
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,2,8,chunk_8,0.6621433840027758
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,3,4,chunk_4,0.5532713105065847
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,4,7,chunk_7,0.5306610890322071
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,5,3,chunk_3,0.5219291940090587
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,1,15,chunk_15,0.8648924236033633
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,2,14,chunk_14,0.684503596272717
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,3,13,chunk_13,0.6061430852085659
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,4,17,chunk_17,0.5170496692236338
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,5,10,chunk_10,0.45974540970892225
+8,Directly answerable / simple — 20,What is credit risk? ,1,16,chunk_16,0.8668853453076126
+8,Directly answerable / simple — 20,What is credit risk? ,2,17,chunk_17,0.7015617471183336
+8,Directly answerable / simple — 20,What is credit risk? ,3,12,chunk_12,0.584904990649925
+8,Directly answerable / simple — 20,What is credit risk? ,4,14,chunk_14,0.5676031987005006
+8,Directly answerable / simple — 20,What is credit risk? ,5,15,chunk_15,0.5384038863085023
+9,Directly answerable / simple — 20,What is market risk? ,1,17,chunk_17,0.824211816483682
+9,Directly answerable / simple — 20,What is market risk? ,2,16,chunk_16,0.6335246567692314
+9,Directly answerable / simple — 20,What is market risk? ,3,15,chunk_15,0.5506940749654294
+9,Directly answerable / simple — 20,What is market risk? ,4,13,chunk_13,0.5191264115202734
+9,Directly answerable / simple — 20,What is market risk? ,5,14,chunk_14,0.5086109846044942
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,1,11,chunk_11,0.776786149408479
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,2,45,chunk_45,0.6526809670419051
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,3,10,chunk_10,0.5990606619525369
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,4,12,chunk_12,0.5717031192394632
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,5,18,chunk_18,0.548075300758148
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,1,18,chunk_18,0.8240012004271603
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,2,19,chunk_19,0.6164721132133397
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,3,10,chunk_10,0.546252820280817
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,4,45,chunk_45,0.5217994508451204
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,5,22,chunk_22,0.4865530592415158
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,1,19,chunk_19,0.7898046948380938
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,2,10,chunk_10,0.5802960445306284
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,3,18,chunk_18,0.571020340828118
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,4,45,chunk_45,0.48158031337774293
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,5,49,chunk_49,0.45859601005996803
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,1,20,chunk_20,0.8180000966396095
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,2,22,chunk_22,0.7585027355038485
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,3,30,chunk_30,0.6620642421627174
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,4,26,chunk_26,0.6480825570771825
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,5,21,chunk_21,0.6457244317384497
+14,Directly answerable / simple — 20,What are medical symptoms? ,1,21,chunk_21,0.8206476833839683
+14,Directly answerable / simple — 20,What are medical symptoms? ,2,20,chunk_20,0.7335151709625911
+14,Directly answerable / simple — 20,What are medical symptoms? ,3,26,chunk_26,0.6483559300155949
+14,Directly answerable / simple — 20,What are medical symptoms? ,4,22,chunk_22,0.6216488324104145
+14,Directly answerable / simple — 20,What are medical symptoms? ,5,27,chunk_27,0.5871174952891285
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,1,22,chunk_22,0.8026061010241624
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,2,20,chunk_20,0.71109816402946
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,3,41,chunk_41,0.6154915725073133
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,4,21,chunk_21,0.5493708598518263
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,5,28,chunk_28,0.5477853187181275
+16,Directly answerable / simple — 20,What is diabetes? ,1,23,chunk_23,0.7789095612989668
+16,Directly answerable / simple — 20,What is diabetes? ,2,20,chunk_20,0.5952761934357418
+16,Directly answerable / simple — 20,What is diabetes? ,3,24,chunk_24,0.5609429022528498
+16,Directly answerable / simple — 20,What is diabetes? ,4,26,chunk_26,0.5574444714056583
+16,Directly answerable / simple — 20,What is diabetes? ,5,28,chunk_28,0.5349951500040044
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,1,24,chunk_24,0.83836037123235
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,2,20,chunk_20,0.5861957165937466
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,3,22,chunk_22,0.5549666846360211
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,4,27,chunk_27,0.553666829291855
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,5,26,chunk_26,0.5492887381708583
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,1,26,chunk_26,0.8348127581451666
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,2,28,chunk_28,0.6927526711684497
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,3,27,chunk_27,0.6765097521251152
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,4,20,chunk_20,0.6695464741523903
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,5,29,chunk_29,0.6005585604652443
+19,Directly answerable / simple — 20,What are medications used for? ,1,27,chunk_27,0.8039312953866176
+19,Directly answerable / simple — 20,What are medications used for? ,2,26,chunk_26,0.6964570709117115
+19,Directly answerable / simple — 20,What are medications used for? ,3,28,chunk_28,0.5954407222199171
+19,Directly answerable / simple — 20,What are medications used for? ,4,30,chunk_30,0.5757181033111274
+19,Directly answerable / simple — 20,What are medications used for? ,5,29,chunk_29,0.5663059528706245
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,1,30,chunk_30,0.8280014763319143
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,2,29,chunk_29,0.6085528258070366
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,3,20,chunk_20,0.6008753172113133
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,4,27,chunk_27,0.5858507500914274
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,5,22,chunk_22,0.5467310499316833
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,1,7,chunk_7,0.8084579665045957
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,2,4,chunk_4,0.6025558237962272
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,3,8,chunk_8,0.5728486627595482
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,4,6,chunk_6,0.564976477483063
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,5,0,chunk_0,0.5595794503554742
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,1,17,chunk_17,0.6919252225975548
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,2,16,chunk_16,0.6841351214213456
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,3,18,chunk_18,0.635412726431157
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,4,10,chunk_10,0.6173279699218649
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,5,19,chunk_19,0.5955229017528899
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",1,20,chunk_20,0.7989249666894427
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",2,22,chunk_22,0.7465286195483439
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",3,26,chunk_26,0.7056394740329912
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",4,30,chunk_30,0.7008182064350792
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",5,29,chunk_29,0.6997658911980926
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,1,31,chunk_31,0.6155415526394153
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,2,21,chunk_21,0.6011347090130983
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,3,29,chunk_29,0.5787368361949423
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,4,26,chunk_26,0.5522490182114438
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,5,27,chunk_27,0.5513603859379141
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",1,36,chunk_36,0.722894433967641
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",2,38,chunk_38,0.7049920800203233
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",3,33,chunk_33,0.6899262435730515
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",4,32,chunk_32,0.6797947502404602
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",5,34,chunk_34,0.6787460637876435

@@ -1,0 +1,190 @@
+A decision tree with zero training error necessarily has low bias.
+A fully grown decision tree typically has low bias and high variance.
+A k-NN classifier with very small k typically has low bias and high variance.
+A logistic regression model can have a linear decision boundary even though it uses a non-linear sigmoid function.
+A model with lower bias is always preferable to a model with slightly higher bias but much lower variance.
+A stationary series must have constant mean, variance, and autocovariance over time.
+A stationary time series must have constant mean and variance over time.
+A time series can be stationary but still difficult to forecast accurately.
+A time series is stationary according to ADF test, but forecasts are consistently poor. Give two non-obvious reasons why this can happen.
+A time series with strong autocorrelation is always predictable.
+Adding a perfectly collinear feature to a linear regression model changes the predictions.
+Adding an irrelevant feature to a linear regression model always increases training error.
+Adding regularization to a model generally increases bias and decreases variance.
+Bagging helps mainly by reducing variance through averaging unstable learners.
+Bagging primarily reduces variance rather than bias.
+Bagging primarily reduces variance without significantly increasing bias.
+Can increasing model complexity ever increase bias? Explain with reasoning.
+Can two models have identical bias–variance profiles but very different real-world performance? Explain.
+Can two models with very similar training and validation performance still differ significantly in long-term real-world reliability? Explain the mechanisms that cause this.
+Centering features can change the interpretation of the intercept without changing the fitted values.
+DBSCAN can fail when clusters have significantly different densities.
+DBSCAN can identify clusters of arbitrary shape and automatically detects noise.
+Decision trees are invariant to monotonic transformations of individual features.
+Distance concentration is a key reason k-NN struggles in high dimensions.
+Explain why accuracy is often a misleading metric for imbalanced classification problems.
+Feature scaling changes predictions of ordinary least squares regression (without regularization
+Feature scaling changes the structure of a decision tree.
+Feature scaling is necessary before applying PCA.
+Heteroscedasticity affects standard errors but not coefficient unbiasedness.
+Hierarchical clustering always requires the number of clusters to be specified in advance.
+High bias models are typically complex models that overfit the training data.
+How can a model show decreasing validation error while becoming less causally reliable?
+How can a model’s validation performance improve while its causal reliability decreases?
+How can two models with identical accuracy and F1-score still lead to very different business outcomes?
+How can two models with identical ROC-AUC values behave very differently in production?
+How does regularization influence the bias–variance tradeoff?
+How would you explain the bias–variance tradeoff to a non-technical stakeholder using a real-world analogy?
+If the first few principal components explain 95% of the variance, the remaining components are always irrelevant for prediction.
+If the first two principal components explain 95% of the variance, using only those two is always optimal.
+If the Gauss–Markov assumptions hold, the OLS estimator has minimum variance among all unbiased linear estimators.
+In a hard-margin SVM, what happens if the data is not linearly separable?
+In an SVM, which data points directly determine the position of the decision boundary?
+In an SVM, which parameter most directly controls overfitting?
+In linear regression, which situation causes coefficient estimates to be consistent but inefficient?
+In linear regression, which situation most directly violates the assumption re
+In linear regression, which situation most directly violates the assumption required for unbiased coefficient estimates?
+In PCA, orthogonality of principal components guarantees statistical independence.
+In soft-margin SVM, increasing parameter C primarily does what?
+In Support Vector Regression, what does the ε (epsilon)parameter control?
+In SVM, lowering C generally results in:
+In SVMs, what is the practical effect of increasing the margin width?
+In which scenario is a linear SVM most likely to outperform an RBF SVM?
+Increasing model complexity always decreases bias, regardless of data quality.
+Increasing model complexity always improves generalization when training data is large.
+Increasing the value of C in a soft-margin SVM generally reduces the margin width.
+Increasing tree depth always reduces both bias and variance.
+Increasing tree depth primarily causes:
+k-means assumes clusters are roughly spherical in feature space.
+K-means clustering assumes clusters are convex and roughly equal in size.
+k-means clustering minimizes within-cluster variance but does not explicitly maximize between-cluster separation.
+Logistic regression minimizes mean squared error, similar to linear regression, but with a sigmoid output layer.
+Naive Bayes can outperform more complex models when features are weakly dependent.
+Naive Bayes often performs surprisingly well on text data despite its strong independence assumptions.
+Naive Bayes performs surprisingly well on high-dimensional text data mainly because:
+Naive Bayes performs well in text mainly because:
+PCA can improve downstream model performance even when it slightly reduces explained variance.
+PCA can reduce overfitting even if it slightly lowers training accuracy.
+PCA can reduce overfitting even when classification accuracy decreases.
+PCA can use class labels during dimensionality reduction, while LDA cannot.
+PCA components are ordered by:
+PCA guarantees improved classification accuracy if enough variance is preserved
+PCA improves model performance in some cases but degrades it in others. Explain why.
+PCA primarily seeks directions that maximize:
+Perfect multicollinearity makes OLS coefficient estimates undefined, but near multicollinearity only increases variance.
+Pre-pruning a decision tree is a bias-increasing, variance-reducing technique
+Pruning a decision tree generally increases bias while reducing variance.
+Random Forests primarily reduce overfitting by decorrelating individual trees.
+Reducing variance at a small cost of bias may improve real-world generalization.
+Reducing variance at the cost of slightly higher bias can improve real-world model reliability.
+Standardizing features changes the optimal solution of ordinary least squares linear regression.
+Strong autocorrelation guarantees good forecast accuracy.
+Support vectors are the data points that lie exactly on the margin boundaries.
+The kernel trick explicitly computes feature mappings into higher dimensions.
+Using a non-linear kernel always improves SVM performance over a linear kernel.
+Using an RBF kernel guarantees better performance than a linear kernel in high-dimensional feature spaces.
+Walk-forward validation usually produces more conservative estimates than random CV.
+What does a logistic regression coefficient represent?
+What does maximizing the margin in SVM primarily achieve?
+What is the primary reason cosine similarity is often preferred over Euclidean distance in text-based k-NN?
+What practical signs suggest that a model is overfitting, even before looking at test metrics?
+Which action most commonly introduces leakage in time-series modeling?
+Which assumption allows Naive Bayes to scale well to high-dimensional data?
+Which assumption ensures OLS estimates are unbiased?
+Which assumption is violated when OLS estimates remain unbiased but standard errors become unreliable?
+Which assumption of linear regression is most directly violated when residuals show a funnel-shaped pattern?
+Which change most directly increases the bias of an SVM classifier?
+Which change will most directly increase variance in a KNN classifier?
+Which clustering algorithm explicitly assumes spherical clusters of similar size?
+Which clustering evaluation metric does not require ground-truth labels?
+Which clustering method can discover arbitrarily shaped clusters?
+Which condition guarantees that the ordinary least s
+Which condition guarantees that the ordinary least squares estimator is unbiased?
+Which condition must hold for ARMA models to be valid without differencing?
+Which data points influence the position of the SVM decision boundary?
+Which effect of PCA most directly helps linear models?
+Which evaluation approach is most appropriate for time-series models?
+Which factor most strongly affects KNN performance as dataset size increases?
+Which is the main practical disadvantage of Naive Bayes?
+Which issue is most directly caused by multicollinearity?
+Which metric can be computed without true labels?
+Which metric is most misleading on a highly imbalanced classification dataset?
+Which mistake most often causes overly optimistic backtesting results in time-series models?
+Which of the following most increases the variance of a decision tree?
+Which of the following statements about PCA is correct?
+Which phenomenon most directly explains why k-NN accuracy degrades as dimensionality increases?
+Which property makes log-loss suitable for probabilistic classification models?
+Which property of entropy makes it more sensitive to small class probabilities?
+Which property of Gini impurity causes it to stop splitting earlier than entropy?
+Which scenario most likely indicates overfitting?
+Which scenario most strongly suggests PCA should NOT be applied before modeling?
+Which situation most directly causes omitted variable bias?
+Which situation most directly leads to biased coefficient estimates in linear regression?
+Which situation most directly violates the assumption of independence in linear regression?
+Which situation most strongly violates the Naive Bayes independence assumption?
+Which split criterion in decision trees is generally more sensitive to class imbalance?
+Which split criterion is more sensitive to class imbalance?
+Which statement about decision trees is most accurate?
+Which statement about Naive Bayes probability estimates is most accurate?
+Which statement best captures a limitation of PCA when used before supervised learning?
+Which statement best characterizes Linear Discriminant Analysis (LDA
+Which statement best describes LDA?
+Which statement best distinguishes time series data from standard regression data?
+Which statement best explains why logistic regression coefficients are interpretable?
+Which statement best explains why logistic regression is still considered a linear model?
+Which statement best explains why logistic regression outputs calibrated probabilities?
+Which statement best explains why logistic regression uses log-odds?
+Which statement best explains why PCA can hurt supervised learning performance?
+Which statement is most accurate about the coefficients in logistic regression?
+Which technique is most appropriate to remove a deterministic trend from a time series?
+Which time-series component is explicitly removed by seasonal differencing?
+Which time-series transformation is primarily used to remove deterministic trends?
+Which transformation is most appropriate when variance increases with the level of the time series?
+Which validation mistake most commonly leads to information leakage in time-series modeling?
+Why are decision trees considered high-variance models?
+Why are tree-based models typically less sensitive to feature scaling, skewness, and monotonic transformations than linear or distance-based models?
+Why can a model perform well on one-step-ahead forecasts but degrade sharply when used recursively for multi-step prediction?
+Why can a model with excellent one-step-ahead forecasts perform poorly for multi-step forecasting?
+Why can a simpler linear model sometimes outperform a more complex model in real-world production systems, even when training data is abundant?
+Why can probability calibration matter more than raw accuracy in decision-making systems?
+Why can RBF kernels perform poorly on very high-dimensional sparse data?
+Why can recursive multi-step forecasting degrade
+Why can recursive multi-step forecasting degrade quickly?
+Why do distance-based algorithms struggle more with high-dimensional data than tree-based models?
+Why do distance-based models degrade more rapidly than tree-based models under feature noise?
+Why do ensemble methods often outperform single models in real-world ML systems?
+Why do linear models often perform well for text classification tasks?
+Why do models with excellent offline metrics sometimes fail silently in production?
+Why do simpler models sometimes remain preferred even when complex models achieve slightly better scores?
+Why do tree-based models often outperform linear models on tabular data?
+Why do tree-based models typically not require feature scaling, whereas KNN and SVM do?
+Why does a forecasting model that performs excellently in backtests sometimes fail when used live in production?
+Why does a linear kernel often outperform non-linear kernels in text classification?
+Why does cosine similarity work well for text vectors?
+Why does entropy tend to favor deeper trees than Gini impurity?
+Why does forecast uncertainty increase with prediction horizon even when the model is well specified and the series is stationary?
+Why does increasing the forecast horizon generally reduce confidence in predictions, even if the model is well specified?
+Why does k-NN typically fail in very high-dimensional spaces?
+Why does KNN performance often degrade as the number of dimensions increases?
+Why does multi-step time-series forecasting amplify uncertainty even for a stationary process?
+Why does Naive Bayes often work well even when the independence assumption is violated?
+Why does random train–test splitting often fail for time series data, even if the model and metrics are correct?
+Why does regularization improve model reliability even when training accuracy decreases?
+Why does walk-forward validation often give more pessimistic performance estimates than random cross-validation, and why is that pessimism desirable?
+Why is accuracy often an inappropriate evaluation metric for real-world classification problems, and what kinds of errors does it hide?
+Why is cross-validation not straightforward for time series data?
+Why is differencing commonly applied before fitting ARIMA models?
+Why is feature engineering often more impactful than algorithm choice in classical machine learning?
+Why is feature scaling critical for KNN?
+Why is interpretability sometimes more important than raw accuracy in enterprise ML deployments?
+Why is it dangerous to evaluate models only on a single train–test split, even when test performance looks strong?
+Why is log-loss preferred over accuracy during logistic regression training?
+Why is logistic regression typically optimized using maximum likelihood rather than least squares?
+Why is model stability over time a critical consideration in deployed ML systems?
+Why is PCA considered an unsupervised technique even when used in supervised learning pipelines?
+Why is R² often misleading when comparing models with different numbers of features?
+Why is selecting the right evaluation metric often more important than improving model accuracy?
+Why might a simple linear model outperform a complex model on real-world data?
+Why must time-series data generally not be split randomly for model evaluation?
+You apply PCA before logistic regression and observe lower accuracy but better generalization on unseen data. How is this possible?
+You train a model with very low training error and very low test error. Can such a model still have high bias? Explain your reasoning.

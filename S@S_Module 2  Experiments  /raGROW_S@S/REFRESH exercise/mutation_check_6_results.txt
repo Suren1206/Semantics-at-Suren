@@ -1,0 +1,243 @@
+ACTIVE VERSION: 20260424_B02
+==========================================================================================
+
+Q108
+QUESTION: Are employees allowed to combine annual leave with unpaid leave to extend a vacation period?
+------------------------------------------------------------------------------------------
+Rank: 1
+Score: 0.8012
+Chunk ID: chunk_11
+Chunk Index: 11
+Header: ANNUAL LEAVE
+Text: Employees are not allowed to combine annual leave with unpaid leave to extend a vacation period unless it is approved by Finance Controller
+------------------------------------------------------------------------------------------
+Rank: 2
+Score: 0.6606
+Chunk ID: chunk_8
+Chunk Index: 8
+Header: ANNUAL LEAVE
+Text: Carry-forward of unused leave is limited to 5 working days and must be utilised within 90 calendar days of the new cycle. Accumulated unused leave exceeding 8 days at year-end may be subject to forfeiture unless previously approved for deferment. Leave may not ordinarily be taken during the final 30 calendar days of employment unless approved by HR.
+------------------------------------------------------------------------------------------
+Rank: 3
+Score: 0.6488
+Chunk ID: chunk_10
+Chunk Index: 10
+Header: ANNUAL LEAVE
+Text: Employees are expected to avoid engaging in paid external employment during annual leave where it may reasonably impact fitness for duty upon return. More than two cancellations of approved leave within a 12-month period may require managerial review. Failure to return from leave on the agreed date without notification exceeding 1 working day may be treated as unauthorised absence.
+------------------------------------------------------------------------------------------
+Rank: 4
+Score: 0.6455
+Chunk ID: chunk_9
+Chunk Index: 9
+Header: ANNUAL LEAVE
+Text: Approved leave may be withdrawn by management in circumstances of material business disruption, with a minimum of 3 working days' notice where feasible. Employees on unpaid leave exceeding 30 consecutive days will not accrue annual leave during that period. Leave requests submitted during officially declared peak operational periods may be deferred without guarantee of alternative dates.
+------------------------------------------------------------------------------------------
+Rank: 5
+Score: 0.6412
+Chunk ID: chunk_7
+Chunk Index: 7
+Header: ANNUAL LEAVE
+Text: No more than 25% of employees within the same functional unit may be on leave simultaneously unless explicitly authorised. Employees must utilise at least 50% of their annual entitlement within the first three quarters of the leave cycle. A minimum continuous leave block of 5 working days must be taken each leave cycle unless operationally impractical.
+------------------------------------------------------------------------------------------
+
+
+Q104
+QUESTION: What escalation occurs if an employee fails to maintain contact during extended medical absence?
+------------------------------------------------------------------------------------------
+Rank: 1
+Score: 0.7797
+Chunk ID: chunk_3
+Chunk Index: 3
+Header: ABSENCE MANAGEMENT
+Text: Employees are expected to maintain reasonable contact during extended medical absence, typically not less than once every 14 calendar days else warning letter will be issued. Adjusted or phased return arrangements may be granted for a period not normally exceeding 20 working days, unless extended by management discretion.
+------------------------------------------------------------------------------------------
+Rank: 2
+Score: 0.7305
+Chunk ID: chunk_1
+Chunk Index: 1
+Header: ABSENCE MANAGEMENT
+Text: Three separate absence instances within a rolling 90-day period may trigger a formal attendance review meeting. Where total absence exceeds 8 working days within a rolling 6-month window, management may initiate an attendance improvement plan. Absence of 10 consecutive working days without contact may be treated as voluntary abandonment of employment, subject to documented outreach attempts on at least two separate days.
+------------------------------------------------------------------------------------------
+Rank: 3
+Score: 0.6919
+Chunk ID: chunk_2
+Chunk Index: 2
+Header: ABSENCE MANAGEMENT
+Text: Long-term absence exceeding 30 calendar days will require a structured case review every 30 days thereafter. Employees on medical absence exceeding 45 calendar days may be required to participate in a fitness-for-work assessment prior to resuming duties. Return-to-work discussions must occur within 48 hours of resumption following any absence exceeding 3 working days.
+------------------------------------------------------------------------------------------
+Rank: 4
+Score: 0.6878
+Chunk ID: chunk_4
+Chunk Index: 4
+Header: ABSENCE MANAGEMENT
+Text: Repeated absence adjacent to public holidays or scheduled leave occurring more than twice within a 12-month period may be subject to review. Failure to provide accurate medical documentation within required timelines may delay pay processing. Absence data will be reviewed quarterly at departmental level, and any unit exceeding a 6% absence rate may require corrective action planning.
+------------------------------------------------------------------------------------------
+Rank: 5
+Score: 0.6640
+Chunk ID: chunk_105
+Chunk Index: 105
+Header: LINE MANAGER SUPPORT
+Text: Support from HR must be provided within 5 working days of formal request. Managers must address absence threshold triggers in accordance with policy timelines. Line managers must not investigate complaints in which they are personally implicated. Manager performance metrics may include team engagement outcomes.
+------------------------------------------------------------------------------------------
+
+
+Q97
+QUESTION: What mid-year learning completion threshold applies to employees in regulated roles?
+------------------------------------------------------------------------------------------
+Rank: 1
+Score: 0.7421
+Chunk ID: chunk_48
+Chunk Index: 48
+Header: CPD (CONTINUING PROFESSIONAL DEVELOPMENT)
+Text: CPD participation rates below 70% at departmental level may trigger review. Misrepresentation of CPD activity constitutes misconduct. Employees in regulated roles must complete at least 50% of required learning before mid-year review.
+------------------------------------------------------------------------------------------
+Rank: 2
+Score: 0.7302
+Chunk ID: chunk_97
+Chunk Index: 97
+Header: LEARNING AND DEVELOPMENT
+Text: Learning programmes costing above predefined thresholds must demonstrate measurable ROI indicators. Cross-functional development assignments exceeding 90 days require formal agreement. Participation in development activities must not reduce performance delivery below agreed baseline expectations. Employees in critical roles must complete at least 25% of required annual development by mid-year review.
+------------------------------------------------------------------------------------------
+Rank: 3
+Score: 0.6954
+Chunk ID: chunk_95
+Chunk Index: 95
+Header: LEARNING AND DEVELOPMENT
+Text: Departments must conduct a formal training needs analysis at least once every 12 months. Employees must complete all mandatory training within 30 calendar days of assignment. Learning programmes exceeding 5 consecutive working days require documented workload coverage planning. Development budgets exceeding annual departmental allocation require executive approval.
+------------------------------------------------------------------------------------------
+Rank: 4
+Score: 0.6913
+Chunk ID: chunk_96
+Chunk Index: 96
+Header: LEARNING AND DEVELOPMENT
+Text: Employees must document learning outcomes within 15 working days of programme completion. Training effectiveness must be evaluated within 60 days of completion for programmes exceeding 20 participants. Repeated failure to complete required learning within two assigned cycles may affect performance ratings.
+------------------------------------------------------------------------------------------
+Rank: 5
+Score: 0.6889
+Chunk ID: chunk_45
+Chunk Index: 45
+Header: CPD (CONTINUING PROFESSIONAL DEVELOPMENT)
+Text: Each employee must complete a minimum of 20 hours of documented development activity per calendar year. Managers must review CPD plans at least once every 12 months. Mandatory compliance training must be completed within 30 days of assignment. Employees failing to complete mandatory training within 45 days may have system access restricted.
+------------------------------------------------------------------------------------------
+
+
+Q146
+QUESTION: What happens if employees refuse to complete CPD activities required for their role?
+------------------------------------------------------------------------------------------
+Rank: 1
+Score: 0.6973
+Chunk ID: chunk_45
+Chunk Index: 45
+Header: CPD (CONTINUING PROFESSIONAL DEVELOPMENT)
+Text: Each employee must complete a minimum of 20 hours of documented development activity per calendar year. Managers must review CPD plans at least once every 12 months. Mandatory compliance training must be completed within 30 days of assignment. Employees failing to complete mandatory training within 45 days may have system access restricted.
+------------------------------------------------------------------------------------------
+Rank: 2
+Score: 0.6904
+Chunk ID: chunk_48
+Chunk Index: 48
+Header: CPD (CONTINUING PROFESSIONAL DEVELOPMENT)
+Text: CPD participation rates below 70% at departmental level may trigger review. Misrepresentation of CPD activity constitutes misconduct. Employees in regulated roles must complete at least 50% of required learning before mid-year review.
+------------------------------------------------------------------------------------------
+Rank: 3
+Score: 0.6638
+Chunk ID: chunk_46
+Chunk Index: 46
+Header: CPD (CONTINUING PROFESSIONAL DEVELOPMENT)
+Text: Professional certifications required for role eligibility must be renewed prior to expiry. Development budgets exceeding allocated annual limits require approval. CPD activities must be recorded within 10 working days of completion. Failure to maintain required certifications for more than 30 calendar days may result in reassignment.
+------------------------------------------------------------------------------------------
+Rank: 4
+Score: 0.6370
+Chunk ID: chunk_82
+Chunk Index: 82
+Header: EQUALITY, DIVERSITY AND INCLUSION (EDI)
+Text: Failure to provide reasonable accommodation without justification may result in review. Employee resource groups must operate within documented charters. Inclusion initiatives exceeding 6 months must demonstrate measurable impact. Discriminatory language in formal documentation may result in corrective action.
+------------------------------------------------------------------------------------------
+Rank: 5
+Score: 0.6261
+Chunk ID: chunk_104
+Chunk Index: 104
+Header: LINE MANAGER SUPPORT
+Text: Escalated employee concerns must be acknowledged within 3 working days. Managers must document key performance conversations within 5 working days of occurrence. Repeated managerial non-compliance exceeding three documented instances in 12 months may trigger capability review. Managers must ensure team training completion rates meet organisational standards.
+------------------------------------------------------------------------------------------
+
+
+Q88
+QUESTION: When must whistleblowing complaints be acknowledged?
+------------------------------------------------------------------------------------------
+Rank: 1
+Score: 0.7440
+Chunk ID: chunk_78
+Chunk Index: 78
+Header: ETHICAL PRACTICE
+Text: Whistleblowing reports must be acknowledged within 3 working days. Ethical breaches must be investigated within 10 working days of validation. Outside employment exceeding 8 hours per week must be disclosed if potentially conflicting. Ethical training must be completed annually. Failure to disclose a material conflict may result in disciplinary action.
+------------------------------------------------------------------------------------------
+Rank: 2
+Score: 0.6954
+Chunk ID: chunk_29
+Chunk Index: 29
+Header: BULLYING AND HARASSMENT
+Text: Anonymous complaints may proceed where sufficient corroborating information exists. Allegations involving senior leadership must be escalated directly to an independent review panel. Substantiated misconduct may result in sanctions up to termination. Mediation may be offered where behaviour is assessed as conflict rather than harassment.
+------------------------------------------------------------------------------------------
+Rank: 3
+Score: 0.6881
+Chunk ID: chunk_43
+Chunk Index: 43
+Header: CORPORATE GOVERNANCE
+Text: Governance documentation must be retained for no less than 5 years. Whistleblowing complaints must be acknowledged within 3 working days. Individuals subject to investigation must not influence the selection of investigators. Governance training is mandatory for managers within 90 days of appointment.
+------------------------------------------------------------------------------------------
+Rank: 4
+Score: 0.6843
+Chunk ID: chunk_76
+Chunk Index: 76
+Header: ENVIRONMENTAL SOCIAL GOVERNANCE (ESG)
+Text: Public ESG disclosures must be validated before release. ESG complaints must be acknowledged within 5 working days. Intentional misrepresentation of ESG data constitutes serious misconduct.
+------------------------------------------------------------------------------------------
+Rank: 5
+Score: 0.6837
+Chunk ID: chunk_27
+Chunk Index: 27
+Header: BULLYING AND HARASSMENT
+Text: Complaints must be acknowledged within 2 working days of receipt. Formal investigations will normally commence within 5 working days of complaint validation. Investigations should be concluded within 30 calendar days unless complexity justifies extension. Interim protective measures may be implemented within 48 hours where risk is assessed as immediate.
+------------------------------------------------------------------------------------------
+
+
+Q75
+QUESTION: What must occur if conflict disrupts critical delivery deadlines beyond a certain duration?
+------------------------------------------------------------------------------------------
+Rank: 1
+Score: 0.6701
+Chunk ID: chunk_131
+Chunk Index: 131
+Header: PRODUCTIVITY
+Text: Operational bottlenecks causing delays due to conflict disrupts exceeding 20% of target timelines must be investigated. Employees must not be evaluated solely on quantitative output where qualitative measures apply. Productivity metrics must be reviewed annually for relevance. Sustained overperformance exceeding 120% of targets may require workload reassessment.
+------------------------------------------------------------------------------------------
+Rank: 2
+Score: 0.6117
+Chunk ID: chunk_37
+Chunk Index: 37
+Header: CONFLICT MANAGEMENT
+Text: Mediation sessions should normally occur within 15 calendar days of request submission. Recurrent conflict between the same parties exceeding 2 documented instances within 6 months may trigger behavioural review. Managers who are directly involved in a dispute must not lead its investigation. Conflict affecting delivery of critical deadlines exceeding 7 calendar days must be reported to senior management.
+------------------------------------------------------------------------------------------
+Rank: 3
+Score: 0.6067
+Chunk ID: chunk_93
+Chunk Index: 93
+Header: JOB QUALITY
+Text: Temporary workload surges exceeding 60 days must be formally documented. Unsafe working conditions must be reported immediately. Role ambiguity complaints exceeding two documented instances may trigger clarification review. Internal mobility pathways must be communicated annually. Compensation disparities exceeding 7% within comparable roles may be examined.
+------------------------------------------------------------------------------------------
+Rank: 4
+Score: 0.6018
+Chunk ID: chunk_34
+Chunk Index: 34
+Header: CHANGE MANAGEMENT
+Text: Implementation delays exceeding 60 days beyond initial timeline must be communicated. Feedback mechanisms must remain open for at least 30 days post-implementation. Organisational redesign proposals must include risk assessment documentation. Temporary change measures exceeding 6 months may require formalisation.
+------------------------------------------------------------------------------------------
+Rank: 5
+Score: 0.5952
+Chunk ID: chunk_157
+Chunk Index: 157
+Header: WORKFORCE PLANNING
+Text: Critical vacancy duration exceeding 60 days escalated. Planning decisions documented.
+------------------------------------------------------------------------------------------
+
+

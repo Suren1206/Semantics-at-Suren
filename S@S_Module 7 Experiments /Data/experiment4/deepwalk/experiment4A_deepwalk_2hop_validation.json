@@ -1,0 +1,44 @@
+{
+  "experiment": "Experiment 4A - DeepWalk Higher-Order Relationship Validation",
+  "question": "Does the DeepWalk Euclidean embedding reflect higher-order graph relationships?",
+  "definition": {
+    "two_hop_pair": "Two nodes connected through at least one intermediate node, with no direct edge between the two nodes.",
+    "random_non_edge": "Two nodes with no direct edge, sampled as a control population."
+  },
+  "configuration": {
+    "random_seed": 42,
+    "sample_size": 5000,
+    "embedding_dimension": 128
+  },
+  "graph": {
+    "nodes": 334863,
+    "edges": 925872
+  },
+  "results": {
+    "exactly_2_hop_non_edge": {
+      "count": 5000,
+      "mean": 0.894212535148859,
+      "median": 0.9182160198688507,
+      "std": 0.09590115883648664,
+      "p10": 0.7491725623607636,
+      "p25": 0.8365842998027802,
+      "p75": 0.9764969497919083,
+      "p90": 0.9953477442264557,
+      "min": 0.4544979929924011,
+      "max": 0.9992474913597107
+    },
+    "random_non_edge": {
+      "count": 5000,
+      "mean": 0.34395281630605457,
+      "median": 0.34314022958278656,
+      "std": 0.07174057148302689,
+      "p10": 0.25586470365524294,
+      "p25": 0.29837772995233536,
+      "p75": 0.387160062789917,
+      "p90": 0.42738512158393865,
+      "min": 0.107080839574337,
+      "max": 0.927642822265625
+    },
+    "mean_difference_2hop_minus_random": 0.5502597188428044
+  }
+}

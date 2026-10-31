@@ -1,0 +1,751 @@
+Qno,Question,Rank,Chunk_ID,Cosine_Similarity
+1,What must employees do before their scheduled start time if they are unable to attend work due to absence?,1,chunk_0,0.6040611267089844
+1,What must employees do before their scheduled start time if they are unable to attend work due to absence?,2,chunk_2,0.4906447231769562
+1,What must employees do before their scheduled start time if they are unable to attend work due to absence?,3,chunk_1,0.4165487289428711
+1,What must employees do before their scheduled start time if they are unable to attend work due to absence?,4,chunk_3,0.41153252124786377
+1,What must employees do before their scheduled start time if they are unable to attend work due to absence?,5,chunk_44,0.347373902797699
+2,"After returning from more than two consecutive working days of absence, what document must employees submit?",1,chunk_0,0.6511310935020447
+2,"After returning from more than two consecutive working days of absence, what document must employees submit?",2,chunk_6,0.6000705361366272
+2,"After returning from more than two consecutive working days of absence, what document must employees submit?",3,chunk_2,0.5726938247680664
+2,"After returning from more than two consecutive working days of absence, what document must employees submit?",4,chunk_3,0.4827452003955841
+2,"After returning from more than two consecutive working days of absence, what document must employees submit?",5,chunk_84,0.4650757610797882
+3,Are employees allowed to combine annual leave with unpaid leave to extend a vacation period?,1,chunk_9,0.42890000343322754
+3,Are employees allowed to combine annual leave with unpaid leave to extend a vacation period?,2,chunk_8,0.42421719431877136
+3,Are employees allowed to combine annual leave with unpaid leave to extend a vacation period?,3,chunk_3,0.4200475513935089
+3,Are employees allowed to combine annual leave with unpaid leave to extend a vacation period?,4,chunk_10,0.4086605906486511
+3,Are employees allowed to combine annual leave with unpaid leave to extend a vacation period?,5,chunk_7,0.3828682601451874
+4,By what day must medical certification be issued when absence exceeds five consecutive working days?,1,chunk_0,0.6888590455055237
+4,By what day must medical certification be issued when absence exceeds five consecutive working days?,2,chunk_2,0.6854753494262695
+4,By what day must medical certification be issued when absence exceeds five consecutive working days?,3,chunk_6,0.5146281123161316
+4,By what day must medical certification be issued when absence exceeds five consecutive working days?,4,chunk_48,0.4792026877403259
+4,By what day must medical certification be issued when absence exceeds five consecutive working days?,5,chunk_50,0.45429563522338867
+5,By when must placement participants complete mandatory compliance training?,1,chunk_13,0.6174541115760803
+5,By when must placement participants complete mandatory compliance training?,2,chunk_44,0.5217016339302063
+5,By when must placement participants complete mandatory compliance training?,3,chunk_11,0.48607391119003296
+5,By when must placement participants complete mandatory compliance training?,4,chunk_95,0.4783172011375427
+5,By when must placement participants complete mandatory compliance training?,5,chunk_45,0.46123093366622925
+6,Can a harassment investigation continue if the complainant withdraws the complaint?,1,chunk_29,0.5116419792175293
+6,Can a harassment investigation continue if the complainant withdraws the complaint?,2,chunk_28,0.4637759327888489
+6,Can a harassment investigation continue if the complainant withdraws the complaint?,3,chunk_27,0.41141951084136963
+6,Can a harassment investigation continue if the complainant withdraws the complaint?,4,chunk_38,0.38091254234313965
+6,Can a harassment investigation continue if the complainant withdraws the complaint?,5,chunk_89,0.3671543002128601
+7,Can a placement participant continue working after the official programme end date without extension approval?,1,chunk_13,0.5437554717063904
+7,Can a placement participant continue working after the official programme end date without extension approval?,2,chunk_14,0.541590690612793
+7,Can a placement participant continue working after the official programme end date without extension approval?,3,chunk_45,0.3979164958000183
+7,Can a placement participant continue working after the official programme end date without extension approval?,4,chunk_0,0.3466818630695343
+7,Can a placement participant continue working after the official programme end date without extension approval?,5,chunk_98,0.3457993268966675
+8,Can an AI system automatically terminate employment if it detects repeated performance issues?,1,chunk_17,0.5166641473770142
+8,Can an AI system automatically terminate employment if it detects repeated performance issues?,2,chunk_16,0.461096853017807
+8,Can an AI system automatically terminate employment if it detects repeated performance issues?,3,chunk_19,0.4145573377609253
+8,Can an AI system automatically terminate employment if it detects repeated performance issues?,4,chunk_18,0.4085967540740967
+8,Can an AI system automatically terminate employment if it detects repeated performance issues?,5,chunk_150,0.36758410930633545
+9,Can an employee submit a medical certificate after returning from absence instead of during the absence period?,1,chunk_0,0.5335395336151123
+9,Can an employee submit a medical certificate after returning from absence instead of during the absence period?,2,chunk_2,0.4985698461532593
+9,Can an employee submit a medical certificate after returning from absence instead of during the absence period?,3,chunk_50,0.43533653020858765
+9,Can an employee submit a medical certificate after returning from absence instead of during the absence period?,4,chunk_3,0.348990261554718
+9,Can an employee submit a medical certificate after returning from absence instead of during the absence period?,5,chunk_113,0.3267737627029419
+10,Can annual leave be approved during peak operational periods if the team is already at the leave limit?,1,chunk_9,0.5713270306587219
+10,Can annual leave be approved during peak operational periods if the team is already at the leave limit?,2,chunk_7,0.5001386404037476
+10,Can annual leave be approved during peak operational periods if the team is already at the leave limit?,3,chunk_8,0.4558938145637512
+10,Can annual leave be approved during peak operational periods if the team is already at the leave limit?,4,chunk_6,0.4041813910007477
+10,Can annual leave be approved during peak operational periods if the team is already at the leave limit?,5,chunk_10,0.34807488322257996
+11,Can apprenticeship programmes be shortened if the participant demonstrates strong performance early?,1,chunk_11,0.5810520052909851
+11,Can apprenticeship programmes be shortened if the participant demonstrates strong performance early?,2,chunk_96,0.3351653516292572
+11,Can apprenticeship programmes be shortened if the participant demonstrates strong performance early?,3,chunk_13,0.26168695092201233
+11,Can apprenticeship programmes be shortened if the participant demonstrates strong performance early?,4,chunk_142,0.24963624775409698
+11,Can apprenticeship programmes be shortened if the participant demonstrates strong performance early?,5,chunk_143,0.24476125836372375
+12,Can behavioural experiments run without informing employees if the intervention is minor?,1,chunk_21,0.40923136472702026
+12,Can behavioural experiments run without informing employees if the intervention is minor?,2,chunk_23,0.40561643242836
+12,Can behavioural experiments run without informing employees if the intervention is minor?,3,chunk_22,0.3740970492362976
+12,Can behavioural experiments run without informing employees if the intervention is minor?,4,chunk_55,0.3145698606967926
+12,Can behavioural experiments run without informing employees if the intervention is minor?,5,chunk_24,0.3110400438308716
+13,Can behavioural interventions be applied differently across departments without explanation?,1,chunk_21,0.4965025782585144
+13,Can behavioural interventions be applied differently across departments without explanation?,2,chunk_25,0.4754931330680847
+13,Can behavioural interventions be applied differently across departments without explanation?,3,chunk_121,0.4059132933616638
+13,Can behavioural interventions be applied differently across departments without explanation?,4,chunk_83,0.3819970488548279
+13,Can behavioural interventions be applied differently across departments without explanation?,5,chunk_63,0.342091828584671
+14,Can conflict cases remain unresolved indefinitely without escalation?,1,chunk_35,0.4479999542236328
+14,Can conflict cases remain unresolved indefinitely without escalation?,2,chunk_37,0.40719515085220337
+14,Can conflict cases remain unresolved indefinitely without escalation?,3,chunk_38,0.4048181176185608
+14,Can conflict cases remain unresolved indefinitely without escalation?,4,chunk_39,0.40062886476516724
+14,Can conflict cases remain unresolved indefinitely without escalation?,5,chunk_36,0.39936429262161255
+15,Can CPD requirements be waived for highly experienced employees?,1,chunk_45,0.5774933099746704
+15,Can CPD requirements be waived for highly experienced employees?,2,chunk_44,0.5549313426017761
+15,Can CPD requirements be waived for highly experienced employees?,3,chunk_85,0.33002158999443054
+15,Can CPD requirements be waived for highly experienced employees?,4,chunk_113,0.32298293709754944
+15,Can CPD requirements be waived for highly experienced employees?,5,chunk_0,0.3156740069389343
+16,Can development activities completed outside work hours count toward CPD requirements?,1,chunk_44,0.5752356052398682
+16,Can development activities completed outside work hours count toward CPD requirements?,2,chunk_45,0.5531313419342041
+16,Can development activities completed outside work hours count toward CPD requirements?,3,chunk_46,0.4505809545516968
+16,Can development activities completed outside work hours count toward CPD requirements?,4,chunk_85,0.36195459961891174
+16,Can development activities completed outside work hours count toward CPD requirements?,5,chunk_2,0.3466823399066925
+17,Can employees refuse to work with AI systems introduced in their role?,1,chunk_18,0.5166283845901489
+17,Can employees refuse to work with AI systems introduced in their role?,2,chunk_20,0.4540180563926697
+17,Can employees refuse to work with AI systems introduced in their role?,3,chunk_16,0.4461584687232971
+17,Can employees refuse to work with AI systems introduced in their role?,4,chunk_17,0.39433300495147705
+17,Can employees refuse to work with AI systems introduced in their role?,5,chunk_19,0.3774246275424957
+18,Can governance documentation be destroyed earlier than the retention period?,1,chunk_42,0.5184863209724426
+18,Can governance documentation be destroyed earlier than the retention period?,2,chunk_40,0.40426236391067505
+18,Can governance documentation be destroyed earlier than the retention period?,3,chunk_29,0.4000234007835388
+18,Can governance documentation be destroyed earlier than the retention period?,4,chunk_138,0.38175374269485474
+18,Can governance documentation be destroyed earlier than the retention period?,5,chunk_98,0.3553980588912964
+19,Can interns approve financial transactions if they are temporarily supervising a project?,1,chunk_12,0.5995639562606812
+19,Can interns approve financial transactions if they are temporarily supervising a project?,2,chunk_15,0.3748472332954407
+19,Can interns approve financial transactions if they are temporarily supervising a project?,3,chunk_71,0.33582961559295654
+19,Can interns approve financial transactions if they are temporarily supervising a project?,4,chunk_45,0.32611382007598877
+19,Can interns approve financial transactions if they are temporarily supervising a project?,5,chunk_44,0.3074348568916321
+20,Can management shorten an employee’s approved leave period after it has already started?,1,chunk_9,0.49450603127479553
+20,Can management shorten an employee’s approved leave period after it has already started?,2,chunk_8,0.37710538506507874
+20,Can management shorten an employee’s approved leave period after it has already started?,3,chunk_7,0.36227697134017944
+20,Can management shorten an employee’s approved leave period after it has already started?,4,chunk_0,0.3431301414966583
+20,Can management shorten an employee’s approved leave period after it has already started?,5,chunk_13,0.33251214027404785
+21,Can managers approve financial decisions beyond their delegated authority in urgent situations?,1,chunk_101,0.4147881269454956
+21,Can managers approve financial decisions beyond their delegated authority in urgent situations?,2,chunk_40,0.32573065161705017
+21,Can managers approve financial decisions beyond their delegated authority in urgent situations?,3,chunk_43,0.3220077157020569
+21,Can managers approve financial decisions beyond their delegated authority in urgent situations?,4,chunk_102,0.307706356048584
+21,Can managers approve financial decisions beyond their delegated authority in urgent situations?,5,chunk_112,0.2777057886123657
+22,Can managers intervene directly in conflicts involving their own actions?,1,chunk_36,0.42179474234580994
+22,Can managers intervene directly in conflicts involving their own actions?,2,chunk_28,0.4183894097805023
+22,Can managers intervene directly in conflicts involving their own actions?,3,chunk_35,0.3954780101776123
+22,Can managers intervene directly in conflicts involving their own actions?,4,chunk_37,0.3430185914039612
+22,Can managers intervene directly in conflicts involving their own actions?,5,chunk_39,0.3429136276245117
+23,Can managers use behavioural analytics to influence promotion decisions without documentation?,1,chunk_22,0.4398479461669922
+23,Can managers use behavioural analytics to influence promotion decisions without documentation?,2,chunk_58,0.36315929889678955
+23,Can managers use behavioural analytics to influence promotion decisions without documentation?,3,chunk_21,0.3505018949508667
+23,Can managers use behavioural analytics to influence promotion decisions without documentation?,4,chunk_61,0.3502107262611389
+23,Can managers use behavioural analytics to influence promotion decisions without documentation?,5,chunk_147,0.3498474657535553
+24,Can mediation be forced on employees involved in harassment allegations?,1,chunk_28,0.5875154137611389
+24,Can mediation be forced on employees involved in harassment allegations?,2,chunk_37,0.4401107132434845
+24,Can mediation be forced on employees involved in harassment allegations?,3,chunk_36,0.4259915351867676
+24,Can mediation be forced on employees involved in harassment allegations?,4,chunk_29,0.39681100845336914
+24,Can mediation be forced on employees involved in harassment allegations?,5,chunk_89,0.3632773756980896
+25,Can role redesign occur gradually without formal documentation?,1,chunk_31,0.5437336564064026
+25,Can role redesign occur gradually without formal documentation?,2,chunk_120,0.5159851908683777
+25,Can role redesign occur gradually without formal documentation?,3,chunk_30,0.48538148403167725
+25,Can role redesign occur gradually without formal documentation?,4,chunk_32,0.4340447783470154
+25,Can role redesign occur gradually without formal documentation?,5,chunk_118,0.39744246006011963
+26,Can structural changes be implemented immediately without consultation during emergencies?,1,chunk_30,0.5302757024765015
+26,Can structural changes be implemented immediately without consultation during emergencies?,2,chunk_120,0.48716282844543457
+26,Can structural changes be implemented immediately without consultation during emergencies?,3,chunk_118,0.4111025929450989
+26,Can structural changes be implemented immediately without consultation during emergencies?,4,chunk_33,0.39634859561920166
+26,Can structural changes be implemented immediately without consultation during emergencies?,5,chunk_113,0.38396698236465454
+27,For how long must recruitment AI systems avoid independently rejecting candidates without human review?,1,chunk_16,0.710439920425415
+27,For how long must recruitment AI systems avoid independently rejecting candidates without human review?,2,chunk_18,0.47978314757347107
+27,For how long must recruitment AI systems avoid independently rejecting candidates without human review?,3,chunk_135,0.4737550616264343
+27,For how long must recruitment AI systems avoid independently rejecting candidates without human review?,4,chunk_134,0.4622647166252136
+27,For how long must recruitment AI systems avoid independently rejecting candidates without human review?,5,chunk_56,0.4167117774486542
+28,How frequently are employees expected to maintain contact during extended absence?,1,chunk_3,0.7487378716468811
+28,How frequently are employees expected to maintain contact during extended absence?,2,chunk_0,0.4897962212562561
+28,How frequently are employees expected to maintain contact during extended absence?,3,chunk_2,0.4848977327346802
+28,How frequently are employees expected to maintain contact during extended absence?,4,chunk_1,0.4422043561935425
+28,How frequently are employees expected to maintain contact during extended absence?,5,chunk_49,0.4097445011138916
+29,How frequently must formal feedback sessions occur for placements longer than twelve weeks?,1,chunk_12,0.5969024300575256
+29,How frequently must formal feedback sessions occur for placements longer than twelve weeks?,2,chunk_135,0.4802165627479553
+29,How frequently must formal feedback sessions occur for placements longer than twelve weeks?,3,chunk_126,0.47487837076187134
+29,How frequently must formal feedback sessions occur for placements longer than twelve weeks?,4,chunk_96,0.4256982207298279
+29,How frequently must formal feedback sessions occur for placements longer than twelve weeks?,5,chunk_95,0.42028379440307617
+30,How frequently must managers review employee CPD plans?,1,chunk_44,0.6098565459251404
+30,How frequently must managers review employee CPD plans?,2,chunk_88,0.6047054529190063
+30,How frequently must managers review employee CPD plans?,3,chunk_99,0.51201331615448
+30,How frequently must managers review employee CPD plans?,4,chunk_118,0.5071754455566406
+30,How frequently must managers review employee CPD plans?,5,chunk_126,0.4954374432563782
+31,How frequently must structured case reviews occur during long-term absence exceeding 30 days?,1,chunk_2,0.6854479312896729
+31,How frequently must structured case reviews occur during long-term absence exceeding 30 days?,2,chunk_126,0.4396135210990906
+31,How frequently must structured case reviews occur during long-term absence exceeding 30 days?,3,chunk_118,0.4391551613807678
+31,How frequently must structured case reviews occur during long-term absence exceeding 30 days?,4,chunk_26,0.42813703417778015
+31,How frequently must structured case reviews occur during long-term absence exceeding 30 days?,5,chunk_3,0.41335809230804443
+32,How is absence handled if the employee cannot notify the manager 30 minutes before the shift due to emergency circumstances?,1,chunk_0,0.5527137517929077
+32,How is absence handled if the employee cannot notify the manager 30 minutes before the shift due to emergency circumstances?,2,chunk_3,0.4593885540962219
+32,How is absence handled if the employee cannot notify the manager 30 minutes before the shift due to emergency circumstances?,3,chunk_2,0.4379173815250397
+32,How is absence handled if the employee cannot notify the manager 30 minutes before the shift due to emergency circumstances?,4,chunk_48,0.3979973793029785
+32,How is absence handled if the employee cannot notify the manager 30 minutes before the shift due to emergency circumstances?,5,chunk_105,0.38408833742141724
+33,How long may behavioural experiment data normally be retained?,1,chunk_51,0.4444793462753296
+33,How long may behavioural experiment data normally be retained?,2,chunk_53,0.4386636018753052
+33,How long may behavioural experiment data normally be retained?,3,chunk_22,0.43333518505096436
+33,How long may behavioural experiment data normally be retained?,4,chunk_29,0.4034142792224884
+33,How long may behavioural experiment data normally be retained?,5,chunk_52,0.3890981078147888
+34,How long must documentation of formal conflict proceedings be retained?,1,chunk_38,0.5787559747695923
+34,How long must documentation of formal conflict proceedings be retained?,2,chunk_29,0.5354583263397217
+34,How long must documentation of formal conflict proceedings be retained?,3,chunk_42,0.5015194416046143
+34,How long must documentation of formal conflict proceedings be retained?,4,chunk_35,0.4828689992427826
+34,How long must documentation of formal conflict proceedings be retained?,5,chunk_37,0.46077287197113037
+35,How long must feedback mechanisms remain open after change implementation?,1,chunk_33,0.5111477971076965
+35,How long must feedback mechanisms remain open after change implementation?,2,chunk_121,0.44707411527633667
+35,How long must feedback mechanisms remain open after change implementation?,3,chunk_126,0.4345504343509674
+35,How long must feedback mechanisms remain open after change implementation?,4,chunk_30,0.4155397117137909
+35,How long must feedback mechanisms remain open after change implementation?,5,chunk_118,0.4063141345977783
+36,How long must governance documentation be retained?,1,chunk_42,0.6691744327545166
+36,How long must governance documentation be retained?,2,chunk_138,0.49374550580978394
+36,How long must governance documentation be retained?,3,chunk_40,0.4897501468658447
+36,How long must governance documentation be retained?,4,chunk_29,0.4774293303489685
+36,How long must governance documentation be retained?,5,chunk_38,0.42918068170547485
+37,How long must investigation documentation for harassment cases be retained?,1,chunk_29,0.7718774676322937
+37,How long must investigation documentation for harassment cases be retained?,2,chunk_42,0.5831369161605835
+37,How long must investigation documentation for harassment cases be retained?,3,chunk_38,0.5247513055801392
+37,How long must investigation documentation for harassment cases be retained?,4,chunk_26,0.4781056046485901
+37,How long must investigation documentation for harassment cases be retained?,5,chunk_65,0.4642850160598755
+38,How long should conflict investigations normally take to conclude?,1,chunk_38,0.6611425280570984
+38,How long should conflict investigations normally take to conclude?,2,chunk_35,0.5628854632377625
+38,How long should conflict investigations normally take to conclude?,3,chunk_40,0.5364518761634827
+38,How long should conflict investigations normally take to conclude?,4,chunk_26,0.5352175235748291
+38,How long should conflict investigations normally take to conclude?,5,chunk_36,0.5199375152587891
+39,How many days’ notice should employees receive for material role changes where feasible?,1,chunk_30,0.6058138012886047
+39,How many days’ notice should employees receive for material role changes where feasible?,2,chunk_86,0.4610326886177063
+39,How many days’ notice should employees receive for material role changes where feasible?,3,chunk_64,0.45434266328811646
+39,How many days’ notice should employees receive for material role changes where feasible?,4,chunk_120,0.4460873007774353
+39,How many days’ notice should employees receive for material role changes where feasible?,5,chunk_104,0.43277522921562195
+40,How many hours of development activity must employees complete annually under CPD rules?,1,chunk_44,0.75038743019104
+40,How many hours of development activity must employees complete annually under CPD rules?,2,chunk_45,0.624862790107727
+40,How many hours of development activity must employees complete annually under CPD rules?,3,chunk_95,0.46418988704681396
+40,How many hours of development activity must employees complete annually under CPD rules?,4,chunk_46,0.4460698962211609
+40,How many hours of development activity must employees complete annually under CPD rules?,5,chunk_6,0.3792831301689148
+41,How many working days in advance must employees submit leave requests for up to five days of leave?,1,chunk_6,0.8399743437767029
+41,How many working days in advance must employees submit leave requests for up to five days of leave?,2,chunk_7,0.5898036956787109
+41,How many working days in advance must employees submit leave requests for up to five days of leave?,3,chunk_9,0.5229856967926025
+41,How many working days in advance must employees submit leave requests for up to five days of leave?,4,chunk_84,0.5172019004821777
+41,How many working days in advance must employees submit leave requests for up to five days of leave?,5,chunk_8,0.503167986869812
+42,How much notice is typically required for early termination of a placement without misconduct?,1,chunk_13,0.5594540238380432
+42,How much notice is typically required for early termination of a placement without misconduct?,2,chunk_70,0.4900255501270294
+42,How much notice is typically required for early termination of a placement without misconduct?,3,chunk_5,0.4208124577999115
+42,How much notice is typically required for early termination of a placement without misconduct?,4,chunk_57,0.4193277955055237
+42,How much notice is typically required for early termination of a placement without misconduct?,5,chunk_135,0.38013535737991333
+43,How often must data used to train internal AI models be reviewed for bias?,1,chunk_18,0.6053346395492554
+43,How often must data used to train internal AI models be reviewed for bias?,2,chunk_16,0.4222373366355896
+43,How often must data used to train internal AI models be reviewed for bias?,3,chunk_88,0.39988964796066284
+43,How often must data used to train internal AI models be reviewed for bias?,4,chunk_81,0.36158573627471924
+43,How often must data used to train internal AI models be reviewed for bias?,5,chunk_19,0.3405132591724396
+44,How often must organisational risk assessments be updated?,1,chunk_41,0.5672314763069153
+44,How often must organisational risk assessments be updated?,2,chunk_33,0.44250422716140747
+44,How often must organisational risk assessments be updated?,3,chunk_30,0.39999473094940186
+44,How often must organisational risk assessments be updated?,4,chunk_43,0.39753472805023193
+44,How often must organisational risk assessments be updated?,5,chunk_118,0.37945443391799927
+45,Is a manager allowed to reject a return-to-work discussion if the absence was only four days?,1,chunk_2,0.4779014587402344
+45,Is a manager allowed to reject a return-to-work discussion if the absence was only four days?,2,chunk_10,0.47740787267684937
+45,Is a manager allowed to reject a return-to-work discussion if the absence was only four days?,3,chunk_3,0.46583276987075806
+45,Is a manager allowed to reject a return-to-work discussion if the absence was only four days?,4,chunk_6,0.4097052216529846
+45,Is a manager allowed to reject a return-to-work discussion if the absence was only four days?,5,chunk_9,0.4068533778190613
+46,To whom must allegations involving senior leadership be escalated?,1,chunk_28,0.6331274509429932
+46,To whom must allegations involving senior leadership be escalated?,2,chunk_79,0.4526110887527466
+46,To whom must allegations involving senior leadership be escalated?,3,chunk_89,0.41768819093704224
+46,To whom must allegations involving senior leadership be escalated?,4,chunk_110,0.4091402292251587
+46,To whom must allegations involving senior leadership be escalated?,5,chunk_101,0.3815059959888458
+47,Under what circumstances may approved leave be withdrawn by management?,1,chunk_9,0.5791328549385071
+47,Under what circumstances may approved leave be withdrawn by management?,2,chunk_7,0.3947393298149109
+47,Under what circumstances may approved leave be withdrawn by management?,3,chunk_87,0.39357319474220276
+47,Under what circumstances may approved leave be withdrawn by management?,4,chunk_10,0.3843262791633606
+47,Under what circumstances may approved leave be withdrawn by management?,5,chunk_86,0.3760373890399933
+48,Under what condition may absence be treated as voluntary abandonment of employment?,1,chunk_3,0.435626357793808
+48,Under what condition may absence be treated as voluntary abandonment of employment?,2,chunk_1,0.42847153544425964
+48,Under what condition may absence be treated as voluntary abandonment of employment?,3,chunk_0,0.41175609827041626
+48,Under what condition may absence be treated as voluntary abandonment of employment?,4,chunk_14,0.39224302768707275
+48,Under what condition may absence be treated as voluntary abandonment of employment?,5,chunk_8,0.39133816957473755
+49,Under what condition may anonymous complaints proceed?,1,chunk_28,0.5484883785247803
+49,Under what condition may anonymous complaints proceed?,2,chunk_59,0.5454092621803284
+49,Under what condition may anonymous complaints proceed?,3,chunk_67,0.4394395351409912
+49,Under what condition may anonymous complaints proceed?,4,chunk_78,0.40165024995803833
+49,Under what condition may anonymous complaints proceed?,5,chunk_57,0.39942240715026855
+50,What action may occur if CPD participation rates fall below seventy percent at departmental level?,1,chunk_47,0.428885817527771
+50,What action may occur if CPD participation rates fall below seventy percent at departmental level?,2,chunk_45,0.3696535527706146
+50,What action may occur if CPD participation rates fall below seventy percent at departmental level?,3,chunk_44,0.32854822278022766
+50,What action may occur if CPD participation rates fall below seventy percent at departmental level?,4,chunk_61,0.30871307849884033
+50,What action may occur if CPD participation rates fall below seventy percent at departmental level?,5,chunk_121,0.2778092622756958
+51,What action must occur if AI failure causes operational disruption exceeding eight working hours?,1,chunk_20,0.6478379964828491
+51,What action must occur if AI failure causes operational disruption exceeding eight working hours?,2,chunk_18,0.417266845703125
+51,What action must occur if AI failure causes operational disruption exceeding eight working hours?,3,chunk_150,0.4112551212310791
+51,What action must occur if AI failure causes operational disruption exceeding eight working hours?,4,chunk_85,0.393451988697052
+51,What action must occur if AI failure causes operational disruption exceeding eight working hours?,5,chunk_49,0.37534719705581665
+52,What additional approval is required for leave exceeding five consecutive working days?,1,chunk_6,0.7315264940261841
+52,What additional approval is required for leave exceeding five consecutive working days?,2,chunk_7,0.5770323276519775
+52,What additional approval is required for leave exceeding five consecutive working days?,3,chunk_9,0.5403085947036743
+52,What additional approval is required for leave exceeding five consecutive working days?,4,chunk_0,0.5314770936965942
+52,What additional approval is required for leave exceeding five consecutive working days?,5,chunk_2,0.5162625312805176
+53,What approval is required for expenditures exceeding fifteen percent of a departmental budget?,1,chunk_131,0.3010236620903015
+53,What approval is required for expenditures exceeding fifteen percent of a departmental budget?,2,chunk_91,0.29578912258148193
+53,What approval is required for expenditures exceeding fifteen percent of a departmental budget?,3,chunk_156,0.29339486360549927
+53,What approval is required for expenditures exceeding fifteen percent of a departmental budget?,4,chunk_44,0.29148563742637634
+53,What approval is required for expenditures exceeding fifteen percent of a departmental budget?,5,chunk_140,0.28841766715049744
+54,What approval is required if compensation is materially affected by organisational change?,1,chunk_32,0.5027207732200623
+54,What approval is required if compensation is materially affected by organisational change?,2,chunk_141,0.363705575466156
+54,What approval is required if compensation is materially affected by organisational change?,3,chunk_30,0.35607558488845825
+54,What approval is required if compensation is materially affected by organisational change?,4,chunk_31,0.3250831961631775
+54,What approval is required if compensation is materially affected by organisational change?,5,chunk_140,0.30557912588119507
+55,What approval level is required for leave exceeding ten consecutive working days?,1,chunk_6,0.7538381814956665
+55,What approval level is required for leave exceeding ten consecutive working days?,2,chunk_9,0.554070234298706
+55,What approval level is required for leave exceeding ten consecutive working days?,3,chunk_7,0.5258845090866089
+55,What approval level is required for leave exceeding ten consecutive working days?,4,chunk_8,0.5093672275543213
+55,What approval level is required for leave exceeding ten consecutive working days?,5,chunk_2,0.5071483850479126
+56,What assessment may be required for employees absent due to medical reasons for more than 45 calendar days?,1,chunk_2,0.7770965099334717
+56,What assessment may be required for employees absent due to medical reasons for more than 45 calendar days?,2,chunk_0,0.564791202545166
+56,What assessment may be required for employees absent due to medical reasons for more than 45 calendar days?,3,chunk_3,0.47428378462791443
+56,What assessment may be required for employees absent due to medical reasons for more than 45 calendar days?,4,chunk_48,0.46025991439819336
+56,What assessment may be required for employees absent due to medical reasons for more than 45 calendar days?,5,chunk_49,0.4547482430934906
+57,What assessment must occur before structural changes affecting more than ten percent of a department?,1,chunk_30,0.5585379004478455
+57,What assessment must occur before structural changes affecting more than ten percent of a department?,2,chunk_120,0.46460866928100586
+57,What assessment must occur before structural changes affecting more than ten percent of a department?,3,chunk_118,0.4622995853424072
+57,What assessment must occur before structural changes affecting more than ten percent of a department?,4,chunk_31,0.41823625564575195
+57,What assessment must occur before structural changes affecting more than ten percent of a department?,5,chunk_119,0.3224242627620697
+58,What condition applies to behavioural trials extending beyond routine policy changes?,1,chunk_23,0.4163706302642822
+58,What condition applies to behavioural trials extending beyond routine policy changes?,2,chunk_121,0.3747732639312744
+58,What condition applies to behavioural trials extending beyond routine policy changes?,3,chunk_21,0.3435713052749634
+58,What condition applies to behavioural trials extending beyond routine policy changes?,4,chunk_39,0.32335710525512695
+58,What condition applies to behavioural trials extending beyond routine policy changes?,5,chunk_113,0.313965380191803
+59,What confidentiality rule applies to mediation discussions?,1,chunk_37,0.6167639493942261
+59,What confidentiality rule applies to mediation discussions?,2,chunk_67,0.4851348400115967
+59,What confidentiality rule applies to mediation discussions?,3,chunk_28,0.4529648423194885
+59,What confidentiality rule applies to mediation discussions?,4,chunk_35,0.447363018989563
+59,What confidentiality rule applies to mediation discussions?,5,chunk_36,0.43058207631111145
+60,What consequence may occur if certifications lapse beyond thirty days?,1,chunk_46,0.5183091163635254
+60,What consequence may occur if certifications lapse beyond thirty days?,2,chunk_45,0.4944271147251129
+60,What consequence may occur if certifications lapse beyond thirty days?,3,chunk_98,0.42674776911735535
+60,What consequence may occur if certifications lapse beyond thirty days?,4,chunk_2,0.40584278106689453
+60,What consequence may occur if certifications lapse beyond thirty days?,5,chunk_79,0.40474265813827515
+61,What consequence may occur if retaliation follows mediation participation?,1,chunk_37,0.5686099529266357
+61,What consequence may occur if retaliation follows mediation participation?,2,chunk_28,0.5336645245552063
+61,What consequence may occur if retaliation follows mediation participation?,3,chunk_36,0.48193487524986267
+61,What consequence may occur if retaliation follows mediation participation?,4,chunk_35,0.4354720413684845
+61,What consequence may occur if retaliation follows mediation participation?,5,chunk_114,0.357223778963089
+62,What consequence may occur if retaliation happens within twelve months after reporting harassment?,1,chunk_27,0.597740650177002
+62,What consequence may occur if retaliation happens within twelve months after reporting harassment?,2,chunk_57,0.5209571123123169
+62,What consequence may occur if retaliation happens within twelve months after reporting harassment?,3,chunk_29,0.5186014175415039
+62,What consequence may occur if retaliation happens within twelve months after reporting harassment?,4,chunk_28,0.4828348755836487
+62,What consequence may occur if retaliation happens within twelve months after reporting harassment?,5,chunk_65,0.4795517027378082
+63,What documentation must record leadership decisions affecting workforce size significantly?,1,chunk_147,0.4843096137046814
+63,What documentation must record leadership decisions affecting workforce size significantly?,2,chunk_99,0.4532201290130615
+63,What documentation must record leadership decisions affecting workforce size significantly?,3,chunk_160,0.44183510541915894
+63,What documentation must record leadership decisions affecting workforce size significantly?,4,chunk_92,0.3954111337661743
+63,What documentation must record leadership decisions affecting workforce size significantly?,5,chunk_100,0.3902578353881836
+64,What escalation occurs if an employee fails to maintain contact during extended medical absence?,1,chunk_3,0.5683079361915588
+64,What escalation occurs if an employee fails to maintain contact during extended medical absence?,2,chunk_2,0.5571972727775574
+64,What escalation occurs if an employee fails to maintain contact during extended medical absence?,3,chunk_0,0.5118826627731323
+64,What escalation occurs if an employee fails to maintain contact during extended medical absence?,4,chunk_48,0.42127901315689087
+64,What escalation occurs if an employee fails to maintain contact during extended medical absence?,5,chunk_50,0.39603379368782043
+65,What evaluation rating is required for conversion to permanent employment?,1,chunk_13,0.47948354482650757
+65,What evaluation rating is required for conversion to permanent employment?,2,chunk_68,0.4013296365737915
+65,What evaluation rating is required for conversion to permanent employment?,3,chunk_134,0.31492429971694946
+65,What evaluation rating is required for conversion to permanent employment?,4,chunk_71,0.30634230375289917
+65,What evaluation rating is required for conversion to permanent employment?,5,chunk_145,0.2984299659729004
+66,What event may trigger a formal attendance review if it occurs three times within a 90-day period?,1,chunk_1,0.5180457830429077
+66,What event may trigger a formal attendance review if it occurs three times within a 90-day period?,2,chunk_104,0.45192065834999084
+66,What event may trigger a formal attendance review if it occurs three times within a 90-day period?,3,chunk_2,0.4407818913459778
+66,What event may trigger a formal attendance review if it occurs three times within a 90-day period?,4,chunk_39,0.39350318908691406
+66,What event may trigger a formal attendance review if it occurs three times within a 90-day period?,5,chunk_64,0.38726088404655457
+67,What functionality must AI systems retain at all times?,1,chunk_18,0.44501107931137085
+67,What functionality must AI systems retain at all times?,2,chunk_150,0.39195775985717773
+67,What functionality must AI systems retain at all times?,3,chunk_20,0.3661879301071167
+67,What functionality must AI systems retain at all times?,4,chunk_16,0.3459312915802002
+67,What functionality must AI systems retain at all times?,5,chunk_17,0.310194194316864
+68,What happens if a manager fails to act on harassment complaints raised informally?,1,chunk_27,0.5302011966705322
+68,What happens if a manager fails to act on harassment complaints raised informally?,2,chunk_57,0.45419758558273315
+68,What happens if a manager fails to act on harassment complaints raised informally?,3,chunk_29,0.4480333924293518
+68,What happens if a manager fails to act on harassment complaints raised informally?,4,chunk_28,0.43441087007522583
+68,What happens if a manager fails to act on harassment complaints raised informally?,5,chunk_66,0.42395055294036865
+69,What happens if an AI system produces biased recommendations during recruitment screening?,1,chunk_16,0.5894922018051147
+69,What happens if an AI system produces biased recommendations during recruitment screening?,2,chunk_56,0.419111430644989
+69,What happens if an AI system produces biased recommendations during recruitment screening?,3,chunk_18,0.4179970920085907
+69,What happens if an AI system produces biased recommendations during recruitment screening?,4,chunk_19,0.32337918877601624
+69,What happens if an AI system produces biased recommendations during recruitment screening?,5,chunk_134,0.3068092465400696
+70,What happens if an AI tool makes scheduling decisions that affect a large portion of the workforce?,1,chunk_18,0.5410935878753662
+70,What happens if an AI tool makes scheduling decisions that affect a large portion of the workforce?,2,chunk_20,0.3775343894958496
+70,What happens if an AI tool makes scheduling decisions that affect a large portion of the workforce?,3,chunk_17,0.3718372583389282
+70,What happens if an AI tool makes scheduling decisions that affect a large portion of the workforce?,4,chunk_16,0.3715308904647827
+70,What happens if an AI tool makes scheduling decisions that affect a large portion of the workforce?,5,chunk_148,0.36339664459228516
+71,What happens if an employee cancels approved leave several times but still requests new leave dates?,1,chunk_9,0.49497365951538086
+71,What happens if an employee cancels approved leave several times but still requests new leave dates?,2,chunk_10,0.3984019458293915
+71,What happens if an employee cancels approved leave several times but still requests new leave dates?,3,chunk_8,0.3880562484264374
+71,What happens if an employee cancels approved leave several times but still requests new leave dates?,4,chunk_70,0.35573965311050415
+71,What happens if an employee cancels approved leave several times but still requests new leave dates?,5,chunk_3,0.3349040150642395
+72,What happens if an employee exceeds their development budget but completes valuable training?,1,chunk_44,0.43303656578063965
+72,What happens if an employee exceeds their development budget but completes valuable training?,2,chunk_46,0.4231787919998169
+72,What happens if an employee exceeds their development budget but completes valuable training?,3,chunk_95,0.4017258882522583
+72,What happens if an employee exceeds their development budget but completes valuable training?,4,chunk_96,0.3900426924228668
+72,What happens if an employee exceeds their development budget but completes valuable training?,5,chunk_45,0.3858485221862793
+73,What happens if an employee repeatedly carries forward unused annual leave every year?,1,chunk_8,0.6078019738197327
+73,What happens if an employee repeatedly carries forward unused annual leave every year?,2,chunk_3,0.41993895173072815
+73,What happens if an employee repeatedly carries forward unused annual leave every year?,3,chunk_9,0.41550886631011963
+73,What happens if an employee repeatedly carries forward unused annual leave every year?,4,chunk_10,0.4042843282222748
+73,What happens if an employee repeatedly carries forward unused annual leave every year?,5,chunk_87,0.3546413779258728
+74,What happens if an employee repeatedly records CPD activities inaccurately?,1,chunk_47,0.5041275024414062
+74,What happens if an employee repeatedly records CPD activities inaccurately?,2,chunk_55,0.47537344694137573
+74,What happens if an employee repeatedly records CPD activities inaccurately?,3,chunk_129,0.44691672921180725
+74,What happens if an employee repeatedly records CPD activities inaccurately?,4,chunk_44,0.4371064305305481
+74,What happens if an employee repeatedly records CPD activities inaccurately?,5,chunk_45,0.4269413948059082
+75,What happens if an employee repeatedly reports sick on Mondays without medical evidence?,1,chunk_2,0.5307407975196838
+75,What happens if an employee repeatedly reports sick on Mondays without medical evidence?,2,chunk_48,0.5137748122215271
+75,What happens if an employee repeatedly reports sick on Mondays without medical evidence?,3,chunk_0,0.42343026399612427
+75,What happens if an employee repeatedly reports sick on Mondays without medical evidence?,4,chunk_50,0.38363999128341675
+75,What happens if an employee repeatedly reports sick on Mondays without medical evidence?,5,chunk_113,0.36495423316955566
+76,What happens if an intern does not complete compliance training within the required time?,1,chunk_12,0.5736202001571655
+76,What happens if an intern does not complete compliance training within the required time?,2,chunk_11,0.5562440156936646
+76,What happens if an intern does not complete compliance training within the required time?,3,chunk_44,0.507585346698761
+76,What happens if an intern does not complete compliance training within the required time?,4,chunk_13,0.46264514327049255
+76,What happens if an intern does not complete compliance training within the required time?,5,chunk_45,0.4471161663532257
+77,What happens if an intern exceeds the allowed weekly working hours?,1,chunk_12,0.5930511951446533
+77,What happens if an intern exceeds the allowed weekly working hours?,2,chunk_11,0.45577889680862427
+77,What happens if an intern exceeds the allowed weekly working hours?,3,chunk_2,0.3894652724266052
+77,What happens if an intern exceeds the allowed weekly working hours?,4,chunk_44,0.3571486473083496
+77,What happens if an intern exceeds the allowed weekly working hours?,5,chunk_0,0.350437194108963
+78,What happens if behavioural nudges reduce employee engagement significantly?,1,chunk_63,0.5003760457038879
+78,What happens if behavioural nudges reduce employee engagement significantly?,2,chunk_21,0.4398973286151886
+78,What happens if behavioural nudges reduce employee engagement significantly?,3,chunk_23,0.41766831278800964
+78,What happens if behavioural nudges reduce employee engagement significantly?,4,chunk_24,0.39900022745132446
+78,What happens if behavioural nudges reduce employee engagement significantly?,5,chunk_60,0.3900505304336548
+79,What happens if behavioural pilot programmes continue indefinitely without formal review?,1,chunk_22,0.49317771196365356
+79,What happens if behavioural pilot programmes continue indefinitely without formal review?,2,chunk_24,0.3971359431743622
+79,What happens if behavioural pilot programmes continue indefinitely without formal review?,3,chunk_39,0.39109665155410767
+79,What happens if behavioural pilot programmes continue indefinitely without formal review?,4,chunk_121,0.3598823547363281
+79,What happens if behavioural pilot programmes continue indefinitely without formal review?,5,chunk_23,0.3460193872451782
+80,What happens if confidential information from mediation discussions is leaked?,1,chunk_37,0.5829739570617676
+80,What happens if confidential information from mediation discussions is leaked?,2,chunk_28,0.48697829246520996
+80,What happens if confidential information from mediation discussions is leaked?,3,chunk_67,0.4609599709510803
+80,What happens if confidential information from mediation discussions is leaked?,4,chunk_36,0.42536771297454834
+80,What happens if confidential information from mediation discussions is leaked?,5,chunk_78,0.4092388153076172
+81,What happens if conflict repeatedly disrupts team productivity?,1,chunk_35,0.45011550188064575
+81,What happens if conflict repeatedly disrupts team productivity?,2,chunk_38,0.4384614825248718
+81,What happens if conflict repeatedly disrupts team productivity?,3,chunk_36,0.3956764042377472
+81,What happens if conflict repeatedly disrupts team productivity?,4,chunk_133,0.37108898162841797
+81,What happens if conflict repeatedly disrupts team productivity?,5,chunk_39,0.3647153973579407
+82,What happens if employees refuse to complete CPD activities required for their role?,1,chunk_44,0.5342114567756653
+82,What happens if employees refuse to complete CPD activities required for their role?,2,chunk_45,0.533986508846283
+82,What happens if employees refuse to complete CPD activities required for their role?,3,chunk_47,0.4133213460445404
+82,What happens if employees refuse to complete CPD activities required for their role?,4,chunk_0,0.32356855273246765
+82,What happens if employees refuse to complete CPD activities required for their role?,5,chunk_14,0.2975007891654968
+83,What happens if employees reject proposed organisational change after consultation?,1,chunk_32,0.3758738040924072
+83,What happens if employees reject proposed organisational change after consultation?,2,chunk_30,0.3681833744049072
+83,What happens if employees reject proposed organisational change after consultation?,3,chunk_63,0.3624962568283081
+83,What happens if employees reject proposed organisational change after consultation?,4,chunk_113,0.3476136326789856
+83,What happens if employees reject proposed organisational change after consultation?,5,chunk_31,0.33574235439300537
+84,What happens if governance breaches are discovered but not reported immediately?,1,chunk_40,0.6623693108558655
+84,What happens if governance breaches are discovered but not reported immediately?,2,chunk_26,0.43049049377441406
+84,What happens if governance breaches are discovered but not reported immediately?,3,chunk_77,0.41749775409698486
+84,What happens if governance breaches are discovered but not reported immediately?,4,chunk_42,0.41377687454223633
+84,What happens if governance breaches are discovered but not reported immediately?,5,chunk_53,0.3629404306411743
+85,What happens if harassment complaints are reported long after the incident occurred?,1,chunk_57,0.5780042409896851
+85,What happens if harassment complaints are reported long after the incident occurred?,2,chunk_27,0.5695628523826599
+85,What happens if harassment complaints are reported long after the incident occurred?,3,chunk_26,0.5661159157752991
+85,What happens if harassment complaints are reported long after the incident occurred?,4,chunk_29,0.5278596878051758
+85,What happens if harassment complaints are reported long after the incident occurred?,5,chunk_65,0.5085605382919312
+86,What happens if implementation timelines for change initiatives are repeatedly delayed?,1,chunk_30,0.4480662941932678
+86,What happens if implementation timelines for change initiatives are repeatedly delayed?,2,chunk_33,0.44462457299232483
+86,What happens if implementation timelines for change initiatives are repeatedly delayed?,3,chunk_120,0.38611942529678345
+86,What happens if implementation timelines for change initiatives are repeatedly delayed?,4,chunk_34,0.37654033303260803
+86,What happens if implementation timelines for change initiatives are repeatedly delayed?,5,chunk_61,0.37115761637687683
+87,What happens if investigation timelines exceed the standard duration?,1,chunk_79,0.5006943941116333
+87,What happens if investigation timelines exceed the standard duration?,2,chunk_26,0.47301894426345825
+87,What happens if investigation timelines exceed the standard duration?,3,chunk_40,0.45174065232276917
+87,What happens if investigation timelines exceed the standard duration?,4,chunk_157,0.40806806087493896
+87,What happens if investigation timelines exceed the standard duration?,5,chunk_38,0.40519431233406067
+88,What happens if mediation fails to resolve workplace conflict between two employees?,1,chunk_35,0.5434890985488892
+88,What happens if mediation fails to resolve workplace conflict between two employees?,2,chunk_36,0.5414328575134277
+88,What happens if mediation fails to resolve workplace conflict between two employees?,3,chunk_37,0.48466625809669495
+88,What happens if mediation fails to resolve workplace conflict between two employees?,4,chunk_28,0.4432523250579834
+88,What happens if mediation fails to resolve workplace conflict between two employees?,5,chunk_39,0.41164761781692505
+89,What happens if multiple minor governance breaches occur across departments?,1,chunk_40,0.42144787311553955
+89,What happens if multiple minor governance breaches occur across departments?,2,chunk_43,0.3625279366970062
+89,What happens if multiple minor governance breaches occur across departments?,3,chunk_38,0.3079509735107422
+89,What happens if multiple minor governance breaches occur across departments?,4,chunk_36,0.307361364364624
+89,What happens if multiple minor governance breaches occur across departments?,5,chunk_28,0.2937067747116089
+90,What happens if risk assessments are not updated within the required timeframe?,1,chunk_41,0.46321046352386475
+90,What happens if risk assessments are not updated within the required timeframe?,2,chunk_33,0.41892001032829285
+90,What happens if risk assessments are not updated within the required timeframe?,3,chunk_26,0.38590484857559204
+90,What happens if risk assessments are not updated within the required timeframe?,4,chunk_143,0.34426218271255493
+90,What happens if risk assessments are not updated within the required timeframe?,5,chunk_30,0.34420037269592285
+91,What is the maximum duration of a work experience placement without HR extension approval?,1,chunk_14,0.5095174312591553
+91,What is the maximum duration of a work experience placement without HR extension approval?,2,chunk_11,0.4785192608833313
+91,What is the maximum duration of a work experience placement without HR extension approval?,3,chunk_13,0.47754836082458496
+91,What is the maximum duration of a work experience placement without HR extension approval?,4,chunk_84,0.44626662135124207
+91,What is the maximum duration of a work experience placement without HR extension approval?,5,chunk_157,0.43345892429351807
+92,What is the maximum number of leave days that may be carried forward to the next cycle?,1,chunk_6,0.6140830516815186
+92,What is the maximum number of leave days that may be carried forward to the next cycle?,2,chunk_8,0.6023545861244202
+92,What is the maximum number of leave days that may be carried forward to the next cycle?,3,chunk_7,0.560259222984314
+92,What is the maximum number of leave days that may be carried forward to the next cycle?,4,chunk_9,0.5056130886077881
+92,What is the maximum number of leave days that may be carried forward to the next cycle?,5,chunk_2,0.38829928636550903
+93,What is the maximum percentage of employees in the same functional unit allowed on leave simultaneously?,1,chunk_7,0.7562103271484375
+93,What is the maximum percentage of employees in the same functional unit allowed on leave simultaneously?,2,chunk_6,0.4020308256149292
+93,What is the maximum percentage of employees in the same functional unit allowed on leave simultaneously?,3,chunk_84,0.379632830619812
+93,What is the maximum percentage of employees in the same functional unit allowed on leave simultaneously?,4,chunk_9,0.3700273633003235
+93,What is the maximum percentage of employees in the same functional unit allowed on leave simultaneously?,5,chunk_8,0.3385763168334961
+94,What is the maximum weekly working hour expectation for placement participants?,1,chunk_12,0.4777124226093292
+94,What is the maximum weekly working hour expectation for placement participants?,2,chunk_11,0.4683874845504761
+94,What is the maximum weekly working hour expectation for placement participants?,3,chunk_13,0.41356462240219116
+94,What is the maximum weekly working hour expectation for placement participants?,4,chunk_84,0.4130605459213257
+94,What is the maximum weekly working hour expectation for placement participants?,5,chunk_91,0.35676175355911255
+95,What is the minimum continuous leave block employees must take each leave cycle?,1,chunk_7,0.7098273038864136
+95,What is the minimum continuous leave block employees must take each leave cycle?,2,chunk_6,0.5657434463500977
+95,What is the minimum continuous leave block employees must take each leave cycle?,3,chunk_9,0.493083655834198
+95,What is the minimum continuous leave block employees must take each leave cycle?,4,chunk_84,0.4381341338157654
+95,What is the minimum continuous leave block employees must take each leave cycle?,5,chunk_8,0.43443048000335693
+96,What is the normal minimum duration of consultation periods for significant change initiatives?,1,chunk_30,0.5759587287902832
+96,What is the normal minimum duration of consultation periods for significant change initiatives?,2,chunk_137,0.40992745757102966
+96,What is the normal minimum duration of consultation periods for significant change initiatives?,3,chunk_60,0.40622860193252563
+96,What is the normal minimum duration of consultation periods for significant change initiatives?,4,chunk_65,0.39820384979248047
+96,What is the normal minimum duration of consultation periods for significant change initiatives?,5,chunk_33,0.3842969834804535
+97,What is the typical duration range for internship programmes?,1,chunk_11,0.5914733409881592
+97,What is the typical duration range for internship programmes?,2,chunk_12,0.5268898010253906
+97,What is the typical duration range for internship programmes?,3,chunk_44,0.34221234917640686
+97,What is the typical duration range for internship programmes?,4,chunk_15,0.3413141071796417
+97,What is the typical duration range for internship programmes?,5,chunk_46,0.32887423038482666
+98,What is the usual timeframe for completing harassment investigations?,1,chunk_29,0.6112223863601685
+98,What is the usual timeframe for completing harassment investigations?,2,chunk_57,0.5695793628692627
+98,What is the usual timeframe for completing harassment investigations?,3,chunk_26,0.5427637100219727
+98,What is the usual timeframe for completing harassment investigations?,4,chunk_77,0.5357844829559326
+98,What is the usual timeframe for completing harassment investigations?,5,chunk_64,0.49301886558532715
+99,What limit exists on financial approvals that interns may independently authorise?,1,chunk_12,0.6590259075164795
+99,What limit exists on financial approvals that interns may independently authorise?,2,chunk_15,0.4146738648414612
+99,What limit exists on financial approvals that interns may independently authorise?,3,chunk_71,0.3434709906578064
+99,What limit exists on financial approvals that interns may independently authorise?,4,chunk_11,0.3380013108253479
+99,What limit exists on financial approvals that interns may independently authorise?,5,chunk_45,0.33194974064826965
+100,What may happen if mandatory training is not completed within forty-five days?,1,chunk_96,0.5432040691375732
+100,What may happen if mandatory training is not completed within forty-five days?,2,chunk_0,0.5285131931304932
+100,What may happen if mandatory training is not completed within forty-five days?,3,chunk_44,0.5190579891204834
+100,What may happen if mandatory training is not completed within forty-five days?,4,chunk_2,0.5130522847175598
+100,What may happen if mandatory training is not completed within forty-five days?,5,chunk_46,0.4866676330566406
+101,What may trigger formal review if repeated informal complaints occur about the same individual?,1,chunk_27,0.5821994543075562
+101,What may trigger formal review if repeated informal complaints occur about the same individual?,2,chunk_66,0.4757418930530548
+101,What may trigger formal review if repeated informal complaints occur about the same individual?,3,chunk_65,0.439250111579895
+101,What may trigger formal review if repeated informal complaints occur about the same individual?,4,chunk_67,0.436594694852829
+101,What may trigger formal review if repeated informal complaints occur about the same individual?,5,chunk_26,0.4092608690261841
+102,What mid-year learning completion threshold applies to employees in regulated roles?,1,chunk_45,0.5989295840263367
+102,What mid-year learning completion threshold applies to employees in regulated roles?,2,chunk_96,0.4912063777446747
+102,What mid-year learning completion threshold applies to employees in regulated roles?,3,chunk_44,0.4559239149093628
+102,What mid-year learning completion threshold applies to employees in regulated roles?,4,chunk_143,0.43133652210235596
+102,What mid-year learning completion threshold applies to employees in regulated roles?,5,chunk_144,0.4248461127281189
+103,What must be disclosed when behavioural incentives are designed using behavioural triggers?,1,chunk_141,0.5310581922531128
+103,What must be disclosed when behavioural incentives are designed using behavioural triggers?,2,chunk_21,0.4880651533603668
+103,What must be disclosed when behavioural incentives are designed using behavioural triggers?,3,chunk_24,0.42962226271629333
+103,What must be disclosed when behavioural incentives are designed using behavioural triggers?,4,chunk_63,0.3411298394203186
+103,What must be disclosed when behavioural incentives are designed using behavioural triggers?,5,chunk_47,0.32298263907432556
+104,What must employees receive if their role terms change during restructuring?,1,chunk_31,0.5033001899719238
+104,What must employees receive if their role terms change during restructuring?,2,chunk_32,0.4959867000579834
+104,What must employees receive if their role terms change during restructuring?,3,chunk_120,0.440449059009552
+104,What must employees receive if their role terms change during restructuring?,4,chunk_30,0.4146078824996948
+104,What must employees receive if their role terms change during restructuring?,5,chunk_91,0.36652612686157227
+105,What must happen before algorithmic adjustments affecting more than ten percent of workforce scheduling?,1,chunk_18,0.4740440845489502
+105,What must happen before algorithmic adjustments affecting more than ten percent of workforce scheduling?,2,chunk_113,0.43507885932922363
+105,What must happen before algorithmic adjustments affecting more than ten percent of workforce scheduling?,3,chunk_160,0.42722344398498535
+105,What must happen before algorithmic adjustments affecting more than ten percent of workforce scheduling?,4,chunk_156,0.35932430624961853
+105,What must happen before algorithmic adjustments affecting more than ten percent of workforce scheduling?,5,chunk_155,0.35442328453063965
+106,What must happen before any AI system influencing employment decisions is deployed?,1,chunk_18,0.5641852617263794
+106,What must happen before any AI system influencing employment decisions is deployed?,2,chunk_16,0.5573548078536987
+106,What must happen before any AI system influencing employment decisions is deployed?,3,chunk_19,0.4965251684188843
+106,What must happen before any AI system influencing employment decisions is deployed?,4,chunk_20,0.4201472997665405
+106,What must happen before any AI system influencing employment decisions is deployed?,5,chunk_17,0.41641056537628174
+107,What must happen to behavioural communication campaigns exceeding ninety days?,1,chunk_21,0.544451117515564
+107,What must happen to behavioural communication campaigns exceeding ninety days?,2,chunk_79,0.45543232560157776
+107,What must happen to behavioural communication campaigns exceeding ninety days?,3,chunk_77,0.409257709980011
+107,What must happen to behavioural communication campaigns exceeding ninety days?,4,chunk_24,0.40038204193115234
+107,What must happen to behavioural communication campaigns exceeding ninety days?,5,chunk_35,0.3940654397010803
+108,What must occur if an AI system shows an error rate exceeding five percent in audit sampling?,1,chunk_17,0.5241881608963013
+108,What must occur if an AI system shows an error rate exceeding five percent in audit sampling?,2,chunk_150,0.4085010886192322
+108,What must occur if an AI system shows an error rate exceeding five percent in audit sampling?,3,chunk_16,0.3951365053653717
+108,What must occur if an AI system shows an error rate exceeding five percent in audit sampling?,4,chunk_18,0.353010892868042
+108,What must occur if an AI system shows an error rate exceeding five percent in audit sampling?,5,chunk_20,0.31204551458358765
+109,What must occur if conflict disrupts critical delivery deadlines beyond a certain duration?,1,chunk_36,0.594282865524292
+109,What must occur if conflict disrupts critical delivery deadlines beyond a certain duration?,2,chunk_35,0.5025581121444702
+109,What must occur if conflict disrupts critical delivery deadlines beyond a certain duration?,3,chunk_38,0.44678834080696106
+109,What must occur if conflict disrupts critical delivery deadlines beyond a certain duration?,4,chunk_37,0.4438759982585907
+109,What must occur if conflict disrupts critical delivery deadlines beyond a certain duration?,5,chunk_39,0.42868220806121826
+110,What must occur if engagement scores decline by five percent due to a behavioural initiative?,1,chunk_61,0.5072213411331177
+110,What must occur if engagement scores decline by five percent due to a behavioural initiative?,2,chunk_63,0.4744778871536255
+110,What must occur if engagement scores decline by five percent due to a behavioural initiative?,3,chunk_60,0.4503369629383087
+110,What must occur if engagement scores decline by five percent due to a behavioural initiative?,4,chunk_22,0.4078206419944763
+110,What must occur if engagement scores decline by five percent due to a behavioural initiative?,5,chunk_23,0.4060717821121216
+111,What participation limit applies to behavioural pilot programmes without consent escalation?,1,chunk_22,0.5819314122200012
+111,What participation limit applies to behavioural pilot programmes without consent escalation?,2,chunk_24,0.4522840082645416
+111,What participation limit applies to behavioural pilot programmes without consent escalation?,3,chunk_21,0.3902512192726135
+111,What participation limit applies to behavioural pilot programmes without consent escalation?,4,chunk_14,0.3764800727367401
+111,What participation limit applies to behavioural pilot programmes without consent escalation?,5,chunk_39,0.3697277009487152
+112,What percentage of structured learning exposure must apprenticeship training plans include?,1,chunk_11,0.8001657724380493
+112,What percentage of structured learning exposure must apprenticeship training plans include?,2,chunk_95,0.2643696665763855
+112,What percentage of structured learning exposure must apprenticeship training plans include?,3,chunk_12,0.26207900047302246
+112,What percentage of structured learning exposure must apprenticeship training plans include?,4,chunk_144,0.260714590549469
+112,What percentage of structured learning exposure must apprenticeship training plans include?,5,chunk_44,0.2547186613082886
+113,What proportion of annual leave entitlement must be used within the first three quarters of the leave cycle?,1,chunk_7,0.5798899531364441
+113,What proportion of annual leave entitlement must be used within the first three quarters of the leave cycle?,2,chunk_8,0.41846776008605957
+113,What proportion of annual leave entitlement must be used within the first three quarters of the leave cycle?,3,chunk_9,0.38610541820526123
+113,What proportion of annual leave entitlement must be used within the first three quarters of the leave cycle?,4,chunk_6,0.33732885122299194
+113,What proportion of annual leave entitlement must be used within the first three quarters of the leave cycle?,5,chunk_14,0.2731195092201233
+114,What proportion of high-risk functions must internal audits review annually?,1,chunk_41,0.5263100862503052
+114,What proportion of high-risk functions must internal audits review annually?,2,chunk_72,0.3866392970085144
+114,What proportion of high-risk functions must internal audits review annually?,3,chunk_123,0.3539309799671173
+114,What proportion of high-risk functions must internal audits review annually?,4,chunk_88,0.33729326725006104
+114,What proportion of high-risk functions must internal audits review annually?,5,chunk_43,0.3348991572856903
+115,What requirement applies before engaging external AI vendors regarding model transparency?,1,chunk_19,0.49272620677948
+115,What requirement applies before engaging external AI vendors regarding model transparency?,2,chunk_20,0.342426061630249
+115,What requirement applies before engaging external AI vendors regarding model transparency?,3,chunk_18,0.34080708026885986
+115,What requirement applies before engaging external AI vendors regarding model transparency?,4,chunk_145,0.3131783902645111
+115,What requirement applies before engaging external AI vendors regarding model transparency?,5,chunk_150,0.2911553978919983
+116,What requirement applies if behavioural pilots exceed six months in duration?,1,chunk_22,0.47316431999206543
+116,What requirement applies if behavioural pilots exceed six months in duration?,2,chunk_68,0.43226388096809387
+116,What requirement applies if behavioural pilots exceed six months in duration?,3,chunk_24,0.4097645878791809
+116,What requirement applies if behavioural pilots exceed six months in duration?,4,chunk_2,0.39393001794815063
+116,What requirement applies if behavioural pilots exceed six months in duration?,5,chunk_13,0.35741671919822693
+117,What requirement applies when behavioural analytics influence performance assessment?,1,chunk_22,0.574133574962616
+117,What requirement applies when behavioural analytics influence performance assessment?,2,chunk_122,0.4306498169898987
+117,What requirement applies when behavioural analytics influence performance assessment?,3,chunk_124,0.3997720777988434
+117,What requirement applies when behavioural analytics influence performance assessment?,4,chunk_21,0.3956349790096283
+117,What requirement applies when behavioural analytics influence performance assessment?,5,chunk_123,0.3873744308948517
+118,What responsibility do managers have if they are aware of harassment incidents?,1,chunk_29,0.4828430116176605
+118,What responsibility do managers have if they are aware of harassment incidents?,2,chunk_28,0.46628400683403015
+118,What responsibility do managers have if they are aware of harassment incidents?,3,chunk_27,0.4116855263710022
+118,What responsibility do managers have if they are aware of harassment incidents?,4,chunk_89,0.4085957407951355
+118,What responsibility do managers have if they are aware of harassment incidents?,5,chunk_78,0.39700883626937866
+119,What restriction applies to individuals under investigation regarding investigator selection?,1,chunk_40,0.3466835021972656
+119,What restriction applies to individuals under investigation regarding investigator selection?,2,chunk_134,0.30661946535110474
+119,What restriction applies to individuals under investigation regarding investigator selection?,3,chunk_79,0.29800117015838623
+119,What restriction applies to individuals under investigation regarding investigator selection?,4,chunk_59,0.29153427481651306
+119,What restriction applies to individuals under investigation regarding investigator selection?,5,chunk_90,0.29139721393585205
+120,What review is required when workflow design changes exceed fifteen percent alteration?,1,chunk_31,0.47829777002334595
+120,What review is required when workflow design changes exceed fifteen percent alteration?,2,chunk_23,0.4557236433029175
+120,What review is required when workflow design changes exceed fifteen percent alteration?,3,chunk_118,0.397009015083313
+120,What review is required when workflow design changes exceed fifteen percent alteration?,4,chunk_91,0.39584141969680786
+120,What review is required when workflow design changes exceed fifteen percent alteration?,5,chunk_119,0.3698652386665344
+121,What review must occur before behavioural interventions affecting more than fifty employees?,1,chunk_21,0.6423707008361816
+121,What review must occur before behavioural interventions affecting more than fifty employees?,2,chunk_121,0.4613421857357025
+121,What review must occur before behavioural interventions affecting more than fifty employees?,3,chunk_23,0.4396780729293823
+121,What review must occur before behavioural interventions affecting more than fifty employees?,4,chunk_88,0.43667280673980713
+121,What review must occur before behavioural interventions affecting more than fifty employees?,5,chunk_126,0.4317170977592468
+122,What situation may trigger behavioural review if the same parties repeatedly conflict?,1,chunk_36,0.5061486959457397
+122,What situation may trigger behavioural review if the same parties repeatedly conflict?,2,chunk_39,0.4925059676170349
+122,What situation may trigger behavioural review if the same parties repeatedly conflict?,3,chunk_38,0.4292185306549072
+122,What situation may trigger behavioural review if the same parties repeatedly conflict?,4,chunk_67,0.39813053607940674
+122,What situation may trigger behavioural review if the same parties repeatedly conflict?,5,chunk_27,0.3819766044616699
+123,What three stages must change communication include?,1,chunk_31,0.4929482340812683
+123,What three stages must change communication include?,2,chunk_120,0.3440689742565155
+123,What three stages must change communication include?,3,chunk_33,0.3356514573097229
+123,What three stages must change communication include?,4,chunk_35,0.32479608058929443
+123,What three stages must change communication include?,5,chunk_30,0.3001220226287842
+124,What threshold of role redesign requires formal re-evaluation?,1,chunk_31,0.7324230074882507
+124,What threshold of role redesign requires formal re-evaluation?,2,chunk_118,0.5074820518493652
+124,What threshold of role redesign requires formal re-evaluation?,3,chunk_120,0.4931580722332001
+124,What threshold of role redesign requires formal re-evaluation?,4,chunk_92,0.4550655484199524
+124,What threshold of role redesign requires formal re-evaluation?,5,chunk_121,0.4371110796928406
+125,What workforce reduction threshold triggers executive review?,1,chunk_31,0.49132198095321655
+125,What workforce reduction threshold triggers executive review?,2,chunk_92,0.42921388149261475
+125,What workforce reduction threshold triggers executive review?,3,chunk_160,0.41541820764541626
+125,What workforce reduction threshold triggers executive review?,4,chunk_148,0.41175997257232666
+125,What workforce reduction threshold triggers executive review?,5,chunk_126,0.37610578536987305
+126,When can management initiate an attendance improvement plan based on absence days within six months?,1,chunk_1,0.6674614548683167
+126,When can management initiate an attendance improvement plan based on absence days within six months?,2,chunk_0,0.484680712223053
+126,When can management initiate an attendance improvement plan based on absence days within six months?,3,chunk_2,0.46528345346450806
+126,When can management initiate an attendance improvement plan based on absence days within six months?,4,chunk_3,0.4216800034046173
+126,When can management initiate an attendance improvement plan based on absence days within six months?,5,chunk_104,0.4094465374946594
+127,When may failure to return from leave be treated as unauthorised absence?,1,chunk_10,0.5358442068099976
+127,When may failure to return from leave be treated as unauthorised absence?,2,chunk_3,0.49233031272888184
+127,When may failure to return from leave be treated as unauthorised absence?,3,chunk_8,0.4442271292209625
+127,When may failure to return from leave be treated as unauthorised absence?,4,chunk_9,0.43523332476615906
+127,When may failure to return from leave be treated as unauthorised absence?,5,chunk_2,0.4231562912464142
+128,When may unresolved conflicts escalate to mediation after informal dialogue?,1,chunk_35,0.7237739562988281
+128,When may unresolved conflicts escalate to mediation after informal dialogue?,2,chunk_37,0.5267327427864075
+128,When may unresolved conflicts escalate to mediation after informal dialogue?,3,chunk_36,0.5176884531974792
+128,When may unresolved conflicts escalate to mediation after informal dialogue?,4,chunk_66,0.4226006865501404
+128,When may unresolved conflicts escalate to mediation after informal dialogue?,5,chunk_28,0.41622763872146606
+129,When must conflicts of interest be declared after they arise?,1,chunk_76,0.5075869560241699
+129,When must conflicts of interest be declared after they arise?,2,chunk_40,0.4448842704296112
+129,When must conflicts of interest be declared after they arise?,3,chunk_39,0.3943755626678467
+129,When must conflicts of interest be declared after they arise?,4,chunk_38,0.3536086678504944
+129,When must conflicts of interest be declared after they arise?,5,chunk_35,0.3412022292613983
+130,When must employees be informed about the introduction of AI systems affecting their role?,1,chunk_18,0.6448038220405579
+130,When must employees be informed about the introduction of AI systems affecting their role?,2,chunk_20,0.41391339898109436
+130,When must employees be informed about the introduction of AI systems affecting their role?,3,chunk_16,0.40329867601394653
+130,When must employees be informed about the introduction of AI systems affecting their role?,4,chunk_19,0.39667168259620667
+130,When must employees be informed about the introduction of AI systems affecting their role?,5,chunk_17,0.3704566955566406
+131,When must professional certifications required for a role be renewed?,1,chunk_45,0.6073403358459473
+131,When must professional certifications required for a role be renewed?,2,chunk_144,0.5353999137878418
+131,When must professional certifications required for a role be renewed?,3,chunk_46,0.4421467185020447
+131,When must professional certifications required for a role be renewed?,4,chunk_143,0.380830854177475
+131,When must professional certifications required for a role be renewed?,5,chunk_98,0.37674468755722046
+132,When must return-to-work discussions occur after absence exceeding three working days?,1,chunk_2,0.6207443475723267
+132,When must return-to-work discussions occur after absence exceeding three working days?,2,chunk_3,0.492403507232666
+132,When must return-to-work discussions occur after absence exceeding three working days?,3,chunk_35,0.47798681259155273
+132,When must return-to-work discussions occur after absence exceeding three working days?,4,chunk_0,0.46601492166519165
+132,When must return-to-work discussions occur after absence exceeding three working days?,5,chunk_64,0.4574456810951233
+133,When must training be provided if new systems alter daily tasks significantly?,1,chunk_95,0.4891934394836426
+133,When must training be provided if new systems alter daily tasks significantly?,2,chunk_32,0.40434199571609497
+133,When must training be provided if new systems alter daily tasks significantly?,3,chunk_96,0.3973943591117859
+133,When must training be provided if new systems alter daily tasks significantly?,4,chunk_18,0.3930909037590027
+133,When must training be provided if new systems alter daily tasks significantly?,5,chunk_113,0.38009294867515564
+134,When must whistleblowing complaints be acknowledged?,1,chunk_77,0.6132503747940063
+134,When must whistleblowing complaints be acknowledged?,2,chunk_42,0.5324732661247253
+134,When must whistleblowing complaints be acknowledged?,3,chunk_57,0.4558578133583069
+134,When must whistleblowing complaints be acknowledged?,4,chunk_26,0.4456444978713989
+134,When must whistleblowing complaints be acknowledged?,5,chunk_75,0.41276174783706665
+135,When should formal investigations into harassment normally begin?,1,chunk_29,0.5884481072425842
+135,When should formal investigations into harassment normally begin?,2,chunk_77,0.47787249088287354
+135,When should formal investigations into harassment normally begin?,3,chunk_57,0.45754021406173706
+135,When should formal investigations into harassment normally begin?,4,chunk_26,0.4535897374153137
+135,When should formal investigations into harassment normally begin?,5,chunk_64,0.4209171533584595
+136,Who decides whether a major organisational restructuring should proceed?,1,chunk_120,0.3904305100440979
+136,Who decides whether a major organisational restructuring should proceed?,2,chunk_31,0.3727668523788452
+136,Who decides whether a major organisational restructuring should proceed?,3,chunk_94,0.3350183963775635
+136,Who decides whether a major organisational restructuring should proceed?,4,chunk_106,0.32467636466026306
+136,Who decides whether a major organisational restructuring should proceed?,5,chunk_118,0.28423556685447693
+137,Who is responsible if an AI system produces incorrect workforce planning recommendations?,1,chunk_18,0.5450047254562378
+137,Who is responsible if an AI system produces incorrect workforce planning recommendations?,2,chunk_16,0.4633954167366028
+137,Who is responsible if an AI system produces incorrect workforce planning recommendations?,3,chunk_19,0.4032353460788727
+137,Who is responsible if an AI system produces incorrect workforce planning recommendations?,4,chunk_148,0.3876709043979645
+137,Who is responsible if an AI system produces incorrect workforce planning recommendations?,5,chunk_17,0.3824869990348816
+138,Who must review AI-generated performance scores before they are formally recorded?,1,chunk_16,0.5629125833511353
+138,Who must review AI-generated performance scores before they are formally recorded?,2,chunk_17,0.5415176749229431
+138,Who must review AI-generated performance scores before they are formally recorded?,3,chunk_19,0.5258404016494751
+138,Who must review AI-generated performance scores before they are formally recorded?,4,chunk_20,0.3827400803565979
+138,Who must review AI-generated performance scores before they are formally recorded?,5,chunk_147,0.3763447701931
+139,Within how many days must carried-forward leave be used?,1,chunk_8,0.7152400016784668
+139,Within how many days must carried-forward leave be used?,2,chunk_6,0.6338281631469727
+139,Within how many days must carried-forward leave be used?,3,chunk_9,0.5128055810928345
+139,Within how many days must carried-forward leave be used?,4,chunk_7,0.48156386613845825
+139,Within how many days must carried-forward leave be used?,5,chunk_2,0.4694403409957886
+140,Within how many days must CPD activities be recorded after completion?,1,chunk_44,0.6681121587753296
+140,Within how many days must CPD activities be recorded after completion?,2,chunk_45,0.66093909740448
+140,Within how many days must CPD activities be recorded after completion?,3,chunk_46,0.4507713317871094
+140,Within how many days must CPD activities be recorded after completion?,4,chunk_0,0.4480859041213989
+140,Within how many days must CPD activities be recorded after completion?,5,chunk_2,0.4364975094795227
+141,Within how many days must formal grievances be submitted after the triggering incident?,1,chunk_64,0.7805251479148865
+141,Within how many days must formal grievances be submitted after the triggering incident?,2,chunk_26,0.6456403732299805
+141,Within how many days must formal grievances be submitted after the triggering incident?,3,chunk_65,0.6160188913345337
+141,Within how many days must formal grievances be submitted after the triggering incident?,4,chunk_37,0.5751345157623291
+141,Within how many days must formal grievances be submitted after the triggering incident?,5,chunk_35,0.5553021430969238
+142,Within how many days must managers complete governance training after appointment?,1,chunk_42,0.6429513692855835
+142,Within how many days must managers complete governance training after appointment?,2,chunk_44,0.506023645401001
+142,Within how many days must managers complete governance training after appointment?,3,chunk_95,0.4831858277320862
+142,Within how many days must managers complete governance training after appointment?,4,chunk_46,0.4698600769042969
+142,Within how many days must managers complete governance training after appointment?,5,chunk_96,0.4665500521659851
+143,Within how many days must mandatory compliance training be completed after assignment?,1,chunk_44,0.6875983476638794
+143,Within how many days must mandatory compliance training be completed after assignment?,2,chunk_95,0.610369861125946
+143,Within how many days must mandatory compliance training be completed after assignment?,3,chunk_13,0.6102792620658875
+143,Within how many days must mandatory compliance training be completed after assignment?,4,chunk_45,0.5402764678001404
+143,Within how many days must mandatory compliance training be completed after assignment?,5,chunk_11,0.5269700288772583
+144,Within how many days must reimbursement requests be submitted after training completion?,1,chunk_46,0.6006267666816711
+144,Within how many days must reimbursement requests be submitted after training completion?,2,chunk_96,0.5305930376052856
+144,Within how many days must reimbursement requests be submitted after training completion?,3,chunk_95,0.5237624645233154
+144,Within how many days must reimbursement requests be submitted after training completion?,4,chunk_44,0.5041567087173462
+144,Within how many days must reimbursement requests be submitted after training completion?,5,chunk_11,0.48705071210861206
+145,Within how many days should mediation sessions normally occur after a request?,1,chunk_36,0.6286158561706543
+145,Within how many days should mediation sessions normally occur after a request?,2,chunk_35,0.6269158124923706
+145,Within how many days should mediation sessions normally occur after a request?,3,chunk_37,0.5580808520317078
+145,Within how many days should mediation sessions normally occur after a request?,4,chunk_64,0.44808053970336914
+145,Within how many days should mediation sessions normally occur after a request?,5,chunk_26,0.44320163130760193
+146,Within how many working days must a supervisor be assigned to a programme participant?,1,chunk_44,0.48149123787879944
+146,Within how many working days must a supervisor be assigned to a programme participant?,2,chunk_95,0.45919352769851685
+146,Within how many working days must a supervisor be assigned to a programme participant?,3,chunk_12,0.45203185081481934
+146,Within how many working days must a supervisor be assigned to a programme participant?,4,chunk_96,0.4456966519355774
+146,Within how many working days must a supervisor be assigned to a programme participant?,5,chunk_6,0.4345662295818329
+147,Within how many working days must bullying or harassment complaints be acknowledged?,1,chunk_57,0.5569949150085449
+147,Within how many working days must bullying or harassment complaints be acknowledged?,2,chunk_64,0.5567522048950195
+147,Within how many working days must bullying or harassment complaints be acknowledged?,3,chunk_77,0.5373818874359131
+147,Within how many working days must bullying or harassment complaints be acknowledged?,4,chunk_26,0.5304093360900879
+147,Within how many working days must bullying or harassment complaints be acknowledged?,5,chunk_29,0.5233333110809326
+148,Within how many working days must governance breaches be reported after discovery?,1,chunk_40,0.8600369095802307
+148,Within how many working days must governance breaches be reported after discovery?,2,chunk_77,0.535141110420227
+148,Within how many working days must governance breaches be reported after discovery?,3,chunk_42,0.530786395072937
+148,Within how many working days must governance breaches be reported after discovery?,4,chunk_26,0.5159976482391357
+148,Within how many working days must governance breaches be reported after discovery?,5,chunk_38,0.4598853886127472
+149,Within how many working days should managers acknowledge interpersonal conflict reports?,1,chunk_35,0.6833057403564453
+149,Within how many working days should managers acknowledge interpersonal conflict reports?,2,chunk_77,0.5547283887863159
+149,Within how many working days should managers acknowledge interpersonal conflict reports?,3,chunk_36,0.5486983060836792
+149,Within how many working days should managers acknowledge interpersonal conflict reports?,4,chunk_38,0.5287435054779053
+149,Within how many working days should managers acknowledge interpersonal conflict reports?,5,chunk_104,0.5207892656326294
+150,Within what timeframe may interim protective measures be implemented where risk is immediate?,1,chunk_26,0.5141330361366272
+150,Within what timeframe may interim protective measures be implemented where risk is immediate?,2,chunk_41,0.4282967448234558
+150,Within what timeframe may interim protective measures be implemented where risk is immediate?,3,chunk_50,0.40501272678375244
+150,Within what timeframe may interim protective measures be implemented where risk is immediate?,4,chunk_51,0.37805330753326416
+150,Within what timeframe may interim protective measures be implemented where risk is immediate?,5,chunk_33,0.36519357562065125

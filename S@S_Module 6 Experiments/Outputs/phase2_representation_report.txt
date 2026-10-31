@@ -1,0 +1,144 @@
+PHASE 2 — MULTI-VECTOR REPRESENTATION
+============================================================
+
+Purpose
+-------
+Inspect the structural change from a single-vector representation to multiple contextual vectors.
+
+Phase 1 representation
+----------------------
+Chunk -> ONE vector
+mxbai-embed-large:335m -> 1024 dimensions
+
+Phase 2 representation
+----------------------
+Chunk -> MULTIPLE contextual vectors
+BGE-M3 contextual hidden states -> 1024 dimensions per vector
+
+Corpus
+------
+Number of chunks: 40
+Vector count per chunk: min=25, max=44, avg=33.85
+Vector dimensions observed: [1024]
+
+Queries
+-------
+Number of queries: 12
+Vector count per query: min=9, max=23, avg=15.00
+Vector dimensions observed: [1024]
+
+Token/vector correspondence
+---------------------------
+C01: 41 vectors | 1024 dimensions
+  tokens: ▁Emp | lo | ye | es | ▁are | ▁entitled | ▁to | ▁24 | ▁days | ▁of | ▁annual | ▁leave | ▁for | ▁each | ▁completed | ▁calendar | ▁year | ▁of | ▁service | . | ▁Leave | ▁is | ▁normal | ly | ▁acc | ru | ed | ▁monthly | ▁and | ▁should | ▁be | ▁planned | ▁in | ▁consultation | ▁with | ▁the | ▁employee | ' | s | ▁manager | .
+C02: 42 vectors | 1024 dimensions
+  tokens: ▁Emp | lo | ye | es | ▁may | ▁carry | ▁forward | ▁up | ▁to | ▁5 | ▁un | used | ▁annual | ▁leave | ▁days | ▁into | ▁the | ▁following | ▁calendar | ▁year | . | ▁Any | ▁un | used | ▁balance | ▁above | ▁the | ▁permit | ted | ▁carry | - | for | ward | ▁limit | ▁will | ▁normal | ly | ▁lapse | ▁at | ▁year | ▁end | .
+C03: 40 vectors | 1024 dimensions
+  tokens: ▁Annu | al | ▁leave | ▁should | ▁normal | ly | ▁be | ▁taken | ▁during | ▁the | ▁year | ▁in | ▁which | ▁it | ▁is | ▁acc | ru | ed | . | ▁Manager | s | ▁are | ▁responsible | ▁for | ▁en | s | uring | ▁that | ▁employees | ▁have | ▁reasonable | ▁opportunities | ▁to | ▁use | ▁their | ▁acc | ru | ed | ▁leave | .
+C04: 28 vectors | 1024 dimensions
+  tokens: ▁Un | used | ▁annual | ▁leave | ▁exceed | ing | ▁the | ▁permit | ted | ▁carry | - | for | ward | ▁amount | ▁will | ▁normal | ly | ▁lapse | ▁on | ▁31 | ▁December | ▁unless | ▁an | ▁approved | ▁exception | ▁app | lies | .
+C05: 30 vectors | 1024 dimensions
+  tokens: ▁Emp | lo | ye | es | ▁should | ▁submit | ▁annual | ▁leave | ▁request | s | ▁through | ▁the | ▁employee | ▁portal | ▁at | ▁least | ▁five | ▁working | ▁days | ▁before | ▁the | ▁intended | ▁start | ▁date | , | ▁except | ▁in | ▁urgent | ▁circumstances | .
+C06: 35 vectors | 1024 dimensions
+  tokens: ▁Annu | al | ▁leave | ▁request | s | ▁are | ▁subject | ▁to | ▁manager | ▁appro | val | ▁and | ▁operation | al | ▁requirements | . | ▁App | r | oval | ▁should | ▁consider | ▁team | ▁coverage | , | ▁business | ▁continu | ity | , | ▁and | ▁previously | ▁approved | ▁ | absence | s | .
+C07: 35 vectors | 1024 dimensions
+  tokens: ▁The | ▁annual | ▁leave | ▁balance | ▁display | ed | ▁in | ▁the | ▁employee | ▁portal | ▁reflect | s | ▁approved | ▁and | ▁record | ed | ▁leave | ▁transaction | s | . | ▁Emp | lo | ye | es | ▁should | ▁report | ▁disc | re | pa | ncies | ▁to | ▁HR | ▁Operation | s | .
+C08: 39 vectors | 1024 dimensions
+  tokens: ▁Emp | lo | ye | es | ▁who | ▁join | ▁during | ▁the | ▁year | ▁receive | ▁a | ▁pro | rat | ed | ▁annual | ▁leave | ▁en | title | ment | ▁based | ▁on | ▁their | ▁eligible | ▁service | ▁period | . | ▁The | ▁en | title | ment | ▁is | ▁round | ed | ▁according | ▁to | ▁pay | roll | ▁rules | .
+C09: 35 vectors | 1024 dimensions
+  tokens: ▁When | ▁employment | ▁end | s | , | ▁un | used | ▁acc | ru | ed | ▁annual | ▁leave | ▁is | ▁sett | led | ▁according | ▁to | ▁applicable | ▁company | ▁policy | ▁and | ▁local | ▁employment | ▁requirements | . | ▁Future | ▁planned | ▁leave | ▁is | ▁cancel | led | ▁unless | ▁otherwise | ▁agreed | .
+C10: 44 vectors | 1024 dimensions
+  tokens: ▁Ex | tende | d | ▁ | absence | ▁can | ▁affect | ▁the | ▁tim | ing | ▁of | ▁leave | ▁acc | ru | al | ▁and | ▁the | ▁treatment | ▁of | ▁un | used | ▁balance | s | . | ▁Emp | lo | ye | es | ▁return | ing | ▁from | ▁extend | ed | ▁ | absence | ▁should | ▁confirm | ▁their | ▁balance | ▁with | ▁HR | ▁Operation | s | .
+C11: 39 vectors | 1024 dimensions
+  tokens: ▁Si | ck | ▁leave | ▁is | ▁intended | ▁for | ▁period | s | ▁when | ▁an | ▁employee | ▁is | ▁un | able | ▁to | ▁work | ▁because | ▁of | ▁illness | ▁or | ▁injury | . | ▁Emp | lo | ye | es | ▁should | ▁not | ify | ▁their | ▁manager | ▁as | ▁soon | ▁as | ▁reason | ably | ▁practica | ble | .
+C12: 27 vectors | 1024 dimensions
+  tokens: ▁A | ▁medical | ▁certificate | ▁may | ▁be | ▁required | ▁for | ▁sick | ness | ▁ | absence | ▁exceed | ing | ▁three | ▁consecutiv | e | ▁working | ▁days | , | ▁subject | ▁to | ▁local | ▁policy | ▁and | ▁applicable | ▁requirements | .
+C13: 32 vectors | 1024 dimensions
+  tokens: ▁Si | ck | ▁leave | ▁balance | s | ▁and | ▁annual | ▁leave | ▁balance | s | ▁are | ▁maintain | ed | ▁separate | ly | ▁in | ▁the | ▁employee | ▁portal | . | ▁One | ▁type | ▁of | ▁leave | ▁does | ▁not | ▁automatically | ▁convert | ▁into | ▁the | ▁other | .
+C14: 36 vectors | 1024 dimensions
+  tokens: ▁E | ligi | ble | ▁employees | ▁may | ▁take | ▁parent | al | ▁leave | ▁following | ▁the | ▁birth | ▁or | ▁ | adoption | ▁of | ▁a | ▁child | . | ▁The | ▁du | ration | ▁and | ▁payment | ▁arrangement | s | ▁depend | ▁on | ▁the | ▁applicable | ▁policy | ▁and | ▁juris | di | ction | .
+C15: 37 vectors | 1024 dimensions
+  tokens: ▁Parent | al | ▁leave | ▁should | ▁normal | ly | ▁be | ▁request | ed | ▁in | ▁advance | ▁where | ▁the | ▁expected | ▁start | ▁date | ▁is | ▁known | . | ▁Emp | lo | ye | es | ▁should | ▁provide | ▁the | ▁required | ▁support | ing | ▁information | ▁through | ▁the | ▁design | ated | ▁HR | ▁process | .
+C16: 34 vectors | 1024 dimensions
+  tokens: ▁Emp | lo | ye | es | ▁may | ▁work | ▁remote | ly | ▁where | ▁their | ▁role | ▁is | ▁eligible | ▁and | ▁the | ▁arrangement | ▁has | ▁been | ▁approved | ▁by | ▁their | ▁manager | . | ▁Remote | ▁work | ▁remain | s | ▁subject | ▁to | ▁business | ▁and | ▁security | ▁requirements | .
+C17: 29 vectors | 1024 dimensions
+  tokens: ▁Remote | ▁employees | ▁must | ▁use | ▁company | - | ap | prove | d | ▁devices | , | ▁maintain | ▁appropriate | ▁information | ▁security | ▁control | s | , | ▁and | ▁protect | ▁confidential | ▁information | ▁from | ▁una | ut | hor | ized | ▁access | .
+C18: 37 vectors | 1024 dimensions
+  tokens: ▁Remote | ▁work | ▁arrangement | s | ▁may | ▁be | ▁review | ed | ▁when | ▁business | ▁requirements | , | ▁role | ▁ | responsibilities | , | ▁or | ▁team | ▁operating | ▁models | ▁change | . | ▁App | r | oval | ▁of | ▁an | ▁arrangement | ▁does | ▁not | ▁create | ▁a | ▁permanent | ▁en | title | ment | .
+C19: 30 vectors | 1024 dimensions
+  tokens: ▁Hybrid | ▁teams | ▁should | ▁establish | ▁agreed | ▁collaboration | ▁days | ▁and | ▁core | ▁av | ail | ability | ▁period | s | . | ▁Individual | ▁schedule | s | ▁may | ▁var | y | ▁according | ▁to | ▁customer | ▁commitment | s | ▁and | ▁team | ▁needs | .
+C20: 33 vectors | 1024 dimensions
+  tokens: ▁Emp | lo | ye | es | ▁working | ▁from | ▁home | ▁are | ▁responsible | ▁for | ▁maintain | ing | ▁a | ▁suitable | ▁work | ▁environment | ▁and | ▁comp | ly | ing | ▁with | ▁applicable | ▁health | , | ▁safety | , | ▁confidential | ity | , | ▁and | ▁technology | ▁requirements | .
+C21: 39 vectors | 1024 dimensions
+  tokens: ▁Business | ▁travel | ▁exp | enses | ▁must | ▁be | ▁submitted | ▁through | ▁the | ▁exp | ense | ▁system | ▁with | ▁the | ▁required | ▁rece | ip | ts | ▁and | ▁support | ing | ▁information | . | ▁Cla | im | s | ▁should | ▁normal | ly | ▁be | ▁submitted | ▁within | ▁30 | ▁days | ▁of | ▁the | ▁exp | ense | .
+C22: 34 vectors | 1024 dimensions
+  tokens: ▁Reason | able | ▁meal | ▁exp | enses | ▁incur | red | ▁during | ▁approved | ▁business | ▁travel | ▁may | ▁be | ▁rei | mbur | sed | ▁within | ▁the | ▁applicable | ▁daily | ▁limit | s | . | ▁Personal | ▁entertainment | ▁exp | enses | ▁are | ▁not | ▁rei | mbur | s | able | .
+C23: 34 vectors | 1024 dimensions
+  tokens: ▁Mile | age | ▁rei | mbur | s | ement | ▁is | ▁available | ▁for | ▁eligible | ▁business | ▁travel | ▁using | ▁an | ▁approved | ▁personal | ▁vehicle | . | ▁The | ▁applicable | ▁rei | mbur | s | ement | ▁rate | ▁is | ▁determine | d | ▁by | ▁the | ▁current | ▁travel | ▁policy | .
+C24: 29 vectors | 1024 dimensions
+  tokens: ▁Manager | s | ▁are | ▁responsible | ▁for | ▁review | ing | ▁exp | ense | ▁claims | ▁for | ▁business | ▁purpose | , | ▁policy | ▁compliance | , | ▁appropriate | ▁documentation | , | ▁and | ▁accurate | ▁cost | ▁al | location | ▁before | ▁appro | val | .
+C25: 29 vectors | 1024 dimensions
+  tokens: ▁Exp | enses | ▁submitted | ▁after | ▁the | ▁standard | ▁sub | mission | ▁period | ▁may | ▁require | ▁additional | ▁appro | val | ▁and | ▁may | ▁be | ▁ | reje | cted | ▁when | ▁the | ▁de | lay | ▁cannot | ▁be | ▁justifi | ed | .
+C26: 38 vectors | 1024 dimensions
+  tokens: ▁Emp | lo | ye | es | ▁normal | ly | ▁participat | e | ▁in | ▁an | ▁annual | ▁performance | ▁review | ▁cover | ing | ▁objective | s | , | ▁outcome | s | , | ▁development | ▁priorit | ies | , | ▁and | ▁feedback | . | ▁The | ▁review | ▁process | ▁is | ▁managed | ▁through | ▁the | ▁performance | ▁system | .
+C27: 28 vectors | 1024 dimensions
+  tokens: ▁Performance | ▁objective | s | ▁should | ▁be | ▁agreed | ▁at | ▁the | ▁beginning | ▁of | ▁the | ▁review | ▁cycle | ▁and | ▁may | ▁be | ▁updated | ▁when | ▁significant | ▁business | ▁priorit | ies | ▁or | ▁role | ▁ | responsibilities | ▁change | .
+C28: 35 vectors | 1024 dimensions
+  tokens: ▁Emp | lo | ye | es | ▁may | ▁request | ▁training | ▁that | ▁support | s | ▁their | ▁current | ▁role | , | ▁required | ▁skills | , | ▁or | ▁agreed | ▁development | ▁objective | s | . | ▁App | r | oval | ▁depend | s | ▁on | ▁business | ▁need | ▁and | ▁available | ▁budget | .
+C29: 27 vectors | 1024 dimensions
+  tokens: ▁Manda | tory | ▁compliance | ▁training | ▁must | ▁be | ▁completed | ▁within | ▁the | ▁assign | ed | ▁time | frame | . | ▁Compl | e | tion | ▁status | ▁is | ▁record | ed | ▁in | ▁the | ▁learning | ▁management | ▁system | .
+C30: 37 vectors | 1024 dimensions
+  tokens: ▁Emp | lo | ye | es | ▁may | ▁access | ▁approved | ▁learning | ▁platform | s | ▁to | ▁develop | ▁technical | ▁and | ▁professional | ▁skills | . | ▁Option | al | ▁learning | ▁should | ▁normal | ly | ▁be | ▁discuss | ed | ▁with | ▁the | ▁manager | ▁when | ▁work | ▁time | ▁or | ▁budget | ▁is | ▁involved | .
+C31: 34 vectors | 1024 dimensions
+  tokens: ▁Emp | lo | ye | es | ▁must | ▁protect | ▁company | ▁cred | ential | s | ▁and | ▁must | ▁not | ▁share | ▁password | s | , | ▁authentic | ation | ▁to | kens | , | ▁or | ▁multi | - | factor | ▁authentic | ation | ▁code | s | ▁with | ▁another | ▁person | .
+C32: 29 vectors | 1024 dimensions
+  tokens: ▁Access | ▁to | ▁confidential | ▁systems | ▁is | ▁gran | ted | ▁according | ▁to | ▁role | ▁requirements | ▁and | ▁approved | ▁business | ▁need | . | ▁Access | ▁may | ▁be | ▁removed | ▁when | ▁ | responsibilities | ▁change | ▁or | ▁employment | ▁end | s | .
+C33: 31 vectors | 1024 dimensions
+  tokens: ▁Security | ▁incident | s | , | ▁suspect | ed | ▁cred | ential | ▁compromis | e | , | ▁or | ▁accident | al | ▁dis | closure | ▁of | ▁confidential | ▁information | ▁must | ▁be | ▁reported | ▁prompt | ly | ▁through | ▁the | ▁design | ated | ▁incident | ▁process | .
+C34: 28 vectors | 1024 dimensions
+  tokens: ▁Customer | ▁and | ▁employee | ▁personal | ▁information | ▁must | ▁be | ▁process | ed | ▁only | ▁for | ▁legitima | te | ▁business | ▁purpose | s | ▁and | ▁in | ▁accordance | ▁with | ▁applicable | ▁privacy | ▁requirements | ▁and | ▁company | ▁control | s | .
+C35: 35 vectors | 1024 dimensions
+  tokens: ▁Confi | d | ential | ▁business | ▁information | ▁must | ▁be | ▁store | d | ▁only | ▁in | ▁approved | ▁company | ▁re | posito | ries | . | ▁Emp | lo | ye | es | ▁should | ▁not | ▁upload | ▁restrict | ed | ▁information | ▁to | ▁una | p | prove | d | ▁external | ▁services | .
+C36: 35 vectors | 1024 dimensions
+  tokens: ▁Mont | h | ly | ▁sala | ry | ▁payment | s | ▁are | ▁process | ed | ▁according | ▁to | ▁the | ▁published | ▁pay | roll | ▁calendar | . | ▁Change | s | ▁to | ▁bank | ▁details | ▁should | ▁be | ▁submitted | ▁through | ▁the | ▁approved | ▁employee | ▁self | - | service | ▁process | .
+C37: 40 vectors | 1024 dimensions
+  tokens: ▁Emp | lo | ye | es | ▁should | ▁review | ▁their | ▁monthly | ▁pays | lip | ▁for | ▁sala | ry | , | ▁de | duction | s | , | ▁tax | ▁information | , | ▁and | ▁other | ▁record | ed | ▁pay | roll | ▁items | . | ▁Question | s | ▁should | ▁be | ▁raised | ▁with | ▁Pay | roll | ▁Operation | s | .
+C38: 29 vectors | 1024 dimensions
+  tokens: ▁E | ligi | ble | ▁employees | ▁may | ▁participat | e | ▁in | ▁company | ▁benefit | ▁programs | ▁subject | ▁to | ▁plan | ▁rules | , | ▁en | roll | ment | ▁period | s | , | ▁and | ▁local | ▁e | ligi | bility | ▁requirements | .
+C39: 25 vectors | 1024 dimensions
+  tokens: ▁International | ▁business | ▁travel | ▁may | ▁require | ▁advance | ▁appro | val | , | ▁travel | ▁documentation | , | ▁and | ▁compliance | ▁with | ▁applicable | ▁ | immigration | , | ▁security | , | ▁and | ▁destination | ▁requirements | .
+C40: 35 vectors | 1024 dimensions
+  tokens: ▁Emp | lo | ye | es | ▁travel | ling | ▁for | ▁business | ▁should | ▁use | ▁approved | ▁travel | ▁booking | ▁channel | s | ▁where | ▁required | ▁and | ▁should | ▁follow | ▁the | ▁applicable | ▁limit | s | ▁for | ▁transport | ation | , | ▁accommodation | , | ▁and | ▁other | ▁travel | ▁costs | .
+
+Query token/vector correspondence
+---------------------------------
+Q01: 13 vectors | 1024 dimensions
+  tokens: ▁How | ▁many | ▁annual | ▁leave | ▁days | ▁can | ▁I | ▁carry | ▁over | ▁into | ▁next | ▁year | ?
+Q02: 13 vectors | 1024 dimensions
+  tokens: ▁What | ▁happens | ▁to | ▁un | used | ▁vacation | ▁at | ▁the | ▁end | ▁of | ▁the | ▁year | ?
+Q03: 18 vectors | 1024 dimensions
+  tokens: ▁Can | ▁I | ▁take | ▁my | ▁un | used | ▁leave | ▁into | ▁the | ▁following | ▁year | , | ▁and | ▁what | ▁is | ▁the | ▁limit | ?
+Q04: 16 vectors | 1024 dimensions
+  tokens: ▁What | ▁is | ▁the | ▁rule | ▁for | ▁carry | ing | ▁forward | ▁five | ▁un | used | ▁days | ▁of | ▁annual | ▁leave | ?
+Q05: 19 vectors | 1024 dimensions
+  tokens: ▁When | ▁does | ▁un | used | ▁leave | ▁exp | ire | ▁if | ▁I | ▁have | ▁more | ▁than | ▁the | ▁allowed | ▁carry | - | for | ward | ?
+Q06: 11 vectors | 1024 dimensions
+  tokens: ▁Can | ▁un | used | ▁balance | s | ▁be | ▁moved | ▁to | ▁next | ▁year | ?
+Q07: 9 vectors | 1024 dimensions
+  tokens: ▁How | ▁far | ▁in | ▁advance | ▁should | ▁I | ▁request | ▁vacation | ?
+Q08: 9 vectors | 1024 dimensions
+  tokens: ▁Does | ▁working | ▁from | ▁home | ▁require | ▁manager | ▁appro | val | ?
+Q09: 11 vectors | 1024 dimensions
+  tokens: ▁What | ▁should | ▁I | ▁do | ▁if | ▁my | ▁leave | ▁balance | ▁looks | ▁wrong | ?
+Q10: 16 vectors | 1024 dimensions
+  tokens: ▁Can | ▁a | ▁chun | k | ▁mention | ▁carry | ▁forward | ▁and | ▁still | ▁be | ▁ir | relevant | ▁to | ▁annual | ▁leave | ?
+Q11: 23 vectors | 1024 dimensions
+  tokens: ▁How | ▁many | ▁annual | ▁leave | ▁days | ▁can | ▁I | ▁carry | ▁forward | , | ▁and | ▁when | ▁do | ▁I | ▁need | ▁to | ▁submit | ▁a | ▁request | ▁to | ▁take | ▁leave | ?
+Q12: 22 vectors | 1024 dimensions
+  tokens: ▁Can | ▁I | ▁work | ▁from | ▁home | ▁with | ▁manager | ▁appro | val | , | ▁and | ▁what | ▁security | ▁require | ment | ▁app | lies | ▁while | ▁working | ▁remote | ly | ?
+
+Interpretation boundary
+-----------------------
+This phase does not perform retrieval, MaxSim, ranking, or relevance evaluation.
+The purpose is to observe the structural representation change only.
+The numerical vector spaces of mxbai and BGE-M3 are not directly compared because they are different models.

@@ -1,0 +1,862 @@
+================================================================================
+PHASE 4 — EXPLICIT MAXSIM RETRIEVAL
+================================================================================
+
+Representation:
+  Chunk -> multiple contextual vectors
+  Query -> multiple contextual vectors
+
+Interaction:
+  For each query vector:
+      find strongest matching corpus vector inside each chunk
+
+Aggregation:
+  MaxSim(Q,C) = SUM over query vectors of their maximum
+  similarity against vectors belonging to chunk C
+
+Top-K reported: 3
+
+IMPORTANT: These are raw BGE-M3 contextual hidden states, not genuine pretrained ColBERT token embeddings.
+This phase isolates the MaxSim mechanism in the simplified multi-vector reconstruction.
+
+================================================================================
+
+--------------------------------------------------------------------------------
+Q01: How many annual leave days can I carry over into next year?
+--------------------------------------------------------------------------------
+
+Rank 1 | C02 | MaxSim = 11.378932 | Mean = 0.875302
+Chunk: Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁How' -> '▁into' | 0.831329
+  '▁many' -> '▁days' | 0.830788
+  '▁annual' -> '▁annual' | 0.907568
+  '▁leave' -> '▁leave' | 0.918202
+  '▁days' -> '▁days' | 0.912563
+  '▁can' -> '▁may' | 0.864216
+  '▁I' -> 'es' | 0.855010
+  '▁carry' -> '▁carry' | 0.888567
+  '▁over' -> '▁following' | 0.834997
+  '▁into' -> '▁into' | 0.882651
+  '▁next' -> '▁following' | 0.899702
+  '▁year' -> '▁year' | 0.907731
+  '?' -> '.' | 0.845607
+
+MaxSim SUM = 11.378932
+
+Rank 2 | C01 | MaxSim = 10.786712 | Mean = 0.829747
+Chunk: Employees are entitled to 24 days of annual leave for each completed calendar year of service. Leave is normally accrued monthly and should be planned in consultation with the employee's manager.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁How' -> '▁are' | 0.809772
+  '▁many' -> '▁days' | 0.824141
+  '▁annual' -> '▁annual' | 0.886382
+  '▁leave' -> '▁leave' | 0.893873
+  '▁days' -> '▁days' | 0.887963
+  '▁can' -> '▁are' | 0.816703
+  '▁I' -> '▁are' | 0.830478
+  '▁carry' -> '▁annual' | 0.771080
+  '▁over' -> '▁annual' | 0.764633
+  '▁into' -> '▁year' | 0.794439
+  '▁next' -> '▁annual' | 0.802947
+  '▁year' -> '▁year' | 0.862016
+  '?' -> '.' | 0.842286
+
+MaxSim SUM = 10.786712
+
+Rank 3 | C04 | MaxSim = 10.720579 | Mean = 0.824660
+Chunk: Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁How' -> '▁will' | 0.806328
+  '▁many' -> 'ly' | 0.798894
+  '▁annual' -> '▁annual' | 0.889951
+  '▁leave' -> '▁leave' | 0.902541
+  '▁days' -> '▁annual' | 0.791499
+  '▁can' -> '▁will' | 0.811823
+  '▁I' -> '.' | 0.847631
+  '▁carry' -> '▁carry' | 0.848113
+  '▁over' -> '▁exceed' | 0.784829
+  '▁into' -> 'ly' | 0.791569
+  '▁next' -> '▁annual' | 0.785536
+  '▁year' -> '▁annual' | 0.824679
+  '?' -> '.' | 0.837185
+
+MaxSim SUM = 10.720579
+
+--------------------------------------------------------------------------------
+Q02: What happens to unused vacation at the end of the year?
+--------------------------------------------------------------------------------
+
+Rank 1 | C02 | MaxSim = 10.572712 | Mean = 0.813286
+Chunk: Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁What' -> '▁at' | 0.789983
+  '▁happens' -> '▁at' | 0.787813
+  '▁to' -> 'ly' | 0.787458
+  '▁un' -> '▁un' | 0.852332
+  'used' -> 'used' | 0.857911
+  '▁vacation' -> '▁leave' | 0.792439
+  '▁at' -> '▁at' | 0.817078
+  '▁the' -> 'ly' | 0.803566
+  '▁end' -> '▁end' | 0.844475
+  '▁of' -> '▁year' | 0.801959
+  '▁the' -> '▁year' | 0.806171
+  '▁year' -> '▁year' | 0.856355
+  '?' -> '.' | 0.775173
+
+MaxSim SUM = 10.572712
+
+Rank 2 | C09 | MaxSim = 10.572038 | Mean = 0.813234
+Chunk: When employment ends, unused accrued annual leave is settled according to applicable company policy and local employment requirements. Future planned leave is cancelled unless otherwise agreed.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁What' -> '.' | 0.806547
+  '▁happens' -> '▁is' | 0.799979
+  '▁to' -> 'ed' | 0.796681
+  '▁un' -> '▁un' | 0.872702
+  'used' -> 'used' | 0.872576
+  '▁vacation' -> '▁leave' | 0.799308
+  '▁at' -> 'ed' | 0.802326
+  '▁the' -> 'ed' | 0.803950
+  '▁end' -> '▁end' | 0.831001
+  '▁of' -> 's' | 0.788315
+  '▁the' -> 'ed' | 0.786082
+  '▁year' -> '▁annual' | 0.808270
+  '?' -> '.' | 0.804301
+
+MaxSim SUM = 10.572038
+
+Rank 3 | C04 | MaxSim = 10.504050 | Mean = 0.808004
+Chunk: Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁What' -> 'ly' | 0.795523
+  '▁happens' -> 'ly' | 0.795182
+  '▁to' -> 'ing' | 0.800327
+  '▁un' -> '▁Un' | 0.866029
+  'used' -> 'used' | 0.870636
+  '▁vacation' -> '▁leave' | 0.810257
+  '▁at' -> 'ing' | 0.810257
+  '▁the' -> 'ing' | 0.806202
+  '▁end' -> '▁31' | 0.771584
+  '▁of' -> 'ly' | 0.795221
+  '▁the' -> '▁the' | 0.794973
+  '▁year' -> '▁annual' | 0.802731
+  '?' -> '.' | 0.785126
+
+MaxSim SUM = 10.504050
+
+--------------------------------------------------------------------------------
+Q03: Can I take my unused leave into the following year, and what is the limit?
+--------------------------------------------------------------------------------
+
+Rank 1 | C02 | MaxSim = 15.686901 | Mean = 0.871495
+Chunk: Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Can' -> '▁may' | 0.868111
+  '▁I' -> 'es' | 0.860573
+  '▁take' -> '▁into' | 0.853700
+  '▁my' -> 'es' | 0.857337
+  '▁un' -> '▁un' | 0.895847
+  'used' -> 'used' | 0.907602
+  '▁leave' -> '▁leave' | 0.915266
+  '▁into' -> '▁into' | 0.885265
+  '▁the' -> 'ly' | 0.844661
+  '▁following' -> '▁following' | 0.910719
+  '▁year' -> '▁year' | 0.913482
+  ',' -> '.' | 0.861092
+  '▁and' -> '▁the' | 0.822745
+  '▁what' -> '▁may' | 0.839837
+  '▁is' -> '▁may' | 0.840133
+  '▁the' -> '▁may' | 0.849837
+  '▁limit' -> '▁limit' | 0.906666
+  '?' -> '.' | 0.854029
+
+MaxSim SUM = 15.686901
+
+Rank 2 | C04 | MaxSim = 15.020480 | Mean = 0.834471
+Chunk: Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Can' -> '▁permit' | 0.822946
+  '▁I' -> '.' | 0.836059
+  '▁take' -> 'ing' | 0.819895
+  '▁my' -> '▁the' | 0.843721
+  '▁un' -> '▁Un' | 0.887728
+  'used' -> 'used' | 0.900769
+  '▁leave' -> '▁leave' | 0.907642
+  '▁into' -> 'ing' | 0.798149
+  '▁the' -> '▁the' | 0.823180
+  '▁following' -> 'used' | 0.769761
+  '▁year' -> '▁annual' | 0.812788
+  ',' -> '.' | 0.849051
+  '▁and' -> '.' | 0.808482
+  '▁what' -> '▁the' | 0.814459
+  '▁is' -> '▁the' | 0.823664
+  '▁the' -> '▁the' | 0.840914
+  '▁limit' -> '▁permit' | 0.821925
+  '?' -> '.' | 0.839347
+
+MaxSim SUM = 15.020480
+
+Rank 3 | C09 | MaxSim = 14.826137 | Mean = 0.823674
+Chunk: When employment ends, unused accrued annual leave is settled according to applicable company policy and local employment requirements. Future planned leave is cancelled unless otherwise agreed.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Can' -> '.' | 0.801457
+  '▁I' -> '.' | 0.825463
+  '▁take' -> 'ed' | 0.788159
+  '▁my' -> 'ed' | 0.827192
+  '▁un' -> '▁un' | 0.889549
+  'used' -> 'used' | 0.891703
+  '▁leave' -> '▁leave' | 0.891593
+  '▁into' -> '▁Future' | 0.804591
+  '▁the' -> 'ed' | 0.808820
+  '▁following' -> '▁Future' | 0.828222
+  '▁year' -> '▁annual' | 0.809716
+  ',' -> '.' | 0.835770
+  '▁and' -> '.' | 0.821909
+  '▁what' -> '.' | 0.803443
+  '▁is' -> '.' | 0.810734
+  '▁the' -> '.' | 0.786412
+  '▁limit' -> 'used' | 0.758867
+  '?' -> '.' | 0.842535
+
+MaxSim SUM = 14.826137
+
+--------------------------------------------------------------------------------
+Q04: What is the rule for carrying forward five unused days of annual leave?
+--------------------------------------------------------------------------------
+
+Rank 1 | C02 | MaxSim = 13.886921 | Mean = 0.867933
+Chunk: Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁What' -> '▁5' | 0.820950
+  '▁is' -> '▁5' | 0.817609
+  '▁the' -> '▁will' | 0.829678
+  '▁rule' -> '▁normal' | 0.800376
+  '▁for' -> '▁will' | 0.825283
+  '▁carry' -> '▁carry' | 0.895128
+  'ing' -> '▁into' | 0.846268
+  '▁forward' -> '▁forward' | 0.910215
+  '▁five' -> '▁5' | 0.888700
+  '▁un' -> '▁un' | 0.901251
+  'used' -> 'used' | 0.924277
+  '▁days' -> '▁days' | 0.919567
+  '▁of' -> '▁the' | 0.855703
+  '▁annual' -> '▁annual' | 0.909072
+  '▁leave' -> '▁leave' | 0.920684
+  '?' -> '▁the' | 0.822161
+
+MaxSim SUM = 13.886921
+
+Rank 2 | C05 | MaxSim = 13.011091 | Mean = 0.813193
+Chunk: Employees should submit annual leave requests through the employee portal at least five working days before the intended start date, except in urgent circumstances.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁What' -> '▁in' | 0.795408
+  '▁is' -> '▁in' | 0.794485
+  '▁the' -> '▁should' | 0.797387
+  '▁rule' -> '▁should' | 0.787546
+  '▁for' -> '▁in' | 0.794092
+  '▁carry' -> '▁should' | 0.768351
+  'ing' -> 'es' | 0.790682
+  '▁forward' -> '▁before' | 0.798598
+  '▁five' -> '▁five' | 0.887268
+  '▁un' -> '▁five' | 0.754661
+  'used' -> '▁working' | 0.777674
+  '▁days' -> '▁days' | 0.867162
+  '▁of' -> '▁the' | 0.822671
+  '▁annual' -> '▁annual' | 0.877287
+  '▁leave' -> '▁leave' | 0.885538
+  '?' -> '▁in' | 0.812281
+
+MaxSim SUM = 13.011091
+
+Rank 3 | C04 | MaxSim = 12.684657 | Mean = 0.792791
+Chunk: Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁What' -> '▁will' | 0.748327
+  '▁is' -> '.' | 0.749357
+  '▁the' -> 'ly' | 0.774382
+  '▁rule' -> '▁normal' | 0.764453
+  '▁for' -> '▁will' | 0.758232
+  '▁carry' -> '▁carry' | 0.813953
+  'ing' -> 'ing' | 0.803196
+  '▁forward' -> 'ward' | 0.802286
+  '▁five' -> '▁will' | 0.670597
+  '▁un' -> '▁Un' | 0.825881
+  'used' -> 'used' | 0.876440
+  '▁days' -> '▁leave' | 0.774758
+  '▁of' -> '▁the' | 0.810163
+  '▁annual' -> '▁annual' | 0.856387
+  '▁leave' -> '▁leave' | 0.890643
+  '?' -> '.' | 0.765602
+
+MaxSim SUM = 12.684657
+
+--------------------------------------------------------------------------------
+Q05: When does unused leave expire if I have more than the allowed carry-forward?
+--------------------------------------------------------------------------------
+
+Rank 1 | C04 | MaxSim = 17.112346 | Mean = 0.900650
+Chunk: Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁When' -> '▁will' | 0.882153
+  '▁does' -> '▁will' | 0.893043
+  '▁un' -> '▁Un' | 0.933062
+  'used' -> 'used' | 0.939522
+  '▁leave' -> '▁leave' | 0.931677
+  '▁exp' -> '▁lapse' | 0.863161
+  'ire' -> '▁lapse' | 0.878310
+  '▁if' -> 'ing' | 0.863703
+  '▁I' -> '.' | 0.874955
+  '▁have' -> 'ing' | 0.866152
+  '▁more' -> '▁exceed' | 0.897970
+  '▁than' -> '▁exceed' | 0.901040
+  '▁the' -> '▁the' | 0.893890
+  '▁allowed' -> '▁permit' | 0.914237
+  '▁carry' -> '▁carry' | 0.936323
+  '-' -> '-' | 0.921010
+  'for' -> 'for' | 0.929459
+  'ward' -> 'ward' | 0.931483
+  '?' -> '.' | 0.861194
+
+MaxSim SUM = 17.112346
+
+Rank 2 | C02 | MaxSim = 16.591147 | Mean = 0.873218
+Chunk: Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁When' -> '▁at' | 0.854972
+  '▁does' -> '▁at' | 0.861515
+  '▁un' -> '▁un' | 0.901411
+  'used' -> 'used' | 0.915114
+  '▁leave' -> '▁leave' | 0.911669
+  '▁exp' -> '▁lapse' | 0.839511
+  'ire' -> '▁lapse' | 0.860205
+  '▁if' -> '▁will' | 0.838342
+  '▁I' -> '▁the' | 0.845651
+  '▁have' -> '▁carry' | 0.843914
+  '▁more' -> '▁above' | 0.863773
+  '▁than' -> '▁above' | 0.871487
+  '▁the' -> '▁the' | 0.863443
+  '▁allowed' -> '▁permit' | 0.889469
+  '▁carry' -> '▁carry' | 0.909725
+  '-' -> '-' | 0.892219
+  'for' -> 'for' | 0.902248
+  'ward' -> 'ward' | 0.888526
+  '?' -> '.' | 0.837953
+
+MaxSim SUM = 16.591147
+
+Rank 3 | C10 | MaxSim = 14.806766 | Mean = 0.779303
+Chunk: Extended absence can affect the timing of leave accrual and the treatment of unused balances. Employees returning from extended absence should confirm their balance with HR Operations.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁When' -> '.' | 0.770329
+  '▁does' -> '.' | 0.783053
+  '▁un' -> '▁un' | 0.853328
+  'used' -> 'used' | 0.856897
+  '▁leave' -> '▁leave' | 0.869400
+  '▁exp' -> '▁un' | 0.744631
+  'ire' -> 'used' | 0.756950
+  '▁if' -> '.' | 0.775367
+  '▁I' -> '.' | 0.802433
+  '▁have' -> '▁' | 0.781105
+  '▁more' -> '▁from' | 0.744998
+  '▁than' -> '▁from' | 0.750089
+  '▁the' -> '▁' | 0.804182
+  '▁allowed' -> 'used' | 0.747495
+  '▁carry' -> '▁leave' | 0.727053
+  '-' -> '▁' | 0.760307
+  'for' -> 'ing' | 0.728293
+  'ward' -> '▁leave' | 0.751531
+  '?' -> '.' | 0.799326
+
+MaxSim SUM = 14.806766
+
+--------------------------------------------------------------------------------
+Q06: Can unused balances be moved to next year?
+--------------------------------------------------------------------------------
+
+Rank 1 | C02 | MaxSim = 9.007491 | Mean = 0.818863
+Chunk: Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Can' -> '▁may' | 0.798938
+  '▁un' -> '▁un' | 0.851412
+  'used' -> 'used' | 0.853006
+  '▁balance' -> '▁balance' | 0.863671
+  's' -> '▁balance' | 0.824655
+  '▁be' -> '▁into' | 0.782828
+  '▁moved' -> 'used' | 0.768355
+  '▁to' -> '▁into' | 0.805655
+  '▁next' -> '▁following' | 0.827211
+  '▁year' -> '▁year' | 0.847096
+  '?' -> '.' | 0.784664
+
+MaxSim SUM = 9.007491
+
+Rank 2 | C04 | MaxSim = 8.572922 | Mean = 0.779357
+Chunk: Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Can' -> '▁will' | 0.780313
+  '▁un' -> '▁Un' | 0.851543
+  'used' -> 'used' | 0.847521
+  '▁balance' -> 'ward' | 0.756126
+  's' -> 'ward' | 0.764812
+  '▁be' -> '▁will' | 0.756070
+  '▁moved' -> 'ward' | 0.765669
+  '▁to' -> '▁will' | 0.760406
+  '▁next' -> '▁annual' | 0.735801
+  '▁year' -> '▁annual' | 0.776948
+  '?' -> '.' | 0.777714
+
+MaxSim SUM = 8.572922
+
+Rank 3 | C09 | MaxSim = 8.351324 | Mean = 0.759211
+Chunk: When employment ends, unused accrued annual leave is settled according to applicable company policy and local employment requirements. Future planned leave is cancelled unless otherwise agreed.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Can' -> '.' | 0.770532
+  '▁un' -> '▁un' | 0.836677
+  'used' -> 'used' | 0.821536
+  '▁balance' -> '.' | 0.704515
+  's' -> '.' | 0.726588
+  '▁be' -> '.' | 0.732088
+  '▁moved' -> '▁Future' | 0.712985
+  '▁to' -> '▁Future' | 0.735365
+  '▁next' -> '▁Future' | 0.780522
+  '▁year' -> '▁annual' | 0.756316
+  '?' -> '.' | 0.774200
+
+MaxSim SUM = 8.351324
+
+--------------------------------------------------------------------------------
+Q07: How far in advance should I request vacation?
+--------------------------------------------------------------------------------
+
+Rank 1 | C05 | MaxSim = 7.357826 | Mean = 0.817536
+Chunk: Employees should submit annual leave requests through the employee portal at least five working days before the intended start date, except in urgent circumstances.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁How' -> '▁least' | 0.819183
+  '▁far' -> '▁least' | 0.803466
+  '▁in' -> '▁before' | 0.839121
+  '▁advance' -> '▁before' | 0.833460
+  '▁should' -> '▁should' | 0.835883
+  '▁I' -> 's' | 0.812194
+  '▁request' -> '▁request' | 0.862495
+  '▁vacation' -> '▁leave' | 0.772241
+  '?' -> 's' | 0.779783
+
+MaxSim SUM = 7.357826
+
+Rank 2 | C15 | MaxSim = 7.220550 | Mean = 0.802283
+Chunk: Parental leave should normally be requested in advance where the expected start date is known. Employees should provide the required supporting information through the designated HR process.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁How' -> '▁advance' | 0.774961
+  '▁far' -> '▁advance' | 0.792933
+  '▁in' -> '▁advance' | 0.819784
+  '▁advance' -> '▁advance' | 0.839294
+  '▁should' -> '▁should' | 0.813091
+  '▁I' -> 'ed' | 0.784913
+  '▁request' -> '▁request' | 0.852326
+  '▁vacation' -> '▁leave' | 0.756120
+  '?' -> '.' | 0.787128
+
+MaxSim SUM = 7.220550
+
+Rank 3 | C06 | MaxSim = 6.928998 | Mean = 0.769889
+Chunk: Annual leave requests are subject to manager approval and operational requirements. Approval should consider team coverage, business continuity, and previously approved absences.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁How' -> 's' | 0.740211
+  '▁far' -> 's' | 0.726001
+  '▁in' -> '▁previously' | 0.735143
+  '▁advance' -> '▁previously' | 0.743435
+  '▁should' -> '▁should' | 0.790125
+  '▁I' -> 's' | 0.784913
+  '▁request' -> '▁request' | 0.852450
+  '▁vacation' -> '▁leave' | 0.772690
+  '?' -> '.' | 0.784029
+
+MaxSim SUM = 6.928998
+
+--------------------------------------------------------------------------------
+Q08: Does working from home require manager approval?
+--------------------------------------------------------------------------------
+
+Rank 1 | C20 | MaxSim = 7.258100 | Mean = 0.806456
+Chunk: Employees working from home are responsible for maintaining a suitable work environment and complying with applicable health, safety, confidentiality, and technology requirements.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Does' -> '.' | 0.812664
+  '▁working' -> '▁working' | 0.864343
+  '▁from' -> '▁from' | 0.879570
+  '▁home' -> '▁home' | 0.877803
+  '▁require' -> '▁requirements' | 0.787793
+  '▁manager' -> 'lo' | 0.755357
+  '▁appro' -> '▁Emp' | 0.713787
+  'val' -> 'es' | 0.731861
+  '?' -> '.' | 0.834923
+
+MaxSim SUM = 7.258100
+
+Rank 2 | C16 | MaxSim = 7.187029 | Mean = 0.798559
+Chunk: Employees may work remotely where their role is eligible and the arrangement has been approved by their manager. Remote work remains subject to business and security requirements.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Does' -> 's' | 0.789777
+  '▁working' -> '▁work' | 0.838605
+  '▁from' -> '▁remote' | 0.757167
+  '▁home' -> '▁manager' | 0.730483
+  '▁require' -> '▁requirements' | 0.787754
+  '▁manager' -> '▁manager' | 0.855080
+  '▁appro' -> '▁approved' | 0.820774
+  'val' -> '▁approved' | 0.810912
+  '?' -> '.' | 0.796478
+
+MaxSim SUM = 7.187029
+
+Rank 3 | C18 | MaxSim = 6.791922 | Mean = 0.754658
+Chunk: Remote work arrangements may be reviewed when business requirements, role responsibilities, or team operating models change. Approval of an arrangement does not create a permanent entitlement.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Does' -> '.' | 0.756490
+  '▁working' -> '▁work' | 0.808423
+  '▁from' -> '▁Remote' | 0.733640
+  '▁home' -> '▁work' | 0.699088
+  '▁require' -> '▁requirements' | 0.758927
+  '▁manager' -> '▁work' | 0.697563
+  '▁appro' -> 'r' | 0.798169
+  'val' -> 'r' | 0.777299
+  '?' -> '.' | 0.762323
+
+MaxSim SUM = 6.791922
+
+--------------------------------------------------------------------------------
+Q09: What should I do if my leave balance looks wrong?
+--------------------------------------------------------------------------------
+
+Rank 1 | C07 | MaxSim = 8.863743 | Mean = 0.805795
+Chunk: The annual leave balance displayed in the employee portal reflects approved and recorded leave transactions. Employees should report discrepancies to HR Operations.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁What' -> '▁should' | 0.788189
+  '▁should' -> '▁should' | 0.828994
+  '▁I' -> '.' | 0.792043
+  '▁do' -> '▁should' | 0.772661
+  '▁if' -> 'ncies' | 0.773927
+  '▁my' -> '▁balance' | 0.794451
+  '▁leave' -> '▁leave' | 0.861567
+  '▁balance' -> '▁balance' | 0.866123
+  '▁looks' -> '▁balance' | 0.782377
+  '▁wrong' -> 'pa' | 0.781469
+  '?' -> '.' | 0.821941
+
+MaxSim SUM = 8.863743
+
+Rank 2 | C10 | MaxSim = 8.856944 | Mean = 0.805177
+Chunk: Extended absence can affect the timing of leave accrual and the treatment of unused balances. Employees returning from extended absence should confirm their balance with HR Operations.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁What' -> '▁should' | 0.783744
+  '▁should' -> '▁should' | 0.816186
+  '▁I' -> '▁their' | 0.798827
+  '▁do' -> '▁balance' | 0.777205
+  '▁if' -> '▁balance' | 0.765898
+  '▁my' -> 's' | 0.805397
+  '▁leave' -> '▁leave' | 0.865108
+  '▁balance' -> '▁balance' | 0.871098
+  '▁looks' -> '▁balance' | 0.784101
+  '▁wrong' -> '▁balance' | 0.780552
+  '?' -> '.' | 0.808828
+
+MaxSim SUM = 8.856944
+
+Rank 3 | C13 | MaxSim = 8.670644 | Mean = 0.788240
+Chunk: Sick leave balances and annual leave balances are maintained separately in the employee portal. One type of leave does not automatically convert into the other.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁What' -> '.' | 0.777076
+  '▁should' -> '▁are' | 0.753340
+  '▁I' -> 's' | 0.787850
+  '▁do' -> '▁balance' | 0.755184
+  '▁if' -> '▁balance' | 0.740476
+  '▁my' -> 's' | 0.800529
+  '▁leave' -> '▁leave' | 0.849833
+  '▁balance' -> '▁balance' | 0.855383
+  '▁looks' -> '▁balance' | 0.763846
+  '▁wrong' -> '▁balance' | 0.768616
+  '?' -> '.' | 0.818512
+
+MaxSim SUM = 8.670644
+
+--------------------------------------------------------------------------------
+Q10: Can a chunk mention carry forward and still be irrelevant to annual leave?
+--------------------------------------------------------------------------------
+
+Rank 1 | C02 | MaxSim = 12.545250 | Mean = 0.784078
+Chunk: Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Can' -> '▁may' | 0.793261
+  '▁a' -> 'es' | 0.773883
+  '▁chun' -> '▁annual' | 0.697346
+  'k' -> 'es' | 0.730608
+  '▁mention' -> '▁forward' | 0.754147
+  '▁carry' -> '▁carry' | 0.825509
+  '▁forward' -> '▁forward' | 0.851648
+  '▁and' -> '▁will' | 0.779656
+  '▁still' -> '▁will' | 0.764360
+  '▁be' -> 'ly' | 0.763857
+  '▁ir' -> '▁un' | 0.751618
+  'relevant' -> 'used' | 0.734223
+  '▁to' -> 'es' | 0.799448
+  '▁annual' -> '▁annual' | 0.859247
+  '▁leave' -> '▁leave' | 0.877724
+  '?' -> 'es' | 0.788716
+
+MaxSim SUM = 12.545250
+
+Rank 2 | C08 | MaxSim = 12.262536 | Mean = 0.766408
+Chunk: Employees who join during the year receive a prorated annual leave entitlement based on their eligible service period. The entitlement is rounded according to payroll rules.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Can' -> '▁the' | 0.780721
+  '▁a' -> '▁The' | 0.758129
+  '▁chun' -> '▁during' | 0.689535
+  'k' -> '▁during' | 0.721758
+  '▁mention' -> '▁join' | 0.731636
+  '▁carry' -> '▁during' | 0.761744
+  '▁forward' -> '▁during' | 0.748859
+  '▁and' -> '▁the' | 0.792048
+  '▁still' -> '▁the' | 0.757938
+  '▁be' -> '▁the' | 0.750135
+  '▁ir' -> '▁the' | 0.722085
+  'relevant' -> '▁during' | 0.719603
+  '▁to' -> '▁during' | 0.787450
+  '▁annual' -> '▁annual' | 0.866225
+  '▁leave' -> '▁leave' | 0.866923
+  '?' -> '▁the' | 0.807747
+
+MaxSim SUM = 12.262536
+
+Rank 3 | C04 | MaxSim = 12.251639 | Mean = 0.765727
+Chunk: Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Can' -> '▁will' | 0.769143
+  '▁a' -> 'ing' | 0.764687
+  '▁chun' -> '▁annual' | 0.692814
+  'k' -> 'ing' | 0.714381
+  '▁mention' -> '.' | 0.727791
+  '▁carry' -> '▁carry' | 0.780860
+  '▁forward' -> 'ward' | 0.777521
+  '▁and' -> '▁will' | 0.769650
+  '▁still' -> '▁will' | 0.746409
+  '▁be' -> 'ing' | 0.759373
+  '▁ir' -> '▁will' | 0.724396
+  'relevant' -> 'ing' | 0.711599
+  '▁to' -> 'ing' | 0.794163
+  '▁annual' -> '▁annual' | 0.863221
+  '▁leave' -> '▁leave' | 0.872104
+  '?' -> '.' | 0.783529
+
+MaxSim SUM = 12.251639
+
+--------------------------------------------------------------------------------
+Q11: How many annual leave days can I carry forward, and when do I need to submit a request to take leave?
+--------------------------------------------------------------------------------
+
+Rank 1 | C05 | MaxSim = 19.768285 | Mean = 0.859491
+Chunk: Employees should submit annual leave requests through the employee portal at least five working days before the intended start date, except in urgent circumstances.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁How' -> 'es' | 0.828085
+  '▁many' -> '▁least' | 0.820726
+  '▁annual' -> '▁annual' | 0.910853
+  '▁leave' -> '▁leave' | 0.920018
+  '▁days' -> '▁days' | 0.896866
+  '▁can' -> '▁should' | 0.823120
+  '▁I' -> 'es' | 0.852002
+  '▁carry' -> '▁through' | 0.809590
+  '▁forward' -> '▁through' | 0.809035
+  ',' -> ',' | 0.882941
+  '▁and' -> '▁in' | 0.845579
+  '▁when' -> 'es' | 0.841928
+  '▁do' -> '▁should' | 0.834489
+  '▁I' -> '▁the' | 0.854788
+  '▁need' -> '▁should' | 0.836490
+  '▁to' -> 's' | 0.850960
+  '▁submit' -> '▁submit' | 0.901414
+  '▁a' -> 's' | 0.883521
+  '▁request' -> '▁request' | 0.917274
+  '▁to' -> 's' | 0.852578
+  '▁take' -> '▁leave' | 0.822581
+  '▁leave' -> '▁leave' | 0.913948
+  '?' -> ',' | 0.859499
+
+MaxSim SUM = 19.768285
+
+Rank 2 | C02 | MaxSim = 19.361386 | Mean = 0.841799
+Chunk: Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁How' -> 'es' | 0.829489
+  '▁many' -> '▁days' | 0.828916
+  '▁annual' -> '▁annual' | 0.902292
+  '▁leave' -> '▁leave' | 0.914020
+  '▁days' -> '▁days' | 0.907755
+  '▁can' -> '▁may' | 0.865368
+  '▁I' -> 'es' | 0.860499
+  '▁carry' -> '▁carry' | 0.867496
+  '▁forward' -> '▁forward' | 0.890146
+  ',' -> '.' | 0.877556
+  '▁and' -> '▁the' | 0.836355
+  '▁when' -> '▁at' | 0.825927
+  '▁do' -> '▁will' | 0.824644
+  '▁I' -> 'es' | 0.853329
+  '▁need' -> '▁will' | 0.778919
+  '▁to' -> 'ly' | 0.811826
+  '▁submit' -> '▁forward' | 0.756030
+  '▁a' -> 'es' | 0.806437
+  '▁request' -> 'es' | 0.730656
+  '▁to' -> '▁the' | 0.834050
+  '▁take' -> '▁leave' | 0.808977
+  '▁leave' -> '▁leave' | 0.896352
+  '?' -> '.' | 0.854344
+
+MaxSim SUM = 19.361386
+
+Rank 3 | C06 | MaxSim = 19.298759 | Mean = 0.839076
+Chunk: Annual leave requests are subject to manager approval and operational requirements. Approval should consider team coverage, business continuity, and previously approved absences.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁How' -> '.' | 0.820593
+  '▁many' -> '.' | 0.807693
+  '▁annual' -> '▁Annu' | 0.867128
+  '▁leave' -> '▁leave' | 0.901072
+  '▁days' -> 's' | 0.779959
+  '▁can' -> '▁are' | 0.814036
+  '▁I' -> '.' | 0.844082
+  '▁carry' -> '▁continu' | 0.794421
+  '▁forward' -> '▁previously' | 0.781514
+  ',' -> '.' | 0.849604
+  '▁and' -> '.' | 0.854733
+  '▁when' -> '.' | 0.830917
+  '▁do' -> '▁are' | 0.839015
+  '▁I' -> '.' | 0.839837
+  '▁need' -> '▁should' | 0.835149
+  '▁to' -> '▁are' | 0.831324
+  '▁submit' -> '▁request' | 0.810614
+  '▁a' -> 's' | 0.868457
+  '▁request' -> '▁request' | 0.901647
+  '▁to' -> 'al' | 0.849147
+  '▁take' -> 'al' | 0.820885
+  '▁leave' -> '▁leave' | 0.900477
+  '?' -> '.' | 0.856454
+
+MaxSim SUM = 19.298759
+
+--------------------------------------------------------------------------------
+Q12: Can I work from home with manager approval, and what security requirement applies while working remotely?
+--------------------------------------------------------------------------------
+
+Rank 1 | C16 | MaxSim = 18.922429 | Mean = 0.860110
+Chunk: Employees may work remotely where their role is eligible and the arrangement has been approved by their manager. Remote work remains subject to business and security requirements.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Can' -> '▁may' | 0.867548
+  '▁I' -> 'es' | 0.838476
+  '▁work' -> '▁work' | 0.900233
+  '▁from' -> '▁remote' | 0.823472
+  '▁home' -> '▁remote' | 0.773957
+  '▁with' -> '▁has' | 0.840182
+  '▁manager' -> '▁manager' | 0.908130
+  '▁appro' -> '▁approved' | 0.870450
+  'val' -> '▁approved' | 0.854536
+  ',' -> '.' | 0.858541
+  '▁and' -> '▁and' | 0.851638
+  '▁what' -> 's' | 0.851265
+  '▁security' -> '▁security' | 0.910008
+  '▁require' -> '▁requirements' | 0.885091
+  'ment' -> '▁to' | 0.839034
+  '▁app' -> '▁subject' | 0.842564
+  'lies' -> 's' | 0.852793
+  '▁while' -> 's' | 0.845933
+  '▁working' -> '▁work' | 0.896900
+  '▁remote' -> '▁remote' | 0.899954
+  'ly' -> 'ly' | 0.856532
+  '?' -> '.' | 0.855190
+
+MaxSim SUM = 18.922429
+
+Rank 2 | C20 | MaxSim = 18.284321 | Mean = 0.831106
+Chunk: Employees working from home are responsible for maintaining a suitable work environment and complying with applicable health, safety, confidentiality, and technology requirements.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Can' -> 'es' | 0.798080
+  '▁I' -> 'es' | 0.824822
+  '▁work' -> '▁work' | 0.881044
+  '▁from' -> '▁from' | 0.899262
+  '▁home' -> '▁home' | 0.898532
+  '▁with' -> '▁with' | 0.793916
+  '▁manager' -> 'lo' | 0.783192
+  '▁appro' -> '▁suitable' | 0.742994
+  'val' -> 'es' | 0.743738
+  ',' -> '.' | 0.854912
+  '▁and' -> '▁and' | 0.843554
+  '▁what' -> '.' | 0.838572
+  '▁security' -> '▁safety' | 0.845783
+  '▁require' -> '▁requirements' | 0.867130
+  'ment' -> '▁requirements' | 0.816651
+  '▁app' -> '▁applicable' | 0.823496
+  'lies' -> '▁applicable' | 0.815951
+  '▁while' -> 'es' | 0.830153
+  '▁working' -> '▁work' | 0.887193
+  '▁remote' -> '▁from' | 0.816808
+  'ly' -> 'es' | 0.824274
+  '?' -> '.' | 0.854266
+
+MaxSim SUM = 18.284321
+
+Rank 3 | C17 | MaxSim = 17.771156 | Mean = 0.807780
+Chunk: Remote employees must use company-approved devices, maintain appropriate information security controls, and protect confidential information from unauthorized access.
+
+Query-vector -> strongest corpus-vector matches:
+  '▁Can' -> 'prove' | 0.777663
+  '▁I' -> '.' | 0.802046
+  '▁work' -> '▁employees' | 0.811041
+  '▁from' -> '▁Remote' | 0.797077
+  '▁home' -> '▁Remote' | 0.741570
+  '▁with' -> 'prove' | 0.795902
+  '▁manager' -> '▁employees' | 0.788682
+  '▁appro' -> 'prove' | 0.820736
+  'val' -> 'prove' | 0.818746
+  ',' -> ',' | 0.840452
+  '▁and' -> '▁and' | 0.818345
+  '▁what' -> '▁and' | 0.815860
+  '▁security' -> '▁security' | 0.871830
+  '▁require' -> '▁must' | 0.805987
+  'ment' -> 'prove' | 0.788291
+  '▁app' -> 'prove' | 0.774503
+  'lies' -> 'prove' | 0.781762
+  '▁while' -> '.' | 0.799724
+  '▁working' -> '▁employees' | 0.821614
+  '▁remote' -> '▁Remote' | 0.865849
+  'ly' -> '-' | 0.800277
+  '?' -> '.' | 0.833201
+
+MaxSim SUM = 17.771156

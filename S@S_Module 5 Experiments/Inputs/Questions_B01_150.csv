@@ -1,0 +1,151 @@
+Qno,Question
+1,What must employees do before their scheduled start time if they are unable to attend work due to absence?
+2,"After returning from more than two consecutive working days of absence, what document must employees submit?"
+3,Are employees allowed to combine annual leave with unpaid leave to extend a vacation period?
+4,By what day must medical certification be issued when absence exceeds five consecutive working days?
+5,By when must placement participants complete mandatory compliance training?
+6,Can a harassment investigation continue if the complainant withdraws the complaint?
+7,Can a placement participant continue working after the official programme end date without extension approval?
+8,Can an AI system automatically terminate employment if it detects repeated performance issues?
+9,Can an employee submit a medical certificate after returning from absence instead of during the absence period?
+10,Can annual leave be approved during peak operational periods if the team is already at the leave limit?
+11,Can apprenticeship programmes be shortened if the participant demonstrates strong performance early?
+12,Can behavioural experiments run without informing employees if the intervention is minor?
+13,Can behavioural interventions be applied differently across departments without explanation?
+14,Can conflict cases remain unresolved indefinitely without escalation?
+15,Can CPD requirements be waived for highly experienced employees?
+16,Can development activities completed outside work hours count toward CPD requirements?
+17,Can employees refuse to work with AI systems introduced in their role?
+18,Can governance documentation be destroyed earlier than the retention period?
+19,Can interns approve financial transactions if they are temporarily supervising a project?
+20,Can management shorten an employee’s approved leave period after it has already started?
+21,Can managers approve financial decisions beyond their delegated authority in urgent situations?
+22,Can managers intervene directly in conflicts involving their own actions?
+23,Can managers use behavioural analytics to influence promotion decisions without documentation?
+24,Can mediation be forced on employees involved in harassment allegations?
+25,Can role redesign occur gradually without formal documentation?
+26,Can structural changes be implemented immediately without consultation during emergencies?
+27,For how long must recruitment AI systems avoid independently rejecting candidates without human review?
+28,How frequently are employees expected to maintain contact during extended absence?
+29,How frequently must formal feedback sessions occur for placements longer than twelve weeks?
+30,How frequently must managers review employee CPD plans?
+31,How frequently must structured case reviews occur during long-term absence exceeding 30 days?
+32,How is absence handled if the employee cannot notify the manager 30 minutes before the shift due to emergency circumstances?
+33,How long may behavioural experiment data normally be retained?
+34,How long must documentation of formal conflict proceedings be retained?
+35,How long must feedback mechanisms remain open after change implementation?
+36,How long must governance documentation be retained?
+37,How long must investigation documentation for harassment cases be retained?
+38,How long should conflict investigations normally take to conclude?
+39,How many days’ notice should employees receive for material role changes where feasible?
+40,How many hours of development activity must employees complete annually under CPD rules?
+41,How many working days in advance must employees submit leave requests for up to five days of leave?
+42,How much notice is typically required for early termination of a placement without misconduct?
+43,How often must data used to train internal AI models be reviewed for bias?
+44,How often must organisational risk assessments be updated?
+45,Is a manager allowed to reject a return-to-work discussion if the absence was only four days?
+46,To whom must allegations involving senior leadership be escalated?
+47,Under what circumstances may approved leave be withdrawn by management?
+48,Under what condition may absence be treated as voluntary abandonment of employment?
+49,Under what condition may anonymous complaints proceed?
+50,What action may occur if CPD participation rates fall below seventy percent at departmental level?
+51,What action must occur if AI failure causes operational disruption exceeding eight working hours?
+52,What additional approval is required for leave exceeding five consecutive working days?
+53,What approval is required for expenditures exceeding fifteen percent of a departmental budget?
+54,What approval is required if compensation is materially affected by organisational change?
+55,What approval level is required for leave exceeding ten consecutive working days?
+56,What assessment may be required for employees absent due to medical reasons for more than 45 calendar days?
+57,What assessment must occur before structural changes affecting more than ten percent of a department?
+58,What condition applies to behavioural trials extending beyond routine policy changes?
+59,What confidentiality rule applies to mediation discussions?
+60,What consequence may occur if certifications lapse beyond thirty days?
+61,What consequence may occur if retaliation follows mediation participation?
+62,What consequence may occur if retaliation happens within twelve months after reporting harassment?
+63,What documentation must record leadership decisions affecting workforce size significantly?
+64,What escalation occurs if an employee fails to maintain contact during extended medical absence?
+65,What evaluation rating is required for conversion to permanent employment?
+66,What event may trigger a formal attendance review if it occurs three times within a 90-day period?
+67,What functionality must AI systems retain at all times?
+68,What happens if a manager fails to act on harassment complaints raised informally?
+69,What happens if an AI system produces biased recommendations during recruitment screening?
+70,What happens if an AI tool makes scheduling decisions that affect a large portion of the workforce?
+71,What happens if an employee cancels approved leave several times but still requests new leave dates?
+72,What happens if an employee exceeds their development budget but completes valuable training?
+73,What happens if an employee repeatedly carries forward unused annual leave every year?
+74,What happens if an employee repeatedly records CPD activities inaccurately?
+75,What happens if an employee repeatedly reports sick on Mondays without medical evidence?
+76,What happens if an intern does not complete compliance training within the required time?
+77,What happens if an intern exceeds the allowed weekly working hours?
+78,What happens if behavioural nudges reduce employee engagement significantly?
+79,What happens if behavioural pilot programmes continue indefinitely without formal review?
+80,What happens if confidential information from mediation discussions is leaked?
+81,What happens if conflict repeatedly disrupts team productivity?
+82,What happens if employees refuse to complete CPD activities required for their role?
+83,What happens if employees reject proposed organisational change after consultation?
+84,What happens if governance breaches are discovered but not reported immediately?
+85,What happens if harassment complaints are reported long after the incident occurred?
+86,What happens if implementation timelines for change initiatives are repeatedly delayed?
+87,What happens if investigation timelines exceed the standard duration?
+88,What happens if mediation fails to resolve workplace conflict between two employees?
+89,What happens if multiple minor governance breaches occur across departments?
+90,What happens if risk assessments are not updated within the required timeframe?
+91,What is the maximum duration of a work experience placement without HR extension approval?
+92,What is the maximum number of leave days that may be carried forward to the next cycle?
+93,What is the maximum percentage of employees in the same functional unit allowed on leave simultaneously?
+94,What is the maximum weekly working hour expectation for placement participants?
+95,What is the minimum continuous leave block employees must take each leave cycle?
+96,What is the normal minimum duration of consultation periods for significant change initiatives?
+97,What is the typical duration range for internship programmes?
+98,What is the usual timeframe for completing harassment investigations?
+99,What limit exists on financial approvals that interns may independently authorise?
+100,What may happen if mandatory training is not completed within forty-five days?
+101,What may trigger formal review if repeated informal complaints occur about the same individual?
+102,What mid-year learning completion threshold applies to employees in regulated roles?
+103,What must be disclosed when behavioural incentives are designed using behavioural triggers?
+104,What must employees receive if their role terms change during restructuring?
+105,What must happen before algorithmic adjustments affecting more than ten percent of workforce scheduling?
+106,What must happen before any AI system influencing employment decisions is deployed?
+107,What must happen to behavioural communication campaigns exceeding ninety days?
+108,What must occur if an AI system shows an error rate exceeding five percent in audit sampling?
+109,What must occur if conflict disrupts critical delivery deadlines beyond a certain duration?
+110,What must occur if engagement scores decline by five percent due to a behavioural initiative?
+111,What participation limit applies to behavioural pilot programmes without consent escalation?
+112,What percentage of structured learning exposure must apprenticeship training plans include?
+113,What proportion of annual leave entitlement must be used within the first three quarters of the leave cycle?
+114,What proportion of high-risk functions must internal audits review annually?
+115,What requirement applies before engaging external AI vendors regarding model transparency?
+116,What requirement applies if behavioural pilots exceed six months in duration?
+117,What requirement applies when behavioural analytics influence performance assessment?
+118,What responsibility do managers have if they are aware of harassment incidents?
+119,What restriction applies to individuals under investigation regarding investigator selection?
+120,What review is required when workflow design changes exceed fifteen percent alteration?
+121,What review must occur before behavioural interventions affecting more than fifty employees?
+122,What situation may trigger behavioural review if the same parties repeatedly conflict?
+123,What three stages must change communication include?
+124,What threshold of role redesign requires formal re-evaluation?
+125,What workforce reduction threshold triggers executive review?
+126,When can management initiate an attendance improvement plan based on absence days within six months?
+127,When may failure to return from leave be treated as unauthorised absence?
+128,When may unresolved conflicts escalate to mediation after informal dialogue?
+129,When must conflicts of interest be declared after they arise?
+130,When must employees be informed about the introduction of AI systems affecting their role?
+131,When must professional certifications required for a role be renewed?
+132,When must return-to-work discussions occur after absence exceeding three working days?
+133,When must training be provided if new systems alter daily tasks significantly?
+134,When must whistleblowing complaints be acknowledged?
+135,When should formal investigations into harassment normally begin?
+136,Who decides whether a major organisational restructuring should proceed?
+137,Who is responsible if an AI system produces incorrect workforce planning recommendations?
+138,Who must review AI-generated performance scores before they are formally recorded?
+139,Within how many days must carried-forward leave be used?
+140,Within how many days must CPD activities be recorded after completion?
+141,Within how many days must formal grievances be submitted after the triggering incident?
+142,Within how many days must managers complete governance training after appointment?
+143,Within how many days must mandatory compliance training be completed after assignment?
+144,Within how many days must reimbursement requests be submitted after training completion?
+145,Within how many days should mediation sessions normally occur after a request?
+146,Within how many working days must a supervisor be assigned to a programme participant?
+147,Within how many working days must bullying or harassment complaints be acknowledged?
+148,Within how many working days must governance breaches be reported after discovery?
+149,Within how many working days should managers acknowledge interpersonal conflict reports?
+150,Within what timeframe may interim protective measures be implemented where risk is immediate?

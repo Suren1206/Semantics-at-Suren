@@ -1,0 +1,206 @@
+{
+  "corpus_id": "SAS_COLBERT_CONTROLLED_CORPUS",
+  "description": "Controlled employee-policy corpus for the Semantics @ Suren ColBERT grand experiment.",
+  "chunks": [
+    {
+      "chunk_id": "C01",
+      "topic": "annual_leave",
+      "text": "Employees are entitled to 24 days of annual leave for each completed calendar year of service. Leave is normally accrued monthly and should be planned in consultation with the employee's manager."
+    },
+    {
+      "chunk_id": "C02",
+      "topic": "annual_leave",
+      "text": "Employees may carry forward up to 5 unused annual leave days into the following calendar year. Any unused balance above the permitted carry-forward limit will normally lapse at year end."
+    },
+    {
+      "chunk_id": "C03",
+      "topic": "annual_leave",
+      "text": "Annual leave should normally be taken during the year in which it is accrued. Managers are responsible for ensuring that employees have reasonable opportunities to use their accrued leave."
+    },
+    {
+      "chunk_id": "C04",
+      "topic": "annual_leave",
+      "text": "Unused annual leave exceeding the permitted carry-forward amount will normally lapse on 31 December unless an approved exception applies."
+    },
+    {
+      "chunk_id": "C05",
+      "topic": "annual_leave",
+      "text": "Employees should submit annual leave requests through the employee portal at least five working days before the intended start date, except in urgent circumstances."
+    },
+    {
+      "chunk_id": "C06",
+      "topic": "annual_leave",
+      "text": "Annual leave requests are subject to manager approval and operational requirements. Approval should consider team coverage, business continuity, and previously approved absences."
+    },
+    {
+      "chunk_id": "C07",
+      "topic": "annual_leave",
+      "text": "The annual leave balance displayed in the employee portal reflects approved and recorded leave transactions. Employees should report discrepancies to HR Operations."
+    },
+    {
+      "chunk_id": "C08",
+      "topic": "annual_leave",
+      "text": "Employees who join during the year receive a prorated annual leave entitlement based on their eligible service period. The entitlement is rounded according to payroll rules."
+    },
+    {
+      "chunk_id": "C09",
+      "topic": "annual_leave",
+      "text": "When employment ends, unused accrued annual leave is settled according to applicable company policy and local employment requirements. Future planned leave is cancelled unless otherwise agreed."
+    },
+    {
+      "chunk_id": "C10",
+      "topic": "annual_leave",
+      "text": "Extended absence can affect the timing of leave accrual and the treatment of unused balances. Employees returning from extended absence should confirm their balance with HR Operations."
+    },
+    {
+      "chunk_id": "C11",
+      "topic": "sick_leave",
+      "text": "Sick leave is intended for periods when an employee is unable to work because of illness or injury. Employees should notify their manager as soon as reasonably practicable."
+    },
+    {
+      "chunk_id": "C12",
+      "topic": "sick_leave",
+      "text": "A medical certificate may be required for sickness absence exceeding three consecutive working days, subject to local policy and applicable requirements."
+    },
+    {
+      "chunk_id": "C13",
+      "topic": "sick_leave",
+      "text": "Sick leave balances and annual leave balances are maintained separately in the employee portal. One type of leave does not automatically convert into the other."
+    },
+    {
+      "chunk_id": "C14",
+      "topic": "parental_leave",
+      "text": "Eligible employees may take parental leave following the birth or adoption of a child. The duration and payment arrangements depend on the applicable policy and jurisdiction."
+    },
+    {
+      "chunk_id": "C15",
+      "topic": "parental_leave",
+      "text": "Parental leave should normally be requested in advance where the expected start date is known. Employees should provide the required supporting information through the designated HR process."
+    },
+    {
+      "chunk_id": "C16",
+      "topic": "remote_work",
+      "text": "Employees may work remotely where their role is eligible and the arrangement has been approved by their manager. Remote work remains subject to business and security requirements."
+    },
+    {
+      "chunk_id": "C17",
+      "topic": "remote_work",
+      "text": "Remote employees must use company-approved devices, maintain appropriate information security controls, and protect confidential information from unauthorized access."
+    },
+    {
+      "chunk_id": "C18",
+      "topic": "remote_work",
+      "text": "Remote work arrangements may be reviewed when business requirements, role responsibilities, or team operating models change. Approval of an arrangement does not create a permanent entitlement."
+    },
+    {
+      "chunk_id": "C19",
+      "topic": "hybrid_work",
+      "text": "Hybrid teams should establish agreed collaboration days and core availability periods. Individual schedules may vary according to customer commitments and team needs."
+    },
+    {
+      "chunk_id": "C20",
+      "topic": "hybrid_work",
+      "text": "Employees working from home are responsible for maintaining a suitable work environment and complying with applicable health, safety, confidentiality, and technology requirements."
+    },
+    {
+      "chunk_id": "C21",
+      "topic": "expense",
+      "text": "Business travel expenses must be submitted through the expense system with the required receipts and supporting information. Claims should normally be submitted within 30 days of the expense."
+    },
+    {
+      "chunk_id": "C22",
+      "topic": "expense",
+      "text": "Reasonable meal expenses incurred during approved business travel may be reimbursed within the applicable daily limits. Personal entertainment expenses are not reimbursable."
+    },
+    {
+      "chunk_id": "C23",
+      "topic": "expense",
+      "text": "Mileage reimbursement is available for eligible business travel using an approved personal vehicle. The applicable reimbursement rate is determined by the current travel policy."
+    },
+    {
+      "chunk_id": "C24",
+      "topic": "expense",
+      "text": "Managers are responsible for reviewing expense claims for business purpose, policy compliance, appropriate documentation, and accurate cost allocation before approval."
+    },
+    {
+      "chunk_id": "C25",
+      "topic": "expense",
+      "text": "Expenses submitted after the standard submission period may require additional approval and may be rejected when the delay cannot be justified."
+    },
+    {
+      "chunk_id": "C26",
+      "topic": "performance",
+      "text": "Employees normally participate in an annual performance review covering objectives, outcomes, development priorities, and feedback. The review process is managed through the performance system."
+    },
+    {
+      "chunk_id": "C27",
+      "topic": "performance",
+      "text": "Performance objectives should be agreed at the beginning of the review cycle and may be updated when significant business priorities or role responsibilities change."
+    },
+    {
+      "chunk_id": "C28",
+      "topic": "training",
+      "text": "Employees may request training that supports their current role, required skills, or agreed development objectives. Approval depends on business need and available budget."
+    },
+    {
+      "chunk_id": "C29",
+      "topic": "training",
+      "text": "Mandatory compliance training must be completed within the assigned timeframe. Completion status is recorded in the learning management system."
+    },
+    {
+      "chunk_id": "C30",
+      "topic": "training",
+      "text": "Employees may access approved learning platforms to develop technical and professional skills. Optional learning should normally be discussed with the manager when work time or budget is involved."
+    },
+    {
+      "chunk_id": "C31",
+      "topic": "security",
+      "text": "Employees must protect company credentials and must not share passwords, authentication tokens, or multi-factor authentication codes with another person."
+    },
+    {
+      "chunk_id": "C32",
+      "topic": "security",
+      "text": "Access to confidential systems is granted according to role requirements and approved business need. Access may be removed when responsibilities change or employment ends."
+    },
+    {
+      "chunk_id": "C33",
+      "topic": "security",
+      "text": "Security incidents, suspected credential compromise, or accidental disclosure of confidential information must be reported promptly through the designated incident process."
+    },
+    {
+      "chunk_id": "C34",
+      "topic": "data",
+      "text": "Customer and employee personal information must be processed only for legitimate business purposes and in accordance with applicable privacy requirements and company controls."
+    },
+    {
+      "chunk_id": "C35",
+      "topic": "data",
+      "text": "Confidential business information must be stored only in approved company repositories. Employees should not upload restricted information to unapproved external services."
+    },
+    {
+      "chunk_id": "C36",
+      "topic": "payroll",
+      "text": "Monthly salary payments are processed according to the published payroll calendar. Changes to bank details should be submitted through the approved employee self-service process."
+    },
+    {
+      "chunk_id": "C37",
+      "topic": "payroll",
+      "text": "Employees should review their monthly payslip for salary, deductions, tax information, and other recorded payroll items. Questions should be raised with Payroll Operations."
+    },
+    {
+      "chunk_id": "C38",
+      "topic": "benefits",
+      "text": "Eligible employees may participate in company benefit programs subject to plan rules, enrollment periods, and local eligibility requirements."
+    },
+    {
+      "chunk_id": "C39",
+      "topic": "travel",
+      "text": "International business travel may require advance approval, travel documentation, and compliance with applicable immigration, security, and destination requirements."
+    },
+    {
+      "chunk_id": "C40",
+      "topic": "travel",
+      "text": "Employees travelling for business should use approved travel booking channels where required and should follow the applicable limits for transportation, accommodation, and other travel costs."
+    }
+  ]
+}

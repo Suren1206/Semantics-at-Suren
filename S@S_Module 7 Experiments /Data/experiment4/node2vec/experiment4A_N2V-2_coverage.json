@@ -1,0 +1,55 @@
+{
+  "experiment": "Experiment 4A \u2014 Node2Vec",
+  "coverage_type": "exact_training_run",
+  "configuration": "N2V-2",
+  "p": 1.0,
+  "q": 1.0,
+  "walk_behaviour": "unbiased",
+  "graph": {
+    "nodes": 334863,
+    "edges": 925872
+  },
+  "node2vec_configuration": {
+    "embedding_dimension": 128,
+    "walks_per_node": 5,
+    "walk_length": 20,
+    "context_window": 5,
+    "negative_samples": 5,
+    "epochs": 3,
+    "random_seed": 42,
+    "workers": 8,
+    "p": 1.0,
+    "q": 1.0
+  },
+  "walk_generation": {
+    "total_walks": 1674315,
+    "total_node_visits": 33486300,
+    "total_edge_traversals": 31811985,
+    "minimum_walk_length": 20,
+    "median_walk_length": 20.0,
+    "mean_walk_length": 20.0,
+    "maximum_walk_length": 20
+  },
+  "node_coverage": {
+    "unique_nodes_visited": 334863,
+    "coverage_percent": 100.0
+  },
+  "edge_coverage": {
+    "unique_edges_traversed": 925872,
+    "edges_never_traversed": 0,
+    "coverage_percent": 100.0
+  },
+  "edge_exposure": {
+    "min": 7,
+    "median": 33.0,
+    "mean": 34.35894486494893,
+    "p25": 28.0,
+    "p75": 39.0,
+    "p90": 46.0,
+    "max": 153
+  },
+  "context_generation": {
+    "context_window": 5,
+    "total_context_pairs": 284633550
+  }
+}

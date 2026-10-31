@@ -1,0 +1,50 @@
+[
+  {
+    "query_id": "Q01",
+    "query": "How many annual leave days can I carry over into next year?"
+  },
+  {
+    "query_id": "Q02",
+    "query": "What happens to unused vacation at the end of the year?"
+  },
+  {
+    "query_id": "Q03",
+    "query": "Can I take my unused leave into the following year, and what is the limit?"
+  },
+  {
+    "query_id": "Q04",
+    "query": "What is the rule for carrying forward five unused days of annual leave?"
+  },
+  {
+    "query_id": "Q05",
+    "query": "When does unused leave expire if I have more than the allowed carry-forward?"
+  },
+  {
+    "query_id": "Q06",
+    "query": "Can unused balances be moved to next year?"
+  },
+  {
+    "query_id": "Q07",
+    "query": "How far in advance should I request vacation?"
+  },
+  {
+    "query_id": "Q08",
+    "query": "Does working from home require manager approval?"
+  },
+  {
+    "query_id": "Q09",
+    "query": "What should I do if my leave balance looks wrong?"
+  },
+  {
+    "query_id": "Q10",
+    "query": "Can a chunk mention carry forward and still be irrelevant to annual leave?"
+  },
+  {
+    "query_id": "Q11",
+    "query": "How many annual leave days can I carry forward, and when do I need to submit a request to take leave?"
+  },
+  {
+    "query_id": "Q12",
+    "query": "Can I work from home with manager approval, and what security requirement applies while working remotely?"
+  }
+]

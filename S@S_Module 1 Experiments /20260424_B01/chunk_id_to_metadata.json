@@ -1,0 +1,807 @@
+{
+  "chunk_0": {
+    "chunk_index": 0,
+    "header": "ABSENCE MANAGEMENT",
+    "text": "Employees must notify their direct manager at least 30 minutes before their scheduled start time unless physically incapacitated. Absence exceeding 2 consecutive working days requires submission of a self-declaration form within 24 hours of return. Any absence extending beyond 5 consecutive working days must be supported by medical certification issued no later than the 7th calendar day of absence."
+  },
+  "chunk_1": {
+    "chunk_index": 1,
+    "header": "ABSENCE MANAGEMENT",
+    "text": "Three separate absence instances within a rolling 90-day period may trigger a formal attendance review meeting. Where total absence exceeds 8 working days within a rolling 6-month window, management may initiate an attendance improvement plan. Absence of 10 consecutive working days without contact may be treated as voluntary abandonment of employment, subject to documented outreach attempts on at least two separate days."
+  },
+  "chunk_2": {
+    "chunk_index": 2,
+    "header": "ABSENCE MANAGEMENT",
+    "text": "Long-term absence exceeding 30 calendar days will require a structured case review every 30 days thereafter. Employees on medical absence exceeding 45 calendar days may be required to participate in a fitness-for-work assessment prior to resuming duties. Return-to-work discussions must occur within 48 hours of resumption following any absence exceeding 3 working days."
+  },
+  "chunk_3": {
+    "chunk_index": 3,
+    "header": "ABSENCE MANAGEMENT",
+    "text": "Employees are expected to maintain reasonable contact during extended absence, typically not less than once every 14 calendar days unless otherwise agreed. Adjusted or phased return arrangements may be granted for a period not normally exceeding 20 working days, unless extended by management discretion."
+  },
+  "chunk_4": {
+    "chunk_index": 4,
+    "header": "ABSENCE MANAGEMENT",
+    "text": "Repeated absence adjacent to public holidays or scheduled leave occurring more than twice within a 12-month period may be subject to review. Failure to provide accurate medical documentation within required timelines may delay pay processing. Absence data will be reviewed quarterly at departmental level, and any unit exceeding a 6% absence rate may require corrective action planning."
+  },
+  "chunk_5": {
+    "chunk_index": 5,
+    "header": "ABSENCE MANAGEMENT",
+    "text": "Deliberate misrepresentation of illness or incapacity constitutes misconduct and may result in disciplinary action up to and including termination."
+  },
+  "chunk_6": {
+    "chunk_index": 6,
+    "header": "ANNUAL LEAVE",
+    "text": "Employees must submit leave requests at least 10 working days in advance for leave of up to 5 working days. Any single leave request exceeding 5 consecutive working days requires submission at least 20 working days in advance and second-level approval. Leave requests exceeding 10 consecutive working days require departmental head approval and confirmation of workload coverage planning."
+  },
+  "chunk_7": {
+    "chunk_index": 7,
+    "header": "ANNUAL LEAVE",
+    "text": "No more than 25% of employees within the same functional unit may be on leave simultaneously unless explicitly authorised. Employees must utilise at least 50% of their annual entitlement within the first three quarters of the leave cycle. A minimum continuous leave block of 5 working days must be taken each leave cycle unless operationally impractical."
+  },
+  "chunk_8": {
+    "chunk_index": 8,
+    "header": "ANNUAL LEAVE",
+    "text": "Carry-forward of unused leave is limited to 5 working days and must be utilised within 90 calendar days of the new cycle. Accumulated unused leave exceeding 8 days at year-end may be subject to forfeiture unless previously approved for deferment. Leave may not ordinarily be taken during the final 30 calendar days of employment unless approved by HR."
+  },
+  "chunk_9": {
+    "chunk_index": 9,
+    "header": "ANNUAL LEAVE",
+    "text": "Approved leave may be withdrawn by management in circumstances of material business disruption, with a minimum of 3 working days' notice where feasible. Employees on unpaid leave exceeding 30 consecutive days will not accrue annual leave during that period. Leave requests submitted during officially declared peak operational periods may be deferred without guarantee of alternative dates."
+  },
+  "chunk_10": {
+    "chunk_index": 10,
+    "header": "ANNUAL LEAVE",
+    "text": "Employees are expected to avoid engaging in paid external employment during annual leave where it may reasonably impact fitness for duty upon return. More than two cancellations of approved leave within a 12-month period may require managerial review. Failure to return from leave on the agreed date without notification exceeding 1 working day may be treated as unauthorised absence."
+  },
+  "chunk_11": {
+    "chunk_index": 11,
+    "header": "APPRENTICES, INTERNS AND WORK EXPERIENCE",
+    "text": "Work experience placements must not exceed 4 consecutive weeks unless extended through HR approval. Internship programmes will normally range between 8 and 24 weeks in duration. Apprenticeship arrangements must have a documented training plan covering at least 70% structured learning exposure. Each participant must be assigned a named supervisor within 3 working days of commencement."
+  },
+  "chunk_12": {
+    "chunk_index": 12,
+    "header": "APPRENTICES, INTERNS AND WORK EXPERIENCE",
+    "text": "Formal feedback sessions must occur at least once every 30 calendar days during placements exceeding 12 weeks. Interns must not be assigned independent responsibility for financial approvals exceeding predefined entry-level limits. Participants may not be required to work more than 40 hours per week unless explicitly documented in programme terms."
+  },
+  "chunk_13": {
+    "chunk_index": 13,
+    "header": "APPRENTICES, INTERNS AND WORK EXPERIENCE",
+    "text": "Placement participants must complete mandatory compliance training within their first 10 working days. Conversion to permanent employment requires completion of the full programme duration and formal evaluation scoring of at least \u201cmeets expectations\u201d. Early termination of a placement may occur with 7 calendar days\u2019 notice unless misconduct is involved."
+  },
+  "chunk_14": {
+    "chunk_index": 14,
+    "header": "APPRENTICES, INTERNS AND WORK EXPERIENCE",
+    "text": "Placement extensions beyond the original term exceeding 20% of initial duration require HR authorisation. Absence exceeding 10% of the programme duration may require extension or reassessment. Participants must sign confidentiality undertakings prior to access to internal systems. Any stipend or allowance must be documented before commencement and may not be modified mid-cycle without approval."
+  },
+  "chunk_15": {
+    "chunk_index": 15,
+    "header": "APPRENTICES, INTERNS AND WORK EXPERIENCE",
+    "text": "Re-engagement into a second internship within 12 months requires executive-level approval."
+  },
+  "chunk_16": {
+    "chunk_index": 16,
+    "header": "AI IN THE WORKPLACE",
+    "text": "Any AI system influencing employment decisions must undergo documented validation prior to deployment. AI tools used in recruitment screening must not independently reject candidates without human review for at least the first 12 months of implementation. AI-generated performance scores must be reviewed by a line manager before being formally recorded."
+  },
+  "chunk_17": {
+    "chunk_index": 17,
+    "header": "AI IN THE WORKPLACE",
+    "text": "Automated productivity monitoring exceeding 20% of an employee\u2019s measurable output metrics must be disclosed in writing. AI tools must not process personal data beyond the originally declared purpose without secondary approval. Any AI system demonstrating error rates exceeding 5% in audit sampling must be suspended pending review."
+  },
+  "chunk_18": {
+    "chunk_index": 18,
+    "header": "AI IN THE WORKPLACE",
+    "text": "Employees must be informed within 30 calendar days of introduction of any AI system materially affecting their role. Algorithmic adjustments affecting more than 10% of workforce scheduling patterns require senior leadership review. AI systems must retain human override functionality at all times. Data used to train internal AI models must be reviewed for bias at least annually."
+  },
+  "chunk_19": {
+    "chunk_index": 19,
+    "header": "AI IN THE WORKPLACE",
+    "text": "AI-generated disciplinary flags must not automatically trigger formal proceedings without managerial verification. External AI vendors must provide documented model transparency summaries prior to engagement. Employees may request clarification on AI-generated outputs impacting their employment status."
+  },
+  "chunk_20": {
+    "chunk_index": 20,
+    "header": "AI IN THE WORKPLACE",
+    "text": "AI tools must not be used for covert monitoring without executive approval. Significant AI failures resulting in operational disruption exceeding 8 working hours must be formally reported."
+  },
+  "chunk_21": {
+    "chunk_index": 21,
+    "header": "BEHAVIOURAL SCIENCE",
+    "text": "Behavioural interventions affecting more than 50 employees simultaneously must undergo impact review. Any incentive programme designed using behavioural triggers must clearly disclose eligibility criteria. Behavioural communication campaigns exceeding 90 calendar days must be formally evaluated for effectiveness."
+  },
+  "chunk_22": {
+    "chunk_index": 22,
+    "header": "BEHAVIOURAL SCIENCE",
+    "text": "Mandatory participation in behavioural pilots may not exceed 10% of a functional unit without consent escalation. Data collected during behavioural experiments must not be retained beyond 12 months unless justified. Behavioural analytics influencing performance assessment must be transparently documented."
+  },
+  "chunk_23": {
+    "chunk_index": 23,
+    "header": "BEHAVIOURAL SCIENCE",
+    "text": "Experimental changes to workflow design exceeding 15% alteration of task sequencing require review. Employees must be informed when participating in behavioural trials that extend beyond routine policy changes. Behavioural techniques must not be used to suppress reporting of grievances. Any behavioural initiative resulting in engagement score decline of 5% or more must be reassessed."
+  },
+  "chunk_24": {
+    "chunk_index": 24,
+    "header": "BEHAVIOURAL SCIENCE",
+    "text": "Incentive framing must not disproportionately disadvantage specific workforce groups. Behavioural pilots exceeding 6 months must convert into formal programmes or be discontinued. Anonymous behavioural data must not be re-identified without documented approval. Behavioural messaging targeting individuals must not rely on sensitive personal characteristics."
+  },
+  "chunk_25": {
+    "chunk_index": 25,
+    "header": "BEHAVIOURAL SCIENCE",
+    "text": "All behavioural interventions must align with organisational values and ethical standards."
+  },
+  "chunk_26": {
+    "chunk_index": 26,
+    "header": "BULLYING AND HARASSMENT",
+    "text": "Complaints must be acknowledged within 2 working days of receipt. Formal investigations will normally commence within 5 working days of complaint validation. Investigations should be concluded within 30 calendar days unless complexity justifies extension. Interim protective measures may be implemented within 48 hours where risk is assessed as immediate."
+  },
+  "chunk_27": {
+    "chunk_index": 27,
+    "header": "BULLYING AND HARASSMENT",
+    "text": "Retaliation against complainants or witnesses within 12 months of reporting will be treated as aggravated misconduct. Repeated informal complaints involving the same individual exceeding 2 instances in 6 months may trigger formal review. Managers who fail to escalate known incidents within 3 working days may face disciplinary review."
+  },
+  "chunk_28": {
+    "chunk_index": 28,
+    "header": "BULLYING AND HARASSMENT",
+    "text": "Anonymous complaints may proceed where sufficient corroborating information exists. Allegations involving senior leadership must be escalated directly to an independent review panel. Substantiated misconduct may result in sanctions up to termination. Mediation may be offered where behaviour is assessed as conflict rather than harassment."
+  },
+  "chunk_29": {
+    "chunk_index": 29,
+    "header": "BULLYING AND HARASSMENT",
+    "text": "Training on respectful conduct must be completed annually by all employees. Digital harassment outside standard working hours may still fall within policy scope if work-related. Investigation documentation will be retained for a minimum of 24 months. False or malicious allegations may result in disciplinary action."
+  },
+  "chunk_30": {
+    "chunk_index": 30,
+    "header": "CHANGE MANAGEMENT",
+    "text": "Structural changes affecting more than 10% of a department must undergo documented impact assessment. Employees must be informed of material role changes at least 30 calendar days prior to implementation where feasible. Consultation periods for significant change initiatives will normally last no less than 14 calendar days."
+  },
+  "chunk_31": {
+    "chunk_index": 31,
+    "header": "CHANGE MANAGEMENT",
+    "text": "Role redesign involving more than 25% modification of core responsibilities requires formal re-evaluation. Workforce reductions exceeding 5% of headcount within a unit must be escalated to executive review. Change communications must occur at a minimum of three defined stages: announcement, consultation, implementation."
+  },
+  "chunk_32": {
+    "chunk_index": 32,
+    "header": "CHANGE MANAGEMENT",
+    "text": "Employees impacted by change must receive written confirmation of revised terms. Training must be provided where new systems alter daily tasks by more than 15%. Changes materially affecting compensation require documented consent. Managers must complete change leadership training before leading major restructuring initiatives."
+  },
+  "chunk_33": {
+    "chunk_index": 33,
+    "header": "CHANGE MANAGEMENT",
+    "text": "Implementation delays exceeding 60 days beyond initial timeline must be communicated. Feedback mechanisms must remain open for at least 30 days post-implementation. Organisational redesign proposals must include risk assessment documentation. Temporary change measures exceeding 6 months may require formalisation."
+  },
+  "chunk_34": {
+    "chunk_index": 34,
+    "header": "CHANGE MANAGEMENT",
+    "text": "Resistance behaviours impacting delivery timelines may be addressed through performance management processes."
+  },
+  "chunk_35": {
+    "chunk_index": 35,
+    "header": "CONFLICT MANAGEMENT",
+    "text": "Employees are expected to attempt informal resolution within 5 working days of identifying a conflict, where appropriate. Managers must acknowledge reported interpersonal conflicts within 3 working days. Conflicts unresolved after 10 working days of informal dialogue may be escalated to facilitated mediation."
+  },
+  "chunk_36": {
+    "chunk_index": 36,
+    "header": "CONFLICT MANAGEMENT",
+    "text": "Mediation sessions should normally occur within 15 calendar days of request submission. Recurrent conflict between the same parties exceeding 2 documented instances within 6 months may trigger behavioural review. Managers who are directly involved in a dispute must not lead its investigation. Conflict affecting delivery of critical deadlines exceeding 7 calendar days must be reported to senior management."
+  },
+  "chunk_37": {
+    "chunk_index": 37,
+    "header": "CONFLICT MANAGEMENT",
+    "text": "Confidentiality of mediation discussions must be maintained unless legal or safety concerns arise. Formal grievance submission must occur within 30 calendar days of the triggering incident unless exceptional circumstances exist. Retaliatory conduct following mediation participation may result in disciplinary action."
+  },
+  "chunk_38": {
+    "chunk_index": 38,
+    "header": "CONFLICT MANAGEMENT",
+    "text": "Investigations should be concluded within 25 working days where feasible. Documentation relating to formal conflict proceedings will be retained for 24 months. Where conflict involves power imbalance concerns, an independent reviewer may be appointed. Reassignment of reporting lines exceeding 60 days as a conflict remedy requires HR approval."
+  },
+  "chunk_39": {
+    "chunk_index": 39,
+    "header": "CONFLICT MANAGEMENT",
+    "text": "Conflict resolution outcomes may include behavioural commitments subject to 90-day review."
+  },
+  "chunk_40": {
+    "chunk_index": 40,
+    "header": "CORPORATE GOVERNANCE",
+    "text": "Financial approval authority exceeding predefined limits must follow documented delegation structures. Any expenditure exceeding 15% of an approved departmental budget requires secondary approval. Governance breaches must be reported within 5 working days of discovery. Conflicts of interest must be declared annually and within 7 calendar days of arising."
+  },
+  "chunk_41": {
+    "chunk_index": 41,
+    "header": "CORPORATE GOVERNANCE",
+    "text": "Leadership decisions materially impacting workforce size by more than 5% must be recorded in governance minutes. Policy deviations exceeding 30 calendar days require executive-level sign-off. Risk assessments must be updated at least once every 12 months. Internal audits must review at least 20% of high-risk functions annually."
+  },
+  "chunk_42": {
+    "chunk_index": 42,
+    "header": "CORPORATE GOVERNANCE",
+    "text": "Governance documentation must be retained for no less than 5 years. Whistleblowing complaints must be acknowledged within 3 working days. Individuals subject to investigation must not influence the selection of investigators. Governance training is mandatory for managers within 90 days of appointment."
+  },
+  "chunk_43": {
+    "chunk_index": 43,
+    "header": "CORPORATE GOVERNANCE",
+    "text": "Repeated minor governance breaches exceeding 3 instances in 12 months may be escalated as systemic risk. Delegation of authority must be reviewed annually. Strategic decisions lacking documented risk evaluation may be subject to retrospective review."
+  },
+  "chunk_44": {
+    "chunk_index": 44,
+    "header": "CPD (CONTINUING PROFESSIONAL DEVELOPMENT)",
+    "text": "Each employee must complete a minimum of 20 hours of documented development activity per calendar year. Managers must review CPD plans at least once every 12 months. Mandatory compliance training must be completed within 30 days of assignment. Employees failing to complete mandatory training within 45 days may have system access restricted."
+  },
+  "chunk_45": {
+    "chunk_index": 45,
+    "header": "CPD (CONTINUING PROFESSIONAL DEVELOPMENT)",
+    "text": "Professional certifications required for role eligibility must be renewed prior to expiry. Development budgets exceeding allocated annual limits require approval. CPD activities must be recorded within 10 working days of completion. Employees in regulated roles must complete at least 50% of required learning before mid-year review."
+  },
+  "chunk_46": {
+    "chunk_index": 46,
+    "header": "CPD (CONTINUING PROFESSIONAL DEVELOPMENT)",
+    "text": "Failure to maintain required certifications for more than 30 calendar days may result in reassignment. External conferences exceeding 3 working days require business justification. Reimbursement requests must be submitted within 60 days of training completion. Development leave exceeding 5 working days per year requires executive approval."
+  },
+  "chunk_47": {
+    "chunk_index": 47,
+    "header": "CPD (CONTINUING PROFESSIONAL DEVELOPMENT)",
+    "text": "Learning commitments included in performance objectives must demonstrate measurable outcomes. CPD participation rates below 70% at departmental level may trigger review. Misrepresentation of CPD activity constitutes misconduct."
+  },
+  "chunk_48": {
+    "chunk_index": 48,
+    "header": "COVID-19",
+    "text": "Employees experiencing symptoms consistent with communicable illness must refrain from attending the workplace. Remote working may be mandated where infection rates exceed internally defined thresholds. Health status disclosures must be updated within 24 hours of confirmed diagnosis. Isolation periods will normally not be less than 5 calendar days unless medically cleared earlier."
+  },
+  "chunk_49": {
+    "chunk_index": 49,
+    "header": "COVID-19",
+    "text": "Close contact exposure may require remote working for up to 7 calendar days. Workplace density may be reduced to 50% capacity during elevated risk periods. Temperature or health screening exceeding 30 consecutive days requires executive review. Refusal to comply with mandated safety measures may result in disciplinary action."
+  },
+  "chunk_50": {
+    "chunk_index": 50,
+    "header": "COVID-19",
+    "text": "Return-to-work clearance may require medical confirmation after extended illness exceeding 10 days. Vaccination status disclosure may be requested where role risk exposure is high. Personal protective equipment requirements must be followed where mandated. Travel-related quarantine may be required based on risk assessment."
+  },
+  "chunk_51": {
+    "chunk_index": 51,
+    "header": "COVID-19",
+    "text": "Health data collected for safety monitoring will be retained only as long as operationally necessary. Pandemic response measures will be reviewed at least every 60 days during active risk periods. Emergency leave provisions may apply during public health emergencies."
+  },
+  "chunk_52": {
+    "chunk_index": 52,
+    "header": "DATA PROTECTION AND GDPR",
+    "text": "Personal data must only be collected for defined and documented business purposes. Access to sensitive personal data must be restricted to authorised personnel and reviewed at least every 6 months. Passwords protecting HR systems must be updated at least once every 90 days. Data retention schedules must specify maximum storage periods and be reviewed annually."
+  },
+  "chunk_53": {
+    "chunk_index": 53,
+    "header": "DATA PROTECTION AND GDPR",
+    "text": "Personal data must not be retained beyond 24 months after employment termination unless justified by business need. Data breach incidents must be reported internally within 12 hours of discovery. Any breach involving more than 50 individual records must trigger executive notification. Portable storage devices containing personal data must use encryption approved by IT security."
+  },
+  "chunk_54": {
+    "chunk_index": 54,
+    "header": "DATA PROTECTION AND GDPR",
+    "text": "Personal data must not be transferred to third parties without documented contractual safeguards. Employees may request access to their personal data, and responses must be provided within 30 calendar days. Requests for data correction must be assessed within 10 working days. Bulk downloads of employee data exceeding 100 records require managerial authorisation."
+  },
+  "chunk_55": {
+    "chunk_index": 55,
+    "header": "DATA PROTECTION AND GDPR",
+    "text": "Monitoring systems capturing behavioural data must be clearly communicated prior to activation. Repeated minor data handling errors exceeding 3 incidents within 12 months may trigger retraining. Intentional misuse of personal data constitutes gross misconduct."
+  },
+  "chunk_56": {
+    "chunk_index": 56,
+    "header": "DISCRIMINATION",
+    "text": "Recruitment shortlists must be based on documented selection criteria aligned to job requirements. Hiring panels of more than two decision-makers should include diverse representation where feasible. Pay reviews must be conducted annually to assess unexplained variance exceeding 5% within comparable roles."
+  },
+  "chunk_57": {
+    "chunk_index": 57,
+    "header": "DISCRIMINATION",
+    "text": "Promotion eligibility criteria must be documented before the selection process begins. Discrimination complaints must be acknowledged within 3 working days. Formal investigations should commence within 7 working days of complaint validation. Retaliation following discrimination reporting within 12 months will be treated as aggravated misconduct."
+  },
+  "chunk_58": {
+    "chunk_index": 58,
+    "header": "DISCRIMINATION",
+    "text": "Performance ratings must not rely on subjective traits unrelated to role deliverables. Repeated biased language in performance documentation exceeding 2 recorded instances may trigger review. Training on inclusive conduct must be completed annually by all managers. Workforce demographic data may be analysed in aggregate to identify patterns exceeding 10% disparity."
+  },
+  "chunk_59": {
+    "chunk_index": 59,
+    "header": "DISCRIMINATION",
+    "text": "Any policy disproportionately affecting a group beyond 15% variance must be reviewed. Selection processes lacking documented scoring records may be invalidated. Anonymous complaints may proceed if corroborated by evidence. Substantiated discriminatory conduct may result in disciplinary action up to termination."
+  },
+  "chunk_60": {
+    "chunk_index": 60,
+    "header": "EMPLOYEE ENGAGEMENT",
+    "text": "Organisation-wide engagement surveys will be conducted at least once every 12 months. Departments with engagement scores falling below 70% favourable response must develop action plans within 30 days. Engagement action plans must include at least three measurable improvement objectives. Leaders must communicate survey outcomes within 15 working days of results release."
+  },
+  "chunk_61": {
+    "chunk_index": 61,
+    "header": "EMPLOYEE ENGAGEMENT",
+    "text": "Participation rates below 60% may require re-surveying or targeted outreach. Follow-up pulse surveys may be conducted within 6 months of major action implementation. Engagement scores declining by more than 8 percentage points year-over-year must trigger executive review. Managers must hold at least two structured feedback discussions per year with each direct report."
+  },
+  "chunk_62": {
+    "chunk_index": 62,
+    "header": "EMPLOYEE ENGAGEMENT",
+    "text": "Anonymous feedback channels must remain accessible year-round. Action plans not implemented within 90 days may be escalated. High engagement units exceeding 85% favourable may be benchmarked for best practice. Engagement metrics may influence leadership performance evaluation. Survey fatigue indicators may be assessed if more than three surveys are issued within 12 months."
+  },
+  "chunk_63": {
+    "chunk_index": 63,
+    "header": "EMPLOYEE ENGAGEMENT",
+    "text": "Engagement initiatives must align with organisational strategy. Manipulation of survey results constitutes misconduct."
+  },
+  "chunk_64": {
+    "chunk_index": 64,
+    "header": "EMPLOYEE RELATIONS",
+    "text": "Formal grievances must be submitted within 30 calendar days of the triggering event unless exceptional circumstances apply. Grievance hearings should occur within 15 working days of formal submission. Employees may be accompanied by a representative in formal hearings. Grievance outcomes must be communicated in writing within 7 working days of hearing conclusion."
+  },
+  "chunk_65": {
+    "chunk_index": 65,
+    "header": "EMPLOYEE RELATIONS",
+    "text": "Appeals must be lodged within 10 working days of receiving the outcome. Consultation forums should occur at least quarterly. Collective consultation affecting more than 10% of workforce must be formally documented. Retaliation against grievance participants within 12 months may result in disciplinary action."
+  },
+  "chunk_66": {
+    "chunk_index": 66,
+    "header": "EMPLOYEE RELATIONS",
+    "text": "Informal resolution should be attempted prior to formal escalation where appropriate. Failure of managers to respond to grievances within prescribed timelines may be escalated. Repeated grievances within the same team exceeding 3 instances in 6 months may trigger climate review. Employee representatives must receive reasonable time allocation for duties."
+  },
+  "chunk_67": {
+    "chunk_index": 67,
+    "header": "EMPLOYEE RELATIONS",
+    "text": "Confidentiality must be maintained throughout proceedings. Resolution agreements must be documented and signed by both parties. Frivolous or vexatious grievances may be subject to review."
+  },
+  "chunk_68": {
+    "chunk_index": 68,
+    "header": "EMPLOYMENT STATUS",
+    "text": "All employment status determinations must be documented at commencement. Fixed-term contracts exceeding 12 consecutive months may require review for permanent conversion. Contractors engaged beyond 18 months in the same role must undergo classification review. Temporary assignments exceeding 6 months require formal justification."
+  },
+  "chunk_69": {
+    "chunk_index": 69,
+    "header": "EMPLOYMENT STATUS",
+    "text": "Status changes must be documented in writing prior to implementation. Benefits eligibility begins on the date specified in employment documentation. Independent contractors must not perform managerial duties unless explicitly authorised. Repeated renewal of short-term contracts exceeding 3 cycles may trigger status reassessment."
+  },
+  "chunk_70": {
+    "chunk_index": 70,
+    "header": "EMPLOYMENT STATUS",
+    "text": "Misrepresentation of employment status constitutes misconduct. Employees working fewer than 20 hours per week may have proportionate benefit adjustments. Trial periods must not exceed 90 calendar days unless extended with written consent. Termination notice requirements vary by status and must be documented."
+  },
+  "chunk_71": {
+    "chunk_index": 71,
+    "header": "EMPLOYMENT STATUS",
+    "text": "Interns and apprentices are not automatically classified as permanent employees. Contractors must provide proof of independent business registration where applicable. Any ambiguity in classification must be escalated to HR prior to contract execution."
+  },
+  "chunk_72": {
+    "chunk_index": 72,
+    "header": "ENVIRONMENTAL SOCIAL GOVERNANCE (ESG)",
+    "text": "Departments must identify at least three measurable ESG indicators annually. Environmental impact data must be reviewed at least once every 12 months. Operational activities resulting in resource consumption increases exceeding 10% year-over-year must undergo review. Suppliers representing more than 20% of annual procurement value must confirm ESG compliance standards."
+  },
+  "chunk_73": {
+    "chunk_index": 73,
+    "header": "ENVIRONMENTAL SOCIAL GOVERNANCE (ESG)",
+    "text": "ESG reports must be prepared at least once per calendar year. Employees must complete ESG awareness training within 90 days of joining. Projects exceeding predefined budget thresholds must include ESG impact assessment. Travel reduction targets may be implemented where remote alternatives are viable."
+  },
+  "chunk_74": {
+    "chunk_index": 74,
+    "header": "ENVIRONMENTAL SOCIAL GOVERNANCE (ESG)",
+    "text": "Waste reduction initiatives must be reviewed semi-annually. Repeated ESG non-compliance exceeding two audit findings within 12 months may trigger escalation. Community engagement initiatives must be documented and evaluated annually. Executive compensation structures may incorporate ESG performance metrics."
+  },
+  "chunk_75": {
+    "chunk_index": 75,
+    "header": "ENVIRONMENTAL SOCIAL GOVERNANCE (ESG)",
+    "text": "Public ESG disclosures must be validated before release. ESG complaints must be acknowledged within 5 working days. Intentional misrepresentation of ESG data constitutes serious misconduct."
+  },
+  "chunk_76": {
+    "chunk_index": 76,
+    "header": "ETHICAL PRACTICE",
+    "text": "Conflicts of interest must be declared within 7 calendar days of identification. Gifts exceeding a nominal value threshold defined by the organisation must be disclosed. Repeated acceptance of hospitality from the same external party exceeding three instances in 12 months requires review. Employees must not use confidential information for personal gain."
+  },
+  "chunk_77": {
+    "chunk_index": 77,
+    "header": "ETHICAL PRACTICE",
+    "text": "Whistleblowing reports must be acknowledged within 3 working days. Ethical breaches must be investigated within 10 working days of validation. Personal relationships that create supervisory conflicts must be declared. Financial decision-makers must not approve transactions involving personal connections."
+  },
+  "chunk_78": {
+    "chunk_index": 78,
+    "header": "ETHICAL PRACTICE",
+    "text": "Outside employment exceeding 8 hours per week must be disclosed if potentially conflicting. Ethical training must be completed annually. Failure to disclose a material conflict may result in disciplinary action. Anonymous reporting channels must remain accessible at all times. Retaliation against ethical reporters may result in termination."
+  },
+  "chunk_79": {
+    "chunk_index": 79,
+    "header": "ETHICAL PRACTICE",
+    "text": "Ethical investigations exceeding 30 calendar days must be escalated. Substantiated unethical conduct may impact promotion eligibility for up to 12 months."
+  },
+  "chunk_80": {
+    "chunk_index": 80,
+    "header": "EQUALITY, DIVERSITY AND INCLUSION (EDI)",
+    "text": "Job descriptions must use inclusive language reviewed at least annually. Recruitment outreach must aim to reach at least three diverse sourcing channels per campaign. Workforce demographic data may be reviewed annually to identify representation gaps exceeding 10%. Leadership roles should reflect workforce diversity where feasible."
+  },
+  "chunk_81": {
+    "chunk_index": 81,
+    "header": "EQUALITY, DIVERSITY AND INCLUSION (EDI)",
+    "text": "Accessibility accommodations must be assessed within 10 working days of request. Inclusion training must be completed by all managers annually. Promotion shortlists should demonstrate objective scoring documentation. Inclusion surveys may be conducted at least once every 18 months. Bias awareness interventions must be implemented if disparity trends persist over two review cycles."
+  },
+  "chunk_82": {
+    "chunk_index": 82,
+    "header": "EQUALITY, DIVERSITY AND INCLUSION (EDI)",
+    "text": "Failure to provide reasonable accommodation without justification may result in review. Employee resource groups must operate within documented charters. Inclusion initiatives exceeding 6 months must demonstrate measurable impact. Discriminatory language in formal documentation may result in corrective action."
+  },
+  "chunk_83": {
+    "chunk_index": 83,
+    "header": "EQUALITY, DIVERSITY AND INCLUSION (EDI)",
+    "text": "Repeated micro-behaviour complaints exceeding two documented instances may trigger intervention. EDI progress metrics may be included in leadership performance goals."
+  },
+  "chunk_84": {
+    "chunk_index": 84,
+    "header": "FLEXIBLE AND HYBRID WORKING",
+    "text": "Flexible working requests must be submitted in writing at least 15 working days before proposed start. Employees must have completed at least 6 months of service before applying, unless otherwise approved. Hybrid arrangements may require a minimum on-site presence of 2 days per week. Performance metrics must be maintained at or above baseline expectations during flexible arrangements."
+  },
+  "chunk_85": {
+    "chunk_index": 85,
+    "header": "FLEXIBLE AND HYBRID WORKING",
+    "text": "Flexible agreements must be reviewed every 6 months. Repeated productivity decline exceeding 10% may trigger reassessment. Remote work locations must comply with safety requirements. Employees must remain contactable during core hours defined by the department. International remote work exceeding 30 consecutive days requires executive approval."
+  },
+  "chunk_86": {
+    "chunk_index": 86,
+    "header": "FLEXIBLE AND HYBRID WORKING",
+    "text": "Equipment provided for remote work remains organisational property. Flexible arrangements may be withdrawn with 30 calendar days\u2019 notice. Schedule changes exceeding 20% deviation from contracted hours require HR review. Data security standards apply equally in remote environments. Employees must notify management of material changes to remote working location."
+  },
+  "chunk_87": {
+    "chunk_index": 87,
+    "header": "FLEXIBLE AND HYBRID WORKING",
+    "text": "Abuse of flexible arrangements may result in revocation."
+  },
+  "chunk_88": {
+    "chunk_index": 88,
+    "header": "HR ROLE",
+    "text": "HR must review all new policy drafts prior to approval. Investigations involving senior leadership must include independent HR oversight. HR must conduct policy effectiveness reviews at least once every 24 months. Workforce data reports must be prepared quarterly. HR advisory responses to formal queries should occur within 5 working days."
+  },
+  "chunk_89": {
+    "chunk_index": 89,
+    "header": "HR ROLE",
+    "text": "Escalated misconduct cases must involve HR representation. HR must maintain confidentiality of employee records. Policy deviations exceeding 60 days must be reviewed by HR. HR may suspend policy application pending investigation where risk is identified. HR must ensure training rollouts are tracked and reported."
+  },
+  "chunk_90": {
+    "chunk_index": 90,
+    "header": "HR ROLE",
+    "text": "HR systems access must be restricted to authorised personnel. HR must conduct exit interview analysis at least annually. HR may recommend disciplinary action where policy breaches are substantiated. HR business partners must conduct periodic workforce climate assessments. HR recommendations may override managerial discretion where compliance risk exists."
+  },
+  "chunk_91": {
+    "chunk_index": 91,
+    "header": "JOB QUALITY",
+    "text": "Role descriptions must be reviewed at least every 18 months. Workload allocation exceeding 110% of planned capacity for more than 30 days must be reviewed. Overtime exceeding 15% of contracted hours over a 3-month period may trigger workload reassessment. Compensation structures must align with internal benchmarking updated annually."
+  },
+  "chunk_92": {
+    "chunk_index": 92,
+    "header": "JOB QUALITY",
+    "text": "Employees must receive at least one structured career discussion per year. Repetitive task concentration exceeding 80% of role scope may require enrichment review. Job redesign proposals affecting more than 25% of responsibilities must be documented. Burnout indicators identified through survey declines exceeding 10% must be investigated."
+  },
+  "chunk_93": {
+    "chunk_index": 93,
+    "header": "JOB QUALITY",
+    "text": "Temporary workload surges exceeding 60 days must be formally documented. Unsafe working conditions must be reported immediately. Role ambiguity complaints exceeding two documented instances may trigger clarification review. Internal mobility pathways must be communicated annually. Compensation disparities exceeding 7% within comparable roles may be examined."
+  },
+  "chunk_94": {
+    "chunk_index": 94,
+    "header": "JOB QUALITY",
+    "text": "Development opportunities must be equitably distributed. Persistent job quality concerns may inform organisational redesign initiatives."
+  },
+  "chunk_95": {
+    "chunk_index": 95,
+    "header": "LEARNING AND DEVELOPMENT",
+    "text": "Departments must conduct a formal training needs analysis at least once every 12 months. Employees must complete all mandatory training within 30 calendar days of assignment. Learning programmes exceeding 5 consecutive working days require documented workload coverage planning. Development budgets exceeding annual departmental allocation require executive approval."
+  },
+  "chunk_96": {
+    "chunk_index": 96,
+    "header": "LEARNING AND DEVELOPMENT",
+    "text": "Employees must document learning outcomes within 15 working days of programme completion. Training effectiveness must be evaluated within 60 days of completion for programmes exceeding 20 participants. Repeated failure to complete required learning within two assigned cycles may affect performance ratings."
+  },
+  "chunk_97": {
+    "chunk_index": 97,
+    "header": "LEARNING AND DEVELOPMENT",
+    "text": "Learning programmes costing above predefined thresholds must demonstrate measurable ROI indicators. Cross-functional development assignments exceeding 90 days require formal agreement. Participation in development activities must not reduce performance delivery below agreed baseline expectations. Employees in critical roles must complete at least 25% of required annual development by mid-year review."
+  },
+  "chunk_98": {
+    "chunk_index": 98,
+    "header": "LEARNING AND DEVELOPMENT",
+    "text": "External certifications funded by XYZ may require service commitment agreements. Learning data must be retained for at least 24 months. Development initiatives not demonstrating measurable improvement after two review cycles may be discontinued. Misrepresentation of training attendance constitutes misconduct."
+  },
+  "chunk_99": {
+    "chunk_index": 99,
+    "header": "LEADERSHIP",
+    "text": "Leaders must complete formal leadership development within 6 months of appointment. Leadership performance will be reviewed annually against defined behavioural and operational metrics. Leaders managing more than 10 direct or indirect reports must complete workforce planning review annually. Failure to address repeated misconduct within a team exceeding two documented incidents may trigger review of managerial capability."
+  },
+  "chunk_100": {
+    "chunk_index": 100,
+    "header": "LEADERSHIP",
+    "text": "Leadership succession plans must be reviewed at least once every 12 months. Leaders must hold structured one-to-one meetings with direct reports at least quarterly. Team turnover exceeding 15% annually may trigger leadership effectiveness assessment. Leaders must document performance improvement interventions for underperforming staff."
+  },
+  "chunk_101": {
+    "chunk_index": 101,
+    "header": "LEADERSHIP",
+    "text": "Decision-making authority exceeding defined budget thresholds must align with governance protocols. Leadership roles may require 360-degree feedback at least once every 24 months. Leaders must ensure mandatory compliance completion rates above 90% within their teams. Repeated escalation of unresolved team conflict may reflect leadership accountability."
+  },
+  "chunk_102": {
+    "chunk_index": 102,
+    "header": "LEADERSHIP",
+    "text": "Leaders must declare potential conflicts of interest in decision-making forums. Failure to implement required policy updates within 60 days may affect leadership evaluation. Leadership conduct inconsistent with organisational values may result in removal from role."
+  },
+  "chunk_103": {
+    "chunk_index": 103,
+    "header": "LINE MANAGER SUPPORT",
+    "text": "Newly appointed line managers must complete foundational management training within 90 days. Managers must consult HR before initiating formal disciplinary processes. Managers must conduct performance reviews at least annually for each direct report. Line managers overseeing more than 12 direct reports may require workload reassessment."
+  },
+  "chunk_104": {
+    "chunk_index": 104,
+    "header": "LINE MANAGER SUPPORT",
+    "text": "Escalated employee concerns must be acknowledged within 3 working days. Managers must document key performance conversations within 5 working days of occurrence. Repeated managerial non-compliance exceeding three documented instances in 12 months may trigger capability review. Managers must ensure team training completion rates meet organisational standards."
+  },
+  "chunk_105": {
+    "chunk_index": 105,
+    "header": "LINE MANAGER SUPPORT",
+    "text": "Support from HR must be provided within 5 working days of formal request. Managers must address absence threshold triggers in accordance with policy timelines. Line managers must not investigate complaints in which they are personally implicated. Manager performance metrics may include team engagement outcomes."
+  },
+  "chunk_106": {
+    "chunk_index": 106,
+    "header": "LINE MANAGER SUPPORT",
+    "text": "Managers must review flexible working arrangements every 6 months. Managers must identify high-potential talent annually. Failure to fulfil managerial duties may result in reassignment of supervisory responsibility."
+  },
+  "chunk_107": {
+    "chunk_index": 107,
+    "header": "MENOPAUSE",
+    "text": "Employees may request workplace adjustments related to menopause at any time. Adjustment requests should be acknowledged within 5 working days. Reasonable adjustment decisions should be confirmed within 15 working days unless further assessment is required. Managers must complete awareness training within 12 months of policy introduction."
+  },
+  "chunk_108": {
+    "chunk_index": 108,
+    "header": "MENOPAUSE",
+    "text": "Temporary flexibility arrangements may initially be granted for up to 3 months before review. Medical documentation may be requested where extended adjustments exceed 6 months. Employees must not be subjected to derogatory commentary regarding menopause-related symptoms. Performance management must consider disclosed health factors."
+  },
+  "chunk_109": {
+    "chunk_index": 109,
+    "header": "MENOPAUSE",
+    "text": "Confidential discussions must not be disclosed without consent. Adjustment reviews should occur at least every 6 months where active. Absence linked to menopause may be considered separately from general absence triggers. Managers must not make assumptions regarding capability based on age. Facilities adjustments may be implemented where feasible."
+  },
+  "chunk_110": {
+    "chunk_index": 110,
+    "header": "MENOPAUSE",
+    "text": "Repeated failure to implement agreed adjustments may trigger escalation. Retaliation for raising menopause-related concerns constitutes misconduct."
+  },
+  "chunk_111": {
+    "chunk_index": 111,
+    "header": "NEURODIVERSITY",
+    "text": "Neurodiversity adjustment requests must be assessed within 15 working days of disclosure. Recruitment processes may offer alternative assessment formats upon request. Interview accommodations must be confirmed at least 3 working days before scheduled interviews. Performance metrics may be adjusted where reasonable accommodation is agreed."
+  },
+  "chunk_112": {
+    "chunk_index": 112,
+    "header": "NEURODIVERSITY",
+    "text": "Disclosure information must remain confidential unless consent is given. Managers must complete neurodiversity awareness training within 12 months. Repeated failure to implement agreed accommodations exceeding two documented instances may trigger review. Assistive technologies may be provided subject to business approval."
+  },
+  "chunk_113": {
+    "chunk_index": 113,
+    "header": "NEURODIVERSITY",
+    "text": "Flexible scheduling adjustments may be trialled for up to 90 days before review. Sensory workspace modifications should be considered where feasible. Absence of formal medical diagnosis does not automatically invalidate adjustment consideration. Employees must not be compelled to disclose personal medical details beyond operational necessity."
+  },
+  "chunk_114": {
+    "chunk_index": 114,
+    "header": "NEURODIVERSITY",
+    "text": "Team training sessions may be conducted where inclusion concerns arise. Performance concerns must distinguish between capability and accommodation gaps. Retaliation for requesting accommodations constitutes misconduct."
+  },
+  "chunk_115": {
+    "chunk_index": 115,
+    "header": "ORGANISATIONAL CULTURE",
+    "text": "Culture surveys may be conducted at least once every 18 months. Cultural misalignment indicators exceeding defined thresholds must be reviewed. Leaders must communicate organisational values at least quarterly in team forums. Recognition programmes must align with documented behavioural standards. Repeated value violations exceeding two substantiated cases in 12 months may trigger culture intervention."
+  },
+  "chunk_116": {
+    "chunk_index": 116,
+    "header": "ORGANISATIONAL CULTURE",
+    "text": "Cultural change initiatives exceeding 6 months must demonstrate measurable impact. Onboarding programmes must include cultural orientation within the first 30 days. Behaviour inconsistent with stated values may impact performance evaluation. Culture champions may be designated within departments. Anonymous feedback channels must remain accessible year-round."
+  },
+  "chunk_117": {
+    "chunk_index": 117,
+    "header": "ORGANISATIONAL CULTURE",
+    "text": "Toxic behaviour patterns affecting more than 10% of a team may trigger leadership review. Recognition frequency should be monitored to prevent bias patterns. Cultural integration plans must accompany mergers or structural changes. Repeated ethical breaches may indicate cultural risk. Culture metrics may influence strategic planning decisions."
+  },
+  "chunk_118": {
+    "chunk_index": 118,
+    "header": "ORGANISATION DEVELOPMENT AND DESIGN",
+    "text": "Structural reviews must occur at least once every 24 months. Spans of control exceeding 1:12 (manager to direct reports) must be justified. Role redesign affecting more than 30% of responsibilities requires formal evaluation. Structural changes impacting more than 15% of workforce require executive approval."
+  },
+  "chunk_119": {
+    "chunk_index": 119,
+    "header": "ORGANISATION DEVELOPMENT AND DESIGN",
+    "text": "OD initiatives must include measurable success indicators defined prior to implementation. Structural pilots exceeding 6 months must be formalised or discontinued. Overlapping accountabilities identified in more than two internal audits must be resolved. Workflow redesign proposals must include resource impact assessment."
+  },
+  "chunk_120": {
+    "chunk_index": 120,
+    "header": "ORGANISATION DEVELOPMENT AND DESIGN",
+    "text": "Role consolidation reducing headcount by more than 5% must be documented. Organisation charts must be updated within 30 days of structural change. Critical role dependencies must be mapped annually. Design initiatives must include communication plans. Structural inefficiencies resulting in delivery delays exceeding 20% of project timelines must be reviewed."
+  },
+  "chunk_121": {
+    "chunk_index": 121,
+    "header": "ORGANISATION DEVELOPMENT AND DESIGN",
+    "text": "OD interventions must be reviewed 90 days post-implementation. Failure to align design decisions with strategy may trigger reassessment."
+  },
+  "chunk_122": {
+    "chunk_index": 122,
+    "header": "PEOPLE ANALYTICS",
+    "text": "People analytics reports must be produced at least quarterly. Predictive models influencing workforce decisions must undergo validation before deployment. Data sets exceeding 500 employee records must undergo privacy impact assessment. Predictive outputs indicating risk levels above predefined thresholds must be reviewed by HR."
+  },
+  "chunk_123": {
+    "chunk_index": 123,
+    "header": "PEOPLE ANALYTICS",
+    "text": "Analytics projects exceeding 6 months must demonstrate measurable value. Employee-level predictive risk scoring must not be used without managerial oversight. Algorithm bias checks must be conducted annually. Workforce attrition rates exceeding 12% annually must trigger deeper analysis. Engagement and performance data integration must comply with data governance policy."
+  },
+  "chunk_124": {
+    "chunk_index": 124,
+    "header": "PEOPLE ANALYTICS",
+    "text": "Access to analytics dashboards must be role-based. Data refresh cycles must be clearly defined and documented. Analytics influencing compensation decisions must be transparent. Statistical anomalies exceeding two standard deviations must be investigated. People analytics insights must be archived for at least 24 months."
+  },
+  "chunk_125": {
+    "chunk_index": 125,
+    "header": "PEOPLE ANALYTICS",
+    "text": "Misuse of workforce data for non-business purposes constitutes misconduct."
+  },
+  "chunk_126": {
+    "chunk_index": 126,
+    "header": "PERFORMANCE MANAGEMENT",
+    "text": "Performance objectives must be set within 30 days of the review cycle start. Mid-year reviews must occur within the defined performance window. Employees rated below \u201cmeets expectations\u201d must receive documented feedback within 5 working days. Performance Improvement Plans must normally span 60 to 90 days."
+  },
+  "chunk_127": {
+    "chunk_index": 127,
+    "header": "PERFORMANCE MANAGEMENT",
+    "text": "Failure to demonstrate improvement after two consecutive PIP cycles may result in termination review. Goals must include measurable metrics wherever feasible. Performance calibration sessions must occur annually. Ratings variance exceeding 15% between comparable teams may require moderation. Managers must conduct at least two documented performance discussions per year."
+  },
+  "chunk_128": {
+    "chunk_index": 128,
+    "header": "PERFORMANCE MANAGEMENT",
+    "text": "Employees may appeal ratings within 10 working days of notification. Repeated missed deadlines exceeding 3 critical milestones may trigger intervention. Performance documentation must be retained for 24 months. Bias indicators in ratings must be reviewed annually. Goal revisions exceeding 25% of scope must be documented."
+  },
+  "chunk_129": {
+    "chunk_index": 129,
+    "header": "PERFORMANCE MANAGEMENT",
+    "text": "Fabrication of performance records constitutes misconduct."
+  },
+  "chunk_130": {
+    "chunk_index": 130,
+    "header": "PRODUCTIVITY",
+    "text": "Productivity baselines must be defined at role level. Productivity decline exceeding 10% over two consecutive quarters may trigger review. Overtime exceeding 15% of contracted hours over 3 months requires workload assessment. Productivity monitoring tools must be disclosed prior to use. Continuous improvement initiatives must be reviewed quarterly."
+  },
+  "chunk_131": {
+    "chunk_index": 131,
+    "header": "PRODUCTIVITY",
+    "text": "Operational bottlenecks causing delays exceeding 20% of target timelines must be investigated. Employees must not be evaluated solely on quantitative output where qualitative measures apply. Productivity metrics must be reviewed annually for relevance. Sustained overperformance exceeding 120% of targets may require workload reassessment."
+  },
+  "chunk_132": {
+    "chunk_index": 132,
+    "header": "PRODUCTIVITY",
+    "text": "Efficiency gains exceeding 15% must be documented for benchmarking. Repeated underperformance exceeding 3 review cycles may trigger formal intervention. Process automation impact must be evaluated within 60 days. Team productivity variance exceeding 20% across similar units must be analysed. Productivity targets must not compromise compliance standards."
+  },
+  "chunk_133": {
+    "chunk_index": 133,
+    "header": "PRODUCTIVITY",
+    "text": "Manipulation of productivity data constitutes misconduct."
+  },
+  "chunk_134": {
+    "chunk_index": 134,
+    "header": "RECRUITMENT",
+    "text": "Job requisitions must include documented business justification. Vacancy approvals must align with workforce plan. Interview panels must include at least two decision-makers. Candidate evaluation forms must be completed immediately after interviews. Offers must be documented in writing. Recruitment processes exceeding 60 days must be reviewed."
+  },
+  "chunk_135": {
+    "chunk_index": 135,
+    "header": "RECRUITMENT",
+    "text": "Offer approvals exceeding salary bands require executive sign-off. Background verification must be completed before confirmation. Recruitment data must be retained for 12 months. Hiring manager feedback must be submitted within 3 working days. Referral hires must follow the same selection criteria. Internal candidates must be assessed objectively."
+  },
+  "chunk_136": {
+    "chunk_index": 136,
+    "header": "RECRUITMENT",
+    "text": "Vacancy closure must be formally documented. Recruitment cost per hire exceeding budget must be justified. Misrepresentation by candidates may result in withdrawal of offer."
+  },
+  "chunk_137": {
+    "chunk_index": 137,
+    "header": "REDUNDANCY",
+    "text": "Redundancy proposals affecting more than 5% of a unit must undergo executive review. Selection criteria must be documented before application. Consultation periods must normally last no less than 14 calendar days. Employees must receive written notice of redundancy decisions. Notice periods must align with employment terms."
+  },
+  "chunk_138": {
+    "chunk_index": 138,
+    "header": "REDUNDANCY",
+    "text": "Redeployment opportunities must be explored for at least 30 days. Redundancy selection scoring must be recorded. Appeals must be lodged within 10 working days. Severance calculations must follow documented formula. Redundancy documentation must be retained for 36 months. Voluntary redundancy schemes must be approved centrally."
+  },
+  "chunk_139": {
+    "chunk_index": 139,
+    "header": "REDUNDANCY",
+    "text": "Communication must occur before public announcement. Managers must not pre-select individuals prior to criteria review. Redundancy impact on diversity metrics must be assessed. Failure to follow procedure may invalidate decision."
+  },
+  "chunk_140": {
+    "chunk_index": 140,
+    "header": "REWARD",
+    "text": "Salary bands must be reviewed annually. Pay adjustments exceeding 10% require executive approval. Bonus eligibility criteria must be documented at cycle start. Variable pay exceeding defined thresholds must align with performance ratings. Pay equity analysis must occur annually. Off-cycle increases require documented justification."
+  },
+  "chunk_141": {
+    "chunk_index": 141,
+    "header": "REWARD",
+    "text": "Benefits eligibility must be communicated in writing. Incentive plan changes must be announced before implementation. Compensation data must be confidential. Misrepresentation of eligibility constitutes misconduct. Commission structures must include clear calculation formulas. Reward budgets must align with financial planning."
+  },
+  "chunk_142": {
+    "chunk_index": 142,
+    "header": "REWARD",
+    "text": "Exceptional performance awards exceeding predefined limits require approval. Benefit misuse may result in recovery. Reward appeals must be submitted within 15 working days."
+  },
+  "chunk_143": {
+    "chunk_index": 143,
+    "header": "SKILLS DEVELOPMENT",
+    "text": "Critical skills gaps must be identified annually. Reskilling programmes exceeding 3 months must have defined outcomes. Skill assessments must occur at least once every 18 months. Skills obsolescence risk exceeding defined thresholds must trigger intervention. Learning completion rates below 70% may require escalation."
+  },
+  "chunk_144": {
+    "chunk_index": 144,
+    "header": "SKILLS DEVELOPMENT",
+    "text": "Skill certification expiry must be tracked. Cross-training participation should cover at least 15% of workforce annually. Technical upskilling budgets must be allocated annually. Skills matrices must be updated every 12 months. Failure to complete mandatory upskilling may affect eligibility for promotion."
+  },
+  "chunk_145": {
+    "chunk_index": 145,
+    "header": "SKILLS DEVELOPMENT",
+    "text": "External training must align with identified skill gaps. Skills investment ROI must be evaluated. Repeated capability deficits exceeding two cycles may trigger redesign. Emerging skill requirements must be reviewed quarterly. Falsification of credentials constitutes misconduct."
+  },
+  "chunk_146": {
+    "chunk_index": 146,
+    "header": "TALENT MANAGEMENT",
+    "text": "Succession plans must cover all critical roles annually. High-potential identification must follow documented criteria. Talent review meetings must occur annually. Turnover exceeding 12% among high performers must trigger review. Retention risk scoring must be validated before action. Internal mobility targets may be defined annually."
+  },
+  "chunk_147": {
+    "chunk_index": 147,
+    "header": "TALENT MANAGEMENT",
+    "text": "Career path documentation must be accessible. Talent pools must be reviewed every 6 months. External hiring for critical roles must consider internal candidates first. Talent data must be confidential. Development plans must be documented. Promotion readiness assessments must be evidence-based. Repeated loss of critical talent may require leadership review."
+  },
+  "chunk_148": {
+    "chunk_index": 148,
+    "header": "TALENT MANAGEMENT",
+    "text": "Retention incentives exceeding defined limits require approval. Talent decisions must align with workforce planning."
+  },
+  "chunk_149": {
+    "chunk_index": 149,
+    "header": "TECHNOLOGY",
+    "text": "System access must be role-based. Password updates required every 90 days. Unauthorised software installation is prohibited. Data downloads exceeding defined thresholds require approval. Security incidents must be reported within 12 hours. System downtime exceeding 4 hours must be communicated. Personal devices must meet security standards."
+  },
+  "chunk_150": {
+    "chunk_index": 150,
+    "header": "TECHNOLOGY",
+    "text": "Access revocation must occur within 24 hours of termination. Technology audits must occur annually. Repeated policy breaches exceeding two instances may trigger review. AI tools must comply with AI policy. Encryption required for sensitive data. Usage logs retained for 12 months. Remote access must use secure authentication."
+  },
+  "chunk_151": {
+    "chunk_index": 151,
+    "header": "TECHNOLOGY",
+    "text": "Misuse of systems constitutes misconduct."
+  },
+  "chunk_152": {
+    "chunk_index": 152,
+    "header": "WELLBEING",
+    "text": "Wellbeing surveys conducted annually. Absence linked to stress exceeding 10% of cases must be reviewed. Overtime exceeding 20% over 3 months may trigger wellbeing check. Employee assistance access must be available confidentially. Managers must complete wellbeing awareness training annually. Critical incident support must be offered within 48 hours."
+  },
+  "chunk_153": {
+    "chunk_index": 153,
+    "header": "WELLBEING",
+    "text": "Burnout indicators exceeding defined thresholds must be assessed. Flexible support plans may last up to 90 days before review. Health-related disclosures handled confidentially. Repeated wellbeing complaints exceeding two instances may trigger review. Mental health days may be taken subject to approval."
+  },
+  "chunk_154": {
+    "chunk_index": 154,
+    "header": "WELLBEING",
+    "text": "Wellbeing initiatives evaluated annually. Unsafe workload conditions must be escalated. Retaliation for raising wellbeing concerns is prohibited. Wellbeing metrics may influence leadership evaluation."
+  },
+  "chunk_155": {
+    "chunk_index": 155,
+    "header": "WORKFORCE PLANNING",
+    "text": "Workforce plans updated annually. Headcount forecasts must cover at least 12 months. Skill gap projections must be documented. Vacancy rates exceeding 8% may trigger recruitment acceleration. Succession coverage for critical roles must reach defined levels. Contingency staffing plans must exist for key functions."
+  },
+  "chunk_156": {
+    "chunk_index": 156,
+    "header": "WORKFORCE PLANNING",
+    "text": "Workforce cost projections must align with budget. Attrition trends reviewed quarterly. Workforce scenarios must consider automation impact. Planning assumptions documented. Temporary staffing exceeding 15% may require review. Capacity risk exceeding defined threshold escalated. Workforce dashboards reviewed quarterly."
+  },
+  "chunk_157": {
+    "chunk_index": 157,
+    "header": "WORKFORCE PLANNING",
+    "text": "Critical vacancy duration exceeding 60 days escalated. Planning decisions documented."
+  },
+  "chunk_158": {
+    "chunk_index": 158,
+    "header": "WORKFORCE TRENDS",
+    "text": "Trend analysis conducted at least annually. Emerging skill demand exceeding 10% increase must be assessed. Attrition trend shifts exceeding 5% year-over-year reviewed. Remote work preference trends monitored semi-annually. Compensation benchmarking reviewed annually. Demographic shifts exceeding 8% must be analysed."
+  },
+  "chunk_159": {
+    "chunk_index": 159,
+    "header": "WORKFORCE TRENDS",
+    "text": "Automation adoption impact reviewed annually. Talent supply shortages documented. Competitive hiring trends assessed quarterly. Workforce risk indicators tracked. Industry disruption signals escalated to leadership. Policy updates may follow trend analysis. Learning investments aligned to trends. Scenario modelling conducted annually."
+  },
+  "chunk_160": {
+    "chunk_index": 160,
+    "header": "WORKFORCE TRENDS",
+    "text": "Strategic workforce adjustments documented. This completes coverage of all original topics."
+  }
+}

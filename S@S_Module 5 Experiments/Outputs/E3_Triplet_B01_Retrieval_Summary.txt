@@ -1,0 +1,180 @@
+================================================================================
+B01 — COMPLETE RETRIEVAL OUTPUT
+================================================================================
+
+Query File       : Questions_B01_150.csv
+Embedding Model  : E3 — Triplet
+Base Architecture: sentence-transformers/all-MiniLM-L6-v2
+Corpus Vectors   : 161
+Corpus Dimension : 384
+Top-K            : 5
+HIGH Threshold   : >= 0.75
+MEDIUM Threshold : >= 0.60 and < 0.75
+LOW Threshold    : < 0.60
+
+================================================================================
+AGGREGATE RETRIEVAL STATISTICS
+================================================================================
+
+Total Questions          : 150
+Corpus Vectors           : 161
+Corpus Dimensions        : 384
+Top-K                    : 5
+Total Retrieved Chunks   : 750
+
+ALL RETRIEVED RESULTS
+---------------------
+Minimum Cosine          : 0.337506
+Maximum Cosine          : 0.879349
+Mean Cosine             : 0.530378
+Median Cosine           : 0.517185
+
+RANK-WISE RETRIEVAL STATISTICS
+------------------------------
+Rank 1: Mean=0.634704, Median=0.634549, Min=0.390187, Max=0.879349
+Rank 2: Mean=0.550302, Median=0.549200, Min=0.383992, Max=0.744402
+Rank 3: Mean=0.512108, Median=0.507799, Min=0.371123, Max=0.682894
+Rank 4: Mean=0.486858, Median=0.485054, Min=0.356612, Max=0.662355
+Rank 5: Mean=0.467919, Median=0.468067, Min=0.337506, Max=0.614044
+
+QUESTION-LEVEL RETRIEVAL CLASSIFICATION
+----------------------------------------
+HIGH   (>= 0.75) :   18 questions (12.00%)
+MEDIUM (0.60–0.75) :   79 questions (52.67%)
+LOW    (< 0.60) :   53 questions (35.33%)
+
+TOP-1 SCORE STATISTICS
+----------------------
+Minimum Top-1 Score     : 0.390187
+Maximum Top-1 Score     : 0.879349
+Mean Top-1 Score        : 0.634704
+Median Top-1 Score      : 0.634549
+
+RANK-1 / RANK-2 GAP STATISTICS
+-------------------------------
+Minimum Gap             : 0.000220
+Maximum Gap             : 0.349104
+Mean Gap                : 0.084402
+Median Gap              : 0.075148
+
+================================================================================
+EXPLICIT INTERVENTION BENCHMARK CASES
+================================================================================
+
+Q56: What assessment may be required for employees absent due to medical reasons for more than 45 calendar days?
+
+RETRIEVED TOP-5
+----------------
+Rank 1: chunk_2 (Cosine=0.808808)
+Rank 2: chunk_0 (Cosine=0.627885)
+Rank 3: chunk_1 (Cosine=0.550527)
+Rank 4: chunk_48 (Cosine=0.544643)
+Rank 5: chunk_3 (Cosine=0.540612)
+
+Rank-1 / Rank-2 Gap : 0.180923
+
+INTERVENTION MATRIX RELATIONSHIPS
+----------------------------------
+Contrastive : ['chunk_2', 'chunk_4']
+Triplet     : ['chunk_2', 'chunk_4']
+InfoNCE     : ['chunk_2']
+Hard Negative : ['chunk_4']
+Angular Margin : ['chunk_2']
+
+Q103: What must be disclosed when behavioural incentives are designed using behavioural triggers?
+
+RETRIEVED TOP-5
+----------------
+Rank 1: chunk_21 (Cosine=0.753506)
+Rank 2: chunk_24 (Cosine=0.562342)
+Rank 3: chunk_22 (Cosine=0.478639)
+Rank 4: chunk_23 (Cosine=0.476076)
+Rank 5: chunk_25 (Cosine=0.474773)
+
+Rank-1 / Rank-2 Gap : 0.191164
+
+INTERVENTION MATRIX RELATIONSHIPS
+----------------------------------
+Contrastive : ['chunk_21', 'chunk_141']
+Triplet     : ['chunk_21', 'chunk_141']
+InfoNCE     : ['chunk_21']
+Hard Negative : []
+Angular Margin : ['chunk_21']
+
+Q108: What must occur if an AI system shows an error rate exceeding five percent in audit sampling?
+
+RETRIEVED TOP-5
+----------------
+Rank 1: chunk_17 (Cosine=0.594869)
+Rank 2: chunk_16 (Cosine=0.468900)
+Rank 3: chunk_150 (Cosine=0.457571)
+Rank 4: chunk_18 (Cosine=0.401072)
+Rank 5: chunk_20 (Cosine=0.396224)
+
+Rank-1 / Rank-2 Gap : 0.125969
+
+INTERVENTION MATRIX RELATIONSHIPS
+----------------------------------
+Contrastive : ['chunk_17']
+Triplet     : ['chunk_17']
+InfoNCE     : ['chunk_17']
+Hard Negative : []
+Angular Margin : ['chunk_17']
+
+Q112: What percentage of structured learning exposure must apprenticeship training plans include?
+
+RETRIEVED TOP-5
+----------------
+Rank 1: chunk_11 (Cosine=0.734605)
+Rank 2: chunk_95 (Cosine=0.396114)
+Rank 3: chunk_96 (Cosine=0.391806)
+Rank 4: chunk_144 (Cosine=0.376589)
+Rank 5: chunk_44 (Cosine=0.361368)
+
+Rank-1 / Rank-2 Gap : 0.338491
+
+INTERVENTION MATRIX RELATIONSHIPS
+----------------------------------
+Contrastive : ['chunk_11', 'chunk_97']
+Triplet     : ['chunk_11', 'chunk_97']
+InfoNCE     : ['chunk_11']
+Hard Negative : ['chunk_97']
+Angular Margin : ['chunk_11']
+
+Q148: Within how many working days must governance breaches be reported after discovery?
+
+RETRIEVED TOP-5
+----------------
+Rank 1: chunk_40 (Cosine=0.835727)
+Rank 2: chunk_77 (Cosine=0.626982)
+Rank 3: chunk_42 (Cosine=0.610703)
+Rank 4: chunk_26 (Cosine=0.599137)
+Rank 5: chunk_38 (Cosine=0.557805)
+
+Rank-1 / Rank-2 Gap : 0.208745
+
+INTERVENTION MATRIX RELATIONSHIPS
+----------------------------------
+Contrastive : ['chunk_40', 'chunk_43']
+Triplet     : ['chunk_40', 'chunk_43']
+InfoNCE     : ['chunk_40']
+Hard Negative : ['chunk_43']
+Angular Margin : ['chunk_40']
+
+================================================================================
+GEOMETRY-RELATED NUMERICAL SUMMARY
+================================================================================
+
+The following measurements describe the observed retrieval geometry.
+They are reported without assigning a quality interpretation.
+
+Mean Top-1 Cosine       : 0.634704
+Median Top-1 Cosine     : 0.634549
+Mean Rank-1/Rank-2 Gap  : 0.084402
+Median Rank-1/Rank-2 Gap: 0.075148
+Top-1 Cosine Std        : 0.086971
+Top-5 Cosine Std        : 0.091441
+
+================================================================================
+END OF B01 RETRIEVAL OUTPUT
+================================================================================

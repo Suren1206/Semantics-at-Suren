@@ -1,0 +1,501 @@
+Question_ID,Question_Type,Question,Representation,Rank,Chunk_ID,Cosine_Score,Rank1_Rank2_Gap,Top1_Chunk,Top1_Score
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Raw,1,chunk_0,0.8193071792037042,0.005537307267025393,chunk_0,0.8193071792037042
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Raw,2,chunk_2,0.8137698719366788,0.005537307267025393,chunk_0,0.8193071792037042
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Raw,3,chunk_1,0.7056070750245571,0.005537307267025393,chunk_0,0.8193071792037042
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Raw,4,chunk_7,0.6065981531013399,0.005537307267025393,chunk_0,0.8193071792037042
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Raw,5,chunk_6,0.6032089351484463,0.005537307267025393,chunk_0,0.8193071792037042
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Mean-centered,1,chunk_0,0.567075332906571,0.05565529891908205,chunk_0,0.567075332906571
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Mean-centered,2,chunk_2,0.5114200339874889,0.05565529891908205,chunk_0,0.567075332906571
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Mean-centered,3,chunk_1,0.37245517155346053,0.05565529891908205,chunk_0,0.567075332906571
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Mean-centered,4,chunk_7,0.23526233395935137,0.05565529891908205,chunk_0,0.567075332906571
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Mean-centered,5,chunk_6,0.22548303773617287,0.05565529891908205,chunk_0,0.567075332906571
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Whitened,1,chunk_0,0.9017426339419718,0.12787019274475686,chunk_0,0.9017426339419718
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Whitened,2,chunk_2,0.773872441197215,0.12787019274475686,chunk_0,0.9017426339419718
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Whitened,3,chunk_1,0.6547135147746074,0.12787019274475686,chunk_0,0.9017426339419718
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Whitened,4,chunk_7,0.29785731918252467,0.12787019274475686,chunk_0,0.9017426339419718
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Whitened,5,chunk_6,0.23562935653239822,0.12787019274475686,chunk_0,0.9017426339419718
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Intrinsic-dimensionality-reduced,1,chunk_0,0.9497737220042977,0.1082169825702769,chunk_0,0.9497737220042977
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Intrinsic-dimensionality-reduced,2,chunk_1,0.8415567394340208,0.1082169825702769,chunk_0,0.9497737220042977
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Intrinsic-dimensionality-reduced,3,chunk_2,0.8412660468965237,0.1082169825702769,chunk_0,0.9497737220042977
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Intrinsic-dimensionality-reduced,4,chunk_7,0.46749044793815037,0.1082169825702769,chunk_0,0.9497737220042977
+1,Directly answerable / simple — 20,What mechanisms does TCP use to provide reliable delivery? ,Intrinsic-dimensionality-reduced,5,chunk_6,0.46225840759547143,0.1082169825702769,chunk_0,0.9497737220042977
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Raw,1,chunk_2,0.8046172305460343,0.0008676148657790206,chunk_2,0.8046172305460343
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Raw,2,chunk_1,0.8037496156802553,0.0008676148657790206,chunk_2,0.8046172305460343
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Raw,3,chunk_0,0.7302667570498783,0.0008676148657790206,chunk_2,0.8046172305460343
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Raw,4,chunk_3,0.5599407932470261,0.0008676148657790206,chunk_2,0.8046172305460343
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Raw,5,chunk_7,0.542206079071081,0.0008676148657790206,chunk_2,0.8046172305460343
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Mean-centered,1,chunk_1,0.5643504866157582,0.012703548026507527,chunk_1,0.5643504866157582
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Mean-centered,2,chunk_2,0.5516469385892506,0.012703548026507527,chunk_1,0.5643504866157582
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Mean-centered,3,chunk_0,0.4919541539569089,0.012703548026507527,chunk_1,0.5643504866157582
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Mean-centered,4,chunk_3,0.22163101910072863,0.012703548026507527,chunk_1,0.5643504866157582
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Mean-centered,5,chunk_7,0.20024985625648756,0.012703548026507527,chunk_1,0.5643504866157582
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Whitened,1,chunk_1,0.887707900990228,0.006203854892763205,chunk_1,0.887707900990228
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Whitened,2,chunk_0,0.8815040460974648,0.006203854892763205,chunk_1,0.887707900990228
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Whitened,3,chunk_2,0.8392704992192278,0.006203854892763205,chunk_1,0.887707900990228
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Whitened,4,chunk_6,0.22145428419945548,0.006203854892763205,chunk_1,0.887707900990228
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Whitened,5,chunk_7,0.19384374853813235,0.006203854892763205,chunk_1,0.887707900990228
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Intrinsic-dimensionality-reduced,1,chunk_1,0.9393854806759894,0.007373538347506092,chunk_1,0.9393854806759894
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Intrinsic-dimensionality-reduced,2,chunk_0,0.9320119423284833,0.007373538347506092,chunk_1,0.9393854806759894
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Intrinsic-dimensionality-reduced,3,chunk_2,0.9031935996652688,0.007373538347506092,chunk_1,0.9393854806759894
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Intrinsic-dimensionality-reduced,4,chunk_7,0.40780570248947284,0.007373538347506092,chunk_1,0.9393854806759894
+2,Directly answerable / simple — 20,What is the main difference between TCP and UDP? ,Intrinsic-dimensionality-reduced,5,chunk_6,0.39516367410025427,0.007373538347506092,chunk_1,0.9393854806759894
+3,Directly answerable / simple — 20,What does DNS translate? ,Raw,1,chunk_5,0.7056514593983655,0.11474797543165394,chunk_5,0.7056514593983655
+3,Directly answerable / simple — 20,What does DNS translate? ,Raw,2,chunk_3,0.5909034839667116,0.11474797543165394,chunk_5,0.7056514593983655
+3,Directly answerable / simple — 20,What does DNS translate? ,Raw,3,chunk_4,0.5348868790478473,0.11474797543165394,chunk_5,0.7056514593983655
+3,Directly answerable / simple — 20,What does DNS translate? ,Raw,4,chunk_6,0.530479227600008,0.11474797543165394,chunk_5,0.7056514593983655
+3,Directly answerable / simple — 20,What does DNS translate? ,Raw,5,chunk_9,0.5261306567202652,0.11474797543165394,chunk_5,0.7056514593983655
+3,Directly answerable / simple — 20,What does DNS translate? ,Mean-centered,1,chunk_5,0.43843868089122,0.15564485614842927,chunk_5,0.43843868089122
+3,Directly answerable / simple — 20,What does DNS translate? ,Mean-centered,2,chunk_3,0.28279382474279074,0.15564485614842927,chunk_5,0.43843868089122
+3,Directly answerable / simple — 20,What does DNS translate? ,Mean-centered,3,chunk_4,0.2084124846680282,0.15564485614842927,chunk_5,0.43843868089122
+3,Directly answerable / simple — 20,What does DNS translate? ,Mean-centered,4,chunk_6,0.1981294470227207,0.15564485614842927,chunk_5,0.43843868089122
+3,Directly answerable / simple — 20,What does DNS translate? ,Mean-centered,5,chunk_9,0.18899753399924074,0.15564485614842927,chunk_5,0.43843868089122
+3,Directly answerable / simple — 20,What does DNS translate? ,Whitened,1,chunk_5,0.7800948924288884,0.1338162431866331,chunk_5,0.7800948924288884
+3,Directly answerable / simple — 20,What does DNS translate? ,Whitened,2,chunk_3,0.6462786492422553,0.1338162431866331,chunk_5,0.7800948924288884
+3,Directly answerable / simple — 20,What does DNS translate? ,Whitened,3,chunk_6,0.29403459467474974,0.1338162431866331,chunk_5,0.7800948924288884
+3,Directly answerable / simple — 20,What does DNS translate? ,Whitened,4,chunk_4,0.2799607286043031,0.1338162431866331,chunk_5,0.7800948924288884
+3,Directly answerable / simple — 20,What does DNS translate? ,Whitened,5,chunk_37,0.27890791678912713,0.1338162431866331,chunk_5,0.7800948924288884
+3,Directly answerable / simple — 20,What does DNS translate? ,Intrinsic-dimensionality-reduced,1,chunk_5,0.7944047035022072,0.08011315378946782,chunk_5,0.7944047035022072
+3,Directly answerable / simple — 20,What does DNS translate? ,Intrinsic-dimensionality-reduced,2,chunk_3,0.7142915497127393,0.08011315378946782,chunk_5,0.7944047035022072
+3,Directly answerable / simple — 20,What does DNS translate? ,Intrinsic-dimensionality-reduced,3,chunk_6,0.4636822137259307,0.08011315378946782,chunk_5,0.7944047035022072
+3,Directly answerable / simple — 20,What does DNS translate? ,Intrinsic-dimensionality-reduced,4,chunk_4,0.45289723877022314,0.08011315378946782,chunk_5,0.7944047035022072
+3,Directly answerable / simple — 20,What does DNS translate? ,Intrinsic-dimensionality-reduced,5,chunk_9,0.3942215827455447,0.08011315378946782,chunk_5,0.7944047035022072
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Raw,1,chunk_4,0.7738272324022841,0.07876695637154141,chunk_4,0.7738272324022841
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Raw,2,chunk_7,0.6950602760307427,0.07876695637154141,chunk_4,0.7738272324022841
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Raw,3,chunk_9,0.6772610300962385,0.07876695637154141,chunk_4,0.7738272324022841
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Raw,4,chunk_0,0.629529677559349,0.07876695637154141,chunk_4,0.7738272324022841
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Raw,5,chunk_3,0.6268818238901218,0.07876695637154141,chunk_4,0.7738272324022841
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Mean-centered,1,chunk_4,0.5041007889403374,0.11077242074175353,chunk_4,0.5041007889403374
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Mean-centered,2,chunk_7,0.39332836819858386,0.11077242074175353,chunk_4,0.5041007889403374
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Mean-centered,3,chunk_9,0.3528405091415752,0.11077242074175353,chunk_4,0.5041007889403374
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Mean-centered,4,chunk_0,0.3169236042941836,0.11077242074175353,chunk_4,0.5041007889403374
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Mean-centered,5,chunk_3,0.29202537341914364,0.11077242074175353,chunk_4,0.5041007889403374
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Whitened,1,chunk_4,0.8693525749220988,0.30565022104782746,chunk_4,0.8693525749220988
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Whitened,2,chunk_7,0.5637023538742714,0.30565022104782746,chunk_4,0.8693525749220988
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Whitened,3,chunk_9,0.44858465889501414,0.30565022104782746,chunk_4,0.8693525749220988
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Whitened,4,chunk_27,0.3066780214009368,0.30565022104782746,chunk_4,0.8693525749220988
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Whitened,5,chunk_3,0.2978639574971316,0.30565022104782746,chunk_4,0.8693525749220988
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Intrinsic-dimensionality-reduced,1,chunk_4,0.8849607203149631,0.18451416915820695,chunk_4,0.8849607203149631
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Intrinsic-dimensionality-reduced,2,chunk_7,0.7004465511567561,0.18451416915820695,chunk_4,0.8849607203149631
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Intrinsic-dimensionality-reduced,3,chunk_9,0.642857173823412,0.18451416915820695,chunk_4,0.8849607203149631
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Intrinsic-dimensionality-reduced,4,chunk_3,0.5808886380474562,0.18451416915820695,chunk_4,0.8849607203149631
+4,Directly answerable / simple — 20,What determines how packets are forwarded across a network? ,Intrinsic-dimensionality-reduced,5,chunk_0,0.5608053091951036,0.18451416915820695,chunk_4,0.8849607203149631
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Raw,1,chunk_7,0.8905293848592745,0.27853349982105,chunk_7,0.8905293848592745
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Raw,2,chunk_8,0.6119958850382244,0.27853349982105,chunk_7,0.8905293848592745
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Raw,3,chunk_4,0.6117712335209722,0.27853349982105,chunk_7,0.8905293848592745
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Raw,4,chunk_0,0.607439562615348,0.27853349982105,chunk_7,0.8905293848592745
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Raw,5,chunk_1,0.5621620511472278,0.27853349982105,chunk_7,0.8905293848592745
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Mean-centered,1,chunk_7,0.6775069269698358,0.38448591971853624,chunk_7,0.6775069269698358
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Mean-centered,2,chunk_0,0.2930210072512996,0.38448591971853624,chunk_7,0.6775069269698358
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Mean-centered,3,chunk_4,0.2839510709084206,0.38448591971853624,chunk_7,0.6775069269698358
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Mean-centered,4,chunk_8,0.27243537798829937,0.38448591971853624,chunk_7,0.6775069269698358
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Mean-centered,5,chunk_1,0.21271889612550643,0.38448591971853624,chunk_7,0.6775069269698358
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Whitened,1,chunk_7,0.9306138808934845,0.4852008039233744,chunk_7,0.9306138808934845
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Whitened,2,chunk_45,0.4454130769701101,0.4852008039233744,chunk_7,0.9306138808934845
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Whitened,3,chunk_4,0.3822771205586453,0.4852008039233744,chunk_7,0.9306138808934845
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Whitened,4,chunk_8,0.2888139744120683,0.4852008039233744,chunk_7,0.9306138808934845
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Whitened,5,chunk_3,0.24420395488896,0.4852008039233744,chunk_7,0.9306138808934845
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Intrinsic-dimensionality-reduced,1,chunk_7,0.9408059607583501,0.37705369270523326,chunk_7,0.9408059607583501
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Intrinsic-dimensionality-reduced,2,chunk_4,0.5637522680531168,0.37705369270523326,chunk_7,0.9408059607583501
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Intrinsic-dimensionality-reduced,3,chunk_8,0.5079146662429892,0.37705369270523326,chunk_7,0.9408059607583501
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Intrinsic-dimensionality-reduced,4,chunk_0,0.477730966932218,0.37705369270523326,chunk_7,0.9408059607583501
+5,Directly answerable / simple — 20,How does a firewall control network traffic? ,Intrinsic-dimensionality-reduced,5,chunk_3,0.40245242875762804,0.37705369270523326,chunk_7,0.9408059607583501
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Raw,1,chunk_9,0.8680495073004788,0.20590610056977254,chunk_9,0.8680495073004788
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Raw,2,chunk_8,0.6621434067307063,0.20590610056977254,chunk_9,0.8680495073004788
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Raw,3,chunk_4,0.5532713290920186,0.20590610056977254,chunk_9,0.8680495073004788
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Raw,4,chunk_7,0.5306611065728447,0.20590610056977254,chunk_9,0.8680495073004788
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Raw,5,chunk_3,0.5219292112127768,0.20590610056977254,chunk_9,0.8680495073004788
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Mean-centered,1,chunk_9,0.6274196646688388,0.2772317465434437,chunk_9,0.6274196646688388
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Mean-centered,2,chunk_8,0.3501879181253951,0.2772317465434437,chunk_9,0.6274196646688388
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Mean-centered,3,chunk_4,0.21287654091290856,0.2772317465434437,chunk_9,0.6274196646688388
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Mean-centered,4,chunk_7,0.18121902604075127,0.2772317465434437,chunk_9,0.6274196646688388
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Mean-centered,5,chunk_0,0.1744351399383702,0.2772317465434437,chunk_9,0.6274196646688388
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Whitened,1,chunk_9,0.9649538938989196,0.357737698668941,chunk_9,0.9649538938989196
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Whitened,2,chunk_8,0.6072161952299786,0.357737698668941,chunk_9,0.9649538938989196
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Whitened,3,chunk_4,0.41888841122345943,0.357737698668941,chunk_9,0.9649538938989196
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Whitened,4,chunk_43,0.2185754687392033,0.357737698668941,chunk_9,0.9649538938989196
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Whitened,5,chunk_17,0.14540866061277666,0.357737698668941,chunk_9,0.9649538938989196
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Intrinsic-dimensionality-reduced,1,chunk_9,0.9393076893122025,0.24290602556420116,chunk_9,0.9393076893122025
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Intrinsic-dimensionality-reduced,2,chunk_8,0.6964016637480014,0.24290602556420116,chunk_9,0.9393076893122025
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Intrinsic-dimensionality-reduced,3,chunk_4,0.49213634666549033,0.24290602556420116,chunk_9,0.9393076893122025
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Intrinsic-dimensionality-reduced,4,chunk_3,0.390265747190159,0.24290602556420116,chunk_9,0.9393076893122025
+6,Directly answerable / simple — 20,What factors can contribute to network latency? ,Intrinsic-dimensionality-reduced,5,chunk_0,0.3495954224768128,0.24290602556420116,chunk_9,0.9393076893122025
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Raw,1,chunk_15,0.8648924223056432,0.18038882709153503,chunk_15,0.8648924223056432
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Raw,2,chunk_14,0.6845035952141082,0.18038882709153503,chunk_15,0.8648924223056432
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Raw,3,chunk_13,0.6061430841336666,0.18038882709153503,chunk_15,0.8648924223056432
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Raw,4,chunk_17,0.5170496694275957,0.18038882709153503,chunk_15,0.8648924223056432
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Raw,5,chunk_10,0.45974540947570375,0.18038882709153503,chunk_15,0.8648924223056432
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Mean-centered,1,chunk_15,0.6394842578888207,0.21985395981736283,chunk_15,0.6394842578888207
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Mean-centered,2,chunk_14,0.41963029807145785,0.21985395981736283,chunk_15,0.6394842578888207
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Mean-centered,3,chunk_13,0.3037632535563256,0.21985395981736283,chunk_15,0.6394842578888207
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Mean-centered,4,chunk_17,0.18560749627574835,0.21985395981736283,chunk_15,0.6394842578888207
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Mean-centered,5,chunk_10,0.12180322800896012,0.21985395981736283,chunk_15,0.6394842578888207
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Whitened,1,chunk_15,0.9367359207833942,0.20509817932219165,chunk_15,0.9367359207833942
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Whitened,2,chunk_14,0.7316377414612025,0.20509817932219165,chunk_15,0.9367359207833942
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Whitened,3,chunk_13,0.6446499010229095,0.20509817932219165,chunk_15,0.9367359207833942
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Whitened,4,chunk_6,0.18180688408386783,0.20509817932219165,chunk_15,0.9367359207833942
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Whitened,5,chunk_49,0.16546370063954313,0.20509817932219165,chunk_15,0.9367359207833942
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Intrinsic-dimensionality-reduced,1,chunk_15,0.9401023276458335,0.13323752312625237,chunk_15,0.9401023276458335
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Intrinsic-dimensionality-reduced,2,chunk_14,0.8068648045195811,0.13323752312625237,chunk_15,0.9401023276458335
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Intrinsic-dimensionality-reduced,3,chunk_13,0.6716915204179884,0.13323752312625237,chunk_15,0.9401023276458335
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Intrinsic-dimensionality-reduced,4,chunk_17,0.2937943680202483,0.13323752312625237,chunk_15,0.9401023276458335
+7,Directly answerable / simple — 20,What is the difference between stocks and bonds? ,Intrinsic-dimensionality-reduced,5,chunk_10,0.25274534489815514,0.13323752312625237,chunk_15,0.9401023276458335
+8,Directly answerable / simple — 20,What is credit risk? ,Raw,1,chunk_16,0.8668853239046788,0.16532359491661974,chunk_16,0.8668853239046788
+8,Directly answerable / simple — 20,What is credit risk? ,Raw,2,chunk_17,0.701561728988059,0.16532359491661974,chunk_16,0.8668853239046788
+8,Directly answerable / simple — 20,What is credit risk? ,Raw,3,chunk_12,0.5849049764633323,0.16532359491661974,chunk_16,0.8668853239046788
+8,Directly answerable / simple — 20,What is credit risk? ,Raw,4,chunk_14,0.5676031839817995,0.16532359491661974,chunk_16,0.8668853239046788
+8,Directly answerable / simple — 20,What is credit risk? ,Raw,5,chunk_15,0.5384038731654257,0.16532359491661974,chunk_16,0.8668853239046788
+8,Directly answerable / simple — 20,What is credit risk? ,Mean-centered,1,chunk_16,0.5975841836079104,0.22743557237146617,chunk_16,0.5975841836079104
+8,Directly answerable / simple — 20,What is credit risk? ,Mean-centered,2,chunk_17,0.37014861123644427,0.22743557237146617,chunk_16,0.5975841836079104
+8,Directly answerable / simple — 20,What is credit risk? ,Mean-centered,3,chunk_12,0.2220535793601233,0.22743557237146617,chunk_16,0.5975841836079104
+8,Directly answerable / simple — 20,What is credit risk? ,Mean-centered,4,chunk_14,0.20176952341344762,0.22743557237146617,chunk_16,0.5975841836079104
+8,Directly answerable / simple — 20,What is credit risk? ,Mean-centered,5,chunk_15,0.15706538217437394,0.22743557237146617,chunk_16,0.5975841836079104
+8,Directly answerable / simple — 20,What is credit risk? ,Whitened,1,chunk_16,0.9075485041208424,0.32059967860835914,chunk_16,0.9075485041208424
+8,Directly answerable / simple — 20,What is credit risk? ,Whitened,2,chunk_17,0.5869488255124833,0.32059967860835914,chunk_16,0.9075485041208424
+8,Directly answerable / simple — 20,What is credit risk? ,Whitened,3,chunk_36,0.4010589834075341,0.32059967860835914,chunk_16,0.9075485041208424
+8,Directly answerable / simple — 20,What is credit risk? ,Whitened,4,chunk_12,0.24671562350535411,0.32059967860835914,chunk_16,0.9075485041208424
+8,Directly answerable / simple — 20,What is credit risk? ,Whitened,5,chunk_35,0.21955682123378478,0.32059967860835914,chunk_16,0.9075485041208424
+8,Directly answerable / simple — 20,What is credit risk? ,Intrinsic-dimensionality-reduced,1,chunk_16,0.917065153765046,0.21444354671789823,chunk_16,0.917065153765046
+8,Directly answerable / simple — 20,What is credit risk? ,Intrinsic-dimensionality-reduced,2,chunk_17,0.7026216070471478,0.21444354671789823,chunk_16,0.917065153765046
+8,Directly answerable / simple — 20,What is credit risk? ,Intrinsic-dimensionality-reduced,3,chunk_12,0.45946180496907646,0.21444354671789823,chunk_16,0.917065153765046
+8,Directly answerable / simple — 20,What is credit risk? ,Intrinsic-dimensionality-reduced,4,chunk_14,0.4337872339172495,0.21444354671789823,chunk_16,0.917065153765046
+8,Directly answerable / simple — 20,What is credit risk? ,Intrinsic-dimensionality-reduced,5,chunk_15,0.27775755396671853,0.21444354671789823,chunk_16,0.917065153765046
+9,Directly answerable / simple — 20,What is market risk? ,Raw,1,chunk_17,0.8242117627624108,0.19068714717407698,chunk_17,0.8242117627624108
+9,Directly answerable / simple — 20,What is market risk? ,Raw,2,chunk_16,0.6335246155883338,0.19068714717407698,chunk_17,0.8242117627624108
+9,Directly answerable / simple — 20,What is market risk? ,Raw,3,chunk_15,0.5506940377177139,0.19068714717407698,chunk_17,0.8242117627624108
+9,Directly answerable / simple — 20,What is market risk? ,Raw,4,chunk_13,0.5191263765002653,0.19068714717407698,chunk_17,0.8242117627624108
+9,Directly answerable / simple — 20,What is market risk? ,Raw,5,chunk_14,0.5086109511733578,0.19068714717407698,chunk_17,0.8242117627624108
+9,Directly answerable / simple — 20,What is market risk? ,Mean-centered,1,chunk_17,0.5691362265486221,0.24289571847414715,chunk_17,0.5691362265486221
+9,Directly answerable / simple — 20,What is market risk? ,Mean-centered,2,chunk_16,0.3262405080744749,0.24289571847414715,chunk_17,0.5691362265486221
+9,Directly answerable / simple — 20,What is market risk? ,Mean-centered,3,chunk_15,0.21256329695650655,0.24289571847414715,chunk_17,0.5691362265486221
+9,Directly answerable / simple — 20,What is market risk? ,Mean-centered,4,chunk_13,0.17222258489937312,0.24289571847414715,chunk_17,0.5691362265486221
+9,Directly answerable / simple — 20,What is market risk? ,Mean-centered,5,chunk_14,0.16252815446558433,0.24289571847414715,chunk_17,0.5691362265486221
+9,Directly answerable / simple — 20,What is market risk? ,Whitened,1,chunk_17,0.8998161437657793,0.32358189562898854,chunk_17,0.8998161437657793
+9,Directly answerable / simple — 20,What is market risk? ,Whitened,2,chunk_16,0.5762342481367908,0.32358189562898854,chunk_17,0.8998161437657793
+9,Directly answerable / simple — 20,What is market risk? ,Whitened,3,chunk_36,0.3712257836257794,0.32358189562898854,chunk_17,0.8998161437657793
+9,Directly answerable / simple — 20,What is market risk? ,Whitened,4,chunk_9,0.2902848695722896,0.32358189562898854,chunk_17,0.8998161437657793
+9,Directly answerable / simple — 20,What is market risk? ,Whitened,5,chunk_28,0.14768530549806536,0.32358189562898854,chunk_17,0.8998161437657793
+9,Directly answerable / simple — 20,What is market risk? ,Intrinsic-dimensionality-reduced,1,chunk_17,0.8989834660716153,0.24746335588672363,chunk_17,0.8989834660716153
+9,Directly answerable / simple — 20,What is market risk? ,Intrinsic-dimensionality-reduced,2,chunk_16,0.6515201101848916,0.24746335588672363,chunk_17,0.8989834660716153
+9,Directly answerable / simple — 20,What is market risk? ,Intrinsic-dimensionality-reduced,3,chunk_13,0.38805092601764096,0.24746335588672363,chunk_17,0.8989834660716153
+9,Directly answerable / simple — 20,What is market risk? ,Intrinsic-dimensionality-reduced,4,chunk_15,0.38577042693826324,0.24746335588672363,chunk_17,0.8989834660716153
+9,Directly answerable / simple — 20,What is market risk? ,Intrinsic-dimensionality-reduced,5,chunk_14,0.29680144658689217,0.24746335588672363,chunk_17,0.8989834660716153
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Raw,1,chunk_11,0.7767861190391755,0.12410517575069213,chunk_11,0.7767861190391755
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Raw,2,chunk_45,0.6526809432884834,0.12410517575069213,chunk_11,0.7767861190391755
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Raw,3,chunk_10,0.5990606398234988,0.12410517575069213,chunk_11,0.7767861190391755
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Raw,4,chunk_12,0.5717030973266009,0.12410517575069213,chunk_11,0.7767861190391755
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Raw,5,chunk_18,0.5480752800908332,0.12410517575069213,chunk_11,0.7767861190391755
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Mean-centered,1,chunk_11,0.46339044829782217,0.17532605470398854,chunk_11,0.46339044829782217
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Mean-centered,2,chunk_45,0.2880643935938336,0.17532605470398854,chunk_11,0.46339044829782217
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Mean-centered,3,chunk_10,0.23373356707199147,0.17532605470398854,chunk_11,0.46339044829782217
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Mean-centered,4,chunk_12,0.17574434530614041,0.17532605470398854,chunk_11,0.46339044829782217
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Mean-centered,5,chunk_18,0.15238127881632807,0.17532605470398854,chunk_11,0.46339044829782217
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Whitened,1,chunk_11,0.7933903410077923,0.2643483045975271,chunk_11,0.7933903410077923
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Whitened,2,chunk_45,0.5290420364102651,0.2643483045975271,chunk_11,0.7933903410077923
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Whitened,3,chunk_30,0.5203236037138916,0.2643483045975271,chunk_11,0.7933903410077923
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Whitened,4,chunk_18,0.2986767043152589,0.2643483045975271,chunk_11,0.7933903410077923
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Whitened,5,chunk_10,0.2851077442555142,0.2643483045975271,chunk_11,0.7933903410077923
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Intrinsic-dimensionality-reduced,1,chunk_11,0.8586735320454154,0.2401060076237984,chunk_11,0.8586735320454154
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Intrinsic-dimensionality-reduced,2,chunk_45,0.618567524421617,0.2401060076237984,chunk_11,0.8586735320454154
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Intrinsic-dimensionality-reduced,3,chunk_10,0.48994372537332853,0.2401060076237984,chunk_11,0.8586735320454154
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Intrinsic-dimensionality-reduced,4,chunk_12,0.41557366325839795,0.2401060076237984,chunk_11,0.8586735320454154
+10,Directly answerable / simple — 20,How do electronic payments differ from physical cash transactions? ,Intrinsic-dimensionality-reduced,5,chunk_18,0.35203866768041836,0.2401060076237984,chunk_11,0.8586735320454154
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Raw,1,chunk_18,0.8240012682799231,0.20752910407225178,chunk_18,0.8240012682799231
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Raw,2,chunk_19,0.6164721642076714,0.20752910407225178,chunk_18,0.8240012682799231
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Raw,3,chunk_10,0.5462528646020672,0.20752910407225178,chunk_18,0.8240012682799231
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Raw,4,chunk_45,0.5217994940553892,0.20752910407225178,chunk_18,0.8240012682799231
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Raw,5,chunk_22,0.48655309885329917,0.20752910407225178,chunk_18,0.8240012682799231
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Mean-centered,1,chunk_18,0.5775280114697348,0.31179070459401176,chunk_18,0.5775280114697348
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Mean-centered,2,chunk_19,0.265737306875723,0.31179070459401176,chunk_18,0.5775280114697348
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Mean-centered,3,chunk_10,0.1813228933146814,0.31179070459401176,chunk_18,0.5775280114697348
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Mean-centered,4,chunk_45,0.13437379584908934,0.31179070459401176,chunk_18,0.5775280114697348
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Mean-centered,5,chunk_22,0.08822996605991237,0.31179070459401176,chunk_18,0.5775280114697348
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Whitened,1,chunk_18,0.9169424896445908,0.38418941416294106,chunk_18,0.9169424896445908
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Whitened,2,chunk_19,0.5327530754816497,0.38418941416294106,chunk_18,0.9169424896445908
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Whitened,3,chunk_10,0.38343591646725833,0.38418941416294106,chunk_18,0.9169424896445908
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Whitened,4,chunk_20,0.37157562393404825,0.38418941416294106,chunk_18,0.9169424896445908
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Whitened,5,chunk_22,0.3687733483890133,0.38418941416294106,chunk_18,0.9169424896445908
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Intrinsic-dimensionality-reduced,1,chunk_18,0.9192890597964545,0.3093554715809689,chunk_18,0.9192890597964545
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Intrinsic-dimensionality-reduced,2,chunk_19,0.6099335882154856,0.3093554715809689,chunk_18,0.9192890597964545
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Intrinsic-dimensionality-reduced,3,chunk_10,0.4049451573301245,0.3093554715809689,chunk_18,0.9192890597964545
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Intrinsic-dimensionality-reduced,4,chunk_45,0.2941259209184762,0.3093554715809689,chunk_18,0.9192890597964545
+11,Directly answerable / simple — 20,What is the purpose of financial fraud detection? ,Intrinsic-dimensionality-reduced,5,chunk_22,0.23483795427972384,0.3093554715809689,chunk_18,0.9192890597964545
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Raw,1,chunk_19,0.7898046822225249,0.20950864710692407,chunk_19,0.7898046822225249
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Raw,2,chunk_10,0.5802960351156008,0.20950864710692407,chunk_19,0.7898046822225249
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Raw,3,chunk_18,0.571020331757947,0.20950864710692407,chunk_19,0.7898046822225249
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Raw,4,chunk_45,0.48158030619399605,0.20950864710692407,chunk_19,0.7898046822225249
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Raw,5,chunk_49,0.458596002330252,0.20950864710692407,chunk_19,0.7898046822225249
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Mean-centered,1,chunk_19,0.542808118807784,0.2676776373007547,chunk_19,0.542808118807784
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Mean-centered,2,chunk_10,0.2751304815070293,0.2676776373007547,chunk_19,0.542808118807784
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Mean-centered,3,chunk_18,0.25262492067496495,0.2676776373007547,chunk_19,0.542808118807784
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Mean-centered,4,chunk_45,0.11841961102040417,0.2676776373007547,chunk_19,0.542808118807784
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Mean-centered,5,chunk_49,0.0878577402534312,0.2676776373007547,chunk_19,0.542808118807784
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Whitened,1,chunk_19,0.8729011920875319,0.2991037325378363,chunk_19,0.8729011920875319
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Whitened,2,chunk_18,0.5737974595496956,0.2991037325378363,chunk_19,0.8729011920875319
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Whitened,3,chunk_10,0.505929167947467,0.2991037325378363,chunk_19,0.8729011920875319
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Whitened,4,chunk_38,0.21865223943247447,0.2991037325378363,chunk_19,0.8729011920875319
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Whitened,5,chunk_6,0.18656082581242384,0.2991037325378363,chunk_19,0.8729011920875319
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Intrinsic-dimensionality-reduced,1,chunk_19,0.9088190139891223,0.29408254144359436,chunk_19,0.9088190139891223
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Intrinsic-dimensionality-reduced,2,chunk_18,0.614736472545528,0.29408254144359436,chunk_19,0.9088190139891223
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Intrinsic-dimensionality-reduced,3,chunk_10,0.5578011935603092,0.29408254144359436,chunk_19,0.9088190139891223
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Intrinsic-dimensionality-reduced,4,chunk_45,0.26216793382225356,0.29408254144359436,chunk_19,0.9088190139891223
+12,Directly answerable / simple — 20,What is the purpose of money laundering? ,Intrinsic-dimensionality-reduced,5,chunk_11,0.22431356703606137,0.29408254144359436,chunk_19,0.9088190139891223
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Raw,1,chunk_20,0.8180001308881576,0.05949736332636091,chunk_20,0.8180001308881576
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Raw,2,chunk_22,0.7585027675617967,0.05949736332636091,chunk_20,0.8180001308881576
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Raw,3,chunk_30,0.6620642706755047,0.05949736332636091,chunk_20,0.8180001308881576
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Raw,4,chunk_26,0.6480825851442537,0.05949736332636091,chunk_20,0.8180001308881576
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Raw,5,chunk_21,0.6457244595707399,0.05949736332636091,chunk_20,0.8180001308881576
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Mean-centered,1,chunk_20,0.5461064542501914,0.10950356581619441,chunk_20,0.5461064542501914
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Mean-centered,2,chunk_22,0.436602888433997,0.10950356581619441,chunk_20,0.5461064542501914
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Mean-centered,3,chunk_30,0.31844961656318765,0.10950356581619441,chunk_20,0.5461064542501914
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Mean-centered,4,chunk_26,0.2806014521897521,0.10950356581619441,chunk_20,0.5461064542501914
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Mean-centered,5,chunk_28,0.2717285881569051,0.10950356581619441,chunk_20,0.5461064542501914
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Whitened,1,chunk_20,0.8956398264872456,0.0976141582567085,chunk_20,0.8956398264872456
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Whitened,2,chunk_22,0.7980256682305371,0.0976141582567085,chunk_20,0.8956398264872456
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Whitened,3,chunk_30,0.49866063632089397,0.0976141582567085,chunk_20,0.8956398264872456
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Whitened,4,chunk_18,0.2929918748575651,0.0976141582567085,chunk_20,0.8956398264872456
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Whitened,5,chunk_21,0.2821874591765932,0.0976141582567085,chunk_20,0.8956398264872456
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Intrinsic-dimensionality-reduced,1,chunk_20,0.8940490228312257,0.03932213698887632,chunk_20,0.8940490228312257
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Intrinsic-dimensionality-reduced,2,chunk_22,0.8547268858423493,0.03932213698887632,chunk_20,0.8940490228312257
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Intrinsic-dimensionality-reduced,3,chunk_30,0.6316187639711521,0.03932213698887632,chunk_20,0.8940490228312257
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Intrinsic-dimensionality-reduced,4,chunk_21,0.5491391240575023,0.03932213698887632,chunk_20,0.8940490228312257
+13,Directly answerable / simple — 20,What information is used when making a medical diagnosis? ,Intrinsic-dimensionality-reduced,5,chunk_26,0.5431573243168206,0.03932213698887632,chunk_20,0.8940490228312257
+14,Directly answerable / simple — 20,What are medical symptoms? ,Raw,1,chunk_21,0.8206477439082448,0.08713251930102872,chunk_21,0.8206477439082448
+14,Directly answerable / simple — 20,What are medical symptoms? ,Raw,2,chunk_20,0.7335152246072161,0.08713251930102872,chunk_21,0.8206477439082448
+14,Directly answerable / simple — 20,What are medical symptoms? ,Raw,3,chunk_26,0.6483559779219723,0.08713251930102872,chunk_21,0.8206477439082448
+14,Directly answerable / simple — 20,What are medical symptoms? ,Raw,4,chunk_22,0.6216488789381912,0.08713251930102872,chunk_21,0.8206477439082448
+14,Directly answerable / simple — 20,What are medical symptoms? ,Raw,5,chunk_27,0.5871175384180531,0.08713251930102872,chunk_21,0.8206477439082448
+14,Directly answerable / simple — 20,What are medical symptoms? ,Mean-centered,1,chunk_21,0.5663789471247824,0.07887260232969989,chunk_21,0.5663789471247824
+14,Directly answerable / simple — 20,What are medical symptoms? ,Mean-centered,2,chunk_20,0.48750634479508254,0.07887260232969989,chunk_21,0.5663789471247824
+14,Directly answerable / simple — 20,What are medical symptoms? ,Mean-centered,3,chunk_26,0.345397172541267,0.07887260232969989,chunk_21,0.5663789471247824
+14,Directly answerable / simple — 20,What are medical symptoms? ,Mean-centered,4,chunk_22,0.3072749712061949,0.07887260232969989,chunk_21,0.5663789471247824
+14,Directly answerable / simple — 20,What are medical symptoms? ,Mean-centered,5,chunk_27,0.26815716004674145,0.07887260232969989,chunk_21,0.5663789471247824
+14,Directly answerable / simple — 20,What are medical symptoms? ,Whitened,1,chunk_21,0.8419967272795401,0.15757786920198757,chunk_21,0.8419967272795401
+14,Directly answerable / simple — 20,What are medical symptoms? ,Whitened,2,chunk_20,0.6844188580775525,0.15757786920198757,chunk_21,0.8419967272795401
+14,Directly answerable / simple — 20,What are medical symptoms? ,Whitened,3,chunk_22,0.5228111957917395,0.15757786920198757,chunk_21,0.8419967272795401
+14,Directly answerable / simple — 20,What are medical symptoms? ,Whitened,4,chunk_25,0.2964135061058584,0.15757786920198757,chunk_21,0.8419967272795401
+14,Directly answerable / simple — 20,What are medical symptoms? ,Whitened,5,chunk_27,0.28971693390486497,0.15757786920198757,chunk_21,0.8419967272795401
+14,Directly answerable / simple — 20,What are medical symptoms? ,Intrinsic-dimensionality-reduced,1,chunk_21,0.9049137313454687,0.05382947329297849,chunk_21,0.9049137313454687
+14,Directly answerable / simple — 20,What are medical symptoms? ,Intrinsic-dimensionality-reduced,2,chunk_20,0.8510842580524902,0.05382947329297849,chunk_21,0.9049137313454687
+14,Directly answerable / simple — 20,What are medical symptoms? ,Intrinsic-dimensionality-reduced,3,chunk_22,0.7402983671418191,0.05382947329297849,chunk_21,0.9049137313454687
+14,Directly answerable / simple — 20,What are medical symptoms? ,Intrinsic-dimensionality-reduced,4,chunk_26,0.5942101115775267,0.05382947329297849,chunk_21,0.9049137313454687
+14,Directly answerable / simple — 20,What are medical symptoms? ,Intrinsic-dimensionality-reduced,5,chunk_27,0.5893279451325659,0.05382947329297849,chunk_21,0.9049137313454687
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Raw,1,chunk_22,0.8026060999774026,0.0915079369761046,chunk_22,0.8026060999774026
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Raw,2,chunk_20,0.711098163001298,0.0915079369761046,chunk_22,0.8026060999774026
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Raw,3,chunk_41,0.6154915721109232,0.0915079369761046,chunk_22,0.8026060999774026
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Raw,4,chunk_21,0.5493708602059533,0.0915079369761046,chunk_22,0.8026060999774026
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Raw,5,chunk_28,0.5477853179556487,0.0915079369761046,chunk_22,0.8026060999774026
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Mean-centered,1,chunk_22,0.5402653830982838,0.10963629522276652,chunk_22,0.5402653830982838
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Mean-centered,2,chunk_20,0.43062908787551724,0.10963629522276652,chunk_22,0.5402653830982838
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Mean-centered,3,chunk_41,0.27527182885437695,0.10963629522276652,chunk_22,0.5402653830982838
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Mean-centered,4,chunk_28,0.18282851285966378,0.10963629522276652,chunk_22,0.5402653830982838
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Mean-centered,5,chunk_30,0.1817697846615147,0.10963629522276652,chunk_22,0.5402653830982838
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Whitened,1,chunk_22,0.8941830022880891,0.05118837742809512,chunk_22,0.8941830022880891
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Whitened,2,chunk_20,0.842994624859994,0.05118837742809512,chunk_22,0.8941830022880891
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Whitened,3,chunk_41,0.5669661662184936,0.05118837742809512,chunk_22,0.8941830022880891
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Whitened,4,chunk_18,0.463044809321244,0.05118837742809512,chunk_22,0.8941830022880891
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Whitened,5,chunk_30,0.3023757291993365,0.05118837742809512,chunk_22,0.8941830022880891
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Intrinsic-dimensionality-reduced,1,chunk_22,0.9015058130078283,0.05006569100306957,chunk_22,0.9015058130078283
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Intrinsic-dimensionality-reduced,2,chunk_20,0.8514401220047587,0.05006569100306957,chunk_22,0.9015058130078283
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Intrinsic-dimensionality-reduced,3,chunk_41,0.5326321774526838,0.05006569100306957,chunk_22,0.9015058130078283
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Intrinsic-dimensionality-reduced,4,chunk_30,0.45585916711891544,0.05006569100306957,chunk_22,0.9015058130078283
+15,Directly answerable / simple — 20,What is the purpose of diagnostic testing? ,Intrinsic-dimensionality-reduced,5,chunk_21,0.4224289623324917,0.05006569100306957,chunk_22,0.9015058130078283
+16,Directly answerable / simple — 20,What is diabetes? ,Raw,1,chunk_23,0.7789095733452563,0.18363337051075634,chunk_23,0.7789095733452563
+16,Directly answerable / simple — 20,What is diabetes? ,Raw,2,chunk_20,0.5952762028345,0.18363337051075634,chunk_23,0.7789095733452563
+16,Directly answerable / simple — 20,What is diabetes? ,Raw,3,chunk_24,0.5609429110847493,0.18363337051075634,chunk_23,0.7789095733452563
+16,Directly answerable / simple — 20,What is diabetes? ,Raw,4,chunk_26,0.5574444796396224,0.18363337051075634,chunk_23,0.7789095733452563
+16,Directly answerable / simple — 20,What is diabetes? ,Raw,5,chunk_28,0.5349951578895723,0.18363337051075634,chunk_23,0.7789095733452563
+16,Directly answerable / simple — 20,What is diabetes? ,Mean-centered,1,chunk_23,0.47203483754174874,0.22532553330936772,chunk_23,0.47203483754174874
+16,Directly answerable / simple — 20,What is diabetes? ,Mean-centered,2,chunk_20,0.24670930423238102,0.22532553330936772,chunk_23,0.47203483754174874
+16,Directly answerable / simple — 20,What is diabetes? ,Mean-centered,3,chunk_26,0.18307703504753634,0.22532553330936772,chunk_23,0.47203483754174874
+16,Directly answerable / simple — 20,What is diabetes? ,Mean-centered,4,chunk_24,0.18301395928223163,0.22532553330936772,chunk_23,0.47203483754174874
+16,Directly answerable / simple — 20,What is diabetes? ,Mean-centered,5,chunk_28,0.15307755392340092,0.22532553330936772,chunk_23,0.47203483754174874
+16,Directly answerable / simple — 20,What is diabetes? ,Whitened,1,chunk_23,0.8553109589295819,0.3845999980946683,chunk_23,0.8553109589295819
+16,Directly answerable / simple — 20,What is diabetes? ,Whitened,2,chunk_36,0.47071096083491354,0.3845999980946683,chunk_23,0.8553109589295819
+16,Directly answerable / simple — 20,What is diabetes? ,Whitened,3,chunk_14,0.3557448991365963,0.3845999980946683,chunk_23,0.8553109589295819
+16,Directly answerable / simple — 20,What is diabetes? ,Whitened,4,chunk_20,0.25083079436901123,0.3845999980946683,chunk_23,0.8553109589295819
+16,Directly answerable / simple — 20,What is diabetes? ,Whitened,5,chunk_38,0.2380461572060608,0.3845999980946683,chunk_23,0.8553109589295819
+16,Directly answerable / simple — 20,What is diabetes? ,Intrinsic-dimensionality-reduced,1,chunk_23,0.8432473387318923,0.3591060915333645,chunk_23,0.8432473387318923
+16,Directly answerable / simple — 20,What is diabetes? ,Intrinsic-dimensionality-reduced,2,chunk_20,0.4841412471985278,0.3591060915333645,chunk_23,0.8432473387318923
+16,Directly answerable / simple — 20,What is diabetes? ,Intrinsic-dimensionality-reduced,3,chunk_26,0.47524855455150333,0.3591060915333645,chunk_23,0.8432473387318923
+16,Directly answerable / simple — 20,What is diabetes? ,Intrinsic-dimensionality-reduced,4,chunk_21,0.39666789941062625,0.3591060915333645,chunk_23,0.8432473387318923
+16,Directly answerable / simple — 20,What is diabetes? ,Intrinsic-dimensionality-reduced,5,chunk_24,0.3829234017739156,0.3591060915333645,chunk_23,0.8432473387318923
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Raw,1,chunk_24,0.8383603658148788,0.252164652977662,chunk_24,0.8383603658148788
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Raw,2,chunk_20,0.5861957128372168,0.252164652977662,chunk_24,0.8383603658148788
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Raw,3,chunk_22,0.5549666811562157,0.252164652977662,chunk_24,0.8383603658148788
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Raw,4,chunk_27,0.5536668255762668,0.252164652977662,chunk_24,0.8383603658148788
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Raw,5,chunk_26,0.5492887335700587,0.252164652977662,chunk_24,0.8383603658148788
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Mean-centered,1,chunk_24,0.6035053641526247,0.3249083642251261,chunk_24,0.6035053641526247
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Mean-centered,2,chunk_20,0.2785969999274986,0.3249083642251261,chunk_24,0.6035053641526247
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Mean-centered,3,chunk_27,0.22868448626392762,0.3249083642251261,chunk_24,0.6035053641526247
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Mean-centered,4,chunk_22,0.22259232814512978,0.3249083642251261,chunk_24,0.6035053641526247
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Mean-centered,5,chunk_26,0.2148395277056611,0.3249083642251261,chunk_24,0.6035053641526247
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Whitened,1,chunk_24,0.9123477866647861,0.6237980001448722,chunk_24,0.9123477866647861
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Whitened,2,chunk_23,0.2885497865199139,0.6237980001448722,chunk_24,0.9123477866647861
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Whitened,3,chunk_35,0.2432235360616004,0.6237980001448722,chunk_24,0.9123477866647861
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Whitened,4,chunk_27,0.23714318956887515,0.6237980001448722,chunk_24,0.9123477866647861
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Whitened,5,chunk_33,0.22052701664937363,0.6237980001448722,chunk_24,0.9123477866647861
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Intrinsic-dimensionality-reduced,1,chunk_24,0.9178029713048886,0.3810596293512264,chunk_24,0.9178029713048886
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Intrinsic-dimensionality-reduced,2,chunk_27,0.5367433419536622,0.3810596293512264,chunk_24,0.9178029713048886
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Intrinsic-dimensionality-reduced,3,chunk_21,0.5072053426810896,0.3810596293512264,chunk_24,0.9178029713048886
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Intrinsic-dimensionality-reduced,4,chunk_26,0.49552914467951986,0.3810596293512264,chunk_24,0.9178029713048886
+17,Directly answerable / simple — 20,What conditions are classified as cardiovascular disease? ,Intrinsic-dimensionality-reduced,5,chunk_20,0.4759426393221071,0.3810596293512264,chunk_24,0.9178029713048886
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Raw,1,chunk_26,0.8348127836658642,0.1420600908165398,chunk_26,0.8348127836658642
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Raw,2,chunk_28,0.6927526928493244,0.1420600908165398,chunk_26,0.8348127836658642
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Raw,3,chunk_27,0.6765097733652604,0.1420600908165398,chunk_26,0.8348127836658642
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Raw,4,chunk_20,0.6695464947568822,0.1420600908165398,chunk_26,0.8348127836658642
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Raw,5,chunk_29,0.600558579432918,0.1420600908165398,chunk_26,0.8348127836658642
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Mean-centered,1,chunk_26,0.5860669662441808,0.19559630870463313,chunk_26,0.5860669662441808
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Mean-centered,2,chunk_28,0.3904706575395476,0.19559630870463313,chunk_26,0.5860669662441808
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Mean-centered,3,chunk_27,0.37580475615250986,0.19559630870463313,chunk_26,0.5860669662441808
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Mean-centered,4,chunk_20,0.3683246018955073,0.19559630870463313,chunk_26,0.5860669662441808
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Mean-centered,5,chunk_29,0.2558616151558137,0.19559630870463313,chunk_26,0.5860669662441808
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Whitened,1,chunk_26,0.8730727332231002,0.12272751930266301,chunk_26,0.8730727332231002
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Whitened,2,chunk_28,0.7503452139204372,0.12272751930266301,chunk_26,0.8730727332231002
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Whitened,3,chunk_27,0.401604250605669,0.12272751930266301,chunk_26,0.8730727332231002
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Whitened,4,chunk_20,0.3983904898241697,0.12272751930266301,chunk_26,0.8730727332231002
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Whitened,5,chunk_29,0.37582820894670144,0.12272751930266301,chunk_26,0.8730727332231002
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Intrinsic-dimensionality-reduced,1,chunk_26,0.9407260379140807,0.12676976962184805,chunk_26,0.9407260379140807
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Intrinsic-dimensionality-reduced,2,chunk_28,0.8139562682922327,0.12676976962184805,chunk_26,0.9407260379140807
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Intrinsic-dimensionality-reduced,3,chunk_27,0.7363554953456216,0.12676976962184805,chunk_26,0.9407260379140807
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Intrinsic-dimensionality-reduced,4,chunk_20,0.6572215840560768,0.12676976962184805,chunk_26,0.9407260379140807
+18,Directly answerable / simple — 20,What is the purpose of medical treatment? ,Intrinsic-dimensionality-reduced,5,chunk_29,0.501925318814504,0.12676976962184805,chunk_26,0.9407260379140807
+19,Directly answerable / simple — 20,What are medications used for? ,Raw,1,chunk_27,0.8039312684301723,0.10747422108197935,chunk_27,0.8039312684301723
+19,Directly answerable / simple — 20,What are medications used for? ,Raw,2,chunk_26,0.6964570473481929,0.10747422108197935,chunk_27,0.8039312684301723
+19,Directly answerable / simple — 20,What are medications used for? ,Raw,3,chunk_28,0.5954407018944919,0.10747422108197935,chunk_27,0.8039312684301723
+19,Directly answerable / simple — 20,What are medications used for? ,Raw,4,chunk_30,0.5757180842231129,0.10747422108197935,chunk_27,0.8039312684301723
+19,Directly answerable / simple — 20,What are medications used for? ,Raw,5,chunk_29,0.5663059334817988,0.10747422108197935,chunk_27,0.8039312684301723
+19,Directly answerable / simple — 20,What are medications used for? ,Mean-centered,1,chunk_27,0.5554583304499973,0.1729472934972503,chunk_27,0.5554583304499973
+19,Directly answerable / simple — 20,What are medications used for? ,Mean-centered,2,chunk_26,0.38251103695274696,0.1729472934972503,chunk_27,0.5554583304499973
+19,Directly answerable / simple — 20,What are medications used for? ,Mean-centered,3,chunk_28,0.24268042677731522,0.1729472934972503,chunk_27,0.5554583304499973
+19,Directly answerable / simple — 20,What are medications used for? ,Mean-centered,4,chunk_30,0.22368602531743048,0.1729472934972503,chunk_27,0.5554583304499973
+19,Directly answerable / simple — 20,What are medications used for? ,Mean-centered,5,chunk_20,0.20262619361428402,0.1729472934972503,chunk_27,0.5554583304499973
+19,Directly answerable / simple — 20,What are medications used for? ,Whitened,1,chunk_27,0.7930384896590872,0.21980515766903785,chunk_27,0.7930384896590872
+19,Directly answerable / simple — 20,What are medications used for? ,Whitened,2,chunk_26,0.5732333319900493,0.21980515766903785,chunk_27,0.7930384896590872
+19,Directly answerable / simple — 20,What are medications used for? ,Whitened,3,chunk_25,0.28209151024827833,0.21980515766903785,chunk_27,0.7930384896590872
+19,Directly answerable / simple — 20,What are medications used for? ,Whitened,4,chunk_10,0.25286691950636764,0.21980515766903785,chunk_27,0.7930384896590872
+19,Directly answerable / simple — 20,What are medications used for? ,Whitened,5,chunk_30,0.24521028538775563,0.21980515766903785,chunk_27,0.7930384896590872
+19,Directly answerable / simple — 20,What are medications used for? ,Intrinsic-dimensionality-reduced,1,chunk_27,0.8887475786998404,0.10305582471991581,chunk_27,0.8887475786998404
+19,Directly answerable / simple — 20,What are medications used for? ,Intrinsic-dimensionality-reduced,2,chunk_26,0.7856917539799246,0.10305582471991581,chunk_27,0.8887475786998404
+19,Directly answerable / simple — 20,What are medications used for? ,Intrinsic-dimensionality-reduced,3,chunk_28,0.539107123088443,0.10305582471991581,chunk_27,0.8887475786998404
+19,Directly answerable / simple — 20,What are medications used for? ,Intrinsic-dimensionality-reduced,4,chunk_30,0.5039521148968401,0.10305582471991581,chunk_27,0.8887475786998404
+19,Directly answerable / simple — 20,What are medications used for? ,Intrinsic-dimensionality-reduced,5,chunk_20,0.4903257949271538,0.10305582471991581,chunk_27,0.8887475786998404
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Raw,1,chunk_30,0.8280014705889521,0.21944864923371743,chunk_30,0.8280014705889521
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Raw,2,chunk_29,0.6085528213552347,0.21944864923371743,chunk_30,0.8280014705889521
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Raw,3,chunk_20,0.6008753124416761,0.21944864923371743,chunk_30,0.8280014705889521
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Raw,4,chunk_27,0.5858507450085612,0.21944864923371743,chunk_30,0.8280014705889521
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Raw,5,chunk_22,0.5467310459604664,0.21944864923371743,chunk_30,0.8280014705889521
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Mean-centered,1,chunk_30,0.5616197580832006,0.34399813376064076,chunk_30,0.5616197580832006
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Mean-centered,2,chunk_29,0.21762162432255988,0.34399813376064076,chunk_30,0.5616197580832006
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Mean-centered,3,chunk_20,0.21433630616131666,0.34399813376064076,chunk_30,0.5616197580832006
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Mean-centered,4,chunk_27,0.19066170150101658,0.34399813376064076,chunk_30,0.5616197580832006
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Mean-centered,5,chunk_22,0.128976184737499,0.34399813376064076,chunk_30,0.5616197580832006
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Whitened,1,chunk_30,0.9145884191979695,0.510792727545115,chunk_30,0.9145884191979695
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Whitened,2,chunk_45,0.40379569165285456,0.510792727545115,chunk_30,0.9145884191979695
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Whitened,3,chunk_49,0.38194301003144754,0.510792727545115,chunk_30,0.9145884191979695
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Whitened,4,chunk_46,0.3244939726377363,0.510792727545115,chunk_30,0.9145884191979695
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Whitened,5,chunk_36,0.31898966652577554,0.510792727545115,chunk_30,0.9145884191979695
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Intrinsic-dimensionality-reduced,1,chunk_30,0.9329215197237601,0.4813211869883597,chunk_30,0.9329215197237601
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Intrinsic-dimensionality-reduced,2,chunk_20,0.45160033273540046,0.4813211869883597,chunk_30,0.9329215197237601
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Intrinsic-dimensionality-reduced,3,chunk_29,0.40293299091180784,0.4813211869883597,chunk_30,0.9329215197237601
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Intrinsic-dimensionality-reduced,4,chunk_27,0.3944108551121312,0.4813211869883597,chunk_30,0.9329215197237601
+20,Directly answerable / simple — 20,What is the role of electronic health records? ,Intrinsic-dimensionality-reduced,5,chunk_22,0.3651485066944079,0.4813211869883597,chunk_30,0.9329215197237601
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Raw,1,chunk_7,0.8084579933499167,0.20590214920306893,chunk_7,0.8084579933499167
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Raw,2,chunk_4,0.6025558441468478,0.20590214920306893,chunk_7,0.8084579933499167
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Raw,3,chunk_8,0.5728486813694932,0.20590214920306893,chunk_7,0.8084579933499167
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Raw,4,chunk_6,0.5649764962641324,0.20590214920306893,chunk_7,0.8084579933499167
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Raw,5,chunk_0,0.5595794687547994,0.20590214920306893,chunk_7,0.8084579933499167
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Mean-centered,1,chunk_7,0.5369677206159994,0.2913499209092189,chunk_7,0.5369677206159994
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Mean-centered,2,chunk_4,0.2456177997067805,0.2913499209092189,chunk_7,0.5369677206159994
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Mean-centered,3,chunk_8,0.19585192743153731,0.2913499209092189,chunk_7,0.5369677206159994
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Mean-centered,4,chunk_0,0.19407465674974955,0.2913499209092189,chunk_7,0.5369677206159994
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Mean-centered,5,chunk_6,0.1887283056309261,0.2913499209092189,chunk_7,0.5369677206159994
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Whitened,1,chunk_7,0.8967227751369866,0.5154766607766691,chunk_7,0.8967227751369866
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Whitened,2,chunk_8,0.3812461143603175,0.5154766607766691,chunk_7,0.8967227751369866
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Whitened,3,chunk_45,0.36218290378929724,0.5154766607766691,chunk_7,0.8967227751369866
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Whitened,4,chunk_3,0.33112615223179004,0.5154766607766691,chunk_7,0.8967227751369866
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Whitened,5,chunk_4,0.29004824407953567,0.5154766607766691,chunk_7,0.8967227751369866
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Intrinsic-dimensionality-reduced,1,chunk_7,0.9010426693539859,0.32809214283481813,chunk_7,0.9010426693539859
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Intrinsic-dimensionality-reduced,2,chunk_4,0.5729505265191678,0.32809214283481813,chunk_7,0.9010426693539859
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Intrinsic-dimensionality-reduced,3,chunk_8,0.5281881600000932,0.32809214283481813,chunk_7,0.9010426693539859
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Intrinsic-dimensionality-reduced,4,chunk_3,0.4440998750892954,0.32809214283481813,chunk_7,0.9010426693539859
+21,Difficult / distributed-answer — 5,How does a firewall contribute to network security beyond simply blocking traffic? ,Intrinsic-dimensionality-reduced,5,chunk_0,0.4283671054680128,0.32809214283481813,chunk_7,0.9010426693539859
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Raw,1,chunk_17,0.6919252284784191,0.007790100781887577,chunk_17,0.6919252284784191
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Raw,2,chunk_16,0.6841351276965315,0.007790100781887577,chunk_17,0.6919252284784191
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Raw,3,chunk_18,0.6354127330363928,0.007790100781887577,chunk_17,0.6919252284784191
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Raw,4,chunk_10,0.6173279770899457,0.007790100781887577,chunk_17,0.6919252284784191
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Raw,5,chunk_19,0.5955229078874225,0.007790100781887577,chunk_17,0.6919252284784191
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Mean-centered,1,chunk_17,0.3284475392475766,0.0043868891633890295,chunk_17,0.3284475392475766
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Mean-centered,2,chunk_16,0.32406065008418755,0.0043868891633890295,chunk_17,0.3284475392475766
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Mean-centered,3,chunk_18,0.2775297832327277,0.0043868891633890295,chunk_17,0.3284475392475766
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Mean-centered,4,chunk_10,0.2598932264759549,0.0043868891633890295,chunk_17,0.3284475392475766
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Mean-centered,5,chunk_19,0.21095539180243558,0.0043868891633890295,chunk_17,0.3284475392475766
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Whitened,1,chunk_17,0.6554769293184326,0.15116991989829587,chunk_17,0.6554769293184326
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Whitened,2,chunk_18,0.5043070094201367,0.15116991989829587,chunk_17,0.6554769293184326
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Whitened,3,chunk_16,0.49555090490977044,0.15116991989829587,chunk_17,0.6554769293184326
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Whitened,4,chunk_19,0.3605134483386621,0.15116991989829587,chunk_17,0.6554769293184326
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Whitened,5,chunk_36,0.3483879273116676,0.15116991989829587,chunk_17,0.6554769293184326
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Intrinsic-dimensionality-reduced,1,chunk_17,0.7061690382953059,0.05848024738040225,chunk_17,0.7061690382953059
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Intrinsic-dimensionality-reduced,2,chunk_18,0.6476887909149036,0.05848024738040225,chunk_17,0.7061690382953059
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Intrinsic-dimensionality-reduced,3,chunk_16,0.6329133515801014,0.05848024738040225,chunk_17,0.7061690382953059
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Intrinsic-dimensionality-reduced,4,chunk_19,0.5241456286760359,0.05848024738040225,chunk_17,0.7061690382953059
+22,Difficult / distributed-answer — 5,What factors should be considered when assessing the risks associated with financial transactions? ,Intrinsic-dimensionality-reduced,5,chunk_10,0.49311605475278697,0.05848024738040225,chunk_17,0.7061690382953059
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Raw,1,chunk_20,0.798925014369616,0.05239635002853926,chunk_20,0.798925014369616
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Raw,2,chunk_22,0.7465286643410768,0.05239635002853926,chunk_20,0.798925014369616
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Raw,3,chunk_26,0.7056395170536284,0.05239635002853926,chunk_20,0.798925014369616
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Raw,4,chunk_30,0.7008182481355276,0.05239635002853926,chunk_20,0.798925014369616
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Raw,5,chunk_29,0.6997659329713333,0.05239635002853926,chunk_20,0.798925014369616
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Mean-centered,1,chunk_20,0.4829430539496227,0.09639723659144173,chunk_20,0.4829430539496227
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Mean-centered,2,chunk_22,0.386545817358181,0.09639723659144173,chunk_20,0.4829430539496227
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Mean-centered,3,chunk_30,0.3419184804218884,0.09639723659144173,chunk_20,0.4829430539496227
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Mean-centered,4,chunk_26,0.329072170853593,0.09639723659144173,chunk_20,0.4829430539496227
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Mean-centered,5,chunk_29,0.3221803135127693,0.09639723659144173,chunk_20,0.4829430539496227
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Whitened,1,chunk_20,0.7052520725555882,0.036523472539797375,chunk_20,0.7052520725555882
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Whitened,2,chunk_22,0.6687286000157908,0.036523472539797375,chunk_20,0.7052520725555882
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Whitened,3,chunk_30,0.5539486291678589,0.036523472539797375,chunk_20,0.7052520725555882
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Whitened,4,chunk_29,0.4741247961361919,0.036523472539797375,chunk_20,0.7052520725555882
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Whitened,5,chunk_28,0.4224705761450173,0.036523472539797375,chunk_20,0.7052520725555882
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Intrinsic-dimensionality-reduced,1,chunk_20,0.8598359276773888,0.05863702185334674,chunk_20,0.8598359276773888
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Intrinsic-dimensionality-reduced,2,chunk_22,0.8011989058240421,0.05863702185334674,chunk_20,0.8598359276773888
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Intrinsic-dimensionality-reduced,3,chunk_28,0.6679714038286796,0.05863702185334674,chunk_20,0.8598359276773888
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Intrinsic-dimensionality-reduced,4,chunk_30,0.6492489844246364,0.05863702185334674,chunk_20,0.8598359276773888
+23,Difficult / distributed-answer — 5,"How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare? ",Intrinsic-dimensionality-reduced,5,chunk_26,0.6311548618454871,0.05863702185334674,chunk_20,0.8598359276773888
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Raw,1,chunk_31,0.6155415345691668,0.01440684157705896,chunk_31,0.6155415345691668
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Raw,2,chunk_21,0.6011346929921079,0.01440684157705896,chunk_31,0.6155415345691668
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Raw,3,chunk_29,0.5787368202828913,0.01440684157705896,chunk_31,0.6155415345691668
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Raw,4,chunk_26,0.552249002511189,0.01440684157705896,chunk_31,0.6155415345691668
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Raw,5,chunk_27,0.5513603705394697,0.01440684157705896,chunk_31,0.6155415345691668
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Mean-centered,1,chunk_31,0.2893099359662709,0.029921025272810986,chunk_31,0.2893099359662709
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Mean-centered,2,chunk_21,0.25938891069345993,0.029921025272810986,chunk_31,0.2893099359662709
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Mean-centered,3,chunk_29,0.23816043450277918,0.029921025272810986,chunk_31,0.2893099359662709
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Mean-centered,4,chunk_27,0.20526798123840687,0.029921025272810986,chunk_31,0.2893099359662709
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Mean-centered,5,chunk_20,0.20161620793545107,0.029921025272810986,chunk_31,0.2893099359662709
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Whitened,1,chunk_31,0.6976221646424561,0.3127972605284695,chunk_31,0.6976221646424561
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Whitened,2,chunk_21,0.38482490411398657,0.3127972605284695,chunk_31,0.6976221646424561
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Whitened,3,chunk_49,0.3209396149518812,0.3127972605284695,chunk_31,0.6976221646424561
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Whitened,4,chunk_45,0.28553496998190137,0.3127972605284695,chunk_31,0.6976221646424561
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Whitened,5,chunk_38,0.24347791534708912,0.3127972605284695,chunk_31,0.6976221646424561
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Intrinsic-dimensionality-reduced,1,chunk_31,0.6664922845509417,0.011510387663387078,chunk_31,0.6664922845509417
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Intrinsic-dimensionality-reduced,2,chunk_21,0.6549818968875546,0.011510387663387078,chunk_31,0.6664922845509417
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Intrinsic-dimensionality-reduced,3,chunk_29,0.5895503223771215,0.011510387663387078,chunk_31,0.6664922845509417
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Intrinsic-dimensionality-reduced,4,chunk_26,0.5337215625731342,0.011510387663387078,chunk_31,0.6664922845509417
+24,Difficult / distributed-answer — 5,What are the major factors that can affect an employee's ability to receive appropriate medical care? ,Intrinsic-dimensionality-reduced,5,chunk_49,0.511088615151872,0.011510387663387078,chunk_31,0.6664922845509417
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Raw,1,chunk_36,0.7228944768791494,0.01790235550278707,chunk_36,0.7228944768791494
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Raw,2,chunk_38,0.7049921213763624,0.01790235550278707,chunk_36,0.7228944768791494
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Raw,3,chunk_33,0.6899262839074728,0.01790235550278707,chunk_36,0.7228944768791494
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Raw,4,chunk_32,0.6797947906768194,0.01790235550278707,chunk_36,0.7228944768791494
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Raw,5,chunk_34,0.6787461040265202,0.01790235550278707,chunk_36,0.7228944768791494
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Mean-centered,1,chunk_36,0.3552180757276989,0.03566086787787104,chunk_36,0.3552180757276989
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Mean-centered,2,chunk_38,0.3195572078498279,0.03566086787787104,chunk_36,0.3552180757276989
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Mean-centered,3,chunk_34,0.2961814359573402,0.03566086787787104,chunk_36,0.3552180757276989
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Mean-centered,4,chunk_33,0.2923799454580059,0.03566086787787104,chunk_36,0.3552180757276989
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Mean-centered,5,chunk_32,0.27692931149557204,0.03566086787787104,chunk_36,0.3552180757276989
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Whitened,1,chunk_38,0.5539265237573107,0.020811646126359107,chunk_38,0.5539265237573107
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Whitened,2,chunk_36,0.5331148776309516,0.020811646126359107,chunk_38,0.5539265237573107
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Whitened,3,chunk_43,0.4598362595489324,0.020811646126359107,chunk_38,0.5539265237573107
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Whitened,4,chunk_32,0.4591565203477546,0.020811646126359107,chunk_38,0.5539265237573107
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Whitened,5,chunk_34,0.4342891737495687,0.020811646126359107,chunk_38,0.5539265237573107
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Intrinsic-dimensionality-reduced,1,chunk_36,0.6710840297252711,0.005488844300731377,chunk_36,0.6710840297252711
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Intrinsic-dimensionality-reduced,2,chunk_32,0.6655951854245398,0.005488844300731377,chunk_36,0.6710840297252711
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Intrinsic-dimensionality-reduced,3,chunk_34,0.6409975173994277,0.005488844300731377,chunk_36,0.6710840297252711
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Intrinsic-dimensionality-reduced,4,chunk_38,0.609027152388093,0.005488844300731377,chunk_36,0.6710840297252711
+25,Difficult / distributed-answer — 5,"How can software systems use databases, operating-system processes, and algorithms together to support an application?",Intrinsic-dimensionality-reduced,5,chunk_33,0.5214792681647465,0.005488844300731377,chunk_36,0.6710840297252711

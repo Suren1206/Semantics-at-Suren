@@ -1,0 +1,596 @@
+[
+  {
+    "embedding_index": 662,
+    "document_id": 662,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -10.591638565063477,
+    "umap_y": 2.938652753829956,
+    "text": "  \n\n"
+  },
+  {
+    "embedding_index": 2058,
+    "document_id": 2058,
+    "category_id": 1,
+    "category": "comp.sys.ibm.pc.hardware",
+    "umap_x": -10.57103443145752,
+    "umap_y": 2.968533992767334,
+    "text": ""
+  },
+  {
+    "embedding_index": 695,
+    "document_id": 695,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.565648078918457,
+    "umap_y": 3.074693202972412,
+    "text": "\n"
+  },
+  {
+    "embedding_index": 1159,
+    "document_id": 1159,
+    "category_id": 1,
+    "category": "comp.sys.ibm.pc.hardware",
+    "umap_x": -10.561636924743652,
+    "umap_y": 2.9501500129699707,
+    "text": ""
+  },
+  {
+    "embedding_index": 883,
+    "document_id": 883,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.557256698608398,
+    "umap_y": 3.1308248043060303,
+    "text": ""
+  },
+  {
+    "embedding_index": 576,
+    "document_id": 576,
+    "category_id": 1,
+    "category": "comp.sys.ibm.pc.hardware",
+    "umap_x": -10.532835960388184,
+    "umap_y": 3.0064401626586914,
+    "text": ""
+  },
+  {
+    "embedding_index": 1006,
+    "document_id": 1006,
+    "category_id": 1,
+    "category": "comp.sys.ibm.pc.hardware",
+    "umap_x": -10.526728630065918,
+    "umap_y": 2.996638298034668,
+    "text": "\n"
+  },
+  {
+    "embedding_index": 1818,
+    "document_id": 1818,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.51473617553711,
+    "umap_y": 3.001035451889038,
+    "text": ""
+  },
+  {
+    "embedding_index": 1719,
+    "document_id": 1719,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.504825592041016,
+    "umap_y": 3.117905616760254,
+    "text": "\n"
+  },
+  {
+    "embedding_index": 1697,
+    "document_id": 1697,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.504107475280762,
+    "umap_y": 3.12542724609375,
+    "text": ""
+  },
+  {
+    "embedding_index": 615,
+    "document_id": 615,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.50079345703125,
+    "umap_y": 2.9854342937469482,
+    "text": ""
+  },
+  {
+    "embedding_index": 1987,
+    "document_id": 1987,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.493901252746582,
+    "umap_y": 3.063035011291504,
+    "text": ""
+  },
+  {
+    "embedding_index": 743,
+    "document_id": 743,
+    "category_id": 1,
+    "category": "comp.sys.ibm.pc.hardware",
+    "umap_x": -10.49274730682373,
+    "umap_y": 3.0688869953155518,
+    "text": "\n\n\n\n"
+  },
+  {
+    "embedding_index": 1890,
+    "document_id": 1890,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.486842155456543,
+    "umap_y": 3.1272308826446533,
+    "text": ""
+  },
+  {
+    "embedding_index": 489,
+    "document_id": 489,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -10.477766990661621,
+    "umap_y": 3.031564235687256,
+    "text": ""
+  },
+  {
+    "embedding_index": 1106,
+    "document_id": 1106,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.476763725280762,
+    "umap_y": 2.9981637001037598,
+    "text": ""
+  },
+  {
+    "embedding_index": 166,
+    "document_id": 166,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.474103927612305,
+    "umap_y": 3.059332847595215,
+    "text": "\n\n\n\n\n\n"
+  },
+  {
+    "embedding_index": 805,
+    "document_id": 805,
+    "category_id": 1,
+    "category": "comp.sys.ibm.pc.hardware",
+    "umap_x": -10.473933219909668,
+    "umap_y": 3.094106912612915,
+    "text": ""
+  },
+  {
+    "embedding_index": 1160,
+    "document_id": 1160,
+    "category_id": 1,
+    "category": "comp.sys.ibm.pc.hardware",
+    "umap_x": -10.468269348144531,
+    "umap_y": 3.0042710304260254,
+    "text": "\n"
+  },
+  {
+    "embedding_index": 77,
+    "document_id": 77,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.464737892150879,
+    "umap_y": 3.0349130630493164,
+    "text": ""
+  },
+  {
+    "embedding_index": 1698,
+    "document_id": 1698,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -10.464404106140137,
+    "umap_y": 3.1268792152404785,
+    "text": ""
+  },
+  {
+    "embedding_index": 539,
+    "document_id": 539,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.462663650512695,
+    "umap_y": 3.042768716812134,
+    "text": ""
+  },
+  {
+    "embedding_index": 138,
+    "document_id": 138,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.46062183380127,
+    "umap_y": 3.0855233669281006,
+    "text": "\n\n"
+  },
+  {
+    "embedding_index": 423,
+    "document_id": 423,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -10.456934928894043,
+    "umap_y": 3.095496416091919,
+    "text": ""
+  },
+  {
+    "embedding_index": 144,
+    "document_id": 144,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -10.45404052734375,
+    "umap_y": 3.0262959003448486,
+    "text": ""
+  },
+  {
+    "embedding_index": 2019,
+    "document_id": 2019,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.453289031982422,
+    "umap_y": 3.154630184173584,
+    "text": ""
+  },
+  {
+    "embedding_index": 126,
+    "document_id": 126,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.45263957977295,
+    "umap_y": 3.0607266426086426,
+    "text": ""
+  },
+  {
+    "embedding_index": 1546,
+    "document_id": 1546,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.448576927185059,
+    "umap_y": 3.0440144538879395,
+    "text": ""
+  },
+  {
+    "embedding_index": 124,
+    "document_id": 124,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.447906494140625,
+    "umap_y": 3.0467753410339355,
+    "text": ""
+  },
+  {
+    "embedding_index": 191,
+    "document_id": 191,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.447281837463379,
+    "umap_y": 3.080901861190796,
+    "text": ""
+  },
+  {
+    "embedding_index": 1883,
+    "document_id": 1883,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.44687271118164,
+    "umap_y": 3.0239391326904297,
+    "text": "--\n"
+  },
+  {
+    "embedding_index": 673,
+    "document_id": 673,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.446284294128418,
+    "umap_y": 3.058133363723755,
+    "text": "\n"
+  },
+  {
+    "embedding_index": 1104,
+    "document_id": 1104,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.444835662841797,
+    "umap_y": 3.0620076656341553,
+    "text": ""
+  },
+  {
+    "embedding_index": 1354,
+    "document_id": 1354,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -10.44214153289795,
+    "umap_y": 2.9212117195129395,
+    "text": ""
+  },
+  {
+    "embedding_index": 793,
+    "document_id": 793,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.437393188476562,
+    "umap_y": 3.045384407043457,
+    "text": ""
+  },
+  {
+    "embedding_index": 686,
+    "document_id": 686,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -10.43660831451416,
+    "umap_y": 3.045088291168213,
+    "text": ""
+  },
+  {
+    "embedding_index": 352,
+    "document_id": 352,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.436145782470703,
+    "umap_y": 3.0759692192077637,
+    "text": "\n"
+  },
+  {
+    "embedding_index": 141,
+    "document_id": 141,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.434182167053223,
+    "umap_y": 3.102470874786377,
+    "text": ""
+  },
+  {
+    "embedding_index": 2190,
+    "document_id": 2190,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -10.429730415344238,
+    "umap_y": 3.051379442214966,
+    "text": ""
+  },
+  {
+    "embedding_index": 90,
+    "document_id": 90,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.429705619812012,
+    "umap_y": 3.032410144805908,
+    "text": ""
+  },
+  {
+    "embedding_index": 408,
+    "document_id": 408,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.427632331848145,
+    "umap_y": 3.059218168258667,
+    "text": ""
+  },
+  {
+    "embedding_index": 1472,
+    "document_id": 1472,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -10.42733097076416,
+    "umap_y": 3.039698839187622,
+    "text": ""
+  },
+  {
+    "embedding_index": 855,
+    "document_id": 855,
+    "category_id": 1,
+    "category": "comp.sys.ibm.pc.hardware",
+    "umap_x": -10.425551414489746,
+    "umap_y": 2.9933507442474365,
+    "text": ""
+  },
+  {
+    "embedding_index": 234,
+    "document_id": 234,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.423144340515137,
+    "umap_y": 3.090109348297119,
+    "text": ""
+  },
+  {
+    "embedding_index": 1136,
+    "document_id": 1136,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.421194076538086,
+    "umap_y": 3.086379051208496,
+    "text": ""
+  },
+  {
+    "embedding_index": 1954,
+    "document_id": 1954,
+    "category_id": 1,
+    "category": "comp.sys.ibm.pc.hardware",
+    "umap_x": -10.419623374938965,
+    "umap_y": 3.0580074787139893,
+    "text": ""
+  },
+  {
+    "embedding_index": 1541,
+    "document_id": 1541,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.4172945022583,
+    "umap_y": 3.096731185913086,
+    "text": ""
+  },
+  {
+    "embedding_index": 1913,
+    "document_id": 1913,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -10.415363311767578,
+    "umap_y": 3.116692543029785,
+    "text": ""
+  },
+  {
+    "embedding_index": 778,
+    "document_id": 778,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.413583755493164,
+    "umap_y": 3.0368213653564453,
+    "text": ""
+  },
+  {
+    "embedding_index": 804,
+    "document_id": 804,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.410075187683105,
+    "umap_y": 3.0907840728759766,
+    "text": "\n\n\n\n\n"
+  },
+  {
+    "embedding_index": 1495,
+    "document_id": 1495,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.407167434692383,
+    "umap_y": 3.1283278465270996,
+    "text": ""
+  },
+  {
+    "embedding_index": 108,
+    "document_id": 108,
+    "category_id": 1,
+    "category": "comp.sys.ibm.pc.hardware",
+    "umap_x": -10.398285865783691,
+    "umap_y": 3.0407185554504395,
+    "text": "\n"
+  },
+  {
+    "embedding_index": 1140,
+    "document_id": 1140,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.39091682434082,
+    "umap_y": 2.9941623210906982,
+    "text": ""
+  },
+  {
+    "embedding_index": 2162,
+    "document_id": 2162,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.389693260192871,
+    "umap_y": 3.0663771629333496,
+    "text": "\n\n"
+  },
+  {
+    "embedding_index": 1658,
+    "document_id": 1658,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -10.376409530639648,
+    "umap_y": 3.098680257797241,
+    "text": ""
+  },
+  {
+    "embedding_index": 1325,
+    "document_id": 1325,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.3642578125,
+    "umap_y": 3.045943021774292,
+    "text": ""
+  },
+  {
+    "embedding_index": 1256,
+    "document_id": 1256,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -10.361581802368164,
+    "umap_y": 3.136530876159668,
+    "text": ""
+  },
+  {
+    "embedding_index": 786,
+    "document_id": 786,
+    "category_id": 1,
+    "category": "comp.sys.ibm.pc.hardware",
+    "umap_x": -10.351139068603516,
+    "umap_y": 3.098088026046753,
+    "text": "\n"
+  },
+  {
+    "embedding_index": 2155,
+    "document_id": 2155,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -10.347613334655762,
+    "umap_y": 2.9429259300231934,
+    "text": ""
+  },
+  {
+    "embedding_index": 1063,
+    "document_id": 1063,
+    "category_id": 1,
+    "category": "comp.sys.ibm.pc.hardware",
+    "umap_x": -10.335273742675781,
+    "umap_y": 3.0976834297180176,
+    "text": "\n\n\n"
+  },
+  {
+    "embedding_index": 720,
+    "document_id": 720,
+    "category_id": 2,
+    "category": "comp.sys.mac.hardware",
+    "umap_x": -10.330279350280762,
+    "umap_y": 3.150219202041626,
+    "text": "\n\t\t\t\t\tart\n"
+  },
+  {
+    "embedding_index": 1297,
+    "document_id": 1297,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.320569038391113,
+    "umap_y": 2.9869935512542725,
+    "text": ""
+  },
+  {
+    "embedding_index": 1174,
+    "document_id": 1174,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.320446014404297,
+    "umap_y": 3.2191128730773926,
+    "text": "\n\n"
+  },
+  {
+    "embedding_index": 939,
+    "document_id": 939,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -10.051628112792969,
+    "umap_y": 2.955765962600708,
+    "text": "==============================================================================\n"
+  },
+  {
+    "embedding_index": 583,
+    "document_id": 583,
+    "category_id": 3,
+    "category": "sci.electronics",
+    "umap_x": -10.048650741577148,
+    "umap_y": 2.979617118835449,
+    "text": "\n----------"
+  },
+  {
+    "embedding_index": 123,
+    "document_id": 123,
+    "category_id": 0,
+    "category": "comp.graphics",
+    "umap_x": -9.99113941192627,
+    "umap_y": 2.9514803886413574,
+    "text": "------------------------------------"
+  }
+]

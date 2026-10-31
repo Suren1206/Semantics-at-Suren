@@ -1,0 +1,1170 @@
+================================================================================
+SYNTHETIC — HARDNEGATIVE MiniLM COMPLETE RETRIEVAL OUTPUT
+================================================================================
+
+Query File       : Query_Synthetic_Corpus.csv
+Embedding Model  : HardNegative MiniLM
+Corpus Vectors   : 50
+Corpus Dimension : 384
+Total Questions  : 25
+Top-K            : 5
+HIGH Threshold   : >= 0.75
+MEDIUM Threshold : >= 0.60 and < 0.75
+LOW Threshold    : < 0.60
+
+================================================================================
+AGGREGATE RETRIEVAL STATISTICS
+================================================================================
+
+Total Questions        : 25
+Corpus Vectors         : 50
+Corpus Dimensions      : 384
+Top-K                  : 5
+Total Retrieved Chunks : 125
+
+ALL RETRIEVED COSINE SCORES
+----------------------------
+Minimum : 0.199823
+Maximum : 0.824786
+Mean    : 0.416874
+Median  : 0.358150
+
+RANK-WISE RETRIEVAL STATISTICS
+------------------------------
+Rank 1: Mean=0.681919, Median=0.715354, Min=0.330912, Max=0.824786
+Rank 2: Mean=0.454126, Median=0.447607, Min=0.261109, Max=0.701006
+Rank 3: Mean=0.361823, Median=0.356288, Min=0.227477, Max=0.549995
+Rank 4: Mean=0.305426, Median=0.293797, Min=0.216887, Max=0.443327
+Rank 5: Mean=0.281073, Median=0.277156, Min=0.199823, Max=0.405088
+
+TOP-1 SCORE STATISTICS
+----------------------
+Minimum : 0.330912
+Maximum : 0.824786
+Mean    : 0.681919
+Median  : 0.715354
+
+QUESTION-LEVEL RETRIEVAL CLASSIFICATION
+----------------------------------------
+HIGH   :   10 (40.00%)
+MEDIUM :   10 (40.00%)
+LOW    :    5 (20.00%)
+
+================================================================================
+
+================================================================================
+QUESTION 1
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What mechanisms does TCP use to provide reliable delivery?
+
+Rank 1
+Corpus Index       : 0
+Chunk ID            : chunk_0
+Cosine Similarity   : 0.716892
+Text                : TCP is a connection-oriented transport protocol that provides reliable, ordered delivery of data between applications. It uses acknowledgements, sequencing, retransmission, and flow control to ensure that data reaches the destination correctly.
+Routing Classification : MEDIUM
+
+Rank 2
+Corpus Index       : 2
+Chunk ID            : chunk_2
+Cosine Similarity   : 0.701006
+Text                : TCP provides reliable and ordered delivery through mechanisms such as acknowledgements and retransmission, whereas UDP provides connectionless delivery with lower overhead but without guaranteed delivery.
+Routing Classification : MEDIUM
+
+Rank 3
+Corpus Index       : 1
+Chunk ID            : chunk_1
+Cosine Similarity   : 0.470856
+Text                : UDP is a connectionless transport protocol that sends datagrams without establishing a connection or guaranteeing delivery. It has lower overhead than TCP and is commonly used when speed is more important than guaranteed delivery.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 9
+Chunk ID            : chunk_9
+Cosine Similarity   : 0.400075
+Text                : Network latency is the delay involved in transmitting data between endpoints. It can be affected by factors such as physical distance, propagation, processing, queuing, and network conditions.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 8
+Chunk ID            : chunk_8
+Cosine Similarity   : 0.355781
+Text                : Network congestion occurs when the amount of traffic attempting to use network resources exceeds their available capacity, potentially causing delays, packet loss, and reduced throughput.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 2
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What is the main difference between TCP and UDP?
+
+Rank 1
+Corpus Index       : 1
+Chunk ID            : chunk_1
+Cosine Similarity   : 0.679439
+Text                : UDP is a connectionless transport protocol that sends datagrams without establishing a connection or guaranteeing delivery. It has lower overhead than TCP and is commonly used when speed is more important than guaranteed delivery.
+Routing Classification : MEDIUM
+
+Rank 2
+Corpus Index       : 2
+Chunk ID            : chunk_2
+Cosine Similarity   : 0.675538
+Text                : TCP provides reliable and ordered delivery through mechanisms such as acknowledgements and retransmission, whereas UDP provides connectionless delivery with lower overhead but without guaranteed delivery.
+Routing Classification : MEDIUM
+
+Rank 3
+Corpus Index       : 0
+Chunk ID            : chunk_0
+Cosine Similarity   : 0.549995
+Text                : TCP is a connection-oriented transport protocol that provides reliable, ordered delivery of data between applications. It uses acknowledgements, sequencing, retransmission, and flow control to ensure that data reaches the destination correctly.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 3
+Chunk ID            : chunk_3
+Cosine Similarity   : 0.350172
+Text                : An IP address identifies a network interface or host so that packets can be addressed and delivered across an IP network. IPv4 and IPv6 are the two major versions of the Internet Protocol.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 7
+Chunk ID            : chunk_7
+Cosine Similarity   : 0.283915
+Text                : A firewall controls network traffic according to defined security rules. It can allow, reject, or filter connections based on characteristics such as source, destination, protocol, or port.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 3
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What does DNS translate?
+
+Rank 1
+Corpus Index       : 5
+Chunk ID            : chunk_5
+Cosine Similarity   : 0.541989
+Text                : The Domain Name System translates human-readable domain names into IP addresses and allows clients to locate services using names rather than numerical addresses.
+Routing Classification : LOW
+
+Rank 2
+Corpus Index       : 3
+Chunk ID            : chunk_3
+Cosine Similarity   : 0.277614
+Text                : An IP address identifies a network interface or host so that packets can be addressed and delivered across an IP network. IPv4 and IPv6 are the two major versions of the Internet Protocol.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 36
+Chunk ID            : chunk_36
+Cosine Similarity   : 0.245441
+Text                : SQL is a language used to query, insert, modify, and manage data stored in relational database systems.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 1
+Chunk ID            : chunk_1
+Cosine Similarity   : 0.237519
+Text                : UDP is a connectionless transport protocol that sends datagrams without establishing a connection or guaranteeing delivery. It has lower overhead than TCP and is commonly used when speed is more important than guaranteed delivery.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 14
+Chunk ID            : chunk_14
+Cosine Similarity   : 0.202038
+Text                : A bond is a debt instrument through which an investor lends money to an issuer in exchange for scheduled interest payments and repayment of the principal according to specified terms.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 4
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What determines how packets are forwarded across a network?
+
+Rank 1
+Corpus Index       : 4
+Chunk ID            : chunk_4
+Cosine Similarity   : 0.511158
+Text                : Routing is the process of determining where network packets should be forwarded so that they can travel from a source network to a destination network. Routers use routing information to select appropriate paths.
+Routing Classification : LOW
+
+Rank 2
+Corpus Index       : 9
+Chunk ID            : chunk_9
+Cosine Similarity   : 0.322308
+Text                : Network latency is the delay involved in transmitting data between endpoints. It can be affected by factors such as physical distance, propagation, processing, queuing, and network conditions.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 3
+Chunk ID            : chunk_3
+Cosine Similarity   : 0.282681
+Text                : An IP address identifies a network interface or host so that packets can be addressed and delivered across an IP network. IPv4 and IPv6 are the two major versions of the Internet Protocol.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 7
+Chunk ID            : chunk_7
+Cosine Similarity   : 0.273485
+Text                : A firewall controls network traffic according to defined security rules. It can allow, reject, or filter connections based on characteristics such as source, destination, protocol, or port.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 0
+Chunk ID            : chunk_0
+Cosine Similarity   : 0.262615
+Text                : TCP is a connection-oriented transport protocol that provides reliable, ordered delivery of data between applications. It uses acknowledgements, sequencing, retransmission, and flow control to ensure that data reaches the destination correctly.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 5
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : How does a firewall control network traffic?
+
+Rank 1
+Corpus Index       : 7
+Chunk ID            : chunk_7
+Cosine Similarity   : 0.790896
+Text                : A firewall controls network traffic according to defined security rules. It can allow, reject, or filter connections based on characteristics such as source, destination, protocol, or port.
+Routing Classification : HIGH
+
+Rank 2
+Corpus Index       : 4
+Chunk ID            : chunk_4
+Cosine Similarity   : 0.354309
+Text                : Routing is the process of determining where network packets should be forwarded so that they can travel from a source network to a destination network. Routers use routing information to select appropriate paths.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 8
+Chunk ID            : chunk_8
+Cosine Similarity   : 0.305950
+Text                : Network congestion occurs when the amount of traffic attempting to use network resources exceeds their available capacity, potentially causing delays, packet loss, and reduced throughput.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 9
+Chunk ID            : chunk_9
+Cosine Similarity   : 0.300110
+Text                : Network latency is the delay involved in transmitting data between endpoints. It can be affected by factors such as physical distance, propagation, processing, queuing, and network conditions.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 0
+Chunk ID            : chunk_0
+Cosine Similarity   : 0.282508
+Text                : TCP is a connection-oriented transport protocol that provides reliable, ordered delivery of data between applications. It uses acknowledgements, sequencing, retransmission, and flow control to ensure that data reaches the destination correctly.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 6
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What factors can contribute to network latency?
+
+Rank 1
+Corpus Index       : 9
+Chunk ID            : chunk_9
+Cosine Similarity   : 0.795188
+Text                : Network latency is the delay involved in transmitting data between endpoints. It can be affected by factors such as physical distance, propagation, processing, queuing, and network conditions.
+Routing Classification : HIGH
+
+Rank 2
+Corpus Index       : 8
+Chunk ID            : chunk_8
+Cosine Similarity   : 0.487867
+Text                : Network congestion occurs when the amount of traffic attempting to use network resources exceeds their available capacity, potentially causing delays, packet loss, and reduced throughput.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 48
+Chunk ID            : chunk_48
+Cosine Similarity   : 0.320009
+Text                : Modern IT is so complex and layered that a computer engineer cannot afford to be ingorant about networking & also vice versa
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 2
+Chunk ID            : chunk_2
+Cosine Similarity   : 0.293394
+Text                : TCP provides reliable and ordered delivery through mechanisms such as acknowledgements and retransmission, whereas UDP provides connectionless delivery with lower overhead but without guaranteed delivery.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 0
+Chunk ID            : chunk_0
+Cosine Similarity   : 0.235647
+Text                : TCP is a connection-oriented transport protocol that provides reliable, ordered delivery of data between applications. It uses acknowledgements, sequencing, retransmission, and flow control to ensure that data reaches the destination correctly.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 7
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What is the difference between stocks and bonds?
+
+Rank 1
+Corpus Index       : 15
+Chunk ID            : chunk_15
+Cosine Similarity   : 0.824786
+Text                : Stocks represent ownership in a company, whereas bonds represent lending to an issuer. Their risk, return characteristics, and claims on the issuer differ.
+Routing Classification : HIGH
+
+Rank 2
+Corpus Index       : 13
+Chunk ID            : chunk_13
+Cosine Similarity   : 0.478421
+Text                : A stock represents an ownership interest in a company and gives investors an opportunity to benefit from changes in the company's value and, in some cases, receive dividends.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 14
+Chunk ID            : chunk_14
+Cosine Similarity   : 0.446851
+Text                : A bond is a debt instrument through which an investor lends money to an issuer in exchange for scheduled interest payments and repayment of the principal according to specified terms.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 3
+Chunk ID            : chunk_3
+Cosine Similarity   : 0.243389
+Text                : An IP address identifies a network interface or host so that packets can be addressed and delivered across an IP network. IPv4 and IPv6 are the two major versions of the Internet Protocol.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 17
+Chunk ID            : chunk_17
+Cosine Similarity   : 0.230274
+Text                : Market risk is the possibility of financial loss caused by changes in market variables such as equity prices, interest rates, exchange rates, or commodity prices.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 8
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What is credit risk?
+
+Rank 1
+Corpus Index       : 16
+Chunk ID            : chunk_16
+Cosine Similarity   : 0.789929
+Text                : Credit risk is the possibility that a borrower or counterparty will fail to meet its financial obligations according to agreed terms.
+Routing Classification : HIGH
+
+Rank 2
+Corpus Index       : 17
+Chunk ID            : chunk_17
+Cosine Similarity   : 0.537237
+Text                : Market risk is the possibility of financial loss caused by changes in market variables such as equity prices, interest rates, exchange rates, or commodity prices.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 12
+Chunk ID            : chunk_12
+Cosine Similarity   : 0.373856
+Text                : A credit card allows a customer to make purchases using a line of credit provided by the card issuer, with the customer typically repaying the borrowed amount later.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 18
+Chunk ID            : chunk_18
+Cosine Similarity   : 0.306274
+Text                : Financial fraud detection involves identifying transactions or patterns that may indicate unauthorized, deceptive, or otherwise fraudulent activity.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 45
+Chunk ID            : chunk_45
+Cosine Similarity   : 0.277156
+Text                : In order to maintain financial health of the nation, the Finance bill has imposed tight controls on electronic payments
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 9
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What is market risk?
+
+Rank 1
+Corpus Index       : 17
+Chunk ID            : chunk_17
+Cosine Similarity   : 0.785600
+Text                : Market risk is the possibility of financial loss caused by changes in market variables such as equity prices, interest rates, exchange rates, or commodity prices.
+Routing Classification : HIGH
+
+Rank 2
+Corpus Index       : 16
+Chunk ID            : chunk_16
+Cosine Similarity   : 0.563855
+Text                : Credit risk is the possibility that a borrower or counterparty will fail to meet its financial obligations according to agreed terms.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 13
+Chunk ID            : chunk_13
+Cosine Similarity   : 0.249454
+Text                : A stock represents an ownership interest in a company and gives investors an opportunity to benefit from changes in the company's value and, in some cases, receive dividends.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 49
+Chunk ID            : chunk_49
+Cosine Similarity   : 0.225965
+Text                : The awareness about health care is enormous today that billions of dollars are invested in Health sector & it is one of leading business in financial sector
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 25
+Chunk ID            : chunk_25
+Cosine Similarity   : 0.214003
+Text                : Infectious diseases are illnesses caused by microorganisms such as viruses, bacteria, fungi, or parasites and can often spread between individuals or through environmental exposure.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 10
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : How do electronic payments differ from physical cash transactions?
+
+Rank 1
+Corpus Index       : 11
+Chunk ID            : chunk_11
+Cosine Similarity   : 0.669588
+Text                : Electronic payments transfer money between parties through digital payment systems without requiring physical cash or paper-based instruments.
+Routing Classification : MEDIUM
+
+Rank 2
+Corpus Index       : 45
+Chunk ID            : chunk_45
+Cosine Similarity   : 0.426941
+Text                : In order to maintain financial health of the nation, the Finance bill has imposed tight controls on electronic payments
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 30
+Chunk ID            : chunk_30
+Cosine Similarity   : 0.332825
+Text                : Electronic health records are digital systems used to store and manage patient health information, including medical histories, diagnoses, treatments, and test results.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 12
+Chunk ID            : chunk_12
+Cosine Similarity   : 0.328860
+Text                : A credit card allows a customer to make purchases using a line of credit provided by the card issuer, with the customer typically repaying the borrowed amount later.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 10
+Chunk ID            : chunk_10
+Cosine Similarity   : 0.327563
+Text                : A bank account allows individuals or organizations to deposit, hold, and withdraw money and to perform transactions through a financial institution.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 11
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What is the purpose of financial fraud detection?
+
+Rank 1
+Corpus Index       : 18
+Chunk ID            : chunk_18
+Cosine Similarity   : 0.788888
+Text                : Financial fraud detection involves identifying transactions or patterns that may indicate unauthorized, deceptive, or otherwise fraudulent activity.
+Routing Classification : HIGH
+
+Rank 2
+Corpus Index       : 19
+Chunk ID            : chunk_19
+Cosine Similarity   : 0.458322
+Text                : Money laundering involves processes intended to conceal the illicit origin of funds by moving or transforming them through financial transactions.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 10
+Chunk ID            : chunk_10
+Cosine Similarity   : 0.359308
+Text                : A bank account allows individuals or organizations to deposit, hold, and withdraw money and to perform transactions through a financial institution.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 41
+Chunk ID            : chunk_41
+Cosine Similarity   : 0.265288
+Text                : Software testing evaluates whether a software system behaves according to its requirements and helps identify defects.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 49
+Chunk ID            : chunk_49
+Cosine Similarity   : 0.258244
+Text                : The awareness about health care is enormous today that billions of dollars are invested in Health sector & it is one of leading business in financial sector
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 12
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What is the purpose of money laundering?
+
+Rank 1
+Corpus Index       : 19
+Chunk ID            : chunk_19
+Cosine Similarity   : 0.775129
+Text                : Money laundering involves processes intended to conceal the illicit origin of funds by moving or transforming them through financial transactions.
+Routing Classification : HIGH
+
+Rank 2
+Corpus Index       : 18
+Chunk ID            : chunk_18
+Cosine Similarity   : 0.385151
+Text                : Financial fraud detection involves identifying transactions or patterns that may indicate unauthorized, deceptive, or otherwise fraudulent activity.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 10
+Chunk ID            : chunk_10
+Cosine Similarity   : 0.370664
+Text                : A bank account allows individuals or organizations to deposit, hold, and withdraw money and to perform transactions through a financial institution.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 11
+Chunk ID            : chunk_11
+Cosine Similarity   : 0.256397
+Text                : Electronic payments transfer money between parties through digital payment systems without requiring physical cash or paper-based instruments.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 44
+Chunk ID            : chunk_44
+Cosine Similarity   : 0.239804
+Text                : To be financially successful one has to be very good in connections AND PR skills need to be outstanding – even in personal life
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 13
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What information is used when making a medical diagnosis?
+
+Rank 1
+Corpus Index       : 20
+Chunk ID            : chunk_20
+Cosine Similarity   : 0.668002
+Text                : Medical diagnosis is the process of identifying a disease or health condition by evaluating symptoms, medical history, physical findings, and diagnostic test results.
+Routing Classification : MEDIUM
+
+Rank 2
+Corpus Index       : 22
+Chunk ID            : chunk_22
+Cosine Similarity   : 0.581846
+Text                : Diagnostic tests provide information that helps identify, confirm, or rule out a disease or medical condition. Examples include blood tests, imaging, and laboratory examinations.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 21
+Chunk ID            : chunk_21
+Cosine Similarity   : 0.497871
+Text                : Medical symptoms are subjective or observable indications of a person's health condition, such as pain, fever, fatigue, or difficulty breathing.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 30
+Chunk ID            : chunk_30
+Cosine Similarity   : 0.397956
+Text                : Electronic health records are digital systems used to store and manage patient health information, including medical histories, diagnoses, treatments, and test results.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 26
+Chunk ID            : chunk_26
+Cosine Similarity   : 0.306321
+Text                : Medical treatment involves interventions intended to manage, cure, or control a disease or health condition. Treatment may include medication, surgery, therapy, or other clinical interventions.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 14
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What are medical symptoms?
+
+Rank 1
+Corpus Index       : 21
+Chunk ID            : chunk_21
+Cosine Similarity   : 0.698100
+Text                : Medical symptoms are subjective or observable indications of a person's health condition, such as pain, fever, fatigue, or difficulty breathing.
+Routing Classification : MEDIUM
+
+Rank 2
+Corpus Index       : 20
+Chunk ID            : chunk_20
+Cosine Similarity   : 0.525081
+Text                : Medical diagnosis is the process of identifying a disease or health condition by evaluating symptoms, medical history, physical findings, and diagnostic test results.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 22
+Chunk ID            : chunk_22
+Cosine Similarity   : 0.340127
+Text                : Diagnostic tests provide information that helps identify, confirm, or rule out a disease or medical condition. Examples include blood tests, imaging, and laboratory examinations.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 26
+Chunk ID            : chunk_26
+Cosine Similarity   : 0.293797
+Text                : Medical treatment involves interventions intended to manage, cure, or control a disease or health condition. Treatment may include medication, surgery, therapy, or other clinical interventions.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 25
+Chunk ID            : chunk_25
+Cosine Similarity   : 0.286826
+Text                : Infectious diseases are illnesses caused by microorganisms such as viruses, bacteria, fungi, or parasites and can often spread between individuals or through environmental exposure.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 15
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What is the purpose of diagnostic testing?
+
+Rank 1
+Corpus Index       : 22
+Chunk ID            : chunk_22
+Cosine Similarity   : 0.721158
+Text                : Diagnostic tests provide information that helps identify, confirm, or rule out a disease or medical condition. Examples include blood tests, imaging, and laboratory examinations.
+Routing Classification : MEDIUM
+
+Rank 2
+Corpus Index       : 20
+Chunk ID            : chunk_20
+Cosine Similarity   : 0.497382
+Text                : Medical diagnosis is the process of identifying a disease or health condition by evaluating symptoms, medical history, physical findings, and diagnostic test results.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 41
+Chunk ID            : chunk_41
+Cosine Similarity   : 0.448360
+Text                : Software testing evaluates whether a software system behaves according to its requirements and helps identify defects.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 30
+Chunk ID            : chunk_30
+Cosine Similarity   : 0.278238
+Text                : Electronic health records are digital systems used to store and manage patient health information, including medical histories, diagnoses, treatments, and test results.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 21
+Chunk ID            : chunk_21
+Cosine Similarity   : 0.266803
+Text                : Medical symptoms are subjective or observable indications of a person's health condition, such as pain, fever, fatigue, or difficulty breathing.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 16
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What is diabetes?
+
+Rank 1
+Corpus Index       : 23
+Chunk ID            : chunk_23
+Cosine Similarity   : 0.785538
+Text                : Diabetes is a chronic condition in which the body has impaired regulation of blood glucose, resulting in persistently elevated blood sugar levels.
+Routing Classification : HIGH
+
+Rank 2
+Corpus Index       : 24
+Chunk ID            : chunk_24
+Cosine Similarity   : 0.319812
+Text                : Cardiovascular disease refers to conditions affecting the heart and blood vessels, including coronary artery disease, heart failure, and stroke.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 20
+Chunk ID            : chunk_20
+Cosine Similarity   : 0.253160
+Text                : Medical diagnosis is the process of identifying a disease or health condition by evaluating symptoms, medical history, physical findings, and diagnostic test results.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 28
+Chunk ID            : chunk_28
+Cosine Similarity   : 0.251413
+Text                : Surgery is a medical treatment involving operative procedures performed to diagnose, repair, remove, or otherwise modify tissues or organs.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 36
+Chunk ID            : chunk_36
+Cosine Similarity   : 0.215043
+Text                : SQL is a language used to query, insert, modify, and manage data stored in relational database systems.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 17
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What conditions are classified as cardiovascular disease?
+
+Rank 1
+Corpus Index       : 24
+Chunk ID            : chunk_24
+Cosine Similarity   : 0.765495
+Text                : Cardiovascular disease refers to conditions affecting the heart and blood vessels, including coronary artery disease, heart failure, and stroke.
+Routing Classification : HIGH
+
+Rank 2
+Corpus Index       : 21
+Chunk ID            : chunk_21
+Cosine Similarity   : 0.391034
+Text                : Medical symptoms are subjective or observable indications of a person's health condition, such as pain, fever, fatigue, or difficulty breathing.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 20
+Chunk ID            : chunk_20
+Cosine Similarity   : 0.356288
+Text                : Medical diagnosis is the process of identifying a disease or health condition by evaluating symptoms, medical history, physical findings, and diagnostic test results.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 23
+Chunk ID            : chunk_23
+Cosine Similarity   : 0.309707
+Text                : Diabetes is a chronic condition in which the body has impaired regulation of blood glucose, resulting in persistently elevated blood sugar levels.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 25
+Chunk ID            : chunk_25
+Cosine Similarity   : 0.296822
+Text                : Infectious diseases are illnesses caused by microorganisms such as viruses, bacteria, fungi, or parasites and can often spread between individuals or through environmental exposure.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 18
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What is the purpose of medical treatment?
+
+Rank 1
+Corpus Index       : 26
+Chunk ID            : chunk_26
+Cosine Similarity   : 0.636012
+Text                : Medical treatment involves interventions intended to manage, cure, or control a disease or health condition. Treatment may include medication, surgery, therapy, or other clinical interventions.
+Routing Classification : MEDIUM
+
+Rank 2
+Corpus Index       : 28
+Chunk ID            : chunk_28
+Cosine Similarity   : 0.464026
+Text                : Surgery is a medical treatment involving operative procedures performed to diagnose, repair, remove, or otherwise modify tissues or organs.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 27
+Chunk ID            : chunk_27
+Cosine Similarity   : 0.457105
+Text                : Medications are substances administered to prevent, treat, or manage diseases and symptoms. They may work through different biological mechanisms depending on their intended purpose.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 29
+Chunk ID            : chunk_29
+Cosine Similarity   : 0.408691
+Text                : Hospitals are healthcare facilities that provide services such as diagnosis, treatment, surgery, emergency care, and inpatient medical care.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 20
+Chunk ID            : chunk_20
+Cosine Similarity   : 0.382816
+Text                : Medical diagnosis is the process of identifying a disease or health condition by evaluating symptoms, medical history, physical findings, and diagnostic test results.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 19
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What are medications used for?
+
+Rank 1
+Corpus Index       : 27
+Chunk ID            : chunk_27
+Cosine Similarity   : 0.647885
+Text                : Medications are substances administered to prevent, treat, or manage diseases and symptoms. They may work through different biological mechanisms depending on their intended purpose.
+Routing Classification : MEDIUM
+
+Rank 2
+Corpus Index       : 26
+Chunk ID            : chunk_26
+Cosine Similarity   : 0.358150
+Text                : Medical treatment involves interventions intended to manage, cure, or control a disease or health condition. Treatment may include medication, surgery, therapy, or other clinical interventions.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 28
+Chunk ID            : chunk_28
+Cosine Similarity   : 0.254367
+Text                : Surgery is a medical treatment involving operative procedures performed to diagnose, repair, remove, or otherwise modify tissues or organs.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 29
+Chunk ID            : chunk_29
+Cosine Similarity   : 0.245319
+Text                : Hospitals are healthcare facilities that provide services such as diagnosis, treatment, surgery, emergency care, and inpatient medical care.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 36
+Chunk ID            : chunk_36
+Cosine Similarity   : 0.199823
+Text                : SQL is a language used to query, insert, modify, and manage data stored in relational database systems.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 20
+================================================================================
+
+Category : Directly answerable / simple — 20
+Question : What is the role of electronic health records?
+
+Rank 1
+Corpus Index       : 30
+Chunk ID            : chunk_30
+Cosine Similarity   : 0.800788
+Text                : Electronic health records are digital systems used to store and manage patient health information, including medical histories, diagnoses, treatments, and test results.
+Routing Classification : HIGH
+
+Rank 2
+Corpus Index       : 45
+Chunk ID            : chunk_45
+Cosine Similarity   : 0.425681
+Text                : In order to maintain financial health of the nation, the Finance bill has imposed tight controls on electronic payments
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 34
+Chunk ID            : chunk_34
+Cosine Similarity   : 0.317441
+Text                : Data structures organize and store data so that it can be accessed and manipulated efficiently.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 11
+Chunk ID            : chunk_11
+Cosine Similarity   : 0.314076
+Text                : Electronic payments transfer money between parties through digital payment systems without requiring physical cash or paper-based instruments.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 40
+Chunk ID            : chunk_40
+Cosine Similarity   : 0.301972
+Text                : File systems organize and manage persistent data on storage devices, providing mechanisms for creating, accessing, modifying, and deleting files.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 21
+================================================================================
+
+Category : Difficult / distributed-answer — 5
+Question : How does a firewall contribute to network security beyond simply blocking traffic?
+
+Rank 1
+Corpus Index       : 7
+Chunk ID            : chunk_7
+Cosine Similarity   : 0.715354
+Text                : A firewall controls network traffic according to defined security rules. It can allow, reject, or filter connections based on characteristics such as source, destination, protocol, or port.
+Routing Classification : MEDIUM
+
+Rank 2
+Corpus Index       : 48
+Chunk ID            : chunk_48
+Cosine Similarity   : 0.261109
+Text                : Modern IT is so complex and layered that a computer engineer cannot afford to be ingorant about networking & also vice versa
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 4
+Chunk ID            : chunk_4
+Cosine Similarity   : 0.227477
+Text                : Routing is the process of determining where network packets should be forwarded so that they can travel from a source network to a destination network. Routers use routing information to select appropriate paths.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 9
+Chunk ID            : chunk_9
+Cosine Similarity   : 0.216887
+Text                : Network latency is the delay involved in transmitting data between endpoints. It can be affected by factors such as physical distance, propagation, processing, queuing, and network conditions.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 8
+Chunk ID            : chunk_8
+Cosine Similarity   : 0.210348
+Text                : Network congestion occurs when the amount of traffic attempting to use network resources exceeds their available capacity, potentially causing delays, packet loss, and reduced throughput.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 22
+================================================================================
+
+Category : Difficult / distributed-answer — 5
+Question : What factors should be considered when assessing the risks associated with financial transactions?
+
+Rank 1
+Corpus Index       : 16
+Chunk ID            : chunk_16
+Cosine Similarity   : 0.449632
+Text                : Credit risk is the possibility that a borrower or counterparty will fail to meet its financial obligations according to agreed terms.
+Routing Classification : LOW
+
+Rank 2
+Corpus Index       : 17
+Chunk ID            : chunk_17
+Cosine Similarity   : 0.425571
+Text                : Market risk is the possibility of financial loss caused by changes in market variables such as equity prices, interest rates, exchange rates, or commodity prices.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 18
+Chunk ID            : chunk_18
+Cosine Similarity   : 0.419247
+Text                : Financial fraud detection involves identifying transactions or patterns that may indicate unauthorized, deceptive, or otherwise fraudulent activity.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 45
+Chunk ID            : chunk_45
+Cosine Similarity   : 0.331384
+Text                : In order to maintain financial health of the nation, the Finance bill has imposed tight controls on electronic payments
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 19
+Chunk ID            : chunk_19
+Cosine Similarity   : 0.329347
+Text                : Money laundering involves processes intended to conceal the illicit origin of funds by moving or transforming them through financial transactions.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 23
+================================================================================
+
+Category : Difficult / distributed-answer — 5
+Question : How do diagnosis, diagnostic testing, and treatment relate to one another in healthcare?
+
+Rank 1
+Corpus Index       : 22
+Chunk ID            : chunk_22
+Cosine Similarity   : 0.678986
+Text                : Diagnostic tests provide information that helps identify, confirm, or rule out a disease or medical condition. Examples include blood tests, imaging, and laboratory examinations.
+Routing Classification : MEDIUM
+
+Rank 2
+Corpus Index       : 20
+Chunk ID            : chunk_20
+Cosine Similarity   : 0.675630
+Text                : Medical diagnosis is the process of identifying a disease or health condition by evaluating symptoms, medical history, physical findings, and diagnostic test results.
+Routing Classification : MEDIUM
+
+Rank 3
+Corpus Index       : 26
+Chunk ID            : chunk_26
+Cosine Similarity   : 0.470516
+Text                : Medical treatment involves interventions intended to manage, cure, or control a disease or health condition. Treatment may include medication, surgery, therapy, or other clinical interventions.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 21
+Chunk ID            : chunk_21
+Cosine Similarity   : 0.443327
+Text                : Medical symptoms are subjective or observable indications of a person's health condition, such as pain, fever, fatigue, or difficulty breathing.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 29
+Chunk ID            : chunk_29
+Cosine Similarity   : 0.405088
+Text                : Hospitals are healthcare facilities that provide services such as diagnosis, treatment, surgery, emergency care, and inpatient medical care.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 24
+================================================================================
+
+Category : Difficult / distributed-answer — 5
+Question : What are the major factors that can affect an employee's ability to receive appropriate medical care?
+
+Rank 1
+Corpus Index       : 29
+Chunk ID            : chunk_29
+Cosine Similarity   : 0.330912
+Text                : Hospitals are healthcare facilities that provide services such as diagnosis, treatment, surgery, emergency care, and inpatient medical care.
+Routing Classification : LOW
+
+Rank 2
+Corpus Index       : 26
+Chunk ID            : chunk_26
+Cosine Similarity   : 0.311648
+Text                : Medical treatment involves interventions intended to manage, cure, or control a disease or health condition. Treatment may include medication, surgery, therapy, or other clinical interventions.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 21
+Chunk ID            : chunk_21
+Cosine Similarity   : 0.292123
+Text                : Medical symptoms are subjective or observable indications of a person's health condition, such as pain, fever, fatigue, or difficulty breathing.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 31
+Chunk ID            : chunk_31
+Cosine Similarity   : 0.265563
+Text                : Health insurance provides financial coverage for eligible healthcare expenses, subject to the terms, conditions, and limits of an insurance policy.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 25
+Chunk ID            : chunk_25
+Cosine Similarity   : 0.263285
+Text                : Infectious diseases are illnesses caused by microorganisms such as viruses, bacteria, fungi, or parasites and can often spread between individuals or through environmental exposure.
+Routing Classification : LOW
+
+
+================================================================================
+QUESTION 25
+================================================================================
+
+Category : Difficult / distributed-answer — 5
+Question : How can software systems use databases, operating-system processes, and algorithms together to support an application?
+
+Rank 1
+Corpus Index       : 38
+Chunk ID            : chunk_38
+Cosine Similarity   : 0.480631
+Text                : A process is an instance of a running program together with its associated execution state and system resources.
+Routing Classification : LOW
+
+Rank 2
+Corpus Index       : 43
+Chunk ID            : chunk_43
+Cosine Similarity   : 0.447607
+Text                : Software deployment is the process of making a software application available in a target environment so that it can be executed or used by its intended users.
+Routing Classification : LOW
+
+Rank 3
+Corpus Index       : 36
+Chunk ID            : chunk_36
+Cosine Similarity   : 0.403602
+Text                : SQL is a language used to query, insert, modify, and manage data stored in relational database systems.
+Routing Classification : LOW
+
+Rank 4
+Corpus Index       : 41
+Chunk ID            : chunk_41
+Cosine Similarity   : 0.398363
+Text                : Software testing evaluates whether a software system behaves according to its requirements and helps identify defects.
+Routing Classification : LOW
+
+Rank 5
+Corpus Index       : 33
+Chunk ID            : chunk_33
+Cosine Similarity   : 0.392793
+Text                : Algorithms are defined sequences of computational steps used to solve problems or perform specific tasks.
+Routing Classification : LOW
+
+
+================================================================================
+AGGREGATE RETRIEVAL STATISTICS
+================================================================================
+
+Total Questions        : 25
+Corpus Vectors         : 50
+Corpus Dimensions      : 384
+Top-K                  : 5
+Total Retrieved Chunks : 125
+
+ALL RETRIEVED COSINE SCORES
+----------------------------
+Minimum : 0.199823
+Maximum : 0.824786
+Mean    : 0.416874
+Median  : 0.358150
+
+RANK-WISE RETRIEVAL STATISTICS
+------------------------------
+Rank 1: Mean=0.681919, Median=0.715354, Min=0.330912, Max=0.824786
+Rank 2: Mean=0.454126, Median=0.447607, Min=0.261109, Max=0.701006
+Rank 3: Mean=0.361823, Median=0.356288, Min=0.227477, Max=0.549995
+Rank 4: Mean=0.305426, Median=0.293797, Min=0.216887, Max=0.443327
+Rank 5: Mean=0.281073, Median=0.277156, Min=0.199823, Max=0.405088
+
+TOP-1 SCORE STATISTICS
+----------------------
+Minimum : 0.330912
+Maximum : 0.824786
+Mean    : 0.681919
+Median  : 0.715354
+
+QUESTION-LEVEL RETRIEVAL CLASSIFICATION
+----------------------------------------
+HIGH   :   10 (40.00%)
+MEDIUM :   10 (40.00%)
+LOW    :    5 (20.00%)
+
+================================================================================
+END OF SYNTHETIC RETRIEVAL OUTPUT
+================================================================================

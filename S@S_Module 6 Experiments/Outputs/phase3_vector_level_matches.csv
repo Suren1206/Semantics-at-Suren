@@ -1,0 +1,901 @@
+query_id,query,query_vector_id,query_token,rank,corpus_vector_id,corpus_token,parent_chunk_id,cosine_similarity
+Q01,How many annual leave days can I carry over into next year?,V01354,▁How,1,V00056,▁into,C02,0.831329345703125
+Q01,How many annual leave days can I carry over into next year?,V01354,▁How,2,V00053,▁annual,C02,0.8307874798774719
+Q01,How many annual leave days can I carry over into next year?,V01354,▁How,3,V00045,▁may,C02,0.8277407288551331
+Q01,How many annual leave days can I carry over into next year?,V01354,▁How,4,V00075,▁will,C02,0.8270732164382935
+Q01,How many annual leave days can I carry over into next year?,V01354,▁How,5,V00044,es,C02,0.8224421739578247
+Q01,How many annual leave days can I carry over into next year?,V01355,▁many,1,V00055,▁days,C02,0.8307884931564331
+Q01,How many annual leave days can I carry over into next year?,V01355,▁many,2,V00056,▁into,C02,0.8300715684890747
+Q01,How many annual leave days can I carry over into next year?,V01355,▁many,3,V00008,▁days,C01,0.8241405487060547
+Q01,How many annual leave days can I carry over into next year?,V01355,▁many,4,V00053,▁annual,C02,0.8226346969604492
+Q01,How many annual leave days can I carry over into next year?,V01355,▁many,5,V00058,▁following,C02,0.8196170926094055
+Q01,How many annual leave days can I carry over into next year?,V01356,▁annual,1,V00053,▁annual,C02,0.9075676202774048
+Q01,How many annual leave days can I carry over into next year?,V01356,▁annual,2,V00125,▁annual,C04,0.8899508118629456
+Q01,How many annual leave days can I carry over into next year?,V01356,▁annual,3,V00265,▁annual,C08,0.8870710134506226
+Q01,How many annual leave days can I carry over into next year?,V01356,▁annual,4,V00010,▁annual,C01,0.8863821029663086
+Q01,How many annual leave days can I carry over into next year?,V01356,▁annual,5,V00157,▁annual,C05,0.875866174697876
+Q01,How many annual leave days can I carry over into next year?,V01357,▁leave,1,V00054,▁leave,C02,0.9182019233703613
+Q01,How many annual leave days can I carry over into next year?,V01357,▁leave,2,V00126,▁leave,C04,0.9025405645370483
+Q01,How many annual leave days can I carry over into next year?,V01357,▁leave,3,V00011,▁leave,C01,0.8938734531402588
+Q01,How many annual leave days can I carry over into next year?,V01357,▁leave,4,V00266,▁leave,C08,0.8932969570159912
+Q01,How many annual leave days can I carry over into next year?,V01357,▁leave,5,V00121,▁leave,C03,0.8925367593765259
+Q01,How many annual leave days can I carry over into next year?,V01358,▁days,1,V00055,▁days,C02,0.9125632047653198
+Q01,How many annual leave days can I carry over into next year?,V01358,▁days,2,V00008,▁days,C01,0.8879629969596863
+Q01,How many annual leave days can I carry over into next year?,V01358,▁days,3,V00169,▁days,C05,0.8505377769470215
+Q01,How many annual leave days can I carry over into next year?,V01358,▁days,4,V00016,▁year,C01,0.828117311000824
+Q01,How many annual leave days can I carry over into next year?,V01358,▁days,5,V00053,▁annual,C02,0.821950376033783
+Q01,How many annual leave days can I carry over into next year?,V01359,▁can,1,V00045,▁may,C02,0.8642163276672363
+Q01,How many annual leave days can I carry over into next year?,V01359,▁can,2,V00056,▁into,C02,0.84674072265625
+Q01,How many annual leave days can I carry over into next year?,V01359,▁can,3,V00075,▁will,C02,0.8430205583572388
+Q01,How many annual leave days can I carry over into next year?,V01359,▁can,4,V00044,es,C02,0.8371896743774414
+Q01,How many annual leave days can I carry over into next year?,V01359,▁can,5,V00053,▁annual,C02,0.8347541093826294
+Q01,How many annual leave days can I carry over into next year?,V01360,▁I,1,V00044,es,C02,0.8550101518630981
+Q01,How many annual leave days can I carry over into next year?,V01360,▁I,2,V00150,.,C04,0.847630500793457
+Q01,How many annual leave days can I carry over into next year?,V01360,▁I,3,V00122,.,C03,0.8387938141822815
+Q01,How many annual leave days can I carry over into next year?,V01360,▁I,4,V00061,.,C02,0.8380843997001648
+Q01,How many annual leave days can I carry over into next year?,V01360,▁I,5,V00101,.,C03,0.8378314971923828
+Q01,How many annual leave days can I carry over into next year?,V01361,▁carry,1,V00046,▁carry,C02,0.8885666131973267
+Q01,How many annual leave days can I carry over into next year?,V01361,▁carry,2,V00070,▁carry,C02,0.8721500635147095
+Q01,How many annual leave days can I carry over into next year?,V01361,▁carry,3,V00132,▁carry,C04,0.8481130599975586
+Q01,How many annual leave days can I carry over into next year?,V01361,▁carry,4,V00056,▁into,C02,0.8399696350097656
+Q01,How many annual leave days can I carry over into next year?,V01361,▁carry,5,V00047,▁forward,C02,0.8392491936683655
+Q01,How many annual leave days can I carry over into next year?,V01362,▁over,1,V00058,▁following,C02,0.8349971175193787
+Q01,How many annual leave days can I carry over into next year?,V01362,▁over,2,V00056,▁into,C02,0.8339303135871887
+Q01,How many annual leave days can I carry over into next year?,V01362,▁over,3,V00047,▁forward,C02,0.8290066719055176
+Q01,How many annual leave days can I carry over into next year?,V01362,▁over,4,V00066,▁above,C02,0.8272061347961426
+Q01,How many annual leave days can I carry over into next year?,V01362,▁over,5,V00073,ward,C02,0.8137746453285217
+Q01,How many annual leave days can I carry over into next year?,V01363,▁into,1,V00056,▁into,C02,0.8826513290405273
+Q01,How many annual leave days can I carry over into next year?,V01363,▁into,2,V00058,▁following,C02,0.8560590744018555
+Q01,How many annual leave days can I carry over into next year?,V01363,▁into,3,V00060,▁year,C02,0.8252254128456116
+Q01,How many annual leave days can I carry over into next year?,V01363,▁into,4,V00080,▁year,C02,0.8239529132843018
+Q01,How many annual leave days can I carry over into next year?,V01363,▁into,5,V00047,▁forward,C02,0.823099672794342
+Q01,How many annual leave days can I carry over into next year?,V01364,▁next,1,V00058,▁following,C02,0.8997023701667786
+Q01,How many annual leave days can I carry over into next year?,V01364,▁next,2,V00060,▁year,C02,0.83475661277771
+Q01,How many annual leave days can I carry over into next year?,V01364,▁next,3,V00315,▁Future,C09,0.8281445503234863
+Q01,How many annual leave days can I carry over into next year?,V01364,▁next,4,V00080,▁year,C02,0.8254778385162354
+Q01,How many annual leave days can I carry over into next year?,V01364,▁next,5,V00053,▁annual,C02,0.8198493719100952
+Q01,How many annual leave days can I carry over into next year?,V01365,▁year,1,V00060,▁year,C02,0.9077309370040894
+Q01,How many annual leave days can I carry over into next year?,V01365,▁year,2,V00080,▁year,C02,0.894577145576477
+Q01,How many annual leave days can I carry over into next year?,V01365,▁year,3,V00093,▁year,C03,0.8745293021202087
+Q01,How many annual leave days can I carry over into next year?,V01365,▁year,4,V00259,▁year,C08,0.8687869310379028
+Q01,How many annual leave days can I carry over into next year?,V01365,▁year,5,V00016,▁year,C01,0.8620159029960632
+Q01,How many annual leave days can I carry over into next year?,V01366,?,1,V00276,.,C08,0.8472987413406372
+Q01,How many annual leave days can I carry over into next year?,V01366,?,2,V00061,.,C02,0.8456065654754639
+Q01,How many annual leave days can I carry over into next year?,V01366,?,3,V00101,.,C03,0.8427340984344482
+Q01,How many annual leave days can I carry over into next year?,V01366,?,4,V00019,.,C01,0.8422857522964478
+Q01,How many annual leave days can I carry over into next year?,V01366,?,5,V00044,es,C02,0.8373128771781921
+Q02,What happens to unused vacation at the end of the year?,V01367,▁What,1,V00314,.,C09,0.8065474033355713
+Q02,What happens to unused vacation at the end of the year?,V01367,▁What,2,V00294,",",C09,0.801912784576416
+Q02,What happens to unused vacation at the end of the year?,V01367,▁What,3,V00139,ly,C04,0.7955230474472046
+Q02,What happens to unused vacation at the end of the year?,V01367,▁What,4,V00318,▁is,C09,0.7929610013961792
+Q02,What happens to unused vacation at the end of the year?,V01367,▁What,5,V00302,▁is,C09,0.79294753074646
+Q02,What happens to unused vacation at the end of the year?,V01368,▁happens,1,V00302,▁is,C09,0.7999789118766785
+Q02,What happens to unused vacation at the end of the year?,V01368,▁happens,2,V00318,▁is,C09,0.7992042303085327
+Q02,What happens to unused vacation at the end of the year?,V01368,▁happens,3,V00314,.,C09,0.7979362607002258
+Q02,What happens to unused vacation at the end of the year?,V01368,▁happens,4,V00294,",",C09,0.7964737415313721
+Q02,What happens to unused vacation at the end of the year?,V01368,▁happens,5,V00293,s,C09,0.7954670190811157
+Q02,What happens to unused vacation at the end of the year?,V01369,▁to,1,V00128,ing,C04,0.8003274202346802
+Q02,What happens to unused vacation at the end of the year?,V01369,▁to,2,V00299,ed,C09,0.7966808080673218
+Q02,What happens to unused vacation at the end of the year?,V01369,▁to,3,V00129,▁the,C04,0.7898454666137695
+Q02,What happens to unused vacation at the end of the year?,V01369,▁to,4,V00077,ly,C02,0.7874580025672913
+Q02,What happens to unused vacation at the end of the year?,V01369,▁to,5,V00139,ly,C04,0.7873390316963196
+Q02,What happens to unused vacation at the end of the year?,V01370,▁un,1,V00295,▁un,C09,0.8727020621299744
+Q02,What happens to unused vacation at the end of the year?,V01370,▁un,2,V00123,▁Un,C04,0.8660292029380798
+Q02,What happens to unused vacation at the end of the year?,V01370,▁un,3,V00051,▁un,C02,0.852332353591919
+Q02,What happens to unused vacation at the end of the year?,V01370,▁un,4,V00063,▁un,C02,0.8463237881660461
+Q02,What happens to unused vacation at the end of the year?,V01370,▁un,5,V00296,used,C09,0.8144431710243225
+Q02,What happens to unused vacation at the end of the year?,V01371,used,1,V00296,used,C09,0.8725760579109192
+Q02,What happens to unused vacation at the end of the year?,V01371,used,2,V00124,used,C04,0.8706362247467041
+Q02,What happens to unused vacation at the end of the year?,V01371,used,3,V00052,used,C02,0.8579112887382507
+Q02,What happens to unused vacation at the end of the year?,V01371,used,4,V00064,used,C02,0.855167031288147
+Q02,What happens to unused vacation at the end of the year?,V01371,used,5,V00345,used,C10,0.8206701278686523
+Q02,What happens to unused vacation at the end of the year?,V01372,▁vacation,1,V00126,▁leave,C04,0.810257077217102
+Q02,What happens to unused vacation at the end of the year?,V01372,▁vacation,2,V00317,▁leave,C09,0.7993083000183105
+Q02,What happens to unused vacation at the end of the year?,V01372,▁vacation,3,V00054,▁leave,C02,0.792438805103302
+Q02,What happens to unused vacation at the end of the year?,V01372,▁vacation,4,V00124,used,C04,0.7902998924255371
+Q02,What happens to unused vacation at the end of the year?,V01372,▁vacation,5,V00301,▁leave,C09,0.7875185012817383
+Q02,What happens to unused vacation at the end of the year?,V01373,▁at,1,V00079,▁at,C02,0.8170775771141052
+Q02,What happens to unused vacation at the end of the year?,V01373,▁at,2,V00128,ing,C04,0.8102573156356812
+Q02,What happens to unused vacation at the end of the year?,V01373,▁at,3,V00139,ly,C04,0.8075782060623169
+Q02,What happens to unused vacation at the end of the year?,V01373,▁at,4,V00077,ly,C02,0.8040450215339661
+Q02,What happens to unused vacation at the end of the year?,V01373,▁at,5,V00299,ed,C09,0.8023257255554199
+Q02,What happens to unused vacation at the end of the year?,V01374,▁the,1,V00128,ing,C04,0.8062021732330322
+Q02,What happens to unused vacation at the end of the year?,V01374,▁the,2,V00129,▁the,C04,0.8043005466461182
+Q02,What happens to unused vacation at the end of the year?,V01374,▁the,3,V00299,ed,C09,0.8039498329162598
+Q02,What happens to unused vacation at the end of the year?,V01374,▁the,4,V00077,ly,C02,0.8035658597946167
+Q02,What happens to unused vacation at the end of the year?,V01374,▁the,5,V00139,ly,C04,0.7993433475494385
+Q02,What happens to unused vacation at the end of the year?,V01375,▁end,1,V00081,▁end,C02,0.8444749116897583
+Q02,What happens to unused vacation at the end of the year?,V01375,▁end,2,V00292,▁end,C09,0.831000566482544
+Q02,What happens to unused vacation at the end of the year?,V01375,▁end,3,V00293,s,C09,0.7988225817680359
+Q02,What happens to unused vacation at the end of the year?,V01375,▁end,4,V00296,used,C09,0.7728015184402466
+Q02,What happens to unused vacation at the end of the year?,V01375,▁end,5,V00142,▁31,C04,0.7715843915939331
+Q02,What happens to unused vacation at the end of the year?,V01376,▁of,1,V00080,▁year,C02,0.8019587993621826
+Q02,What happens to unused vacation at the end of the year?,V01376,▁of,2,V00079,▁at,C02,0.796517014503479
+Q02,What happens to unused vacation at the end of the year?,V01376,▁of,3,V00139,ly,C04,0.7952210903167725
+Q02,What happens to unused vacation at the end of the year?,V01376,▁of,4,V00060,▁year,C02,0.7911752462387085
+Q02,What happens to unused vacation at the end of the year?,V01376,▁of,5,V00128,ing,C04,0.7903821468353271
+Q02,What happens to unused vacation at the end of the year?,V01377,▁the,1,V00080,▁year,C02,0.8061714172363281
+Q02,What happens to unused vacation at the end of the year?,V01377,▁the,2,V00117,▁their,C03,0.7986212372779846
+Q02,What happens to unused vacation at the end of the year?,V01377,▁the,3,V00096,▁it,C03,0.7955198884010315
+Q02,What happens to unused vacation at the end of the year?,V01377,▁the,4,V00129,▁the,C04,0.7949730157852173
+Q02,What happens to unused vacation at the end of the year?,V01377,▁the,5,V00060,▁year,C02,0.7949472665786743
+Q02,What happens to unused vacation at the end of the year?,V01378,▁year,1,V00080,▁year,C02,0.8563548922538757
+Q02,What happens to unused vacation at the end of the year?,V01378,▁year,2,V00060,▁year,C02,0.8519236445426941
+Q02,What happens to unused vacation at the end of the year?,V01378,▁year,3,V00093,▁year,C03,0.848382830619812
+Q02,What happens to unused vacation at the end of the year?,V01378,▁year,4,V00259,▁year,C08,0.8366428017616272
+Q02,What happens to unused vacation at the end of the year?,V01378,▁year,5,V00300,▁annual,C09,0.8082699775695801
+Q02,What happens to unused vacation at the end of the year?,V01379,?,1,V00314,.,C09,0.8043013215065002
+Q02,What happens to unused vacation at the end of the year?,V01379,?,2,V00150,.,C04,0.7851263880729675
+Q02,What happens to unused vacation at the end of the year?,V01379,?,3,V00294,",",C09,0.7838367223739624
+Q02,What happens to unused vacation at the end of the year?,V01379,?,4,V00101,.,C03,0.7781190276145935
+Q02,What happens to unused vacation at the end of the year?,V01379,?,5,V00061,.,C02,0.7751725912094116
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01380,▁Can,1,V00045,▁may,C02,0.8681109547615051
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01380,▁Can,2,V00068,▁permit,C02,0.8449643850326538
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01380,▁Can,3,V00069,ted,C02,0.8416957855224609
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01380,▁Can,4,V00044,es,C02,0.8382101058959961
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01380,▁Can,5,V00056,▁into,C02,0.835955798625946
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01381,▁I,1,V00044,es,C02,0.8605732917785645
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01381,▁I,2,V00045,▁may,C02,0.8569749593734741
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01381,▁I,3,V00056,▁into,C02,0.8429529070854187
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01381,▁I,4,V00077,ly,C02,0.8405139446258545
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01381,▁I,5,V00069,ted,C02,0.8379477262496948
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01382,▁take,1,V00056,▁into,C02,0.853699803352356
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01382,▁take,2,V00045,▁may,C02,0.840238630771637
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01382,▁take,3,V00052,used,C02,0.8333367705345154
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01382,▁take,4,V00064,used,C02,0.832848072052002
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01382,▁take,5,V00058,▁following,C02,0.8307269215583801
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01383,▁my,1,V00044,es,C02,0.8573368787765503
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01383,▁my,2,V00077,ly,C02,0.8508914709091187
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01383,▁my,3,V00067,▁the,C02,0.8465136289596558
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01383,▁my,4,V00056,▁into,C02,0.8449122905731201
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01383,▁my,5,V00129,▁the,C04,0.8437209725379944
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01384,▁un,1,V00051,▁un,C02,0.8958471417427063
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01384,▁un,2,V00295,▁un,C09,0.8895490765571594
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01384,▁un,3,V00063,▁un,C02,0.8889923095703125
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01384,▁un,4,V00123,▁Un,C04,0.8877277374267578
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01384,▁un,5,V00344,▁un,C10,0.8326554894447327
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01385,used,1,V00064,used,C02,0.9076021909713745
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01385,used,2,V00052,used,C02,0.9074423313140869
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01385,used,3,V00124,used,C04,0.9007688760757446
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01385,used,4,V00296,used,C09,0.8917027711868286
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01385,used,5,V00345,used,C10,0.8423334360122681
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01386,▁leave,1,V00054,▁leave,C02,0.9152655601501465
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01386,▁leave,2,V00126,▁leave,C04,0.9076421856880188
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01386,▁leave,3,V00317,▁leave,C09,0.8915933966636658
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01386,▁leave,4,V00301,▁leave,C09,0.8895971179008484
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01386,▁leave,5,V00121,▁leave,C03,0.8826797604560852
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01387,▁into,1,V00056,▁into,C02,0.8852647542953491
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01387,▁into,2,V00058,▁following,C02,0.8441711068153381
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01387,▁into,3,V00060,▁year,C02,0.8330857753753662
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01387,▁into,4,V00080,▁year,C02,0.8281870484352112
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01387,▁into,5,V00045,▁may,C02,0.825658917427063
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01388,▁the,1,V00077,ly,C02,0.8446614742279053
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01388,▁the,2,V00058,▁following,C02,0.8446140885353088
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01388,▁the,3,V00056,▁into,C02,0.844531774520874
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01388,▁the,4,V00060,▁year,C02,0.843664288520813
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01388,▁the,5,V00067,▁the,C02,0.8378101587295532
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01389,▁following,1,V00058,▁following,C02,0.9107186794281006
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01389,▁following,2,V00060,▁year,C02,0.8321185111999512
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01389,▁following,3,V00315,▁Future,C09,0.8282215595245361
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01389,▁following,4,V00080,▁year,C02,0.8184372782707214
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01389,▁following,5,V00056,▁into,C02,0.8176128268241882
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01390,▁year,1,V00060,▁year,C02,0.9134817123413086
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01390,▁year,2,V00080,▁year,C02,0.8956316709518433
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01390,▁year,3,V00093,▁year,C03,0.865562915802002
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01390,▁year,4,V00259,▁year,C08,0.8607860803604126
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01390,▁year,5,V00058,▁following,C02,0.8378705978393555
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01391,",",1,V00061,.,C02,0.861092209815979
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01391,",",2,V00044,es,C02,0.8525223731994629
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01391,",",3,V00082,.,C02,0.8520978689193726
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01391,",",4,V00150,.,C04,0.849050760269165
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01391,",",5,V00276,.,C08,0.8381543159484863
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01392,▁and,1,V00057,▁the,C02,0.8227447271347046
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01392,▁and,2,V00314,.,C09,0.8219090104103088
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01392,▁and,3,V00044,es,C02,0.8204454183578491
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01392,▁and,4,V00061,.,C02,0.8193714022636414
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01392,▁and,5,V00310,▁and,C09,0.8138242363929749
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01393,▁what,1,V00045,▁may,C02,0.8398366570472717
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01393,▁what,2,V00044,es,C02,0.8333041667938232
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01393,▁what,3,V00075,▁will,C02,0.828557014465332
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01393,▁what,4,V00056,▁into,C02,0.8277993202209473
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01393,▁what,5,V00069,ted,C02,0.826198160648346
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01394,▁is,1,V00045,▁may,C02,0.8401330709457397
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01394,▁is,2,V00044,es,C02,0.8375418186187744
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01394,▁is,3,V00077,ly,C02,0.8337143659591675
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01394,▁is,4,V00069,ted,C02,0.8319985866546631
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01394,▁is,5,V00075,▁will,C02,0.8302842974662781
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01395,▁the,1,V00045,▁may,C02,0.8498374223709106
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01395,▁the,2,V00069,ted,C02,0.8461602926254272
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01395,▁the,3,V00074,▁limit,C02,0.841563880443573
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01395,▁the,4,V00129,▁the,C04,0.8409138917922974
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01395,▁the,5,V00131,ted,C04,0.83291095495224
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01396,▁limit,1,V00074,▁limit,C02,0.9066658020019531
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01396,▁limit,2,V00068,▁permit,C02,0.8368957042694092
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01396,▁limit,3,V00045,▁may,C02,0.833228588104248
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01396,▁limit,4,V00069,ted,C02,0.825334906578064
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01396,▁limit,5,V00130,▁permit,C04,0.8219250440597534
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01397,?,1,V00061,.,C02,0.8540290594100952
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01397,?,2,V00044,es,C02,0.8444410562515259
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01397,?,3,V00314,.,C09,0.8425353765487671
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01397,?,4,V00150,.,C04,0.8393465280532837
+Q03,"Can I take my unused leave into the following year, and what is the limit?",V01397,?,5,V00276,.,C08,0.8376973867416382
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01398,▁What,1,V00050,▁5,C02,0.8209502696990967
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01398,▁What,2,V00075,▁will,C02,0.8152836561203003
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01398,▁What,3,V00079,▁at,C02,0.8079590201377869
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01398,▁What,4,V00057,▁the,C02,0.8068557977676392
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01398,▁What,5,V00062,▁Any,C02,0.804263710975647
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01399,▁is,1,V00050,▁5,C02,0.8176087141036987
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01399,▁is,2,V00075,▁will,C02,0.8120215535163879
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01399,▁is,3,V00079,▁at,C02,0.8092336654663086
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01399,▁is,4,V00057,▁the,C02,0.808295726776123
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01399,▁is,5,V00044,es,C02,0.8033339977264404
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01400,▁the,1,V00075,▁will,C02,0.8296778202056885
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01400,▁the,2,V00077,ly,C02,0.8232269287109375
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01400,▁the,3,V00079,▁at,C02,0.8226578235626221
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01400,▁the,4,V00044,es,C02,0.8182153701782227
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01400,▁the,5,V00050,▁5,C02,0.8150022625923157
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01401,▁rule,1,V00288,▁rules,C08,0.8275368213653564
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01401,▁rule,2,V00076,▁normal,C02,0.8003758192062378
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01401,▁rule,3,V00075,▁will,C02,0.7976370453834534
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01401,▁rule,4,V00055,▁days,C02,0.7968599796295166
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01401,▁rule,5,V00074,▁limit,C02,0.7918483018875122
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01402,▁for,1,V00075,▁will,C02,0.8252826929092407
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01402,▁for,2,V00050,▁5,C02,0.8250704407691956
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01402,▁for,3,V00079,▁at,C02,0.8177880048751831
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01402,▁for,4,V00044,es,C02,0.8105370998382568
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01402,▁for,5,V00071,-,C02,0.8104541301727295
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01403,▁carry,1,V00046,▁carry,C02,0.895127534866333
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01403,▁carry,2,V00047,▁forward,C02,0.8704430460929871
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01403,▁carry,3,V00070,▁carry,C02,0.8676257133483887
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01403,▁carry,4,V00056,▁into,C02,0.8570578694343567
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01403,▁carry,5,V00073,ward,C02,0.8522263765335083
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01404,ing,1,V00056,▁into,C02,0.8462675213813782
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01404,ing,2,V00071,-,C02,0.8422357439994812
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01404,ing,3,V00077,ly,C02,0.8418906927108765
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01404,ing,4,V00079,▁at,C02,0.8347954750061035
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01404,ing,5,V00075,▁will,C02,0.8337811231613159
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01405,▁forward,1,V00047,▁forward,C02,0.9102148413658142
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01405,▁forward,2,V00073,ward,C02,0.8783615827560425
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01405,▁forward,3,V00072,for,C02,0.8590032458305359
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01405,▁forward,4,V00056,▁into,C02,0.8580467104911804
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01405,▁forward,5,V00046,▁carry,C02,0.838631808757782
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01406,▁five,1,V00050,▁5,C02,0.8887001276016235
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01406,▁five,2,V00167,▁five,C05,0.8872682452201843
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01406,▁five,3,V00079,▁at,C02,0.742961049079895
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01406,▁five,4,V00075,▁will,C02,0.7366946339607239
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01406,▁five,5,V00177,▁in,C05,0.73639976978302
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01407,▁un,1,V00051,▁un,C02,0.9012507796287537
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01407,▁un,2,V00063,▁un,C02,0.894477903842926
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01407,▁un,3,V00123,▁Un,C04,0.8258812427520752
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01407,▁un,4,V00052,used,C02,0.8248676061630249
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01407,▁un,5,V00295,▁un,C09,0.8227907419204712
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01408,used,1,V00052,used,C02,0.9242767691612244
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01408,used,2,V00064,used,C02,0.9210956692695618
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01408,used,3,V00124,used,C04,0.8764400482177734
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01408,used,4,V00296,used,C09,0.8591364622116089
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01408,used,5,V00055,▁days,C02,0.8337986469268799
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01409,▁days,1,V00055,▁days,C02,0.9195671081542969
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01409,▁days,2,V00169,▁days,C05,0.8671622276306152
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01409,▁days,3,V00008,▁days,C01,0.8592156171798706
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01409,▁days,4,V00052,used,C02,0.822776198387146
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01409,▁days,5,V00064,used,C02,0.8194464445114136
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01410,▁of,1,V00067,▁the,C02,0.8557031154632568
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01410,▁of,2,V00071,-,C02,0.8451884984970093
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01410,▁of,3,V00077,ly,C02,0.844530463218689
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01410,▁of,4,V00044,es,C02,0.8396986126899719
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01410,▁of,5,V00055,▁days,C02,0.833159327507019
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01411,▁annual,1,V00053,▁annual,C02,0.9090720415115356
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01411,▁annual,2,V00157,▁annual,C05,0.8772870302200317
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01411,▁annual,3,V00080,▁year,C02,0.8582612872123718
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01411,▁annual,4,V00125,▁annual,C04,0.8563872575759888
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01411,▁annual,5,V00300,▁annual,C09,0.8535678386688232
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01412,▁leave,1,V00054,▁leave,C02,0.9206843972206116
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01412,▁leave,2,V00126,▁leave,C04,0.8906432390213013
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01412,▁leave,3,V00158,▁leave,C05,0.8855381011962891
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01412,▁leave,4,V00301,▁leave,C09,0.8766390085220337
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01412,▁leave,5,V00317,▁leave,C09,0.8759187459945679
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01413,?,1,V00057,▁the,C02,0.8221611976623535
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01413,?,2,V00050,▁5,C02,0.8211948871612549
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01413,?,3,V00177,▁in,C05,0.8122811317443848
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01413,?,4,V00071,-,C02,0.8054946660995483
+Q04,What is the rule for carrying forward five unused days of annual leave?,V01413,?,5,V00075,▁will,C02,0.8053728342056274
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01414,▁When,1,V00137,▁will,C04,0.8821534514427185
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01414,▁When,2,V00139,ly,C04,0.8756051063537598
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01414,▁When,3,V00141,▁on,C04,0.8702477216720581
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01414,▁When,4,V00128,ing,C04,0.8624264001846313
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01414,▁When,5,V00079,▁at,C02,0.8549717664718628
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01415,▁does,1,V00137,▁will,C04,0.8930426836013794
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01415,▁does,2,V00139,ly,C04,0.8851696848869324
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01415,▁does,3,V00128,ing,C04,0.8780287504196167
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01415,▁does,4,V00079,▁at,C02,0.86151522397995
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01415,▁does,5,V00075,▁will,C02,0.8614694476127625
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01416,▁un,1,V00123,▁Un,C04,0.933061957359314
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01416,▁un,2,V00063,▁un,C02,0.9014110565185547
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01416,▁un,3,V00051,▁un,C02,0.9008628129959106
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01416,▁un,4,V00295,▁un,C09,0.8617762327194214
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01416,▁un,5,V00344,▁un,C10,0.8533275723457336
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01417,used,1,V00124,used,C04,0.9395219683647156
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01417,used,2,V00064,used,C02,0.9151140451431274
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01417,used,3,V00052,used,C02,0.9099039435386658
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01417,used,4,V00296,used,C09,0.8570736050605774
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01417,used,5,V00345,used,C10,0.8568965196609497
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01418,▁leave,1,V00126,▁leave,C04,0.9316768646240234
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01418,▁leave,2,V00054,▁leave,C02,0.9116690158843994
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01418,▁leave,3,V00336,▁leave,C10,0.8694003224372864
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01418,▁leave,4,V00317,▁leave,C09,0.8617437481880188
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01418,▁leave,5,V00301,▁leave,C09,0.860146164894104
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01419,▁exp,1,V00140,▁lapse,C04,0.8631612658500671
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01419,▁exp,2,V00127,▁exceed,C04,0.8448198437690735
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01419,▁exp,3,V00078,▁lapse,C02,0.8395112156867981
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01419,▁exp,4,V00124,used,C04,0.837225079536438
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01419,▁exp,5,V00137,▁will,C04,0.8343992829322815
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01420,ire,1,V00140,▁lapse,C04,0.8783101439476013
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01420,ire,2,V00139,ly,C04,0.8610460162162781
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01420,ire,3,V00078,▁lapse,C02,0.8602051138877869
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01420,ire,4,V00137,▁will,C04,0.8580321073532104
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01420,ire,5,V00124,used,C04,0.8576823472976685
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01421,▁if,1,V00128,ing,C04,0.8637027740478516
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01421,▁if,2,V00144,▁unless,C04,0.854095995426178
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01421,▁if,3,V00137,▁will,C04,0.848671555519104
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01421,▁if,4,V00075,▁will,C02,0.8383415937423706
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01421,▁if,5,V00139,ly,C04,0.8380907773971558
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01422,▁I,1,V00150,.,C04,0.8749550580978394
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01422,▁I,2,V00128,ing,C04,0.8603978753089905
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01422,▁I,3,V00133,-,C04,0.8562628030776978
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01422,▁I,4,V00137,▁will,C04,0.8525539636611938
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01422,▁I,5,V00145,▁an,C04,0.8513585329055786
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01423,▁have,1,V00128,ing,C04,0.866152286529541
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01423,▁have,2,V00132,▁carry,C04,0.8628535270690918
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01423,▁have,3,V00135,ward,C04,0.8547128438949585
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01423,▁have,4,V00129,▁the,C04,0.8456238508224487
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01423,▁have,5,V00046,▁carry,C02,0.8439140915870667
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01424,▁more,1,V00127,▁exceed,C04,0.89797043800354
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01424,▁more,2,V00066,▁above,C02,0.8637734055519104
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01424,▁more,3,V00128,ing,C04,0.8424290418624878
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01424,▁more,4,V00136,▁amount,C04,0.839513897895813
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01424,▁more,5,V00129,▁the,C04,0.8268791437149048
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01425,▁than,1,V00127,▁exceed,C04,0.9010404348373413
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01425,▁than,2,V00066,▁above,C02,0.8714868426322937
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01425,▁than,3,V00128,ing,C04,0.8545487523078918
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01425,▁than,4,V00129,▁the,C04,0.8464856147766113
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01425,▁than,5,V00136,▁amount,C04,0.8378098011016846
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01426,▁the,1,V00129,▁the,C04,0.8938901424407959
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01426,▁the,2,V00128,ing,C04,0.8829407095909119
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01426,▁the,3,V00133,-,C04,0.8695507049560547
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01426,▁the,4,V00067,▁the,C02,0.8634425401687622
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01426,▁the,5,V00131,ted,C04,0.8631987571716309
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01427,▁allowed,1,V00130,▁permit,C04,0.9142372608184814
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01427,▁allowed,2,V00131,ted,C04,0.9056611657142639
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01427,▁allowed,3,V00068,▁permit,C02,0.8894691467285156
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01427,▁allowed,4,V00069,ted,C02,0.8716483116149902
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01427,▁allowed,5,V00124,used,C04,0.8517485857009888
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01428,▁carry,1,V00132,▁carry,C04,0.9363225102424622
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01428,▁carry,2,V00070,▁carry,C02,0.9097246527671814
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01428,▁carry,3,V00046,▁carry,C02,0.8848937749862671
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01428,▁carry,4,V00135,ward,C04,0.8698275685310364
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01428,▁carry,5,V00134,for,C04,0.8434330224990845
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01429,-,1,V00133,-,C04,0.9210098385810852
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01429,-,2,V00071,-,C02,0.892219066619873
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01429,-,3,V00128,ing,C04,0.8306246995925903
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01429,-,4,V00132,▁carry,C04,0.8259265422821045
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01429,-,5,V00129,▁the,C04,0.8168264627456665
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01430,for,1,V00134,for,C04,0.9294592142105103
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01430,for,2,V00072,for,C02,0.902248203754425
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01430,for,3,V00135,ward,C04,0.8802019357681274
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01430,for,4,V00047,▁forward,C02,0.8546135425567627
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01430,for,5,V00132,▁carry,C04,0.8514361381530762
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01431,ward,1,V00135,ward,C04,0.9314833283424377
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01431,ward,2,V00073,ward,C02,0.8885258436203003
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01431,ward,3,V00132,▁carry,C04,0.8646864891052246
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01431,ward,4,V00134,for,C04,0.8559999465942383
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01431,ward,5,V00047,▁forward,C02,0.855527400970459
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01432,?,1,V00150,.,C04,0.8611940145492554
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01432,?,2,V00133,-,C04,0.8473644256591797
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01432,?,3,V00137,▁will,C04,0.8446860313415527
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01432,?,4,V00128,ing,C04,0.8388242125511169
+Q05,When does unused leave expire if I have more than the allowed carry-forward?,V01432,?,5,V00061,.,C02,0.8379526138305664
+Q06,Can unused balances be moved to next year?,V01433,▁Can,1,V00045,▁may,C02,0.7989377975463867
+Q06,Can unused balances be moved to next year?,V01433,▁Can,2,V00075,▁will,C02,0.794249951839447
+Q06,Can unused balances be moved to next year?,V01433,▁Can,3,V00044,es,C02,0.7925585508346558
+Q06,Can unused balances be moved to next year?,V01433,▁Can,4,V00056,▁into,C02,0.7860090136528015
+Q06,Can unused balances be moved to next year?,V01433,▁Can,5,V00137,▁will,C04,0.7803134918212891
+Q06,Can unused balances be moved to next year?,V01434,▁un,1,V00123,▁Un,C04,0.8515429496765137
+Q06,Can unused balances be moved to next year?,V01434,▁un,2,V00051,▁un,C02,0.8514121770858765
+Q06,Can unused balances be moved to next year?,V01434,▁un,3,V00063,▁un,C02,0.8495177030563354
+Q06,Can unused balances be moved to next year?,V01434,▁un,4,V00295,▁un,C09,0.8366770148277283
+Q06,Can unused balances be moved to next year?,V01434,▁un,5,V00344,▁un,C10,0.8199642896652222
+Q06,Can unused balances be moved to next year?,V01435,used,1,V00064,used,C02,0.8530060052871704
+Q06,Can unused balances be moved to next year?,V01435,used,2,V00052,used,C02,0.8509626388549805
+Q06,Can unused balances be moved to next year?,V01435,used,3,V00124,used,C04,0.8475205302238464
+Q06,Can unused balances be moved to next year?,V01435,used,4,V00345,used,C10,0.8309812545776367
+Q06,Can unused balances be moved to next year?,V01435,used,5,V00296,used,C09,0.8215357661247253
+Q06,Can unused balances be moved to next year?,V01436,▁balance,1,V00065,▁balance,C02,0.8636713027954102
+Q06,Can unused balances be moved to next year?,V01436,▁balance,2,V00346,▁balance,C10,0.8377130627632141
+Q06,Can unused balances be moved to next year?,V01436,▁balance,3,V00363,▁balance,C10,0.829926609992981
+Q06,Can unused balances be moved to next year?,V01436,▁balance,4,V00438,▁balance,C13,0.8155917525291443
+Q06,Can unused balances be moved to next year?,V01436,▁balance,5,V00443,▁balance,C13,0.8095293641090393
+Q06,Can unused balances be moved to next year?,V01437,s,1,V00065,▁balance,C02,0.8246545791625977
+Q06,Can unused balances be moved to next year?,V01437,s,2,V00347,s,C10,0.7977694869041443
+Q06,Can unused balances be moved to next year?,V01437,s,3,V00363,▁balance,C10,0.7791807651519775
+Q06,Can unused balances be moved to next year?,V01437,s,4,V00346,▁balance,C10,0.7759489417076111
+Q06,Can unused balances be moved to next year?,V01437,s,5,V00044,es,C02,0.773557186126709
+Q06,Can unused balances be moved to next year?,V01438,▁be,1,V00056,▁into,C02,0.7828277349472046
+Q06,Can unused balances be moved to next year?,V01438,▁be,2,V00044,es,C02,0.7646308541297913
+Q06,Can unused balances be moved to next year?,V01438,▁be,3,V00075,▁will,C02,0.764362096786499
+Q06,Can unused balances be moved to next year?,V01438,▁be,4,V00045,▁may,C02,0.7634550333023071
+Q06,Can unused balances be moved to next year?,V01438,▁be,5,V00052,used,C02,0.7628790140151978
+Q06,Can unused balances be moved to next year?,V01439,▁moved,1,V00052,used,C02,0.7683553695678711
+Q06,Can unused balances be moved to next year?,V01439,▁moved,2,V00065,▁balance,C02,0.7677865028381348
+Q06,Can unused balances be moved to next year?,V01439,▁moved,3,V00064,used,C02,0.7660502791404724
+Q06,Can unused balances be moved to next year?,V01439,▁moved,4,V00135,ward,C04,0.7656689882278442
+Q06,Can unused balances be moved to next year?,V01439,▁moved,5,V00056,▁into,C02,0.7644398212432861
+Q06,Can unused balances be moved to next year?,V01440,▁to,1,V00056,▁into,C02,0.8056552410125732
+Q06,Can unused balances be moved to next year?,V01440,▁to,2,V00065,▁balance,C02,0.7766624689102173
+Q06,Can unused balances be moved to next year?,V01440,▁to,3,V00058,▁following,C02,0.7756408452987671
+Q06,Can unused balances be moved to next year?,V01440,▁to,4,V00079,▁at,C02,0.7738777995109558
+Q06,Can unused balances be moved to next year?,V01440,▁to,5,V00052,used,C02,0.7703091502189636
+Q06,Can unused balances be moved to next year?,V01441,▁next,1,V00058,▁following,C02,0.8272107243537903
+Q06,Can unused balances be moved to next year?,V01441,▁next,2,V00060,▁year,C02,0.7845755815505981
+Q06,Can unused balances be moved to next year?,V01441,▁next,3,V00315,▁Future,C09,0.7805215120315552
+Q06,Can unused balances be moved to next year?,V01441,▁next,4,V00080,▁year,C02,0.7722021341323853
+Q06,Can unused balances be moved to next year?,V01441,▁next,5,V00056,▁into,C02,0.7645849585533142
+Q06,Can unused balances be moved to next year?,V01442,▁year,1,V00060,▁year,C02,0.8470964431762695
+Q06,Can unused balances be moved to next year?,V01442,▁year,2,V00080,▁year,C02,0.8340058326721191
+Q06,Can unused balances be moved to next year?,V01442,▁year,3,V00093,▁year,C03,0.7943612337112427
+Q06,Can unused balances be moved to next year?,V01442,▁year,4,V00259,▁year,C08,0.7940353155136108
+Q06,Can unused balances be moved to next year?,V01442,▁year,5,V00125,▁annual,C04,0.7769476771354675
+Q06,Can unused balances be moved to next year?,V01443,?,1,V00061,.,C02,0.7846640348434448
+Q06,Can unused balances be moved to next year?,V01443,?,2,V00044,es,C02,0.78241366147995
+Q06,Can unused balances be moved to next year?,V01443,?,3,V00150,.,C04,0.7777137756347656
+Q06,Can unused balances be moved to next year?,V01443,?,4,V00314,.,C09,0.7742003202438354
+Q06,Can unused balances be moved to next year?,V01443,?,5,V00075,▁will,C02,0.7725552320480347
+Q07,How far in advance should I request vacation?,V01444,▁How,1,V00166,▁least,C05,0.8191831707954407
+Q07,How far in advance should I request vacation?,V01444,▁How,2,V00155,▁should,C05,0.8015248775482178
+Q07,How far in advance should I request vacation?,V01444,▁How,3,V00165,▁at,C05,0.7998842000961304
+Q07,How far in advance should I request vacation?,V01444,▁How,4,V00170,▁before,C05,0.799014151096344
+Q07,How far in advance should I request vacation?,V01444,▁How,5,V00160,s,C05,0.7869230508804321
+Q07,How far in advance should I request vacation?,V01445,▁far,1,V00166,▁least,C05,0.8034660816192627
+Q07,How far in advance should I request vacation?,V01445,▁far,2,V00170,▁before,C05,0.8014605045318604
+Q07,How far in advance should I request vacation?,V01445,▁far,3,V00513,▁advance,C15,0.7929331064224243
+Q07,How far in advance should I request vacation?,V01445,▁far,4,V00165,▁at,C05,0.7737027406692505
+Q07,How far in advance should I request vacation?,V01445,▁far,5,V00155,▁should,C05,0.7729026079177856
+Q07,How far in advance should I request vacation?,V01446,▁in,1,V00170,▁before,C05,0.8391209840774536
+Q07,How far in advance should I request vacation?,V01446,▁in,2,V00513,▁advance,C15,0.8197840452194214
+Q07,How far in advance should I request vacation?,V01446,▁in,3,V00512,▁in,C15,0.7988092303276062
+Q07,How far in advance should I request vacation?,V01446,▁in,4,V00166,▁least,C05,0.7938754558563232
+Q07,How far in advance should I request vacation?,V01446,▁in,5,V00171,▁the,C05,0.7841230630874634
+Q07,How far in advance should I request vacation?,V01447,▁advance,1,V00513,▁advance,C15,0.8392937779426575
+Q07,How far in advance should I request vacation?,V01447,▁advance,2,V00170,▁before,C05,0.8334600329399109
+Q07,How far in advance should I request vacation?,V01447,▁advance,3,V00512,▁in,C15,0.7703261375427246
+Q07,How far in advance should I request vacation?,V01447,▁advance,4,V00160,s,C05,0.762584924697876
+Q07,How far in advance should I request vacation?,V01447,▁advance,5,V00159,▁request,C05,0.7606708407402039
+Q07,How far in advance should I request vacation?,V01448,▁should,1,V00155,▁should,C05,0.8358832001686096
+Q07,How far in advance should I request vacation?,V01448,▁should,2,V00506,▁should,C15,0.8130909204483032
+Q07,How far in advance should I request vacation?,V01448,▁should,3,V00526,▁should,C15,0.802931547164917
+Q07,How far in advance should I request vacation?,V01448,▁should,4,V00729,▁should,C21,0.7988178730010986
+Q07,How far in advance should I request vacation?,V01448,▁should,5,V00166,▁least,C05,0.7909427881240845
+Q07,How far in advance should I request vacation?,V01449,▁I,1,V00160,s,C05,0.8121944069862366
+Q07,How far in advance should I request vacation?,V01449,▁I,2,V00171,▁the,C05,0.7911735773086548
+Q07,How far in advance should I request vacation?,V01449,▁I,3,V00511,ed,C15,0.7849128842353821
+Q07,How far in advance should I request vacation?,V01449,▁I,4,V00185,s,C06,0.7849128246307373
+Q07,How far in advance should I request vacation?,V01449,▁I,5,V00155,▁should,C05,0.7842103242874146
+Q07,How far in advance should I request vacation?,V01450,▁request,1,V00159,▁request,C05,0.862494707107544
+Q07,How far in advance should I request vacation?,V01450,▁request,2,V00184,▁request,C06,0.8524497747421265
+Q07,How far in advance should I request vacation?,V01450,▁request,3,V00510,▁request,C15,0.8523262739181519
+Q07,How far in advance should I request vacation?,V01450,▁request,4,V00511,ed,C15,0.8076819181442261
+Q07,How far in advance should I request vacation?,V01450,▁request,5,V00160,s,C05,0.8054174780845642
+Q07,How far in advance should I request vacation?,V01451,▁vacation,1,V00183,▁leave,C06,0.7726902961730957
+Q07,How far in advance should I request vacation?,V01451,▁vacation,2,V00158,▁leave,C05,0.7722405195236206
+Q07,How far in advance should I request vacation?,V01451,▁vacation,3,V00213,absence,C06,0.7645018100738525
+Q07,How far in advance should I request vacation?,V01451,▁vacation,4,V00159,▁request,C05,0.7612805962562561
+Q07,How far in advance should I request vacation?,V01451,▁vacation,5,V00752,▁travel,C22,0.7597334384918213
+Q07,How far in advance should I request vacation?,V01452,?,1,V00521,.,C15,0.7871283292770386
+Q07,How far in advance should I request vacation?,V01452,?,2,V00196,.,C06,0.7840293645858765
+Q07,How far in advance should I request vacation?,V01452,?,3,V00160,s,C05,0.779782772064209
+Q07,How far in advance should I request vacation?,V01452,?,4,V00155,▁should,C05,0.7795741558074951
+Q07,How far in advance should I request vacation?,V01452,?,5,V00177,▁in,C05,0.7782845497131348
+Q08,Does working from home require manager approval?,V01453,▁Does,1,V00702,.,C20,0.812664270401001
+Q08,Does working from home require manager approval?,V01453,▁Does,2,V00673,es,C20,0.800597608089447
+Q08,Does working from home require manager approval?,V01453,▁Does,3,V00688,ly,C20,0.7938501834869385
+Q08,Does working from home require manager approval?,V01453,▁Does,4,V00677,▁are,C20,0.7932291030883789
+Q08,Does working from home require manager approval?,V01453,▁Does,5,V00566,s,C16,0.7897770404815674
+Q08,Does working from home require manager approval?,V01454,▁working,1,V00674,▁working,C20,0.8643426895141602
+Q08,Does working from home require manager approval?,V01454,▁working,2,V00684,▁work,C20,0.8473244309425354
+Q08,Does working from home require manager approval?,V01454,▁working,3,V00564,▁work,C16,0.8386045694351196
+Q08,Does working from home require manager approval?,V01454,▁working,4,V00545,▁work,C16,0.8368488550186157
+Q08,Does working from home require manager approval?,V01454,▁working,5,V00671,lo,C20,0.8218519687652588
+Q08,Does working from home require manager approval?,V01455,▁from,1,V00675,▁from,C20,0.8795697093009949
+Q08,Does working from home require manager approval?,V01455,▁from,2,V00676,▁home,C20,0.8301724791526794
+Q08,Does working from home require manager approval?,V01455,▁from,3,V00674,▁working,C20,0.8064489960670471
+Q08,Does working from home require manager approval?,V01455,▁from,4,V00673,es,C20,0.7989432215690613
+Q08,Does working from home require manager approval?,V01455,▁from,5,V00702,.,C20,0.7959415912628174
+Q08,Does working from home require manager approval?,V01456,▁home,1,V00676,▁home,C20,0.8778025507926941
+Q08,Does working from home require manager approval?,V01456,▁home,2,V00675,▁from,C20,0.8136234283447266
+Q08,Does working from home require manager approval?,V01456,▁home,3,V00674,▁working,C20,0.7715764045715332
+Q08,Does working from home require manager approval?,V01456,▁home,4,V00673,es,C20,0.7681427001953125
+Q08,Does working from home require manager approval?,V01456,▁home,5,V00670,▁Emp,C20,0.7661941647529602
+Q08,Does working from home require manager approval?,V01457,▁require,1,V00701,▁requirements,C20,0.7877925634384155
+Q08,Does working from home require manager approval?,V01457,▁require,2,V00572,▁requirements,C16,0.7877539992332458
+Q08,Does working from home require manager approval?,V01457,▁require,3,V00556,▁has,C16,0.7703108787536621
+Q08,Does working from home require manager approval?,V01457,▁require,4,V00195,▁requirements,C06,0.7697491645812988
+Q08,Does working from home require manager approval?,V01457,▁require,5,V00673,es,C20,0.7694926857948303
+Q08,Does working from home require manager approval?,V01458,▁manager,1,V00561,▁manager,C16,0.8550798892974854
+Q08,Does working from home require manager approval?,V01458,▁manager,2,V00189,▁manager,C06,0.8298702239990234
+Q08,Does working from home require manager approval?,V01458,▁manager,3,V00810,▁Manager,C24,0.8173564672470093
+Q08,Does working from home require manager approval?,V01458,▁manager,4,V01024,▁manager,C30,0.804533839225769
+Q08,Does working from home require manager approval?,V01458,▁manager,5,V00102,▁Manager,C03,0.7954267263412476
+Q08,Does working from home require manager approval?,V01459,▁appro,1,V00558,▁approved,C16,0.8207739591598511
+Q08,Does working from home require manager approval?,V01459,▁appro,2,V00836,▁appro,C24,0.8086372017860413
+Q08,Does working from home require manager approval?,V01459,▁appro,3,V00190,▁appro,C06,0.8080916404724121
+Q08,Does working from home require manager approval?,V01459,▁appro,4,V00626,r,C18,0.7981687188148499
+Q08,Does working from home require manager approval?,V01459,▁appro,5,V00198,r,C06,0.7901582717895508
+Q08,Does working from home require manager approval?,V01460,val,1,V00558,▁approved,C16,0.8109121322631836
+Q08,Does working from home require manager approval?,V01460,val,2,V00191,val,C06,0.7961418628692627
+Q08,Does working from home require manager approval?,V01460,val,3,V00559,▁by,C16,0.7872140407562256
+Q08,Does working from home require manager approval?,V01460,val,4,V00556,▁has,C16,0.7789356708526611
+Q08,Does working from home require manager approval?,V01460,val,5,V00626,r,C18,0.7772989869117737
+Q08,Does working from home require manager approval?,V01461,?,1,V00702,.,C20,0.8349226713180542
+Q08,Does working from home require manager approval?,V01461,?,2,V00688,ly,C20,0.803749680519104
+Q08,Does working from home require manager approval?,V01461,?,3,V00673,es,C20,0.8018988966941833
+Q08,Does working from home require manager approval?,V01461,?,4,V00562,.,C16,0.7964781522750854
+Q08,Does working from home require manager approval?,V01461,?,5,V00677,▁are,C20,0.7927258014678955
+Q09,What should I do if my leave balance looks wrong?,V01462,▁What,1,V00240,▁should,C07,0.7881886959075928
+Q09,What should I do if my leave balance looks wrong?,V01462,▁What,2,V00360,▁should,C10,0.7837439179420471
+Q09,What should I do if my leave balance looks wrong?,V01462,▁What,3,V00235,.,C07,0.782753050327301
+Q09,What should I do if my leave balance looks wrong?,V01462,▁What,4,V00363,▁balance,C10,0.7792457342147827
+Q09,What should I do if my leave balance looks wrong?,V01462,▁What,5,V00245,ncies,C07,0.7788025736808777
+Q09,What should I do if my leave balance looks wrong?,V01463,▁should,1,V00240,▁should,C07,0.8289942741394043
+Q09,What should I do if my leave balance looks wrong?,V01463,▁should,2,V00360,▁should,C10,0.8161855936050415
+Q09,What should I do if my leave balance looks wrong?,V01463,▁should,3,V00029,▁should,C01,0.7858245968818665
+Q09,What should I do if my leave balance looks wrong?,V01463,▁should,4,V01256,▁should,C37,0.7822674512863159
+Q09,What should I do if my leave balance looks wrong?,V01463,▁should,5,V01229,▁should,C37,0.7794525027275085
+Q09,What should I do if my leave balance looks wrong?,V01464,▁I,1,V00362,▁their,C10,0.7988269329071045
+Q09,What should I do if my leave balance looks wrong?,V01464,▁I,2,V00250,.,C07,0.7920433878898621
+Q09,What should I do if my leave balance looks wrong?,V01464,▁I,3,V00235,.,C07,0.7891120910644531
+Q09,What should I do if my leave balance looks wrong?,V01464,▁I,4,V00439,s,C13,0.7878503799438477
+Q09,What should I do if my leave balance looks wrong?,V01464,▁I,5,V00150,.,C04,0.7875472903251648
+Q09,What should I do if my leave balance looks wrong?,V01465,▁do,1,V00363,▁balance,C10,0.7772053480148315
+Q09,What should I do if my leave balance looks wrong?,V01465,▁do,2,V00240,▁should,C07,0.7726612091064453
+Q09,What should I do if my leave balance looks wrong?,V01465,▁do,3,V00219,▁balance,C07,0.7719782590866089
+Q09,What should I do if my leave balance looks wrong?,V01465,▁do,4,V00245,ncies,C07,0.7709065675735474
+Q09,What should I do if my leave balance looks wrong?,V01465,▁do,5,V00342,▁treatment,C10,0.7689179182052612
+Q09,What should I do if my leave balance looks wrong?,V01466,▁if,1,V00245,ncies,C07,0.7739267349243164
+Q09,What should I do if my leave balance looks wrong?,V01466,▁if,2,V00363,▁balance,C10,0.7658978700637817
+Q09,What should I do if my leave balance looks wrong?,V01466,▁if,3,V00219,▁balance,C07,0.7601017951965332
+Q09,What should I do if my leave balance looks wrong?,V01466,▁if,4,V00244,pa,C07,0.7534403800964355
+Q09,What should I do if my leave balance looks wrong?,V01466,▁if,5,V00346,▁balance,C10,0.7532488107681274
+Q09,What should I do if my leave balance looks wrong?,V01467,▁my,1,V00347,s,C10,0.8053970336914062
+Q09,What should I do if my leave balance looks wrong?,V01467,▁my,2,V00065,▁balance,C02,0.8052537441253662
+Q09,What should I do if my leave balance looks wrong?,V01467,▁my,3,V00362,▁their,C10,0.8045122623443604
+Q09,What should I do if my leave balance looks wrong?,V01467,▁my,4,V00439,s,C13,0.8005292415618896
+Q09,What should I do if my leave balance looks wrong?,V01467,▁my,5,V00363,▁balance,C10,0.7969762086868286
+Q09,What should I do if my leave balance looks wrong?,V01468,▁leave,1,V00336,▁leave,C10,0.8651076555252075
+Q09,What should I do if my leave balance looks wrong?,V01468,▁leave,2,V00218,▁leave,C07,0.8615670204162598
+Q09,What should I do if my leave balance looks wrong?,V01468,▁leave,3,V00232,▁leave,C07,0.8575872182846069
+Q09,What should I do if my leave balance looks wrong?,V01468,▁leave,4,V00054,▁leave,C02,0.8563318848609924
+Q09,What should I do if my leave balance looks wrong?,V01468,▁leave,5,V00458,▁leave,C13,0.8498327732086182
+Q09,What should I do if my leave balance looks wrong?,V01469,▁balance,1,V00363,▁balance,C10,0.8710983991622925
+Q09,What should I do if my leave balance looks wrong?,V01469,▁balance,2,V00219,▁balance,C07,0.8661233186721802
+Q09,What should I do if my leave balance looks wrong?,V01469,▁balance,3,V00346,▁balance,C10,0.8608063459396362
+Q09,What should I do if my leave balance looks wrong?,V01469,▁balance,4,V00438,▁balance,C13,0.8553826808929443
+Q09,What should I do if my leave balance looks wrong?,V01469,▁balance,5,V00065,▁balance,C02,0.8523856997489929
+Q09,What should I do if my leave balance looks wrong?,V01470,▁looks,1,V00363,▁balance,C10,0.7841008305549622
+Q09,What should I do if my leave balance looks wrong?,V01470,▁looks,2,V00219,▁balance,C07,0.7823767066001892
+Q09,What should I do if my leave balance looks wrong?,V01470,▁looks,3,V00220,▁display,C07,0.7817054390907288
+Q09,What should I do if my leave balance looks wrong?,V01470,▁looks,4,V00346,▁balance,C10,0.7726786732673645
+Q09,What should I do if my leave balance looks wrong?,V01470,▁looks,5,V00438,▁balance,C13,0.7638455629348755
+Q09,What should I do if my leave balance looks wrong?,V01471,▁wrong,1,V00244,pa,C07,0.7814687490463257
+Q09,What should I do if my leave balance looks wrong?,V01471,▁wrong,2,V00219,▁balance,C07,0.780569851398468
+Q09,What should I do if my leave balance looks wrong?,V01471,▁wrong,3,V00363,▁balance,C10,0.7805524468421936
+Q09,What should I do if my leave balance looks wrong?,V01471,▁wrong,4,V00245,ncies,C07,0.7761427164077759
+Q09,What should I do if my leave balance looks wrong?,V01471,▁wrong,5,V00243,re,C07,0.7736587524414062
+Q09,What should I do if my leave balance looks wrong?,V01472,?,1,V00235,.,C07,0.8219414949417114
+Q09,What should I do if my leave balance looks wrong?,V01472,?,2,V00454,.,C13,0.8185122013092041
+Q09,What should I do if my leave balance looks wrong?,V01472,?,3,V00249,s,C07,0.8182134628295898
+Q09,What should I do if my leave balance looks wrong?,V01472,?,4,V00234,s,C07,0.8176571130752563
+Q09,What should I do if my leave balance looks wrong?,V01472,?,5,V00250,.,C07,0.8115807771682739
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01473,▁Can,1,V00045,▁may,C02,0.7932605743408203
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01473,▁Can,2,V00044,es,C02,0.7878276705741882
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01473,▁Can,3,V00075,▁will,C02,0.7851192355155945
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01473,▁Can,4,V00258,▁the,C08,0.780721127986908
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01473,▁Can,5,V00196,.,C06,0.7796913385391235
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01474,▁a,1,V00044,es,C02,0.7738826274871826
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01474,▁a,2,V00196,.,C06,0.7697082161903381
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01474,▁a,3,V00101,.,C03,0.7659844160079956
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01474,▁a,4,V00128,ing,C04,0.7646867036819458
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01474,▁a,5,V00071,-,C02,0.7621532082557678
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01475,▁chun,1,V00053,▁annual,C02,0.6973457932472229
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01475,▁chun,2,V00314,.,C09,0.6937663555145264
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01475,▁chun,3,V00083,▁Annu,C03,0.6930499076843262
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01475,▁chun,4,V00125,▁annual,C04,0.6928136348724365
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01475,▁chun,5,V00101,.,C03,0.6897374987602234
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01476,k,1,V00044,es,C02,0.7306080460548401
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01476,k,2,V00056,▁into,C02,0.7289626598358154
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01476,k,3,V00196,.,C06,0.7257561683654785
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01476,k,4,V00314,.,C09,0.7238379716873169
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01476,k,5,V00101,.,C03,0.7221869230270386
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01477,▁mention,1,V00047,▁forward,C02,0.7541472911834717
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01477,▁mention,2,V00065,▁balance,C02,0.7481666803359985
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01477,▁mention,3,V00059,▁calendar,C02,0.7450034022331238
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01477,▁mention,4,V00052,used,C02,0.7441462278366089
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01477,▁mention,5,V00056,▁into,C02,0.7413444519042969
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01478,▁carry,1,V00046,▁carry,C02,0.8255089521408081
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01478,▁carry,2,V00047,▁forward,C02,0.820441722869873
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01478,▁carry,3,V00070,▁carry,C02,0.7977195382118225
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01478,▁carry,4,V00056,▁into,C02,0.7955478429794312
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01478,▁carry,5,V00073,ward,C02,0.7948693037033081
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01479,▁forward,1,V00047,▁forward,C02,0.8516480326652527
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01479,▁forward,2,V00073,ward,C02,0.8210448622703552
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01479,▁forward,3,V00072,for,C02,0.7962470650672913
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01479,▁forward,4,V00056,▁into,C02,0.7919277548789978
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01479,▁forward,5,V00058,▁following,C02,0.7837453484535217
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01480,▁and,1,V00258,▁the,C08,0.792047917842865
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01480,▁and,2,V00196,.,C06,0.7808281779289246
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01480,▁and,3,V00075,▁will,C02,0.779655933380127
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01480,▁and,4,V00092,▁the,C03,0.7792475819587708
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01480,▁and,5,V00101,.,C03,0.7781906127929688
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01481,▁still,1,V00075,▁will,C02,0.7643598318099976
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01481,▁still,2,V00460,▁not,C13,0.7600358128547668
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01481,▁still,3,V00258,▁the,C08,0.7579377889633179
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01481,▁still,4,V00044,es,C02,0.756283164024353
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01481,▁still,5,V00056,▁into,C02,0.7553392052650452
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01482,▁be,1,V00077,ly,C02,0.7638571262359619
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01482,▁be,2,V00056,▁into,C02,0.7611106634140015
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01482,▁be,3,V00044,es,C02,0.7606973648071289
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01482,▁be,4,V00128,ing,C04,0.7593729496002197
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01482,▁be,5,V00075,▁will,C02,0.7572236061096191
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01483,▁ir,1,V00051,▁un,C02,0.7516180276870728
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01483,▁ir,2,V00063,▁un,C02,0.7415992021560669
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01483,▁ir,3,V00056,▁into,C02,0.735336422920227
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01483,▁ir,4,V00053,▁annual,C02,0.7325789332389832
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01483,▁ir,5,V00460,▁not,C13,0.730801522731781
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01484,relevant,1,V00052,used,C02,0.7342228889465332
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01484,relevant,2,V00047,▁forward,C02,0.7318216562271118
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01484,relevant,3,V00056,▁into,C02,0.7283371686935425
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01484,relevant,4,V00064,used,C02,0.7266850471496582
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01484,relevant,5,V00073,ward,C02,0.7224850654602051
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01485,▁to,1,V00044,es,C02,0.7994481921195984
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01485,▁to,2,V00056,▁into,C02,0.7959377765655518
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01485,▁to,3,V00077,ly,C02,0.7946306467056274
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01485,▁to,4,V00128,ing,C04,0.7941629886627197
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01485,▁to,5,V00101,.,C03,0.7910535931587219
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01486,▁annual,1,V00265,▁annual,C08,0.8662245869636536
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01486,▁annual,2,V00125,▁annual,C04,0.8632205128669739
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01486,▁annual,3,V00053,▁annual,C02,0.8592466115951538
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01486,▁annual,4,V00300,▁annual,C09,0.8568688035011292
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01486,▁annual,5,V00157,▁annual,C05,0.8425966501235962
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01487,▁leave,1,V00054,▁leave,C02,0.8777244091033936
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01487,▁leave,2,V00126,▁leave,C04,0.872104287147522
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01487,▁leave,3,V00266,▁leave,C08,0.8669233322143555
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01487,▁leave,4,V00317,▁leave,C09,0.8661500215530396
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01487,▁leave,5,V00301,▁leave,C09,0.8638842701911926
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01488,?,1,V00258,▁the,C08,0.8077466487884521
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01488,?,2,V00196,.,C06,0.8050862550735474
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01488,?,3,V00101,.,C03,0.8043606281280518
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01488,?,4,V00314,.,C09,0.7993061542510986
+Q10,Can a chunk mention carry forward and still be irrelevant to annual leave?,V01488,?,5,V00276,.,C08,0.798681378364563
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01489,▁How,1,V00004,▁are,C01,0.8329597115516663
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01489,▁How,2,V00044,es,C02,0.8294894099235535
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01489,▁How,3,V00154,es,C05,0.8280847072601318
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01489,▁How,4,V00056,▁into,C02,0.8277820944786072
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01489,▁How,5,V00045,▁may,C02,0.8272947072982788
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01490,▁many,1,V00008,▁days,C01,0.8382631540298462
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01490,▁many,2,V00055,▁days,C02,0.8289157152175903
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01490,▁many,3,V00056,▁into,C02,0.826160728931427
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01490,▁many,4,V00004,▁are,C01,0.8261264562606812
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01490,▁many,5,V00006,▁to,C01,0.8256120681762695
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01491,▁annual,1,V00157,▁annual,C05,0.91085284948349
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01491,▁annual,2,V00053,▁annual,C02,0.9022918939590454
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01491,▁annual,3,V00010,▁annual,C01,0.9014468193054199
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01491,▁annual,4,V00125,▁annual,C04,0.8864920139312744
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01491,▁annual,5,V00265,▁annual,C08,0.8861504197120667
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01492,▁leave,1,V00158,▁leave,C05,0.9200177192687988
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01492,▁leave,2,V00054,▁leave,C02,0.914019763469696
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01492,▁leave,3,V00011,▁leave,C01,0.9027302265167236
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01492,▁leave,4,V00183,▁leave,C06,0.9010722637176514
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01492,▁leave,5,V00121,▁leave,C03,0.8983069658279419
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01493,▁days,1,V00055,▁days,C02,0.9077554941177368
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01493,▁days,2,V00169,▁days,C05,0.8968663215637207
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01493,▁days,3,V00008,▁days,C01,0.8950814008712769
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01493,▁days,4,V00174,▁date,C05,0.8284717202186584
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01493,▁days,5,V00016,▁year,C01,0.8202950954437256
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01494,▁can,1,V00045,▁may,C02,0.8653678894042969
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01494,▁can,2,V00069,ted,C02,0.8410860300064087
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01494,▁can,3,V00056,▁into,C02,0.8379572033882141
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01494,▁can,4,V00044,es,C02,0.8376672863960266
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01494,▁can,5,V00075,▁will,C02,0.8362385630607605
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01495,▁I,1,V00044,es,C02,0.8604994416236877
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01495,▁I,2,V00154,es,C05,0.8520015478134155
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01495,▁I,3,V00162,▁the,C05,0.8515288233757019
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01495,▁I,4,V00150,.,C04,0.8497780561447144
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01495,▁I,5,V00175,",",C05,0.8484625816345215
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01496,▁carry,1,V00046,▁carry,C02,0.8674963116645813
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01496,▁carry,2,V00047,▁forward,C02,0.856303870677948
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01496,▁carry,3,V00056,▁into,C02,0.8478484153747559
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01496,▁carry,4,V00073,ward,C02,0.8323816061019897
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01496,▁carry,5,V00070,▁carry,C02,0.8321791887283325
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01497,▁forward,1,V00047,▁forward,C02,0.8901460766792297
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01497,▁forward,2,V00073,ward,C02,0.8610652685165405
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01497,▁forward,3,V00056,▁into,C02,0.8408851027488708
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01497,▁forward,4,V00072,for,C02,0.831858217716217
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01497,▁forward,5,V00058,▁following,C02,0.8250415325164795
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01498,",",1,V00175,",",C05,0.8829413652420044
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01498,",",2,V00061,.,C02,0.8775557279586792
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01498,",",3,V00180,.,C05,0.8738489151000977
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01498,",",4,V00019,.,C01,0.8732738494873047
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01498,",",5,V00082,.,C02,0.8711175918579102
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01499,▁and,1,V00028,▁and,C01,0.8555607795715332
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01499,▁and,2,V00196,.,C06,0.8547326326370239
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01499,▁and,3,V00026,ed,C01,0.8504507541656494
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01499,▁and,4,V00101,.,C03,0.8477922677993774
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01499,▁and,5,V00177,▁in,C05,0.8455791473388672
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01500,▁when,1,V00154,es,C05,0.841927707195282
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01500,▁when,2,V00155,▁should,C05,0.8350942134857178
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01500,▁when,3,V00166,▁least,C05,0.8336193561553955
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01500,▁when,4,V00257,▁during,C08,0.833489716053009
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01500,▁when,5,V00091,▁during,C03,0.8328016400337219
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01501,▁do,1,V00028,▁and,C01,0.8423000574111938
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01501,▁do,2,V00186,▁are,C06,0.8390151262283325
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01501,▁do,3,V00155,▁should,C05,0.834488570690155
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01501,▁do,4,V00154,es,C05,0.8312851190567017
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01501,▁do,5,V00032,▁in,C01,0.8287779092788696
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01502,▁I,1,V00162,▁the,C05,0.8547879457473755
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01502,▁I,2,V00044,es,C02,0.8533289432525635
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01502,▁I,3,V00154,es,C05,0.850016713142395
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01502,▁I,4,V00175,",",C05,0.8485552668571472
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01502,▁I,5,V00150,.,C04,0.8465330004692078
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01503,▁need,1,V00155,▁should,C05,0.836490273475647
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01503,▁need,2,V00200,▁should,C06,0.8351492881774902
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01503,▁need,3,V00029,▁should,C01,0.8274044394493103
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01503,▁need,4,V00186,▁are,C06,0.8108795285224915
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01503,▁need,5,V00195,▁requirements,C06,0.8078383803367615
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01504,▁to,1,V00160,s,C05,0.8509604930877686
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01504,▁to,2,V00155,▁should,C05,0.8426553010940552
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01504,▁to,3,V00156,▁submit,C05,0.8420699834823608
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01504,▁to,4,V00154,es,C05,0.8404762148857117
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01504,▁to,5,V00186,▁are,C06,0.8313236832618713
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01505,▁submit,1,V00156,▁submit,C05,0.9014143347740173
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01505,▁submit,2,V00159,▁request,C05,0.8502919673919678
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01505,▁submit,3,V00160,s,C05,0.8414286971092224
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01505,▁submit,4,V00161,▁through,C05,0.818215012550354
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01505,▁submit,5,V00184,▁request,C06,0.8106143474578857
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01506,▁a,1,V00160,s,C05,0.883521318435669
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01506,▁a,2,V00185,s,C06,0.8684571981430054
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01506,▁a,3,V00159,▁request,C05,0.864028811454773
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01506,▁a,4,V00184,▁request,C06,0.8454036712646484
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01506,▁a,5,V00156,▁submit,C05,0.8397960066795349
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01507,▁request,1,V00159,▁request,C05,0.9172738194465637
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01507,▁request,2,V00184,▁request,C06,0.9016472697257996
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01507,▁request,3,V00160,s,C05,0.8422813415527344
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01507,▁request,4,V00510,▁request,C15,0.8365452289581299
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01507,▁request,5,V00185,s,C06,0.8349072337150574
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01508,▁to,1,V00160,s,C05,0.8525781631469727
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01508,▁to,2,V00171,▁the,C05,0.8502287268638611
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01508,▁to,3,V00182,al,C06,0.8491470813751221
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01508,▁to,4,V00096,▁it,C03,0.8434118032455444
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01508,▁to,5,V00117,▁their,C03,0.8427828550338745
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01509,▁take,1,V00090,▁taken,C03,0.8402853012084961
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01509,▁take,2,V00158,▁leave,C05,0.8225810527801514
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01509,▁take,3,V00182,al,C06,0.8208850026130676
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01509,▁take,4,V00160,s,C05,0.818122386932373
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01509,▁take,5,V00156,▁submit,C05,0.8171170949935913
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01510,▁leave,1,V00158,▁leave,C05,0.913947582244873
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01510,▁leave,2,V00183,▁leave,C06,0.9004768133163452
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01510,▁leave,3,V00054,▁leave,C02,0.8963519334793091
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01510,▁leave,4,V00020,▁Leave,C01,0.8959418535232544
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01510,▁leave,5,V00011,▁leave,C01,0.8926544189453125
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01511,?,1,V00019,.,C01,0.8606539368629456
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01511,?,2,V00175,",",C05,0.859499454498291
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01511,?,3,V00196,.,C06,0.8564537763595581
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01511,?,4,V00061,.,C02,0.8543441295623779
+Q11,"How many annual leave days can I carry forward, and when do I need to submit a request to take leave?",V01511,?,5,V00276,.,C08,0.8511893153190613
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01512,▁Can,1,V00544,▁may,C16,0.8675482273101807
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01512,▁Can,2,V00566,s,C16,0.8435384631156921
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01512,▁Can,3,V00553,▁and,C16,0.8376979827880859
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01512,▁Can,4,V00556,▁has,C16,0.8340229988098145
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01512,▁Can,5,V00568,▁to,C16,0.8316088914871216
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01513,▁I,1,V00543,es,C16,0.8384756445884705
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01513,▁I,2,V00544,▁may,C16,0.838060200214386
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01513,▁I,3,V00566,s,C16,0.8354015350341797
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01513,▁I,4,V00562,.,C16,0.826517641544342
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01513,▁I,5,V00553,▁and,C16,0.8264867067337036
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01514,▁work,1,V00545,▁work,C16,0.9002325534820557
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01514,▁work,2,V00564,▁work,C16,0.899264931678772
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01514,▁work,3,V00684,▁work,C20,0.8810439109802246
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01514,▁work,4,V00674,▁working,C20,0.8777178525924683
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01514,▁work,5,V00541,lo,C16,0.8439235687255859
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01515,▁from,1,V00675,▁from,C20,0.8992616534233093
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01515,▁from,2,V00676,▁home,C20,0.8497054576873779
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01515,▁from,3,V00546,▁remote,C16,0.8234719634056091
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01515,▁from,4,V00674,▁working,C20,0.8176671266555786
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01515,▁from,5,V00563,▁Remote,C16,0.815902590751648
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01516,▁home,1,V00676,▁home,C20,0.8985320925712585
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01516,▁home,2,V00675,▁from,C20,0.8208168745040894
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01516,▁home,3,V00670,▁Emp,C20,0.7821117639541626
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01516,▁home,4,V00684,▁work,C20,0.7818658351898193
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01516,▁home,5,V00671,lo,C20,0.7809851169586182
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01517,▁with,1,V00556,▁has,C16,0.8401821851730347
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01517,▁with,2,V00553,▁and,C16,0.8317438960075378
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01517,▁with,3,V00568,▁to,C16,0.8282589912414551
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01517,▁with,4,V00559,▁by,C16,0.826529860496521
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01517,▁with,5,V00566,s,C16,0.8212957978248596
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01518,▁manager,1,V00561,▁manager,C16,0.9081300497055054
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01518,▁manager,2,V00189,▁manager,C06,0.8214857578277588
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01518,▁manager,3,V01024,▁manager,C30,0.8131152391433716
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01518,▁manager,4,V00541,lo,C16,0.8087206482887268
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01518,▁manager,5,V00810,▁Manager,C24,0.8045088052749634
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01519,▁appro,1,V00558,▁approved,C16,0.8704503178596497
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01519,▁appro,2,V00581,prove,C17,0.8207359910011292
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01519,▁appro,3,V00580,ap,C17,0.814922571182251
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01519,▁appro,4,V00552,▁eligible,C16,0.8094388842582703
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01519,▁appro,5,V00626,r,C18,0.807159423828125
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01520,val,1,V00558,▁approved,C16,0.8545359373092651
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01520,val,2,V00559,▁by,C16,0.8294633030891418
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01520,val,3,V00556,▁has,C16,0.8188064098358154
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01520,val,4,V00581,prove,C17,0.8187462091445923
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01520,val,5,V00580,ap,C17,0.7975712418556213
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01521,",",1,V00562,.,C16,0.8585410118103027
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01521,",",2,V00573,.,C16,0.8552334308624268
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01521,",",3,V00702,.,C20,0.8549121022224426
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01521,",",4,V00591,",",C17,0.840451717376709
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01521,",",5,V00554,▁the,C16,0.8389836549758911
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01522,▁and,1,V00553,▁and,C16,0.8516378402709961
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01522,▁and,2,V00551,▁is,C16,0.8445528149604797
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01522,▁and,3,V00554,▁the,C16,0.8443681001663208
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01522,▁and,4,V00686,▁and,C20,0.8435535430908203
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01522,▁and,5,V00702,.,C20,0.8414565324783325
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01523,▁what,1,V00566,s,C16,0.8512651920318604
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01523,▁what,2,V00553,▁and,C16,0.8454631567001343
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01523,▁what,3,V00568,▁to,C16,0.8428869247436523
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01523,▁what,4,V00702,.,C20,0.8385715484619141
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01523,▁what,5,V00562,.,C16,0.8383117318153381
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01524,▁security,1,V00571,▁security,C16,0.9100077748298645
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01524,▁security,2,V00588,▁security,C17,0.8718298673629761
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01524,▁security,3,V00694,▁safety,C20,0.8457833528518677
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01524,▁security,4,V00593,▁protect,C17,0.8012538552284241
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01524,▁security,5,V00696,▁confidential,C20,0.7944201231002808
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01525,▁require,1,V00572,▁requirements,C16,0.8850911855697632
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01525,▁require,2,V00701,▁requirements,C20,0.8671303987503052
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01525,▁require,3,V00567,▁subject,C16,0.8275108337402344
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01525,▁require,4,V00691,▁applicable,C20,0.8135448694229126
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01525,▁require,5,V00195,▁requirements,C06,0.811694324016571
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01526,ment,1,V00568,▁to,C16,0.8390343189239502
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01526,ment,2,V00566,s,C16,0.8348791599273682
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01526,ment,3,V00572,▁requirements,C16,0.832582950592041
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01526,ment,4,V00567,▁subject,C16,0.8215241432189941
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01526,ment,5,V00701,▁requirements,C20,0.8166509866714478
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01527,▁app,1,V00567,▁subject,C16,0.8425642251968384
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01527,▁app,2,V00568,▁to,C16,0.8274248838424683
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01527,▁app,3,V00691,▁applicable,C20,0.8234959244728088
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01527,▁app,4,V00566,s,C16,0.8189901113510132
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01527,▁app,5,V00565,▁remain,C16,0.8174130320549011
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01528,lies,1,V00566,s,C16,0.8527930378913879
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01528,lies,2,V00568,▁to,C16,0.8527753353118896
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01528,lies,3,V00567,▁subject,C16,0.8433823585510254
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01528,lies,4,V00565,▁remain,C16,0.8248006105422974
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01528,lies,5,V00544,▁may,C16,0.8223974108695984
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01529,▁while,1,V00566,s,C16,0.8459334969520569
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01529,▁while,2,V00553,▁and,C16,0.841377854347229
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01529,▁while,3,V00673,es,C20,0.830152690410614
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01529,▁while,4,V00702,.,C20,0.8290862441062927
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01529,▁while,5,V00556,▁has,C16,0.8272151947021484
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01530,▁working,1,V00564,▁work,C16,0.8968998193740845
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01530,▁working,2,V00545,▁work,C16,0.8957115411758423
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01530,▁working,3,V00684,▁work,C20,0.8871933221817017
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01530,▁working,4,V00674,▁working,C20,0.8847768306732178
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01530,▁working,5,V00541,lo,C16,0.8558706045150757
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01531,▁remote,1,V00546,▁remote,C16,0.8999543190002441
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01531,▁remote,2,V00563,▁Remote,C16,0.8959808349609375
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01531,▁remote,3,V00574,▁Remote,C17,0.8658493757247925
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01531,▁remote,4,V00603,▁Remote,C18,0.8352104425430298
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01531,▁remote,5,V00547,ly,C16,0.8274747133255005
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01532,ly,1,V00547,ly,C16,0.8565322160720825
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01532,ly,2,V00673,es,C20,0.8242738246917725
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01532,ly,3,V00675,▁from,C20,0.8239724040031433
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01532,ly,4,V00543,es,C16,0.8237046003341675
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01532,ly,5,V00566,s,C16,0.819729208946228
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01533,?,1,V00562,.,C16,0.8551904559135437
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01533,?,2,V00702,.,C20,0.8542660474777222
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01533,?,3,V00554,▁the,C16,0.8390694260597229
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01533,?,4,V00573,.,C16,0.8371310234069824
+Q12,"Can I work from home with manager approval, and what security requirement applies while working remotely?",V01533,?,5,V00602,.,C17,0.8332010507583618
